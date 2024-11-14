@@ -66,3 +66,61 @@
         
         
 --------------------------------------------------------------------
+10.	Explain forward chaining?
+11.	Explain backward chaining?
+14.	Different between forward chaining and backward chaining?
+15.	 Explain forward and backward chaining algorithms with example.
+
+1. Forward chainging -
+   1. Forward chaning start from know facts (given information) and look forwords to find
+      out solution and conclusion.
+   2. It is also know as data driven technique 
+   3. It is bottom-up approaches
+   4. It is slow compare to Backward chainging
+   5. It goal to get the solution 
+   6. It works forward from initial state to final state
+   7. It uses Breadth-Firest Search
+   8. Used in planning, monitoring 
+   
+  Algorithm :
+     step 1 - Start
+     step 2 - Apply rule to generate new facts
+     step 3 - Repeat Until reach the goal
+
+     For example - 
+        Facts - Its raining
+        Rule - If its, rain, I can carry umbrella.
+        Check - is it raining ? Yes.
+        Conclusion - I should carry umbrella.
+
+    
+
+2. Backward chainging
+   1. Backward chaining start from goal or solution that need to achive and look backwords to find out 
+      what facts are needed to achive that solution or goal
+   2. It is also know as goal-driven technique.
+   3. It is top-down approach.
+   4. It is Fast compare to Forward chainging
+   5. Its goal to find out facts need to get the solution
+   6. It works backward from final state to initial state
+   7. It uses Depth First Search
+   8. Used in automated inference engine, therom proofs
+
+  Algorithm :
+      step 1 - start with goal
+      step 2. - find out the fact that support the goal
+      step 3. - Repeat until facts are found.
+
+      For example -
+        Facts- It's raining.
+        Rule - If its, rain, I can carry umbrella.
+        Conclusion - I should carry umbrella.
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------

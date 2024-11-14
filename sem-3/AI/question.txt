@@ -44,20 +44,20 @@ Unit 2
 7.	What is quantifier?
 8.	What is universal quantifier?
 9.	What is existential quantifier?
-10.	Explain forward chaining?
-11.	Explain backward chaining?
+10.	Explain forward chaining? #
+11.	Explain backward chaining? #
 12.	Explain inference techniques?
 13.	List and explain rules of Inference in knowledge representation.
-14.	Different between forward chaining and backward chaining?
-15.	 Explain forward and backward chaining algorithms with example.
+14.	Different between forward chaining and backward chaining?  #
+15.	 Explain forward and backward chaining algorithms with example. #
 16.	 Write a interpretation of knowledge representation?
 17.	Write short note on semantic network .
 18.	What is semantic net .Give its  advantages.
 19.	Explain resolution in predicate logic.
 20.	Explain the different types of inferences with an example of each.
 21.	Write Predicate for the following sentences:
-a.	All cats and dogs hate each other
-b.	I arrived in New York.
+                a.	All cats and dogs hate each other
+                b.	I arrived in New York.
 22.	 Describe Disjunctive Normal Form (DNF) with example. 
 23.	 Describe Conjunctive Normal Form (CNF) with example.
 24.	Discuss normal forms in brief.  
