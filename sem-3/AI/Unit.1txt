@@ -1,0 +1,335 @@
+1. Explain AI in detail with its Applications
+  AI -
+    1. AI stands for Artificial Intelligence
+    2. The AI refers to the simulaiton of human intelligence processes through manchines especially
+       computer system.
+    3. This process include 
+       - Learning,
+       - Reasoning,
+       - Self-correction 
+    4. Types of AI
+       1. Narrow AI
+          Designed for specific task eg- virtual assistant, chat-bot
+       2. General AI -  
+          AI that can perform any intellectual task like a human
+       3. Super-intelligent AI 
+          AI that have higher intelligence scope than human intelligence.
+        
+    5. Key concepts 
+       - Macine Learning - A subset of AI where machines learn from data to improve over time 
+       - Deep Learning -  A type of ML that uses neural networks to analyze various factors of data.
+
+    6. Application of AI
+        1. Diagnosis - 
+           - Analysis Mediacal images eg X-ray to detect cause
+        2. Personialised Medicine -
+           - Treatment based on  individual patient history
+        3. Virtual Health Assistent 
+           - Chatbot provide health advice and remiders
+        4. Algo-Trading -
+           - Automated AI to analyzes market data to make trading decisions
+        5. Self-Driving Car -
+           - AI drive car eg Newly tesla, mahindra has self driving car feature
+        6. Customer Service -
+           - Chatbot handling customer inquires.
+        7. Recommendation system -
+           - suggest product based on user behavior.
+        8. AI in Cinamitography -
+           - Creating or editing video based on AI
+
+-----------------------------------------------------------------------------------------------------
+
+ 2. What are the limitations of AI ?
+    1. Traing AI -
+       AI require larage ammount of high quality data to train 
+    2. Data Privacy -
+       collecting and using personal data can cause privacy issue.
+    3. Lack of generation
+       Most AI application are trained for specific task so 
+       AI can struggle to adopt new or unseen condition
+    4. Lack of Emotion -
+       AI lacks the human ablity to use emotion in descions
+    5. Lack in Creativity
+       Unlike human AI lacks in creativity in making decision
+    6. Unemployment - 
+       - AI can easily replace humans in many fields
+       - Tasks that are repetitive and do not require creativity can be quickly done with the help of AI.
+    7. Security Risk
+       - AI can use for malicious purpose
+    8. Lack of Transparency and Explainability
+       - AI algorithms can be complex and difficult to understand, especially in deep learning and neural network models.
+
+-------------------------------------------------------------------------------------------------------------
+3. What is Water Jug Problem in AI ? Explain with example.
+9. What is a water jug problem? Discuss with example.
+   - The Water Jug Problem is the example in artifical intelligence that illustrate
+     problem solving using search algorithms.
+   - It involes two jugs with diffrent capacities
+   - The goal is to measure specific ammount of water using jugs
+
+   Problem statement
+     You have two jugs
+     Jug A with a capcity x liters
+     Jug B with a capcity y liters
+
+   Objective - Measure out d liters of water using the two jugs
+    Lets say we have 
+      Jug A : 5 liter
+      Jub B : 3 liter
+     Goal - Measure exactly 4 liter of water
+
+      Step-1  Both jugs are empty
+         - (0,0)
+         
+      Step-2  Fill Jug A 5 liter
+         - (5,0)
+         
+      Step-3  Pour out 3 liter of water  from Jug A to B
+         - (2,3)
+         - jug A has 2 liter capcity left and jug b is full
+         
+      step- 4  Empty jub B
+         - (2, 0)
+
+      step - 5  Pour out all the water from jug A to B
+          - (0, 2)
+
+      step - 6 Fill out jug A again 5 liter
+           - (5, 2)
+      step - 7 Pour out the water from jub A to B till jub b is full
+           - jug b is of 3 liter capsity
+           - (4, 3)
+           
+      step -8 Now you have exactly 4 liters in Jug A which is desired solution.
+--------------------------------------------------------------------------------------------
+        
+6. Explain Informed search algorithm ?
+7. What is informed search, and how does it differ from uninformed search?
+8. Explain Heuristic Search in detail.
+9.  Describe Heuristic search with suitable example. .
+
+1. Informed search (Heuristic Search)
+Defination - Infomed search algorithm explore the search space with having extra information
+             called (Heuristics) to reach the goal. they protise the option based on there extra knowlodge.
+             
+  - 1. It is also know as Heuristic Search
+  - 2. It use knowlodge for searching process
+  - 3. It find solution more quicky
+  - 4. It may or may not be complte
+  - 5. It is cost efficient
+  - 6. It takes less time because of quick searching
+  - 7. It is less complex for implementation
+  - 8. It required less computational requirement
+
+
+
+2. Uninformed Search (Blind Search)
+
+ Defination - Uninfomed search algorithm explore the search space without having any extra information
+              about how to reach the goal. they treat all options equally and do not use any clues and strategies
+              to reach goal.
+              
+  - 1. It is also know as Blind Search
+  - 2. It not use knowlodge for searching process
+  - 3. It find solution slowly
+  - 4. It is always complete.
+  - 5. It is costly
+  - 6. It takes moderate time because of slow searching
+  - 7. It is more complex for implementation
+  - 8. It required high computational requirement than informed search
+  -----------------------------------------------------------------------------------------------------------
+
+  9. Explain Hill Climbing algorithm in detail.
+  24. What is Hill climbing algorithm in AI? Explain main features of Hill Climbing 
+            Algorithm. 
+
+- Hill climbing algorithm
+  1. The hill climbing is the simple optimization algorithm that search for the best solution 
+     it start from initial solution and iteratively moving to neighbours solutions that improve the current one.(solution that more improved one)
+     Until no better soluiton found .
+  2. It like climbing mountain, always moving uphill to find highest peak.
+  3. It is also know ans heuristic search algorithm
+      Types of Hill climbing algorithm 
+         1. Simple hill climbing
+         2. Steepest-Ascent Hill climbing
+         3. Radomized hill climbing
+
+         1. Simple hill climbing -
+            Analyze one neighbour at a time.
+         2. Steepest-Ascent Hill climbing -
+            Analysis all neighbour and move to the best one.
+         3. Radomized hill climbing-
+            Randomly access any sotuion to explore more solution.
+            
+
+   4. feature -
+      1. Easy to implement
+      2. It is fast and find solution quicky
+      3. It is cost efficient
+      4. provide best solution
+      5. Required less computational power
+      6. It uses Heuristic information to guide the 
+         search process.
+
+---------------------------------------------------------------------------------
+10. Differentiate between A* and AO* algorithm.
+12. Explain the A* algorithm in detail
+13. Explain AO* Algorithm with example.
+
+-  A* Algorithm
+1. A* Algorithm find the shortest path
+2. It is path finding Algorithm.
+3. It uses simple graph
+4. It consider one path at a time
+5. It is less complex to implement
+6. It uses in GPS navigation, Maze solving, Game charater moving, etc
+7. It is always optmial to with good heuristic.
+8. It uses more memory  for large graph
+
+-  AO* Algorithm
+1. AO* Algorithm find the best strategy 
+2. It is decision-making Algorithm.
+3. It uses AND-OR graphs
+4. It consider multipal path and combinations
+5. It is more complex to implement
+6. It uses in Resources allocation, project planning etc.
+7. It is not always optmial
+8. It uses less memory due to shared states
+
+----------------------------------------------------------------------
+15. What is Min-Max algorithm in AI? Explain its working.
+    1. Min-Max algorithm is dession making algorithm commonly used in artifical intelligence
+       particularly in two-player games, 
+       like chess, tic-tac-toe etc.
+    2. It helps to determine best move for the player in conserideration
+       of opponent possible response.
+    3. Working -
+        1. Generate the Game Tree 
+           - Create a tree that represents all possible moves
+        2. Evaluate Leaf Nodes.
+           - At the leaf nodes, assign a score based on the outcome.
+        3. Backtrack and Assign Scores
+           - Starting from the leaf nodes, backtrack up the tree:
+           - For Max’s turn, choose the maximum score from the child nodes
+           - For Min’s turn, choose the minimum score from the child nodes
+        4. Choose the Best move
+
+
+------------------------------------------------------------------------
+15. What is Min-Max algorithm in AI? Explain its working.
+
+   1. Min max is the backtracking algorithm which is used in decision making and game theory
+       to find out best move for the player.
+   2. The algorithm evaluates all possible moves and picks the best one.
+   3. It is used in two player games eg chess, tic-tack-toe, etc
+   4. there are two player in this algorithm 
+      - Maximizing player 
+      - Minimizing player
+   5. Maximizing player - player tries to maximize their score 
+   6. Minimizing player - player tires to minimize the other player score.
+
+   - Working
+
+    Maximizing Player (X) tries to get the highest score (win).
+    Minimizing Player (O) tries to prevent X from winning.
+
+
+      1. Game Tree - 
+         - Imagine a tree with all possible move,
+         - Each branch represents a move by each player
+      2. Leaf node -
+         Leaf node is the node and the end of the tree
+         we give socre at the leaf node
+            +1 : if x wins
+            -1 : if y wins
+             0 : if draw
+      3. Backpropagate score -
+         - The scores from the leaf nodes are passed back up the tree:
+         - Maximizing Player (X) chooses the highest score.
+         - Minimizing Player (O) chooses the lowest score.
+      4. Best move -
+         Algorithm choose the move with the best score at the root node.
+
+
+--------------------------------------------------------------------------------------
+
+14. What is alpha-beta pruning? What is condition required for Alpha-beta
+     pruning?
+16. Explain Key points about ALPHA-BETA Pruning.
+
+   1. ALPHA-BETA Pruning is the optimization technique used in MIN-MAX algorithm 
+      to reduce the number of nodes in game tree.
+   2.  ALPHA-BETA Pruning helps in speeding up the descions making process by 
+       pruning out (cutting out) unnessary branches of the tree
+   3. It increase and optimize the performace of the algorithm.
+   4. It include two parameter 
+      1. Alpha (α):
+      2. Beta (β):
+   5. Alfa (α) - The best value can be achive by Maximizing player so far (highest value)
+   6. Beta (β) - The best value can be achive by Minimizing player so far (lowest value)
+
+   Condition-
+      1. Minmax Algorithm 
+         - Alfa-Beta purning can only work with the Min-Max algorithms for two player games.
+      2. Alternate turns
+         - The games should include two player with alternate turns 
+         - where one player tries to win the game and other player tries to prevent other player from winning
+      3. Tree Traversal Order -
+         - Best move should explore First
+         - which enance purning efficency
+      4. Maxplayer -
+         - The max palyer can only update the value of Alfa
+      5. Minplauer 
+         - the min palyer can only update the value of beta
+      6.  Value -
+         - alfa should >= beta (greater than equeal to)
+      
+-----------------------------------------------------------------------------------
+
+17. What is Game Playing in AI? Explain its types and characteristics.
+18. What are the advantages and disadvantages of Game Playing in AI?
+    
+   1. Game Playing in Artificial involes creating intelligent agents that can play games,
+      either with humans or other AI's 
+   
+   Advantages -
+      1. Imporved problem solving
+      2. Automation
+      3. Used in Umpiring
+      4. Learning from Experience
+      5. Simulation
+      6. Testing AI algorithm.
+
+         1. Improved problem solving
+            - AI in gaming can enhance descions-making ablilites of games
+            - It also helps in strategies making
+         2. Automation
+            - It automate the repetitive task
+         3. Used in Upiring
+            -  some AI models are used in umpiring for accurate descions in cricket.
+         4. Learning from experience
+            - many ai models are trained and learned from the theire previous experience like reinforcement lerarning.
+         
+         5. Simulation
+            - AI helps in simulation of real-world senarios like  car driving simulation, plane simulaiton, etc
+         6. Testing AI algorithm
+            - Game-playing tasks can evaluate and fine-tune AI algorithms in a controlled and measurable way.
+
+   Disadvantages  -
+      1. Required High Computational Cost
+      2. Securty Concerns
+      3. Lack of Emotion
+      4. Cheating in Games
+
+         1. Required High Computational Cost
+            - Training ai for game playing required high computational cost.
+         2. Security Concers-
+            - It can be used for bad purpose for data collection, cyber-attacks etc
+         3. Lack of Emotion
+            - AI doesn’t have emotions so they not play games good like humans 
+            in games where psychology or bluffing is important
+         4. Cheating in Games 
+            - Ai can also can be used in cheating in games like vice-city
+
+------------------------------------------------------------------------------------------------------
+         

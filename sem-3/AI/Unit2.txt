@@ -1,0 +1,68 @@
+
+1.	What is frame representation?
+2.	Explain components of frame with diagram?
+3.	Write advantage and disadvantage of frame representations?
+4.	Explain features of frame representations?
+
+1. Frame Representation
+    -  A Frame Represntation is the data data-structure used in Artificial Intelligence
+       to represent knowlodge
+    -  It is similar to record or object in programming
+
+2. Components of Frame
+   - A frame conatin several components
+        1. Frame Name
+        2. Slots 
+        3. Slot Value
+        4. Facets
+  
+    1. Frame Name - It represent name of the entity.
+                    eg (Book, Person etc)
+    2. Slots - It represent the attribute or fields that describe the entity.
+               eg (title , author, published_at , etc )
+    3. Slot value - the value store in each slots. 
+               eg for title slots value be "Fairy tales"
+    4. Facets - Describe the value of the slots.
+       
+    Diagram - 
+        +----------------------------+
+        |        Frame: Book         |
+        +----------------------------+
+        | Slot: Title                |  ---> Value: "Fairy Tales"
+        | Facets:                    |  
+        |    - Type: String          |  
+        +----------------------------+
+        | Slot: Author               |  ---> Value: "Peter Pan"
+        | Facets:                    |  
+        |    - Type: String          |  
+        +----------------------------+
+
+   Advantages/Feature -  
+        1. Easier Programming
+           -It is easier to program and manage information.
+        2. Flexiblity -
+           - It is very flexible and are used in many AI appliction like Natural lanaguage Processing (NLP).
+        3. Adding new Attribute -
+           - It is easy to add new slots(attribute) in the Frame
+        4. Default Value - 
+           - We can add default value to slots
+        5. Handling Missing Data - 
+           - It helps in searching missing values.
+        6. Easy to Visualize -
+           - The frame structure is easy to understand and Visualize.
+
+    Disadvantage - 
+        1. Complex -
+           - As number of frame and there relationship increase managing and maintaing frame is complex.
+
+        2. Difficulty with dynamic knowlodge -
+           - Frames are not ideal for representing  real-time data.
+
+        3. Scalablity -
+           - Frame are less scalable as number of frame grows.
+        4. Representing complex event -
+           -  It is difficult to represent complex event in frame
+
+        
+        
+--------------------------------------------------------------------

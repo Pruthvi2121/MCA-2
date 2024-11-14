@@ -1,0 +1,22 @@
+1. What is php and explain varables in php ? #
+2. Explain different data types in php ? #
+3. Explain operator with sutable example #
+4. Explain different conditional statement in php ? #
+5. Explain different types of loops in php ? #
+6. What is funtion? Explain recursive funtion in php ? #
+7. What is array ? Explain different types of array in php? #
+8. Explain class and object in php  #
+
+
+1. Explain different php form validation with examples #
+2. Explain cookies in PHP #
+3. What is session? #
+4. What is mysql and dataTypes in mysql. #
+5. Write a note on autocommit and rollback #
+6. PHP mysql connection
+
+1. What is inheritance Explain with example #
+2. what is constructor and destructor in php explain with example #
+3. Difference bettween constructor and destructor
+4. Explain abastract class and static method in php
+5. 

@@ -1,0 +1,453 @@
+Ques 1. What is php and explain varables in php ?
+
+1. PHP is stands for hypertext preprocessor is server-side  scripting language mainly used for web-development
+2. It can be embedded in HTML to create dynamic web pages
+3. Varables are the container for storing data values in PHP.
+4. A varables start with $ sign followed by the name of the varables.
+5. Syntax -
+     $varable_name = value;
+6. Rules for naming varalbe
+    1. Every variable name must begin with $.
+    2. A variable name cannot start with a number.
+    3. A varable should not contain space
+    4. Variable names are case sensitive, meaning $var and $Var are different.
+    5. Use descriptive varable name
+    6. Use letters, numbers, and underscores after $ sign
+
+7. PHP support several data types for varables including int, string, float , double.
+8. You can change the varable name at any time for example
+    $age = 4;
+    $age = 8;
+                      +-------------------+
+                      |     Variable      |  
+                      |   $variableName   |
+                      +-------------------+
+                                |
+                                v
+                      +-------------------+
+                      |       Value       |
+                      | "Hello, World!"   |
+                      |        25         |
+                      |      19.99        |
+                      |      true         |
+                      +-------------------+
+
+-----------------------------------------------------------------------------------------
+
+2. Explain different data types in php ?
+   There are different data types in php.
+     1. String
+     2. Integer
+     3. Float
+     4. Boolean
+     5. Object
+     6. NULL
+     7. Array
+     8. Resource
+
+  1. String - It is sequence of characters inside the quotes.
+      eg - $name = 'John';
+ 
+  2. Integer - Used to store integer value (whole number)
+      eg - $age = 60;
+
+  3. Float (or Double)  = A number that includes a decimal point.
+      eg - $price = 4.4;
+  4. Boolean - A data type that can hold only two values: true or false.
+      eg - isActive = true;
+      
+  5. Array -  A collection of values stored in a single variable.
+      eg - $colors = array("red", "green", "blue");
+           $numbers = [1, 2, 3, 4];
+           
+  6. Object - An instance of class that contain data and funtion.
+      eg - 
+          class Car {
+              function Car() {
+                  $this->model = "Toyota";
+              }
+          }
+          $myCar = new Car();
+
+  7.NULL - Represent value with no value
+      eg - $var = NULL;
+
+  8. Resources - Holds a reference to external resources (like database connections)
+      eg - $file = fopen("test.txt", "r");
+-----------------------------------------------------------------------------------------
+
+3. Explain operator with sutable example
+   1. operators are special symbols that perform action on varables and values
+   2. Following are the diffrent operators in PHP
+      1. Arithmetic Operators
+      2. Assignment Operators
+      3. Logical Operators
+      4. Comparison Operator
+      5. Increament/Decrement Operator
+      6. Ternary Operator
+      7. String Operator 
+      8. Null Coalescing Operator (??)
+
+1. Arithmetic Operators
+   - Arithmetic operators perform arithmatic operations on operends
+     such as addition, substraction, multiplication, division, modulus etc.
+     1. +, -,*, %
+     eg - $sum = 4 + 2
+          $sub = 4 - 2
+
+2. Assignment Operators 
+   - Assignment Operators assign values to varables.
+   eg - simple assignment (=)  $x = 10;
+        add and assign (+=)   $x += 1; or $x = $x + 1
+        subtract and assign (-=)  $x -= 1; or $x = $x - 1
+
+3. Comparison Operators
+   - Compare two values and return True or False
+     1. Equeal ==        eg 4 == 4;  //true
+     2. Not Equeal !=    eg 4 != 2   // true
+     3. Greater Than (>) eg 4 > 2   // true
+     4. Less Than (<)    eg 4 < 2   // false
+     5. Identical (===)  eg 4==='4'  // false (compare both values and there types)
+4. Logical Operators 
+    - Logical operators compare multipal conditions
+    followoing are the logical operators
+     AND (&&) -  when both the values are true then only true
+     OR (|)  - when any of the value is true then true
+     NOT (!)  invert the value (true --> false, false--> true)
+
+5. Increament/Decrement Operators -
+   - Increase or decrease a value by 1.
+   Examples:
+       Increment (++):  $x = 5; $x++; // $x becomes 6 
+       Decrement (--):  $y = 5; $y--; // $y becomes 4
+       
+ 6. String Operator(.)    
+   - Combine and manupulate string
+   Example -
+      $str = "Hello" . "World"
+      $str .= "Welocome"
+
+7. Ternary Operator 
+   shorthand symbols for if..else statement
+   eg -
+      $can_drive = ($age>=18) ? "Yes" : "No";
+
+8. Null coalscing Operator (??)
+  - Return the first value if exist , otherwise the second
+  for example 
+      $name = $_GET['name'] ?? 'Guest';
+      // If 'name' is not set, 'Guest' will be assigned
+          
+------------------------------------------------------------------------------------------
+4. Explain different conditional statement in php ?
+  following are the diffrent conditional statement in php
+      1. if statement
+      2. if else statement
+      3. elseif statement
+      4. switch statement
+      
+1. if statement 
+   - It executes a block of code if the condition is true.
+    eg -
+       $age = 18;
+
+       if ($age >= 18) {
+           echo "You are an drive.";
+       }
+2. if else statement
+   this statement provide alternative block of code when condition is false
+   eg -
+        $age = 16;
+
+        if ($age >= 18) {
+            echo "You are an drive.";
+        } else {
+            echo "You are not an drive.";
+        }
+3. else-if statement
+   - Allows you to test multiple conditions, executing different blocks of code depending on which condition is true.
+   eg -
+         $marks = 75;
+         if ($marks >= 90) {
+             echo "Grade: A";
+         } elseif ($marks >= 75) {
+             echo "Grade: B";
+         } else {
+             echo "Grade: C";
+         }
+4. switch statement -
+    It comapare the values with diffrent case
+    eg -
+      $day = 3;
+
+      switch ($day) {
+          case 1:
+              echo "Monday";
+              break;
+          case 2:
+              echo "Tuesday";
+              break;
+          case 3:
+              echo "Wednesday";
+              break;
+          default:
+              echo "Not a valid day";
+      }
+----------------------------------------------------------------------------
+5. Explain different types of loops in php ?
+   following are the diffrent type of loop in php.
+   1. forloop
+   2. while loop
+   3. do..while loop
+   4. foreach loop
+
+   1. forloop -
+      for loop continue to execute till given condition is true
+      It is used when you know the iteration count
+      for example - displaing number from 0 to 10
+
+          for($i=0, $i<=10, $i++){
+              echo $i;
+          }
+
+    2. while loop - 
+        While loop continue to execute till the condition is true
+        It is used when you dont know the iteration count
+        for example 
+        
+            $count = 0;
+            while ($count < 4) {
+                echo "Count: $count\n";
+                $count++;
+            }
+
+    3. do..while loop -
+        Do while loop is similar to while loop, but execute the body first and then check for the condition
+        this loop execute atleast once in his life cycle
+
+        for example 
+           $count = 0
+
+           do{
+              echo $count
+              $count++;
+              
+           }while($count<4)
+
+    4. foreach loop -
+       foreach loop is specially designed for iterating over arrays.
+       for example -
+         $fruits = ["apple", "mango", "banana", "orange"]
+
+         foreach ($fruits as $fruit){
+            echo $fruit
+         }
+--------------------------------------------------------------------------------------------------------------------
+6. What is funtion? Explain recursive funtion in php ?
+  1. Function is reusable block of code designed to perform certain task
+  2. function may have parameteres
+  3. function may return some values
+  4. funtion which has paramter are called parametriesed funtion
+  5. funciton which does not have any paramter are called non parametaresed funtion.
+  6. for example -
+      # paramaterised funtion
+      function add($a, $b){
+          return $a + $b;
+      }
+      #non paramaterised funtion
+      function greet(){
+            return "Hello World";
+        }
+
+   Recursive funtion -
+     The function which call itself to solve the problem are called recursive funtion
+     For Example -
+      One common example of a recursive function is calculating the factorial of a number.
+
+      the formula for factorial is 
+      n! = n * (n- 1)
+
+      function factorial($n){
+         if ($n == 0 | $n ==1 ){
+            return 1;
+         }
+
+         return $n * (factorial($n-1)):
+      }
+
+----------------------------------------------------------------------------------------------------------------- 
+7. What is array ? Explain different types of array in php?
+   1. An Array in PHP is a special varable that hold multipal values  at once.
+   2. Intead of declaring seperate varable for each value you can store that in one array.
+   3. It make data management easier.
+   4. Type of  Arrays in PHP.
+       1. Indexed Array
+       2. Associative Array
+       3. Muliti-dimentional Array
+   5. Index Array -
+      This are the simple array, each element in array has assigned index to it
+      the index start from 0
+      for example -
+         $fruits = ["Apple", "Banana", "Cherry"];
+         echo $fruits[1];  // Outputs: Banana
+
+    6. Associative Array
+      This array has key value pair,
+      This array use named key to that you assigned to each elment 
+      Make it easy to identify
+      for example -
+      $person = ["name" => "John", "age" => 30, "city" => "New York"];
+      echo $person['name']  //John
+
+    7. Multi-dimentional Array
+       This arrays contain nexted arrays or associative arrays
+       for example -
+            $students = [
+                ["John", 20, "A"],
+                ["Jane", 22, "B"],
+                ["Doe", 19, "C"]
+            ];
+  
+            echo $student[0][0]  // 'John'
+    8. 
+
+------------------------------------------------------------------------------------------
+
+8. Explain class and object in php
+    class -
+        1. class is a group of object which has comman properties
+        2. It is templete or blueprint for object which is created
+        3. class contain 
+            field
+            methods
+            constructor
+            
+
+    Object
+    1. An object is an physically and logical entity
+    2. while class is an logical entity only
+    3. An object is a real-world entity.
+    4. An object is a runtime entity.
+    5. The object is an entity which has state and behavior.
+    6. The object is an instance of a class. 
+
+
+    For example -
+      class Person {
+            public $name; // Add a semicolon here
+        
+            public function __construct($name) { // Correct the constructor name
+                $this->name = $name; // Add a semicolon here
+            }
+        
+            public function greet() {
+                return "Hello, $this->name"; // Add a semicolon here
+            }
+        }
+        
+        $obj = new Person("Rohit"); // Add a semicolon here
+        echo $obj->greet();
+
+----------------------------------------------------------------------------
+9. What is inheritance Explain with example
+
+    1. Inheritance is one of the four fundamental OOP concepts. The other three are
+    Abstaraction , Polymorphism and Encapsulation.
+    2. Inheritance is the process in which properties of parent class shered to child class
+    3. When you inherit one class to another class you can use all the fields and methods in that class
+    4. extends keyword is used to inherit the class
+    5. the class after extend keyword is the parent class
+    6. the class extending the parent class is the child class
+    7. why use inheritance
+    . for code reuseablity
+    . for method overiding (so runtime polymorphisium can be achived)
+    8. IN php there are
+         single inheritance
+         muliti-level inheritance
+         hierarchical inheritance
+
+    For example -
+         class Animal {
+             public $legs = 4;
+
+             public function eat() {
+                 echo "Eating\n";
+             }
+         }
+
+         class Tiger extends Animal {
+             public function type() {
+                 echo "I am a wild animal\n";
+             }
+         }
+
+         $tiger = new Tiger();
+         $tiger->eat();           // Outputs: Eating
+         $tiger->type();          // Outputs: I am a wild animal
+         echo $tiger->legs
+
+---------------------------------------------------------------------------------------
+
+2. what is constructor and destructor in php explain with example
+ 1. Constructor -
+    1. PHP constructor is  a block of code similar to method
+    2. It is called when instance or object of class is created
+    3. At the time of calling constructor memory is allocated to the object which is created
+    4. Every class has its constructor weather we declare or not
+    5. . Constructor does not have return type
+    6. If we created multiple objects for same class then each time the constructor is invoked
+    7. The constructor method is defined using the special name __construct().
+    8. There are two type of constructor in php 
+       1. default consturctor 
+               class Car {
+                   public function __construct() {
+                       echo "Car is created\n";
+                   }
+               }
+    
+               // Creating an object
+               $myCar = new Car(); 
+               
+       2. parameterized constructor
+          class Bike {
+              public $tyre;
+              public $speed;
+
+              public function __construct($t, $s) {
+                  $this->tyre = $t;
+                  $this->speed = $s;
+              }
+          }
+
+          // Creating an object with parameters
+          $myBike = new Bike("MRF", 180);
+          echo $myBike->tyre;  // Outputs: MRF
+          echo "\n";
+          echo $myBike->speed; 
+       
+    9. default constructor are the constructor which dones not takes any value
+    10. parameterized constructor are the constructor that take paramters as a arguments.
+
+    Destructor -
+    1.  It is called when instance or object of class is destroyed
+    2.  The destructor is used to perform cleanup tasks, such as 
+         closing database connections or freeing resources.
+    3. The destructor method is defined using the special name __destruct().
+    4. Every class has its destructor weather we declare or not
+    5. the destructor is called automatically when the object is no longer needed.
+
+    6. For example 
+         class Car{
+             public function __construct(){
+                echo "I am invoked";
+             }
+
+             public function __destruct(){
+                echo "I am destroyed";
+             }
+         }
+
+         $car = new Car();
+--------------------------------------------------------------------------------------------------
+         
+    

@@ -1,0 +1,176 @@
+Ques 1. Explain different php form validation with examples
+   1. PHP form validation ensures user data is correct and secure.
+      Following are diffrent form validation 
+
+        - 1. Required Field Validation
+           Check for field is emtpy or not if it is empty it will through error
+           e.g - 
+                 if (empty($_POST["name"])) {
+                     $error = "Name is required";
+                 }
+
+        - 2. Email Validation 
+             1. Check for the submitted email is valid format or not
+             2. filter_var() is a PHP function that filters a variable with a specified filter.
+             3. FILTER_VALIDATE_EMAIL- is a filter that checks valid email format.
+             eg -
+                 if (!filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)) {
+                     $error = "Invalid email format";
+                 }
+        -3. URL Validation 
+             1. Check for submitted url is in valid format or not
+             2. FILTER_VALIDATE_URL is a filter to check valid url format
+             eg -
+                  if (!filter_var($_POST["url"], FILTER_VALIDATE_URL)) {
+                      $error = "Invalid URL";
+                  }
+        - 4. Number Validation
+             1. Check the input is number or not.
+             2. FILTER_VALIDATE_INT is a filter to check input is number or not
+              eg -
+                   if (!filter_var($_POST["age"], FILTER_VALIDATE_INT)) {
+                       $error = "Invalid age";
+                   }
+
+        - 5. Lenght Validation -
+             1. check minimum lenght of input
+             2. strlen() is a php function to get string lenghth
+             eg -
+                 if ( strlen($POST["username"] < 4)){
+                     $error = "username atleast 4 char long";
+                 }
+
+        - 6. Checkbox validation
+             1 is_set() is a php function to check varable is set or not.
+             2. e.g 
+                if (!isset($_POST["terms"])) {
+                    $error = "You must accept the terms";
+                }
+
+-------------------------------------------------------------------------------------------------
+2. Explain cookies in PHP
+  1. Cookies in php is a small pieces of data stored on client side (user browser)
+  2. Which is maily used to store user related information accross diffrent sessions.
+  3. They often used for tracking user sessions, preferences, and other data to presist beyond
+     single page view.
+  1. Set a Cookies -
+      1. You can set cookies in php by setcookies() function
+      2. This function has four parameter 
+          1. name
+          2. value
+          3. expiration
+          4. path
+      3. name - the name of the cookies eg- "username"
+      4. value - value of the cookies - eg - "Milka Singh"
+      5. expiration - parameter to set expiration time
+      6. path - path on the server where cookies are availabe ("/" make it available for entire site.)
+
+  2. Retrive cookies -
+      1. Once a cookie is set, you can accessit via $_COOKIE superglobal array.
+      eg if isset($COOKIE['username']){
+          echo 'hello ' + $COOKIE['username'];
+      }
+
+  3. Delecting cookies
+     1. to delete a cookies you can set the expiration time at the inlisilization of the cookies.
+  4. Limitations 
+     1. cookies can only set limited amount of data
+     2. They are sent with every HTTP request, which increase the size of the request.
+
+----------------------------------------------------------------------------------------------------------
+
+3. What is a Session in PHP ?
+    1. A session in PHP is a way to store data accross multipal pages of web application
+    2. Unlike the cookies the session data is stored on the server.
+    3. It providing a more secure way to handle user data
+    4. Identification -
+       Each session is identified by a unique session Id, usually passed through cookies or URL parameter
+    5. LifeCycle -
+         1. Start
+         2. Store data
+         3. Retrive Data
+         4. Destroy 
+
+       1. Start - Start a session with session_start()
+       2. Store Data -  store a session using global $_SESSION array
+          $_SESSION['key'] = 'value';
+
+       3. Retirve Data - 
+          echo 'data' + $_SESSION['key']
+
+       4. Destroy - End a session with session_destroy().
+
+    6. Common Use casess -
+       1. User Authentication
+       2. shopping carts
+       3. and storing user preferences.
+-------------------------------------------------------------------------------------------------------------
+4. What is mysql and dataTypes in mysql.
+
+  MYSQL -
+  1.  MySQL is a popular open-source relational database management system (RDBMS).
+  2.  It allows you to store, organize, and retrieve data in structured tables.
+  3.  MySQL uses Structured Query Language (SQL) to manage and manipulate the data.
+
+  Data Types-
+    MYSQL support various data types categorised in different groups.
+        1. Numeric Data types
+        2. String Data types
+        3. Date and Time data types
+
+        1. Numeric Data types -
+           1. INT - s tore a whole number (not decimal)
+           2. FLOAT - Stores decimal numbers 
+           3. DOUBLE - Stores decimal numbers with double precision
+           4. DECIMAL - Stores fixed-point number with specific digit before and after the decimal.
+
+        2. String Data types -
+           1. CHAR - Stores fixed-length strings
+           2. VARCAR - Stores varable length string, more flexible than CHAR
+           3. TEXT - Stores large amount of text.
+           4. BLOG - store large binary object eg - (image/file)
+        3. Date and time -
+           1. DATE - Stores dates in YYYY-MM-DD format
+           2. TIME - Store time in HH:MM format
+           3. DATETIME - Store both date and time in YYYY-MM-DD HH:MM format
+           4. YEAR - Store Year in format YYYY
+
+---------------------------------------------------------------------------------------------------------
+5. Write a note on autocommit and rollback
+   1. Autocommit - 
+      1.  Autocommit automatically commit each SQL statement
+      2.  It treated each single sql statement as a transaction and automatically 
+          commited to database after its execution.
+      3.  By default MySQL is in Autocommit mode.
+      4.  Meaning that every statement is instantly saved once they executed.
+
+   2. Rollback -
+      1.  Rollback is the process of undoing changes in a transaction before they are committed.  
+      2.  It allows you to cancel a transaction  
+      3.  It revert the change made in a transaction 
+      4.  It Ensuring data integrity when errors occur.
+
+   +-------------------------+             +-------------------------+
+   |     Autocommit          |             |         Rollback        |
+   +-------------------------+             +-------------------------+
+   |                         |             |                         |
+   |  Start                  |             |  Start                  |
+   |   ↓                     |             |   ↓                     |
+   |  Execute SQL Statement  |             |                         |  
+   |   ↓                     |             |                         |
+   |  Automatically Commit   |             |  Execute SQL Statements |
+   |   ↓                     |             |   ↓                     |
+   |  Changes Saved          |             |  Error Occurs?          |
+   |   ↓                     |             |   / \                   |
+   |        End              |             |  Yes   No               |
+   |                         |             |   ↓      ↓              |
+   |                         |             | Rollback Changes        |
+   |                         |             |   ↓                     |
+   |                         |             |  Commit Changes         |
+   |                         |             |   ↓                     |
+   |                         |             |        End              |
+   |                         |             |                         |
+   +-------------------------+             +-------------------------+
+--------------------------------------------------------------------------------------------------
+
+

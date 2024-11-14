@@ -1,0 +1,246 @@
+Unit 1 : Introduction To AI Questions
+
+1. Explain AI in detail with its Applications #
+2. What are the limitations of AI ? #
+3. What is Water Jug Problem in AI ? Explain with example. #
+4. What do you mean by State Space Search? Explain in detail.
+5. What is Uninformed search and explain types of uninformed search algorithms ? #
+6. Explain Informed search algorithm ? #
+7. What is informed search, and how does it differ from uninformed search? #
+8. Explain Heuristic Search in detail. #
+9. What is a water jug problem? Discuss with example.   #
+9.  Describe Heuristic search with suitable example. .  #
+9. Explain Hill Climbing algorithm in detail. #
+10. Differentiate between A* and AO* algorithm. #
+11. Differentiate between informed and uninformed search algorithms in AI. #
+12. Explain the A* algorithm in detail #
+13. Explain AO* Algorithm with example. #
+14. What is alpha-beta pruning? What is condition required for Alpha-beta
+     pruning? #
+15. What is Min-Max algorithm in AI? Explain its working. #
+16. Explain Key points about ALPHA-BETA Pruning. #
+17. What is Game Playing in AI? Explain its types and characteristics. #
+18. What are the advantages and disadvantages of Game Playing in AI? #
+19. Explain Constraint Satisfaction Problems (CSP) in detail.
+20. What are the types of CSP in AI.
+21. Define constraint satisfaction problem (CSP). How CSP is formulated as a search problem? 
+        Explain with an example. 
+22. Give Breadth First Search algorithm. State its advantages and disadvantages.
+23. Give Depth  First Search algorithm. State its advantages and disadvantages.
+24. What is Hill climbing algorithm in AI? Explain main features of Hill Climbing  #
+            Algorithm. 
+
+------------------------------------------------------------------------------------------
+###########################################################################################
+
+Unit 2 
+
+1.	What is frame representation?        #
+2.	Explain components of frame with diagram?           #
+3.	Write advantage and disadvantage of frame representations?        #   
+4.	Explain features of frame representations?         #
+5.	Explain different quantifiers of predicate logic withan example of each.
+6.	What is predicate logic?
+7.	What is quantifier?
+8.	What is universal quantifier?
+9.	What is existential quantifier?
+10.	Explain forward chaining?
+11.	Explain backward chaining?
+12.	Explain inference techniques?
+13.	List and explain rules of Inference in knowledge representation.
+14.	Different between forward chaining and backward chaining?
+15.	 Explain forward and backward chaining algorithms with example.
+16.	 Write a interpretation of knowledge representation?
+17.	Write short note on semantic network .
+18.	What is semantic net .Give its  advantages.
+19.	Explain resolution in predicate logic.
+20.	Explain the different types of inferences with an example of each.
+21.	Write Predicate for the following sentences:
+a.	All cats and dogs hate each other
+b.	I arrived in New York.
+22.	 Describe Disjunctive Normal Form (DNF) with example. 
+23.	 Describe Conjunctive Normal Form (CNF) with example.
+24.	Discuss normal forms in brief.  
+25.	 Explain Connectives, Tautology and Contradiction in Propositional logic with one 
+        example each.	
+26.	Explain in detail about forward chaining algorithm with example.
+27.	 Explain in detail about backward chaining algorithm with example.
+28.	 Illustrate the use of first-order logic to represent knowledge.
+29.	 What are frames? How do they differ from semantic nets.
+30.	 What is propositional logic? What are the elements of propositional logic?
+31.	 Discuss various approaches and issues in knowledge representation.
+32.	Explain Connectives, Tautology and Contradiction in Propositional logic with one example each.	
+33.	 Explain resolution in predicate logic.
+34.	 Represent the following statements in predicate logic:
+                i) Marcus tried to assassinate Caesar.
+                tryassassinate(Marcus, Caesar)
+                ii) All Pompeian’s were Roman.
+                x: Pompeian(x)  Roman(x)
+                iii) All Romans were either loyal to Caesar or hated him.
+                Ɐx:Romans(x)àloyal(x,caesar) V hated(x,ceasar) 
+                iv) Everyone is loyal to someone.
+                Ɐx ⱻy: loyal(x,y)
+                v) People only try to assassinate rulers they are not loyal to.
+                Ɐx Ɐy :Person(x)ꓥruler(y)ꓥ tryassasinate(x,y) à ¬ loyal(x,y) 
+
+35.	  Represent the following statements in predicate logic:
+                •	Parents and children are inverse relation
+                ꓯpꓯc:Parent(p,c)àchild(c,p)
+                •	The best score in Maths is always higher than the best score in English
+                ꓯx ꓯy: bestmathscore(x) Ʌ bestenglishscore(y)àx>y 
+                •	You can fool all the people some of the time
+                Ɐxꓱt:Person(x)àtime(t)Ʌcanfool(x,t)
+                •	You can fool some of the people all the time
+                ꓱxⱯt: Person(x)Ʌtime(t)àcanfool(x,t)
+                36. Represent the following statements in predicate logic
+                •	Every Mumbaikar likes Mumbai
+                Ɐx: Mumbaikar(x)àlikes(x,Mumbai)
+                •	All red flowers are beautiful
+                Ɐx: flowers(x)ꓥred(x)àbeautiful(x)
+                •	Everyone is loyal to someone
+                Ɐx ⱻy: loyal(x,y)
+                •	Everyone loves everyone
+                Ɐx Ɐy: loves(x,y)
+36.	Represent the following statements in predicate logic
+                The ball color is red
+                Color(Ball,Red)
+                •	If Vivin gets the correct answer, then Avik won’t. 
+                •	Correct(Vivin, answer)à ¬Correct(Avik, answer)
+                •	 If Avik gets the correct answer, then vivin won’t.  
+                •	Correct(Avik, answer)à ¬Correct(Vivin, answer)
+                •	Therefore, either Vivin or Avik will get the correct answer.
+                •	Correct(Vivin, answer) V Correct(Avik, answer) 
+                Represent the following statements in predicate logic
+
+                Every Dog is white or brown
+                •	D(x): x is a Dog
+                •	W(x): x is white
+                •	B(x): x is brown
+                •	Formula: ꓯx:[D(x)à(W(x) V B(x))]
+                All foxes run faster than all snails
+                •	For any Fox x ----- ꓯx, Fox(x)
+                •	For any snail y ---  ꓯy, Snail(y)
+                •	 ꓯx, ꓯy: (Fox(x) ꓥ  Snail(y))à run_faster(x,y) 
+
+                Represent the following statements in predicate logic
+
+                You can fool all the people some of the time
+                        Ɐxꓱt:Person(x)àtime(t)Ʌcanfool(x,t) 
+                
+                You can fool some of the people all the time
+                        ꓱxⱯt: Person(x)Ʌtime(t)àcanfool(x,t)
+
+a.	What is semantic net .Explain disadvantages of semantic net
+37.	What is semantic net .Explain advantages and disadvantages of semantic net.
+38.	What is semantic net. Explain it with an example.
+39.	What are the frames in AI ?
+40.	What is a frame in knowledge management?
+41.	Write the information in frames?
+42.	Suppose that the statement p → ¬q is false. Find all combinations of truth values of r and s for which (¬q → r) 𝖠 (¬p ∨ s) is true
+43.	If the statement q 𝖠 r is true, determine all combinations of truth values for p and s such that the statement (q → [¬p ∨ s]) 𝖠 [¬s → r] is true.
+        a.	Find all combinations of truth values for p, q and r for which the statement ¬p ↔ (q 𝖠 ¬(p→ r)) is true.
+44.	Is (p → q) → [(p → q) → q] a tautology?
+        a.	Why or why not?
+45.	Explain steps to convert a statement into  normal form?
+46.	Explain type of normal forms with Example?
+        a.	Solve the example using Prenex normal form: ∀x ∀y[∃z(P(x ,y) 𝖠P(y ,x) → ∃ u Q(x ,y,u)]?
+        b.	Solve the example using Disjunctive normal form: (P →(Q 𝖠R))V~(PV~(RVS))?
+47.	Solve the example using conjunctive normal form: A ↔(BVC)?
+48.	What is meant by knowledge representation?
+49.	Explain different types of knowledge?
+50.	Explain in brief AI knowledge cycle?
+        Explain Approaches to knowledge representation
+51.	Explain Modus Ponens with example.
+52.	Write the example of Modus Ponens and truth table.
+
+-------------------------------------------------------------------------------------------------------------
+#########################################################################################################
+
+1.	What is Artificial Neural Network? Explain appropriate problem for Neural Network Learning with its characteristics. 
+2.	Explain mathematical Model for a Neuron. 
+1.	What is an Artificial Neural Network ?
+2.	Explain the Architecture of ANN.
+3.	What are some common Applications of ANN ?
+4.	Explain Basic Concepts of ANN.
+5.	What are the Types of Artificial Neural Network ?
+6.	Differentiate between Artificial Neurons and Biological Neurons.
+7.	How are Neurons Organized in an Artificial Neural Network ?
+8.	Give the Advantages and Disadvantages of ANN for Modeling Data ?
+9.	What is an Activation Function ?
+10.	Explain Need of Activation Function in ANN ?
+11.	Explain Linear and Non-Linear Activation Functions.
+12.	What is an Activation Function ? Explain its Need . Give types of  Activation Functions.
+13.	Explain the Concept of Feed Forward Network.
+14.	What are the Types of Feed Forward Network ?
+15.	What are the limitations of Feed Forward Network ?
+16.	What is Recurrent Neural Network ?
+17.	How RNN differs from Feed Forward Network ?
+18.	Explain the Working Architecture of RNN.
+19.	How does the Back-Propagation through Time work in RNN?
+20.	Explain Deep Neural Network with its Types.
+21.	What is a Deep Learning Framework ?
+22.	Explain Fuzzy Set Theory in Detail.
+23.	What are the Different Operations used on Fuzzy Sets ?
+24.	What is the Fuzzy Membership Function ?
+25.	Enlist some Features of Membership Function.
+26.	Write a Short Note on :
+A.	Fuzzy Gaussian.
+B.	Fuzzy Large.
+C.	Fuzzy Small.
+27.	Explain the Concept of Fuzzy Logic System.
+28.	Explain the Architecture of Fuzzy Logic System.
+29.	Describe  Components of Fuzzy Logic System?
+30.	Explain Pros and Cons of Fuzzy Logic System.
+31.	Enlist some Application Areas of Fuzzy Logic System.
+
+-------------------------------------------------------------------------------------------------------
+#########################################################################################################
+
+
+1.	What is NLP and Explain components of NLP?
+2.	Explain tokenization and bag of words with example?
+3.	Write note on stemming and lemmatization?
+4.	Short note on stop words?
+5.	Discuss advantages and disadvantages of NLP?
+6.	Explain NLP(Natural Language Processing ) and Phases of NLP.
+7.	What are the phases of NLP . Explain Syntactic Analysis and Semantic Analysis.
+8.	Explain the Tokenization in detail?
+9.	Explain the Bag of word in detail?
+10.	Define and explain the types of Tokenization?
+11.	Explain Stemming and Lemmatization in detail?
+2.	Explain Part of speech tagging and POS tagging techniques?
+13.	Explain Stop words and there advantages and disadvantages?
+14.	Explain the advantages of NLP.
+15.	Explain the disadvantages of NLP.
+16.	Write a Short note on genetic algorithm ?
+17.	Explain the basic technologies in genetic algorithm ?  
+18.	Explain in detail about various operators of genetic Algorithm?
+19.	Explain different reproduction operators used in Genetic Algorithm?
+20.	Explain 5 queens problem with it’s steps using genetic algorithm?
+21.	what is different methods of population initialization
+22.	Importance of Fitness Function in Evolutionary Algorithms
+23.	What is different Types of Fitness Functions
+24.	Important Role of Selection in Evolutionary Algorithms
+25.	Explain Crossover in detail?
+26.	Explain types of Crossover?
+27.	Explain the Mutation in detail?
+28.	Explain different operation of the Mutation?
+29.	Define the concept of Termination?
+30.	What is the schema theorem in details in AI?
+31.	What is the role of schema theorem?
+32.	What constitutes the importance of the schema theorem?
+33.	What is the defining length of schema theorem?
+34.	Explain Schema template with Example?
+35.	Explain Schema template and it’s Terms with Example?
+36.	Explain Order of Schema O(H) with Example?
+37.	Explain Defining Length of Schema δ(H) with Example
+38.	What is Schema with example?
+39.	Which GA encoding scheme gives faster execution?
+40.	What is the best example of a schema?
+41.	How do schemas change?
+42.	What is encoding techniques in GA?
+43.	Explain Convergence Of Genetic Algorithm In Detail.
+44.	Explain Factors Affecting Convergence In Genetic Algorithm.
+45.	Define and Explain the Expert System in Artificial intelligence?
+46.	Definition and Explain Benefits of Expert System?
+47.	Explain Component of Expert System?
