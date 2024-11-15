@@ -7,8 +7,8 @@
 7.   How would you convert a Pandas DataFrame into a NumPy array?
 8.   Explain any four Data Science tools . #
 9.   During analysis, how do you treat the missing values?
-10.  Write a note on TensorFlow.
-11.  Write a note on SciPy 
+10.  Write a note on TensorFlow. #
+11.  Write a note on SciPy  #
 12.  What is Numpy ? Explain its features.
 13.  How to drop rows that contain a missing value from a numpy array?
 14.  Demonstrate with code  to add a column to a pandas existing DataFrame? 

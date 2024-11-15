@@ -162,3 +162,94 @@ Diagram -
                     +-----------------------+
 
 ######################################################################################################
+
+10.  Write a note on TensorFlow.
+    1. TensorFlow is popular framework for deep-learning and Machine learning.
+    2. It is free and opensource framework
+    3. It is develop by google brain teams
+    4. It is based on python programming lanaguage.
+    5. It makes machine learning easier and faster.
+    6. The word TensorFlow is made up of two words 
+        1. Tensor
+        2. Flow 
+    7. Tensor stand for multi-diminsion array
+    8. Flow stand for flow of data in operation
+
+    Advantages 
+            1. Easy to use
+            2. Application
+            3. Scalable
+            4. Machine Leaning and Deeplearning
+
+      1 Easy to use
+         - It is biginner friendly framework.
+      2. Application -
+        - It has wide range of applications
+        - It is used in image recognation, speech recognation, natural lanaguage processing etc.
+      3. Machine Learning and Deeplearning 
+        - It is mainly used for deep learning but can be also used for machine leaning task.
+      4. Scalable -
+        - It is highly scalable it can run on both CPU and GPU
+          even in mobile device.
+      
+#########################################################################################################
+
+11.  Write a note on SciPy 
+     1. Scipy stands for Scientifc Python
+     2. It is free and opensource Framework
+     3. It is based on python programming lanaguage.
+     4. It is scientific computational libries of python uses numpy underneath.
+     5. It is used for solving complex scientific and mathematical problems.
+     6. It provide various functions for data optmizations, integrations, analysis.
+
+     Feature -       
+       1. Easy to use 
+       2. Wide Application
+       3. Large Community support
+       4. Build over Numpy
+
+       1. Easy to use 
+         - SciPy is biginner friendly framework.
+
+       2. Wide Application
+         - It has wide range of applications in fields of data-science, biology, physics etc
+           for solving mathematical and computational problems.
+
+       3. Large Community support
+         - It has large Community
+
+       4. Build over Numpy
+         - It is build over Numpy and extend the power of numpy.
+     
+########################################################################################################
+12.  What is Numpy ? Explain its features.
+    1. Numpy stand for numerical python
+    2. Numpy is free and open source python libries
+    3. Numpy is genral purpose python package to handle arrays
+    4. Numpy support multi-dimenstion array.
+    5. Numpy array is 50x faster than traditional python list
+    6. Numpy written in python , c and c++ which increase its performance
+
+  Feature -
+            1. Performance
+            2. Easy to Use
+            3. Memory Efficent
+            4. Multi-Dimention Array
+            5. Open-source
+            6. Mathematical function
+            
+    1. Performance -
+       - Numpy is faster that Python List.
+    2. Easy to Use -
+       - Numpy syntax is easy to use and user friendly
+    3. Memory Efficent 
+       - Numpy uses Less memory compare to python build in data-structure.
+    4. Multi-Dimention Array
+       - Numpy support Multi-dimenstion array.
+    5. Open-source 
+       - Numpy is free and open source python package.
+    6. Mathematical function
+       - Provide wide range of mathematical funtion such as trignometric function,
+         logarithmic function, exponatinal, sqare-root etc.
+
+####################################################################################################################
