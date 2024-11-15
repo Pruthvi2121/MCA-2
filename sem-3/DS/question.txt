@@ -1,11 +1,11 @@
-1.   What is the difference between data analytics and data science?
-2.   What is data science ? Explain the role of Data Scienctist. 
-3.   Define data science ? Describe any four  tools of data science.
-4.   What is hadoop ? Explain Hadoop ecosystem with diagram.
+1.   What is the difference between data analytics and data science? #
+2.   What is data science ? Explain the role of Data Scienctist. #
+3.   Define data science ? Describe any four  tools of data science. #
+4.   What is hadoop ? Explain Hadoop ecosystem with diagram. #
 5.   What are the characteristics of big Data? Explain Hadoop Architectural Model.
 6.   Create a two 2-D array using numpy and  Plot it using matplotlib,
 7.   How would you convert a Pandas DataFrame into a NumPy array?
-8.   Explain any four Data Science tools .
+8.   Explain any four Data Science tools . #
 9.   During analysis, how do you treat the missing values?
 10.  Write a note on TensorFlow.
 11.  Write a note on SciPy 
@@ -53,7 +53,7 @@
 53.  Write a note on matplotlib.
 54.  Write note on machine learning frameworks.
 55.  Write a note on Hadoop Map Reduce.
-56.  Explain Hadoop system and its components.
+56.  Explain Hadoop system and its components. #
 57.  Explain Time Series with one example.
 58.  Write a note on Colab and Kaggle.
 59.   Write code for following Pandas operations..

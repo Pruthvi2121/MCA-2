@@ -55,21 +55,21 @@ Unit 2
 18.	What is semantic net .Give its  advantages.
 19.	Explain resolution in predicate logic.
 20.	Explain the different types of inferences with an example of each.
-21.	Write Predicate for the following sentences:
+21.	Write Predicate for the following sentences :
                 a.	All cats and dogs hate each other
                 b.	I arrived in New York.
-22.	 Describe Disjunctive Normal Form (DNF) with example. 
-23.	 Describe Conjunctive Normal Form (CNF) with example.
+22.	Describe Disjunctive Normal Form (DNF) with example. 
+23.	Describe Conjunctive Normal Form (CNF) with example.
 24.	Discuss normal forms in brief.  
-25.	 Explain Connectives, Tautology and Contradiction in Propositional logic with one 
-        example each.	
+25.	Explain Connectives, Tautology and Contradiction in Propositional logic with one 
+          example each.	
 26.	Explain in detail about forward chaining algorithm with example.
 27.	 Explain in detail about backward chaining algorithm with example.
 28.	 Illustrate the use of first-order logic to represent knowledge.
 29.	 What are frames? How do they differ from semantic nets.
 30.	 What is propositional logic? What are the elements of propositional logic?
 31.	 Discuss various approaches and issues in knowledge representation.
-32.	Explain Connectives, Tautology and Contradiction in Propositional logic with one example each.	
+32.	 Explain Connectives, Tautology and Contradiction in Propositional logic with one example each.	
 33.	 Explain resolution in predicate logic.
 34.	 Represent the following statements in predicate logic:
                 i) Marcus tried to assassinate Caesar.
@@ -133,9 +133,9 @@ Unit 2
 a.	What is semantic net .Explain disadvantages of semantic net
 37.	What is semantic net .Explain advantages and disadvantages of semantic net.
 38.	What is semantic net. Explain it with an example.
-39.	What are the frames in AI ?
-40.	What is a frame in knowledge management?
-41.	Write the information in frames?
+39.	What are the frames in AI ? #
+40.	What is a frame in knowledge management? #
+41.	Write the information in frames? #
 42.	Suppose that the statement p → ¬q is false. Find all combinations of truth values of r and s for which (¬q → r) 𝖠 (¬p ∨ s) is true
 43.	If the statement q 𝖠 r is true, determine all combinations of truth values for p and s such that the statement (q → [¬p ∨ s]) 𝖠 [¬s → r] is true.
         a.	Find all combinations of truth values for p, q and r for which the statement ¬p ↔ (q 𝖠 ¬(p→ r)) is true.

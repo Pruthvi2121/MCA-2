@@ -1,0 +1,164 @@
+1. What is the difference between data analytics and data science?
+
+Data science                            Data analytics
+ 
+1. In-depth knowlodge of               1. Basic knowlodge of programming is required
+   programming is required                   
+   
+2. Uses Machine learning Algorithm     2. Not uses Machine learning Algorithm
+
+3. Scope of data-sciene is large       3. Scope of data-analytics is micro (small)
+
+4. Uses raw, unclean and unstructured  4. Uses ready, clean, and  structured data.
+   data
+
+5. Statistic skills are required       5. Statistic skills are minimal in data-analytics.
+   in data-science
+6. Focus on exploration and            6. Focus on solving specific and defined problems
+   new innovations
+
+7. Required strong mathematics skills  7. Does not required strong mathematics skills
+
+8. Use in Automation, Health care,     8. Use in Finance, Marketing.
+   Research
+9. It focus on prediction              9. Focus on analytises  "what happen" & "Why"
+   "what will happen in future"
+
+###########################################################################################################
+
+2. What is data science ? Explain the role of Data Scienctist. 
+
+  - Data Science 
+      - Data Science is the study of data to find pattern, make prediction, and help in taking better
+        desicions, It uses lools like Statistic, Algorithm, programming to convert data into usesful
+        insights.
+
+   - Role of Data  Scienctist.
+        1. Data Collection
+        2. Data Cleaning 
+        3. Analyzes Data 
+        4. Build Models 
+        5. Data Visulization 
+        6. Solve Business problem 
+
+        1. Data Collection
+           - Gather data from various sources include (database, API's, etc)
+        2. Data Cleaning 
+           - Clean data by fixing errors, finding missing values, organize it for analysis
+        3. Analyzes Data -
+           - Analyzes the data to find patterns and trends using statistics .
+        4. Build Models -
+           - Create Predictive models using machine learning.
+        5. Data Visulization -
+           - Visulize finding using ploting graphs, charts, etc 
+             to help non-technical teams understand the results.
+        6. Solve Business problem 
+           - Collaborate with Business teams and provide insights and recommandation based on Research
+             to make better desicions.
+
+3. Describe any four  tools of data science.
+    1. Python
+    2. Pandas 
+    3. Numpy
+    4. Matplotlib
+    5. Tableau
+    6. SQL
+ 
+ 
+    1. Python-
+       - Popular programming lanaguage used for data-analysis and machine-learning
+    2. Pandas -
+       - Python libries to manage and anaylise data in tables (Dataframe)
+    3. Numpy -
+       - Python librires to perform numerical operation over datasets.
+    4. Matplotlib -
+       - Python libries for data Visulization using diffrent charts, dashborads, graphs, etc
+    5. Tableau 
+       - tool used to organize data 
+    6. SQL -
+        language for querying and managing data in relational databases
+ 
+
+
+##########################################################################################################
+
+4.   What is hadoop ? Explain Hadoop ecosystem with diagram.
+    - Hadoop 
+      1. Hadoop is an open-souce framework 
+      2. It is used to store and process larage amount of data across diffent
+         distributed computer environment.
+    
+    - components of Hadoop
+                1. HDFS
+                2. MapReduce
+                3. YARN
+                4. Hive
+                5. Pig
+                6. Mahout
+                7. Zookeeper
+                8. Oozie
+         
+        1. HDFS 
+            -  HDFS stand for Hadoop Distributed File System.
+            -  It is used for storing data accross multipal computer sytems.
+        2. MapReduce
+            - MapReduce is used for processing data parallel accross multipal computer Systems
+        3. YARN 
+            - YARN stands for Yet Another Resources Negotiator
+            - It is a Resources management layer of hadoop for managing and scheduling jobs.
+        4. Hive
+           - It is SQL for Hadoop 
+           - Allow you to querry data using sql-like lanaguage
+             make it easier to interact with hadoop
+        5. Pig -
+            Tool that help you to write data processing script with knowing complex programming.
+
+        6. Mahout 
+           - Mahout provide machine learning algorithim to process data in hadoop.
+
+        7.  Zookeeper 
+           - Helps in cordination among diffrent distributed computer system
+           - provide task synchronization over system.
+
+        8.  Oozie -
+           - It perform task of scheduling jobs               
+
+         
+
+Diagram -
+
+                    +-----------------------+
+                    |       Clients         |   --> (Applications or Users)
+                    +-----------------------+
+                            |
+                            v
+                    +-----------------------+
+                    |     Data Ingestion    |   
+                    +-----------------------+
+                            |
+                            v
+                    +-----------------------+
+                    |    Data Storage       |   --> (HDFS)
+                    +-----------------------+
+                            |
+                            v
+                    +-----------------------+
+                    |    Data Processing    |   --> (MapReduce, Hive, Pig)
+                    +-----------------------+
+                            |
+                            v
+                    +-----------------------+
+                    |   Resource Management |   --> (YARN)
+                    +-----------------------+
+                            |
+                            v
+                    +-----------------------+
+                    |   Machine Learning    |   --> (Mahout)
+                    +-----------------------+
+                            |
+                            v
+                    +-----------------------+
+                    |    Workflow & Jobs    |   --> (Oozie, Zookeeper)
+                    +-----------------------+
+
+######################################################################################################
