@@ -1,28 +1,4 @@
-1. What is the difference between data analytics and data science?
 
-Data science                            Data analytics
- 
-1. In-depth knowlodge of               1. Basic knowlodge of programming is required
-   programming is required                   
-   
-2. Uses Machine learning Algorithm     2. Not uses Machine learning Algorithm
-
-3. Scope of data-sciene is large       3. Scope of data-analytics is micro (small)
-
-4. Uses raw, unclean and unstructured  4. Uses ready, clean, and  structured data.
-   data
-
-5. Statistic skills are required       5. Statistic skills are minimal in data-analytics.
-   in data-science
-6. Focus on exploration and            6. Focus on solving specific and defined problems
-   new innovations
-
-7. Required strong mathematics skills  7. Does not required strong mathematics skills
-
-8. Use in Automation, Health care,     8. Use in Finance, Marketing.
-   Research
-9. It focus on prediction              9. Focus on analytises  "what happen" & "Why"
-   "what will happen in future"
 
 ###########################################################################################################
 
@@ -222,6 +198,7 @@ Diagram -
          - It is build over Numpy and extend the power of numpy.
      
 ########################################################################################################
+
 12.  What is Numpy ? Explain its features.
     1. Numpy stand for numerical python
     2. Numpy is free and open source python libries
@@ -253,3 +230,25 @@ Diagram -
          logarithmic function, exponatinal, sqare-root etc.
 
 ####################################################################################################################
+
+27.  Write a note on Seabon.
+     1. Seaborn is powerful data-visulization package
+     2. It is free and open-source
+     3. Seaborn is based on Matplotlib
+     4. It support all the feature of Matplotlib
+     5. It is easy and bigineer friendly package
+     6. It provide set of default theme and color which 
+        make it attractive .
+     7. It work seamlessly with pandas dataframe.
+     8. Simplify complex process of data-visulization into 
+        few lines of code.
+
+#######################################################################################
+29.  Write a note on HDFS.
+     1. HDFS stand for Hadoop distributed file system.
+     2. Hadoop come with distributed file system called HDFS
+     3. It is cost efficent
+     4. It work on low cost hardware. 
+     5. It is highly scalable models
+     6. It is ideal for larage file.
+     7. 

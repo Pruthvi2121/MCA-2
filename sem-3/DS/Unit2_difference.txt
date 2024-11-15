@@ -1,0 +1,62 @@
+1. What is the difference between data analytics and data science?
+
+Data science                            Data analytics
+ 
+1. In-depth knowlodge of               1. Basic knowlodge of programming is required
+   programming is required                   
+   
+2. Uses Machine learning Algorithm     2. Not uses Machine learning Algorithm
+
+3. Scope of data-sciene is large       3. Scope of data-analytics is micro (small)
+
+4. Uses raw, unclean and unstructured  4. Uses ready, clean, and  structured data.
+   data
+
+5. Statistic skills are required       5. Statistic skills are minimal in data-analytics.
+   in data-science
+6. Focus on exploration and            6. Focus on solving specific and defined problems
+   new innovations
+
+7. Required strong mathematics skills  7. Does not required strong mathematics skills
+
+8. Use in Automation, Health care,     8. Use in Finance, Marketing.
+   Research
+9. It focus on prediction              9. Focus on analytises  "what happen" & "Why"
+   "what will happen in future"
+
+#################################################################################################
+
+28.  What is NoSQL ? Describe difference between SQL vs NoSQL.
+             SQL                     NoSQL
+
+
+            SQL                         NSQL
+  1. Structure table with        1. Unstructured, semi-stuctured
+     predefined shemas              sturctured.
+  2. Fixed schema                2. Varable schema can be changed 
+                                    or adopt according to need.
+  3. uses Sql for quering and    3. Use's various querry languages
+     manupulating data
+  4. Desgin for vertical         4. Design for horizontal scalablity.
+     scalablity
+  5. Invole Atomacity,           5. Basically available in softstate
+     Consistency,                   consistent
+     Isolation, 
+     Durablity 
+  6. Less Flexible               6. Highly Flexible
+  7. Cost unefficent             7. Cost Efficent
+  8. Run on server               8. Run on clouds
+  9. less performace             9. High performace
+  10. no object orented          10. object orented database
+      database
+  11. less optimize storage      11. Optimize storage
+  12. Data is stored in          12. Data is stored in 
+      form of queryset               form of object
+  13. For example -              13. Mangodb, Redis,
+      Mysql, Postgress,             
+      Oracle, SQL server
+      SQlite
+  ----------------------------------------------------------------
+30.  What are the differences between supervised and unsupervised learning?
+
+41.  What is deep learning? What is the difference between deep learning and machine learning?
