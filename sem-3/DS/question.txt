@@ -3,19 +3,19 @@
 3.   Define data science ? Describe any four  tools of data science. #
 4.   What is hadoop ? Explain Hadoop ecosystem with diagram. #
 5.   What are the characteristics of big Data? Explain Hadoop Architectural Model.
-6.   Create a two 2-D array using numpy and  Plot it using matplotlib,
-7.   How would you convert a Pandas DataFrame into a NumPy array?
+6.   Create a two 2-D array using numpy and  Plot it using matplotlib, #
+7.   How would you convert a Pandas DataFrame into a NumPy array? #
 8.   Explain any four Data Science tools . #
 9.   During analysis, how do you treat the missing values? #
 10.  Write a note on TensorFlow. #
 11.  Write a note on SciPy  #
 12.  What is Numpy ? Explain its features. #
-13.  How to drop rows that contain a missing value from a numpy array?
-14.  Demonstrate with code  to add a column to a pandas existing DataFrame? 
-15.  Write a Pandas program to read a csv file from a specified source and print the first 5 rows.
-16.  What is a Data Frame in pandas? What are the different ways in which a DataFrame can be created in Pandas?
-17.  What is python Pandas? Explain different data structures of Pandas with example.
-18.  What is Data frame . Write a code to convert data frame into csv file.
+13.  How to drop rows that contain a missing value from a numpy array? #
+14.  Demonstrate with code  to add a column to a pandas existing DataFrame? #
+15.  Write a Pandas program to read a csv file from a specified source and print the first 5 rows. #
+16.  What is a Data Frame in pandas? What are the different ways in which a DataFrame can be created in Pandas? #
+17.  What is python Pandas? Explain different data structures of Pandas with example. #
+18.  What is Data frame . Write a code to convert data frame into csv file. #
 19.  Write a note on Anaconda and Jupyter Notebook and pip. #
 20.  What is Matplotlib, pyplot and plotting types. Demonstrate one type with example.
 21.  Elaborate why CNN in Image classification? #
@@ -49,14 +49,14 @@
 49.  Write a note on Convolutional Neural Network.#
 50.  What is Neural Network?  Explain  Forward and backward propagation in neural network.
 51.  What is EDA? Explain Exploratory Data Analysis in Python with any dataset.
-52.  Explain Pandas functions for Data Analysis and manipulation.
+52.  Explain Pandas functions for Data Analysis and manipulation. #
 53.  Write a note on matplotlib. #
 54.  Write note on machine learning frameworks. #
 55.  Write a note on Hadoop Map Reduce.
 56.  Explain Hadoop system and its components. #
 57.  Explain Time Series with one example.
 58.  Write a note on Colab and Kaggle. #
-59.   Write code for following Pandas operations..
+59.   Write code for following Pandas operations.. #
         1. How can you sort the DataFrame?
         2. How can you find the row for which the value of a specific column is max or min?
         3. How can you get a list of Pandas DataFrame columns based on data type?

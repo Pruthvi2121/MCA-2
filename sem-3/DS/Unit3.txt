@@ -1,0 +1,223 @@
+6.   Create a two 2-D array using numpy and  Plot it using matplotlib,
+
+        import numpy as np  
+        import matplotlib.pyplot as plt 
+        
+        array1 = np.random.rand(4,4)
+        array2 = np.random.rand(4,4)
+
+        plt.imshow(array1)
+        plt.title("Array 1")
+        plt.show()
+
+        plt.imshow(array2)
+        plt.title("Array 2")
+        plt.show()
+
+###########################################################################################
+7.   How would you convert a Pandas DataFrame into a NumPy array?
+    Method - 1
+        - using .to_numpy() method we can convert the pandas dataframe into numpy.
+    Method - 2
+        - Using .values 
+
+    Eg -
+            import pandas as pd 
+            df = df.dataframe({
+                [1,2,3]
+                [4,5,6]
+            })
+                
+            df.to_numpy()
+            df.values
+
+            print(df.to_numpy())
+            print(df.values)
+
+#############################################################################
+14.  Demonstrate with code  to add a column to a pandas existing DataFrame? 
+
+            import pandas as pd
+
+            df = pd.Dataframe({
+                "A":[ 1, 2, 3, 4],
+            })
+
+            # Add column B
+            df["B"] = [ 1, 2, 3, 4]
+
+            print(df)
+
+#####################################################################################
+15.  Write a Pandas program to read a csv file from a specified source and print the first 5 rows.
+
+            import pandas as pd
+
+            file = "your csv file path"
+
+            df = df.read_csv(file)
+
+            print(df.head())
+
+###################################################################################
+16.  What is a Data Frame in pandas? What are the different ways in which a DataFrame can be created in Pandas?
+
+    Data-Frame
+     -  Dataframe is the 2 dimentional data-structure , 
+        like two dimentional array , or table which contain 
+        rows and column.
+    Follwing are the ways by which we can create pandas dataframe.
+        1. From pyton dictionary
+        2. from list of dictionary
+        3. from list of list
+        4. from Series
+        5. from numpy array
+        6. from csv.
+-------------------------------------------------------------
+    1. From pyton dictionary
+        import pandas as pd
+
+        data = {
+            "Name": "Nickson",
+            "city":"kolhapur",
+            "age":"44"
+        }
+        df = pd.Dataframe(data)
+----------------------------------------------------------------
+    2. from list of dictionary
+
+        import pandas as pd
+
+        data = [
+            {"name":"Mike"},
+            {"name":"Json"},
+            {"name":"Juli},
+            ]
+        df = pd.Dataframe(data)
+ ----------------------------------------------------------------   
+    3. from list of list
+
+        import pandas as pd
+        data = [
+            ["json","mike"],
+            [2,4],
+        ]
+        df = pd.Dataframe(data, column=['name','rating'])
+---------------------------------------------------------------------
+    4. From series
+        import pandas as pd
+        data = pd.series(1,2,3,4)
+        df = pd.Dataframe(data, columns=['number'])
+  ----------------------------------------------------------------- 
+    5. from numpy array
+        import pandas as pd
+        import numpy as np
+        data = np.array(
+            [1,2]
+            ["mike", "json],
+           
+        )
+        df = pd.Dataframe(data, columns=['id', 'name'])
+  ------------------------------------------------------------  
+    6. from existing csv
+
+       import pandas as pd
+       file = 'your/csv/path/file.csv'
+       df = pd.read_csv(file)
+       print(df.head())
+
+###########################################################################################
+18.  What is Data frame . Write a code to convert data frame into csv file.
+
+    Data-Frame
+     -  Dataframe is the 2 dimentional data-structure , 
+        like two dimentional array , or table which contain 
+        rows and column.
+        
+        import pandas as pd
+
+        data = {
+            'Name': ['Alice', 'Bob', 'Charlie'],
+            'Age': [25, 30, 35],
+            'City': ['New York', 'Los Angeles', 'Chicago']
+        }
+
+        df = pd.Dataframe(data)
+
+        df.to_csv('output.csv')
+
+#########################################################################################
+
+17.  What is python Pandas? Explain different data structures of Pandas with example.
+   Pandas -
+      - Pandas is python libries for data manupulation and analysis.
+      - It is free and opensource
+    Following are the diffrent pandas data-structures
+      1. Series - It is one dimentional array with labeled index 
+                  it is similar to list but with index.
+            
+      2. Dataframe -  It is two dimentional data-structure , 
+                      like two dimentional array , or table which contain 
+                      rows and column.
+
+      3. Pannel - It is three diementional datastructure
+                - less commonly used 
+                - it is replace by dataframe by multi-index feauture
+
+################################################################################################
+
+52.  Explain Pandas functions for Data Analysis and manipulation.
+    1. read_csv() - read data from csv file.
+       eg - 
+            df = pd.read_csv('file.csv')
+ 
+    2. to_csv()  Save dataframe to a csv file.
+        eg -
+            df.to_csv('output.csv')
+    3. read_excel() - read data from excel.
+        eg -
+            df = pd.read_excel('file.xlsx')
+
+    4. to_excel() - save data frame into excel
+        eg - 
+            df.to_excel('output.xlsx', index=False)
+
+    5. head() - give first five record of dataframe
+        eg - 
+           - df.head()
+    6. head() - give last five record of dataframe
+        eg - 
+           - df.tail()
+    7. merge() - Merge two dataframe into one
+        eg -
+           - result = pd.merge(df1, df2)
+    8. rename()
+        eg -
+           - df.rename(columns={'Name':'full name'}, inplace=True)
+
+######################################################################################################
+
+    import pandas as pd
+    
+    data = {
+        "name:["Sam", "Jonny", "Max"],
+        "age":[18, 24, 22]
+    }
+
+    df = pd.Dataframe(data)
+
+    # 1. How can you sort the Dataframe
+    sorted_age = df.sort_values(by="age", asending=False)
+
+    # 2. Get Min and Max values rows
+    max_age = df.loc[ df['age'].idxmax() ]
+    min_age = df.loc[ df['age'].idxmin() ]
+
+    # 3. Get list of column basd on datatypes
+    int_column = df.select_dtype(include="int64").coloum.tolist()
+
+    # 4. Slice dataset
+    slice_data = df.iloc[:2, :2]
+
+
+###################################################################
