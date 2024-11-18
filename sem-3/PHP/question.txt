@@ -19,4 +19,3 @@
 2. what is constructor and destructor in php explain with example #
 3. Difference bettween constructor and destructor
 4. Explain abastract class and static method in php
-5. 

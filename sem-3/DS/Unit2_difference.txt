@@ -56,7 +56,44 @@ Data science                            Data analytics
       Mysql, Postgress,             
       Oracle, SQL server
       SQlite
-  ----------------------------------------------------------------
+#########################################################################################
+
 30.  What are the differences between supervised and unsupervised learning?
+     Supervised                            Unsupervised
+   1. Uses known data as inputs            1. Uses Unknown data as inputs.
+   2. Less Computational complex           2. Highly Computaional complex.
+   3. Uses Off-line anaylises              3. Uses Real-time Anaylises.
+   4. Number of classes is known           4. Number of classes not known
+   5. Give Accurate results                5. Give moderate accurate results.
+   6. Disired output is given              6. Disired out is not given.
+   7. Uses labeled training data           7. Uses No labeled training data.
+   8. Model can be tested                  8. Model cannot be tested.
+   9. Example -                            9. Example -
+      Optical character recognation (OCR)     Face detection 
+
+   Working -                               Working -
+   Input                                   Input
+     - input labled data                      - input unlabled data
+   training                                training
+     - try to find hidden pattern            - try to find hidden pattern, clusters,similiaries
+   prediction                              output -
+     - once train model is ready for          data is organized but it is not accurate output.
+       prediction
+
+###############################################################################################
 
 41.  What is deep learning? What is the difference between deep learning and machine learning?
+    Deep Learning                          Machine Learning
+    1. It is subset of                  1. It is super-set of deep learning.
+       Machine Learning
+    2. Deep Learning is evolution       2. Machine Learning is evloution of AI
+       of Machine learning
+    3. It uses Neural Network           3. It uses Structured Data.
+    4. Has millions of data-points      4. Has thousand of data-points.
+    5. GPU is required for training     5. CPU is required for training.
+    6. Huge amount of time required     6. Less amount of time required.
+    7. Required more computational       7. Required less computaional power
+       power
+     8. Result not easy to explain      8. Result easy to explain.
+
+#################################################################################################
