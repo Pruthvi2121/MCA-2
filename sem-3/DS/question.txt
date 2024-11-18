@@ -6,7 +6,7 @@
 6.   Create a two 2-D array using numpy and  Plot it using matplotlib,
 7.   How would you convert a Pandas DataFrame into a NumPy array?
 8.   Explain any four Data Science tools . #
-9.   During analysis, how do you treat the missing values?
+9.   During analysis, how do you treat the missing values? #
 10.  Write a note on TensorFlow. #
 11.  Write a note on SciPy  #
 12.  What is Numpy ? Explain its features. #
@@ -16,46 +16,46 @@
 16.  What is a Data Frame in pandas? What are the different ways in which a DataFrame can be created in Pandas?
 17.  What is python Pandas? Explain different data structures of Pandas with example.
 18.  What is Data frame . Write a code to convert data frame into csv file.
-19.  Write a note on Anaconda and Jupyter Notebook and pip.
+19.  Write a note on Anaconda and Jupyter Notebook and pip. #
 20.  What is Matplotlib, pyplot and plotting types. Demonstrate one type with example.
-21.  Elaborate why CNN in Image classification?
+21.  Elaborate why CNN in Image classification? #
 22.  What is neural network? Write steps for handwritten digits classification using neural network.
-23.  What is Supervised machine learning. Explain working of supervised machine learning.
-24.  What is Unsupervised machine learning. Explain working of Unsupervised machine learning.
+23.  What is Supervised machine learning. Explain working of supervised machine learning. #
+24.  What is Unsupervised machine learning. Explain working of Unsupervised machine learning. #
 25.  What is Data Science? Explain Data Science Process. #
 26.  What is K-means clustering algorithm. Explain how the algorithm works, along with Python implementation of k-means clustering.
 27.  Write a note on Seabon. #
 28.  What is NoSQL ? Describe difference between SQL vs NoSQL. #
-29.  Write a note on HDFS.
-30.  What are the differences between supervised and unsupervised learning?
+29.  Write a note on HDFS. #
+30.  What are the differences between supervised and unsupervised learning? #
 31.  How can outlier values be treated?
 32.  How can you calculate accuracy using a confusion matrix?
 33.  What is machine learning? Explain briefly machine learning algorithms.
 34.  Explain Detection and Removal of Outliers in Python.
 35.  Write a note on Hbase.
 36.  Explain Data Wrangling with one example.
-37.  Write a note on machine learning lifecycle.
+37.  Write a note on machine learning lifecycle. #
 38.  What is machine learing? Explain classification of machine learning and applications of machine learning.
 39.  Write a note on SciKit-Learn.
 40.  Explain Neural Network Fundamentals.
-41.  What is deep learning? What is the difference between deep learning and machine learning?
-42.  Write a note Keras.
-43.  Write a note on Pytorch.
-44.  Write a note on AutoML.
+41.  What is deep learning? What is the difference between deep learning and machine learning? #
+42.  Write a note Keras. #
+43.  Write a note on Pytorch. #
+44.  Write a note on AutoML. #
 45.  Write a note on feature engineering.
-46.  What is Deep Learning ? Explain types of neural networks in deep learning.
+46.  What is Deep Learning ? Explain types of neural networks in deep learning. #
 47.  Explain Recommender Systems with example.
-48.  Write a note on Artificial Neural Network.
-49.  Write a note on Convolutional Neural Network.
+48.  Write a note on Artificial Neural Network. #
+49.  Write a note on Convolutional Neural Network.#
 50.  What is Neural Network?  Explain  Forward and backward propagation in neural network.
 51.  What is EDA? Explain Exploratory Data Analysis in Python with any dataset.
 52.  Explain Pandas functions for Data Analysis and manipulation.
-53.  Write a note on matplotlib.
-54.  Write note on machine learning frameworks.
+53.  Write a note on matplotlib. #
+54.  Write note on machine learning frameworks. #
 55.  Write a note on Hadoop Map Reduce.
 56.  Explain Hadoop system and its components. #
 57.  Explain Time Series with one example.
-58.  Write a note on Colab and Kaggle.
+58.  Write a note on Colab and Kaggle. #
 59.   Write code for following Pandas operations..
         1. How can you sort the DataFrame?
         2. How can you find the row for which the value of a specific column is max or min?

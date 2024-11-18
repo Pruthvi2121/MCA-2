@@ -284,7 +284,6 @@ Diagram -
 ###########################################################################################
 
 42.  Write a note Keras.
-
    1. Keras is popular and powerful framework for Neural Network.
    2. It is free and opensource
    3. It is develop by one google engineering
@@ -297,142 +296,89 @@ Diagram -
 
 ############################################################################################
 
-43.  Write a note on Pytorch.
-    1. Pytourch is popular framework for for deeplearning.
-    2. It is free and opensource framework
-    3. It is build using  python programming.
-    4. It is develop by facebook.
-    5. It is easy to use framework
-    6. It is based on torch libries.
-    7. Pytorch is completly pythonic
-    8. Easy to create neural network models
-    9. It is easy in building an extreme complex neural network.
-    10. Higly flexible , we can use it as per are requirements.
+1. What is the difference between data analytics and data science?
 
-#############################################################################################
+Data science                            Data analytics
+ 
+1. In-depth knowlodge of               1. Basic knowlodge of programming is required
+   programming is required                   
+   
+2. Uses Machine learning Algorithm     2. Not uses Machine learning Algorithm
 
-44.  Write a note on AutoML.
-    1. AutoML stands for Automated Machine Learning.
-    2. It is the process of automating the process of 
-       machine learning to solve real world problems.
-    3. AutoML is a technology that automates the process of building machine learning models
-    4. It allow people without expertise in machine learning to create powerful machine learning models.
-    5. It automate the manual task required for building model and 
-       save time.
-    6. This are some automML platforms
-        1. Google Cloud AutoML.
-        2. Microsoft Auzure AutoML 
-        3. AWS AutoML., etc.
+3. Scope of data-sciene is large       3. Scope of data-analytics is micro (small)
 
-##############################################################################################
+4. Uses raw, unclean and unstructured  4. Uses ready, clean, and  structured data.
+   data
 
-58.  Write a note on Colab and Kaggle.
-   Coalb -
-     1. Google Colab is free and opensource online tool.
-     2. It is use to run and write python code.
-     3. Provide free access to GPU.
-     4. No need to setup, everything is ready to use.
-     5. Supprot Python libries like TensorFlow, Pytorch, etc.
-     6. Can able to share via link.
+5. Statistic skills are required       5. Statistic skills are minimal in data-analytics.
+   in data-science
+6. Focus on exploration and            6. Focus on solving specific and defined problems
+   new innovations
 
-   Kaggle -
-     1. Kaggel is also free and opensource online tool
-     2. It also provide free access to GPU.
-     3. Run in browser,
-     4. We are able to share our code via link
-     5. Write and run code online. 
-     6. Best for datastes 
+7. Required strong mathematics skills  7. Does not required strong mathematics skills
+
+8. Use in Automation, Health care,     8. Use in Finance, Marketing.
+   Research
+9. It focus on prediction              9. Focus on analytises  "what happen" & "Why"
+   "what will happen in future"
 
 #################################################################################################
-48.  Write a note on Artificial Neural Network. ANN
-49.  Write a note on Convolutional Neural Network. CNN
 
-   1. Artificial Neural Network -
-      1. It does not allow paramter sharing.
-      2. Work with tabular data and text data.
-      3. Required fixed input
-      4. ANN can experience vanishing.
-      5. Does not Capture spatial relationships
-      6. Less powerfull compare to CNN.
+28.  What is NoSQL ? Describe difference between SQL vs NoSQL.
+             SQL                     NoSQL
 
-      Application - 
-         Eg- . Used in face recognation, computer vision.
 
-   2. Convolutional Neural Network
-      1. It allow paramter sharing.
-      2. Work with image data.
-      3. Required fixed input in forms of image.
-      4. CNN can experience vanishing.
-      5. Capture spatial relationships.
-      6. More powerfull compare to ANN.
+            SQL                         NSQL
+  1. Structure table with        1. Unstructured, semi-stuctured
+     predefined shemas              sturctured.
+  2. Fixed schema                2. Varable schema can be changed 
+                                    or adopt according to need.
+  3. uses Sql for quering and    3. Use's various querry languages
+     manupulating data
+  4. Desgin for vertical         4. Design for horizontal scalablity.
+     scalablity
+  5. Invole Atomacity,           5. Basically available in softstate
+     Consistency,                   consistent
+     Isolation, 
+     Durablity 
+  6. Less Flexible               6. Highly Flexible
+  7. Cost unefficent             7. Cost Efficent
+  8. Run on server               8. Run on clouds
+  9. less performace             9. High performace
+  10. no object orented          10. object orented database
+      database
+  11. less optimize storage      11. Optimize storage
+  12. Data is stored in          12. Data is stored in 
+      form of queryset               form of object
+  13. For example -              13. Mangodb, Redis,
+      Mysql, Postgress,             
+      Oracle, SQL server
+      SQlite
+#########################################################################################
 
-      Application -
-         Eg - Image recognation, Computer vision.
+30.  What are the differences between supervised and unsupervised learning?
+     Supervised                            Unsupervised
+   1. Uses known data as inputs            1. Uses Unknown data as inputs.
+   2. Less Computational complex           2. Highly Computaional complex.
+   3. Uses Off-line anaylises              3. Uses Real-time Anaylises.
+   4. Number of classes is known           4. Number of classes not known
+   5. Give Accurate results                5. Give moderate accurate results.
+   6. Disired output is given              6. Disired out is not given.
+   7. Uses labeled training data           7. Uses No labeled training data.
+   8. Model can be tested                  8. Model cannot be tested.
+   9. Example -                            9. Example -
+      Optical character recognation (OCR)     Face detection 
 
-################################################################################################
-37.  Write a note on machine learning lifecycle.
-
-      1. Collect Data: 
-         -  Collect necessary data.
-      2. Clean Data:
-         -  Clean and format data.
-      3. Select Model: 
-         - Choose an algorithm.
-      4. Train Model: 
-         - Train the model on the data.
-      5. Evaluate Model: 
-         - Check the model's performance.
-      6. Tune Model: 
-         - Optimize settings to improve accuracy.
-      7. Deploy Model
-         - Put the model into use.
-      8. Monitor Model:
-         - Monitor the model to keep it up to date.
-
-################################################################################################
-19.  Write a note on Anaconda and Jupyter Notebook and pip.
-   1. Anaconda -
-      1. Anaconda is free and opensoure distribution for python and R programming.
-      2. It is design for data-science, machine learning etc.
-      3. It has package manager conda  
-      4. Conda is used for installing and uninstalling package.
-      5. Comes with pre-installed libries  like pandas, numpy, matplotlib, etc.
-      6. It is cross platform - it is work on Windows, MacOS, Linux.
-
-   2. Jupyter Notebook
-      1. Jupyter is free and opensource webapplication.
-      2. Work similarly like python shell.
-      3. It allow us to write python code.
-      4. It allow us to create and share document.
-      5. Runs on browser
-      6. Support inline visulaization with librires like Matplotlib and Seaborn.
-
-   3. pip
-      1. Pip is python default package manager.
-      2. It comes with python install.
-      3. It allow you to install, upgrade and manage python packages. 
-      4. Use command pip install <package name> to install package
-      5. Use command pip uninstall <package name> to unistall package
-      6. Allow you install project dependency using pip install requirements.txt  
-
-################################################################################################
-
-9.   During analysis, how do you treat the missing values?
-     1. Remove missing data
-        - Drop rows or column with too many missing value.
-     2. Inputs missing data
-        - fill missing values N/A or mean, mediam , mode based on condition
-        - write seperate script for that and execute carefully.
-     3. Flag
-        - Create new column which flag=True when there is missing values
-        - this help you to identify missing value in data.
-     4. Leave
-        - some models handles missing values so you can leave as well based on your environment.
+   Working -                               Working -
+   Input                                   Input
+     - input labled data                      - input unlabled data
+   training                                training
+     - try to find hidden pattern            - try to find hidden pattern, clusters,similiaries
+   prediction                              output -
+     - once train model is ready for          data is organized but it is not accurate output.
+       prediction
 
 ###############################################################################################
 
- 
 
-
-
-
+41.  What is deep learning? What is the difference between deep learning and machine learning?
