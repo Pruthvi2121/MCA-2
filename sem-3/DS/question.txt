@@ -2,7 +2,7 @@
 2.   What is data science ? Explain the role of Data Scienctist. #
 3.   Define data science ? Describe any four  tools of data science. #
 4.   What is hadoop ? Explain Hadoop ecosystem with diagram. #
-5.   What are the characteristics of big Data? Explain Hadoop Architectural Model.
+5.   What are the characteristics of big Data? Explain Hadoop Architectural Model. #
 6.   Create a two 2-D array using numpy and  Plot it using matplotlib, #
 7.   How would you convert a Pandas DataFrame into a NumPy array? #
 8.   Explain any four Data Science tools . #
@@ -17,7 +17,7 @@
 17.  What is python Pandas? Explain different data structures of Pandas with example. #
 18.  What is Data frame . Write a code to convert data frame into csv file. #
 19.  Write a note on Anaconda and Jupyter Notebook and pip. #
-20.  What is Matplotlib, pyplot and plotting types. Demonstrate one type with example.
+20.  What is Matplotlib, pyplot and plotting types. Demonstrate one type with example. #
 21.  Elaborate why CNN in Image classification? #
 22.  What is neural network? Write steps for handwritten digits classification using neural network.
 23.  What is Supervised machine learning. Explain working of supervised machine learning. #
@@ -32,8 +32,8 @@
 32.  How can you calculate accuracy using a confusion matrix?
 33.  What is machine learning? Explain briefly machine learning algorithms.
 34.  Explain Detection and Removal of Outliers in Python.
-35.  Write a note on Hbase.
-36.  Explain Data Wrangling with one example.
+35.  Write a note on Hbase. #
+36.  Explain Data Wrangling with one example. #
 37.  Write a note on machine learning lifecycle. #
 38.  What is machine learing? Explain classification of machine learning and applications of machine learning.
 39.  Write a note on SciKit-Learn.
@@ -47,7 +47,7 @@
 47.  Explain Recommender Systems with example.
 48.  Write a note on Artificial Neural Network. #
 49.  Write a note on Convolutional Neural Network.#
-50.  What is Neural Network?  Explain  Forward and backward propagation in neural network.
+50.  What is Neural Network?  Explain  Forward and backward propagation in neural network. #
 51.  What is EDA? Explain Exploratory Data Analysis in Python with any dataset.
 52.  Explain Pandas functions for Data Analysis and manipulation. #
 53.  Write a note on matplotlib. #

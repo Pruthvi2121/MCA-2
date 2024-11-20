@@ -220,4 +220,22 @@
     slice_data = df.iloc[:2, :2]
 
 
-###################################################################
+#######################################################################################################
+20.  What is Matplotlib, pyplot and plotting types. Demonstrate one type with example.
+    1. Matplotlib -
+        1. Matplotlib is powerful data-visulization package.
+        2. It is free and open-source
+        3. It used in data-visulization task.
+    2. pyplot -
+       It is sub-module of matplotlib which provide simple interface to create plots.
+
+    For example -
+       import matplotlib.pyplot as plt
+
+       x = [1,2,3,4]
+       y = [1,2,3,4]
+
+       plt.plot(x,y)
+       plt.title("Line Plot Example")
+       plt.show()
+###########################################################################################################

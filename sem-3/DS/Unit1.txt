@@ -57,6 +57,19 @@
 
 
 ##########################################################################################################
+5.   What are the characteristics of big Data? 
+      The five V of Big data are -
+         1. Volume - 
+            - Large amount of data.
+         2. Velocity
+            - Speed of data generation
+         3. Variety
+            - Diffrent types and format of data.
+         4. Veracity
+            - Data accuracy and quality.
+         5. Value.
+            - Usefullness of data.
+
 
 4.   What is hadoop ? Explain Hadoop ecosystem with diagram.
     - Hadoop 
@@ -443,3 +456,78 @@ Diagram -
             print(cleaned_array)
 
 ################################################################################################
+50.  What is Neural Network?  Explain  Forward and backward propagation in neural network.
+     Neural Network -
+         -  Neural network is the model inspired by human brain, consist of inter-connected 
+            neuron, used to learn pattern and make prediction from data.
+     1. Forward propagation 
+         1. It is the process of passing input data to network to get an output.
+         2. It is used for generic prediction.
+         3. It main goal to obtain final prediction from input data.
+         4. The data flow is in Forward direction. 
+         5. Start with input layer
+         6. End with output layer with prediction
+         7. It does not have loss funstion
+         8. Use in prediction
+
+     2. Backward propagation 
+         1. It is the process of adjusting weights based on errors to minimize loss.
+         2. It is used for learning or weight adjustment.
+         3. It is main goal to optimize the model by reducing error while
+            prediction.
+         4. Data flow is in backward direction
+         5. Start with output layer.
+         6. End with input layer with updated weight.
+         7. It has loss funtion.
+         8. Use in model training.
+
+##########################################################################################
+
+35.  Write a note on Hbase.
+     1. It is opensource, distributed database
+     2. It is build on top of hadoop
+     3. It is design for realtime, large-scale data
+     4. It is insipired by GOOGLE Bigtable
+     5. It is highly scalable.
+     6. The data is stored in column wise not in row wise.
+
+##########################################################################################
+36.  Explain Data Wrangling with one example.
+   -  Data Wrangling - It is process of cleaning and transforming data into sutable format for
+      analysis or machine learning.
+
+      Step in Wrangling 
+        1. handle missing values
+        2. Format data
+        3. Remove Duplicate
+        4. Transform data.
+
+    Eg -
+         -------------------------------
+          Date       + Product + Amount  
+         ------------+---------+--------
+          11-10-2023 +    A    +   100    
+          11-12-2023 +    B    +   nan    
+          11-12-2023 +    A    +   100 
+         -------------------------------
+
+         Data after Wrangling
+         
+               .
+         -------------------------------
+          Date       + Product + Amount  
+         ------------+---------+--------
+          2023-11-10 +    A    +   100    
+          2023-11-12 +    B    +   100    
+         -------------------------------
+
+
+       Key changes -
+         1. change the date format
+         2. Remove duplicate records
+         3. Fill missing out values
+         
+##################################################################################################
+
+         
+         
