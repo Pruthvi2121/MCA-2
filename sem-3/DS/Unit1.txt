@@ -481,6 +481,32 @@ Diagram -
          7. It has loss funtion.
          8. Use in model training.
 
+
+###########################################################################################
+40.  Explain Neural Network Fundamentals.
+     Neural Network -
+         -  Neural network is the model inspired by human brain, consist of inter-connected 
+            neuron, used to learn pattern and make prediction from data.
+      
+      Process -
+         1. Input layer -
+            - REceives raw data.
+         2. Hidden Layer -
+            - Process data using weights, biases, and activation funtion to detect pattern.
+         3. Output Layer -
+            - Produce the final results.
+
+      Components -
+         1. Weight -Parameter that control data-flow between neurons.
+         2. Activation Funtion - Help network to learn complex patterns.
+         3. Loss function - Measures error in predictions.
+
+      Training -
+         1 Forward propagation
+         2. Backward Propation.
+
+      
+
 ##########################################################################################
 
 35.  Write a note on Hbase.
@@ -528,6 +554,76 @@ Diagram -
          3. Fill missing out values
          
 ##################################################################################################
+39.  Write a note on SciKit-Learn.
+     1. Scikit Learn is the most powerful roboust machine learning library in python.
+     2. It is free and open-source.
+     3. It is build upon Numpy, Scipy and matplotlib.
+     4. It is also known as sklearn.
+     5. It support data-modeling and data-visulaization as well.
+     6. It provide both supervised and unsupervised algorithims.
+     7. It is biginner friendly.
+     8. Also can be used for data-anaylisis.
 
+#############################################################################################
          
-         
+ 47.  Explain Recommender Systems with example.
+      -  Recommeder system suggest items (like product, movies, music) based on user preference
+         and behaviours.
+      -  It is divided into three types
+            1. Collaborative Filtering
+            2. Content based Filtering
+            3. Hybrid Filtering.
+      - 1. Collaborative Filtering 
+            -  It further divided into
+                  1. User based
+                  2. Item based
+            1. User based - 
+               - Recommends items based on others user likes or most users likes
+            2. Item based -
+               - REcommends items based on user likes
+      - 2. Content based Filtering 
+            - Recommends items based on featere similarly to the user like before.
+            eg - spotify suggest music based on genere.
+
+      - 3. Hybrid 
+           - It is combonation of both Collaborative filtering and Content based filtering.
+ 
+      - 4. Example 
+           Amazon - Recommends products based on purchase history.
+           Netfilx - Suggest movies based on watched history.
+           Spotify - Suggest music based on listining history.
+
+###############################################################################################
+57.  Explain Time Series with one example.
+     - A time series is a sequence of data points measured at successive time intervals.
+     - It helps analyze patterns over time, like trends, seasonality etc.
+
+     For example - Monthly Sales Data.
+
+                     +------------+------------+
+                     | Month      | Sales ($)  |
+                     +------------+------------+
+                     | January    | 2000       |
+                     | February   | 2200       |
+                     | March      | 2500       |
+                     | April      | 2800       |
+                     | May        | 3000       |
+                     | June       | 3500       |
+                     | July       | 3800       |
+                     | August     | 4200       |
+                     | September  | 4300       |
+                     | October    | 5000       |
+                     | November   | 5500       |
+                     | December   | 6000       |
+                     +------------+------------+
+        
+        In this example 
+         - Trend - sales are increase over time.
+         - seasonality - Sales tend to increse toward end of the year
+                       due to holidays seasons.
+      Key component -
+         Trend - Overall direction increase , decrease, sutable
+         seasonality - Pattern that repeat after interval of time (eg, yearly, monthly)
+         Noise - Random fluctuation or errors in data.
+
+################################################################################################

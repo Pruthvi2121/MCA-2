@@ -36,15 +36,15 @@
 36.  Explain Data Wrangling with one example. #
 37.  Write a note on machine learning lifecycle. #
 38.  What is machine learing? Explain classification of machine learning and applications of machine learning.
-39.  Write a note on SciKit-Learn.
-40.  Explain Neural Network Fundamentals.
+39.  Write a note on SciKit-Learn. #
+40.  Explain Neural Network Fundamentals. #
 41.  What is deep learning? What is the difference between deep learning and machine learning? #
 42.  Write a note Keras. #
 43.  Write a note on Pytorch. #
 44.  Write a note on AutoML. #
 45.  Write a note on feature engineering.
 46.  What is Deep Learning ? Explain types of neural networks in deep learning. #
-47.  Explain Recommender Systems with example.
+47.  Explain Recommender Systems with example. #
 48.  Write a note on Artificial Neural Network. #
 49.  Write a note on Convolutional Neural Network.#
 50.  What is Neural Network?  Explain  Forward and backward propagation in neural network. #
@@ -54,7 +54,7 @@
 54.  Write note on machine learning frameworks. #
 55.  Write a note on Hadoop Map Reduce.
 56.  Explain Hadoop system and its components. #
-57.  Explain Time Series with one example.
+57.  Explain Time Series with one example. #
 58.  Write a note on Colab and Kaggle. #
 59.   Write code for following Pandas operations.. #
         1. How can you sort the DataFrame?
