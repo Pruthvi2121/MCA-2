@@ -1,0 +1,49 @@
+Assignment 1
+
+1.   What is HTML? Enlist the properties of HTML #
+2.   Explain various HTML tags in text formatting with suitable example? #
+3.   Define the list types in HTML with suitable example? #
+4.   Elaborate different table tags HTML with suitable example  #
+5.   What is the difference between HTML and HTML 5? #
+6.   What is CSS? Explain the features of CSS? #
+7.   What are the types of CSS #
+8.   Explain various layouts used in CSS  #
+
+
+Assignment 2
+
+1.   What is JavaScript? List some features of JavaScript #
+2.   How will you use arrays in JavaScript? Explain with suitable example #
+3.   Write a programme to demonstrate use of break and continue statements #
+4.   What are Classes and Objects in JavaScript?
+5.   Explain Dialog boxes used in JavaScript along with their examples.
+6.   How will you use functions in JavaScript? Explain functions with and without parameter
+
+
+Assignment 3
+
+1. What is Node.js?
+2. How does Node.js differ from other server-side technologies?
+3. What are the pros and cons of Node.js?
+4. What is a module in Node.js? Explain some modules available
+5. What is the difference between fork() and spawn() methods in Node.js?
+6. What is a test pyramid in Node.js?
+7. What is a Promise in Node.js?
+8. What is a callback in Node.js? Can you provide an example?
+9. What is an event loop in Node.js?
+
+
+Assignment 4
+1.   Explain the concept of event emitters in Nodejs. Provide a code example where you
+     create a simple custom event emitter and bind functions to handle the emitted events.
+2.   Explain the process of binding functions to events and listening for events triggered
+     during file operations.
+3.   Explain the difference between synchronous and asynchronous programming in the
+     context of Node.js. Provide examples for each.
+4.   Discuss the importance and advantages of using Promises in Node.js. How do Promises
+     help in handling asynchronous operations efficiently?
+5.   What is NPM, and how does it work?
+6.   What is RESTful API, and how to create it using Node.js?
+7.   How do you implement authentication and authorization in Node.js?
+8.   When will you use Event Emitters? Write a process of Binding Functions to Events
+9.   What is Module? Explain types of Modules in Node.JS 

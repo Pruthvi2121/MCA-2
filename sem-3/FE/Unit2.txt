@@ -1,0 +1,106 @@
+1. What is JavaScript? List some features of JavaScript
+   1. javascirpt is light weighted object oriented programming language.
+   2. It is high level language.
+   3. It is dynmic and interpreted programming language.
+   4. It is commonly used in webdevelopment for creating interactive and dynamic websites.
+
+   Feature -
+    1. Dynamic Type.
+       - Javascipt automatically determine type of the varable based on assigned values.
+    2. Interpreted Lanaguage -
+       - Javascirpt code execute line by line.
+    3. Object-Oriented
+       - Javascript is object oriented programming lanaguage, it support all oops concept
+    4. Event Driven -
+       -Javascript commonly used to handle events such as mouse click, mouse hover, keyboard input etc.
+    5. Asynchronous programming 
+       - Javascript support asynchornous programming through callbacks, promises, and async/await
+    6. Platform Independant -
+       - Javascript is platform Independant it run on diffrent operating sytems. and in browser
+    7. Lightweight -
+       - It is light weight programming lanauge.
+       - Make it execute faster and suitable for real time application.
+    8. DOM Manupulation- 
+       - Javascript support Dom manupulation which allow manupulation of html doument.
+
+##################################################################################################################
+
+2.   How will you use arrays in JavaScript? Explain with suitable example
+    Array - 
+        1. JavaScript Arrays are used to store multiple values in single varables.
+        2. They are ordred, and zero index
+        3. They store element of any types include (number, string, object, etc)
+
+    -   Creating Array
+            1. we can create array using [] square bracket or using Array() consturctor
+               - Example 
+                    // Using square brackets
+                    let fruits = ["apple", "banana", "cherry"];
+
+                    // Using Array constructor
+                    let numbers = new Array(1, 2, 3, 4, 5);
+    - Access Array 
+        - You access elements in an array using their index:
+        - Example 
+              console.log(fruit[0])
+              output - apple
+    
+    - Modify Array 
+        you can modify the arry by assingning new value to index
+        - Example  
+            fruits[1] = "blueberry";
+            console.log(fruits); // Output: ["apple", "blueberry", "cherry"]
+
+
+     - other buid in methods for manaupulating arrays.
+        1. push()
+            - add element at the end of the array
+            Example -
+                fruits.push("grape");
+                console.log(fruits); // Output: ["apple", "blueberry", "cherry", "grape"]
+        
+        2. pop()
+           - Remove the last element of the array.
+           Example -
+                fruits.pop();
+                console.log(fruits); // Output: ["apple", "blueberry", "cherry"]        
+
+        3. shift()
+            - Remove the first element
+            Example -
+                fruits.shift();
+                console.log(fruits); // Output: [ "blueberry", "cherry"]        
+        4. unshift()
+            - add element at begining
+            Example -
+                fruits.unshift("kiwi);
+                console.log(fruits); // Output: [ "kiwi", "blueberry", "cherry"]        
+
+
+#################################################################################################
+3.   Write a programme to demonstrate use of break and continue statements
+     - The break and continue statements in JavaScript control the flow of loops.
+        1. Break - Terminate the loop
+           Example - 
+           
+                for(int i=0; i<=4, i++; ){
+                    if (i==2){
+                        console.log("loop break)
+                        break;
+                    }
+                    console.log(i)
+                }
+    
+        2. Continue - Skip the current iteration.
+            Example - 
+           
+                for(int i=0; i<=4, i++; ){
+                    if (i==2){
+                        console.log("loop skip)
+                        continue;
+                    }
+                    console.log(i)
+                }
+
+
+###############################################################################################
