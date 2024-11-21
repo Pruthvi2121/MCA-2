@@ -1,0 +1,371 @@
+1.   What is HTML? Enlist the properties of HTML
+    HTML -
+    1. HTML stand for HyperText Markup Language.
+    2. It is standard markup lanaguage for creating Web pages.
+    3. HTML describe the structure of webpage.
+    4. HTML contain series of elements
+    5. HTML element tell browser how to display content.
+    6. HTML element are  tag based 
+    7. We can create static website using html only.
+    8. Technically html is markup lanaguage not a programming language.
+
+
+    Properties 
+      1. Markup Language -
+         - Describe webpages structure using tags.
+      2. Tag based -
+         - Html element enclosed in opening and closing tags eg <p></p>
+      3. Attribute -
+         - HTMl element has attribute which define the behaviours of element.
+         - it is always applied to the opening tag.
+      4. Case Insensitive  -
+         - HTML tags are case insensitive eg - <h1>=<H1>
+      5. Multi-Media Support -
+         - Support images , audio, video to display on webpages.
+      6.  HyperLink -
+         - Provide linking feature to diffrent pages.
+      7. Nested Structure -
+         - Element are placed inside other elements
+      8. Rendering with Browser -
+         - Uses browser to display webpages.
+
+#################################################################################################
+
+2.   Explain various HTML tags in text formatting with suitable example?
+     Text formating HTML tags.
+
+     1. <b> - bold text
+        - bold the text
+        - Example 
+          <b>This is bold text</b>
+
+     2. <i> - italic text
+         - Make the text italic.
+         - Example 
+           <i>This is italic text</i>
+
+     3. <u> - Underline text
+          - Add Underline to text
+          - Example 
+            <u>this is my underline text</u>
+
+      4. <em> - Emphasis
+          - Typically render text in italic, indicating empasis
+          - Example 
+            <em>This is empasis text</em>
+
+      5. <strong> - Strong Emphasis
+          - Render text in bold indicating strong Emphasis
+       
+      6. <mark> - Highlight text
+          - highlight the typically yelow with background
+          <mark>This is hightlighted text</mark>
+
+      7. <small> - Small text
+          - Small size text
+          - Example <small>THis is small text</small>
+      8. <br> - Line break
+          - Add a line break 
+          Example - 
+            This is the first line.<br>This is the second line.
+        
+##########################################################################################
+3.   Define the list types in HTML with suitable example?
+      There are three diffrent types of list in HTML.
+           1. Ordered List
+           2. Unordered List
+           3. Description List
+
+    1. Ordered List -
+       - In order list all the list items are marked with number by default.
+       - It is also known as numbered list.
+       Example -
+            <ol>
+                    <li>Mango</li>
+                    <li>Apple</li>
+            </ol>
+    2. Unorder List -
+        - In unorder list all the list items are marked with bullets by defaults.
+        - It is also known as bullets list.
+        Example 
+           <ul>
+                <li>Mango</li>
+                <li>Apple</li>
+           </ul>
+    
+    3. Description List -
+        - IT is name value list
+        - It contain term and defination
+        - It is also known as defination list.
+
+        Example -
+          <dl>
+            <dt>Fruit</dt>
+            <dd>Mango</dd>
+
+            <dt>Vegitable</dt>
+            <dd>Tomato</dd>
+
+          </dl>
+##############################################################################################
+4.   Elaborate different table tags HTML with suitable example  
+     1. <table>
+        - The table tag define the table itself.
+        - it is container which contain other table elements.
+        Example - 
+           <table>
+             ....
+           </table>
+      2. <tr> 
+         - It define the row of the table.
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                </tr>
+      3. <td> 
+         - It define  cell in the of the row.
+                <tr>
+                    <td>ID</td>
+                    <td>Name</td>
+                </tr>
+
+      4. <thead>
+        - It is used to group the header conatin of the table
+        - Example 
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                </tr>
+            </thead>
+
+        5. <tbody>
+        - It is used to group main body of the table.
+        - Example 
+           <tbody>
+                <tr>
+                    <td>ID</td>
+                    <td>Name</td>
+                </tr>
+           </tbody>
+
+        6. <tfoot>
+           - It is used to group footer contain of the table.
+           <tfoot>
+                <tr>
+                    <td>Email</td>
+                    <td>test@gmail.com</td>
+                </tr>
+           </tfoot>
+###########################################################################################
+
+5.   What is the difference between HTML and HTML 5?
+
+           HTML                             HTML5
+
+1. It required flash player             1. It does not required flash player
+   for audio and video support             it has audio and video tags.
+
+2. Does not support javascript          2. Support JavaScript
+3. Not support drag and drop.           3. Support Drag and Drop.
+4. Cannot draw shapes like              4. Can draw shapes like 
+   circle, rectangle etc.                  circle, rectangle etc.
+5. Support all browser                  5. Support Modern Browser 
+   including older one                     like Crome, Firefox, Safari.
+6. <html>, <body>, and <head>           6. <html>, <body>, and <head> 
+    are mandatory                          are not mandatory.
+7. Less mobile friendly                 7. More mobile friendly
+8. It is complex                        8. It is simple.
+9. It not have <nav>                    9. It has <nav> <footer> <header>  tags.
+   <footer> <header>  tag
+10. Not handle inaccurate               10. handle inaccurate  syntax
+    syntax.
+11. Has less attribute                  11. Has more attributes.
+
+#######################################################################################
+6.   What is CSS? Explain the features of CSS?
+    CSS 
+        1. CSS stands for Cascading Style Sheets.
+        2. CSS describe how HTML element can be display on the screen
+        
+    Feature -
+         1. Seperation of content and style.
+           - Seperate the content (html) from the desgin (css).
+         2. Consistency -
+           - CSS mantain consistency of design over diffrent pages.
+         3. Reusablity - 
+           - CSS inhance Reusablity of desgin over diffrent html content.
+         4. Responsive Design -
+           - CSS supports responsive design using media querry
+         5. Animation and Transitions
+           - CSS support Animation and Transitions
+         6. Color and background  
+           - CSS allow to set background color and images, text color 
+         7. FlexBox and Grid layouts 
+           - Flex box and Grid layouts helps us in postioning the html contents.
+         8. CSS Varable -
+           - Allow us to store the value which can be used throughout the stylesheet.
+
+########################################################################################   
+7.   What are the types of CSS
+     There are three type of CSS
+        1. Internal
+        2. External
+        3. inline
+    1. Internal CSS -
+        - Internal css is placed within the html <head> tag
+        example - 
+            <style>
+                p { color: blue; }
+            </style>
+    2. External CSS -
+       - External css is a seperate .css file linked with html document
+       example -
+          <link rel="stylesheet" href="style.css">
+    
+    3. Inline CSS -
+       - Inline CSS is applied directly to an html tags using stype attribute.
+       example -
+          <p style="color:oragne;"> Mango</p>
+
+#########################################################################################
+8.   Explain various layouts used in CSS
+     There are three type of layouts in CSS
+         1. Flow
+         2. Flex
+         3. Grid
+      1. Flow Layout - Flow layout or normal layout
+        1. By default CSS uses flow layouts.
+        2. Here element are arranged in natural flow.
+
+      2. Flex layout
+        1. It is one dimenstion layout
+        2. It align items in row or column
+        3. Generally faster for simple layouts.
+        4. flexible for responsive design
+        5. Contol over one axies 
+        6. Example -
+           .container{
+               display:flex;
+           }
+      
+
+      3. Grid Layouts -
+        1. It is two dimenstion layout
+        2. It create complex layout with rows and column.
+        3. Generally less performance due to complex grid 
+        4. less flexible for responsive design.
+        5. Control over both axies.
+        6. Example -
+          .container{
+                display:grid;
+                grid-template-columns:repeat(3,2fr)
+            }
+##########################################################################################
+
+1. What is JavaScript? List some features of JavaScript
+   1. javascirpt is light weighted object oriented programming language.
+   2. It is high level language.
+   3. It is dynmic and interpreted programming language.
+   4. It is commonly used in webdevelopment for creating interactive and dynamic websites.
+
+   Feature -
+    1. Dynamic Type.
+       - Javascipt automatically determine type of the varable based on assigned values.
+    2. Interpreted Lanaguage -
+       - Javascirpt code execute line by line.
+    3. Object-Oriented
+       - Javascript is object oriented programming lanaguage, it support all oops concept
+    4. Event Driven -
+       -Javascript commonly used to handle events such as mouse click, mouse hover, keyboard input etc.
+    5. Asynchronous programming 
+       - Javascript support asynchornous programming through callbacks, promises, and async/await
+    6. Platform Independant -
+       - Javascript is platform Independant it run on diffrent operating sytems. and in browser
+    7. Lightweight -
+       - It is light weight programming lanauge.
+       - Make it execute faster and suitable for real time application.
+    8. DOM Manupulation- 
+       - Javascript support Dom manupulation which allow manupulation of html doument.
+
+##################################################################################################################
+
+2.   How will you use arrays in JavaScript? Explain with suitable example
+    Array - 
+        1. JavaScript Arrays are used to store multiple values in single varables.
+        2. They are ordred, and zero index
+        3. They store element of any types include (number, string, object, etc)
+
+    -   Creating Array
+            1. we can create array using [] square bracket or using Array() consturctor
+               - Example 
+                    // Using square brackets
+                    let fruits = ["apple", "banana", "cherry"];
+
+                    // Using Array constructor
+                    let numbers = new Array(1, 2, 3, 4, 5);
+    - Access Array 
+        - You access elements in an array using their index:
+        - Example 
+              console.log(fruit[0])
+              output - apple
+    
+    - Modify Array 
+        you can modify the arry by assingning new value to index
+        - Example  
+            fruits[1] = "blueberry";
+            console.log(fruits); // Output: ["apple", "blueberry", "cherry"]
+
+
+     - other buid in methods for manaupulating arrays.
+        1. push()
+            - add element at the end of the array
+            Example -
+                fruits.push("grape");
+                console.log(fruits); // Output: ["apple", "blueberry", "cherry", "grape"]
+        
+        2. pop()
+           - Remove the last element of the array.
+           Example -
+                fruits.pop();
+                console.log(fruits); // Output: ["apple", "blueberry", "cherry"]        
+
+        3. shift()
+            - Remove the first element
+            Example -
+                fruits.shift();
+                console.log(fruits); // Output: [ "blueberry", "cherry"]        
+        4. unshift()
+            - add element at begining
+            Example -
+                fruits.unshift("kiwi);
+                console.log(fruits); // Output: [ "kiwi", "blueberry", "cherry"]        
+
+
+#################################################################################################
+3.   Write a programme to demonstrate use of break and continue statements
+     - The break and continue statements in JavaScript control the flow of loops.
+        1. Break - Terminate the loop
+           Example - 
+           
+                for(int i=0; i<=4, i++; ){
+                    if (i==2){
+                        console.log("loop break)
+                        break;
+                    }
+                    console.log(i)
+                }
+    
+        2. Continue - Skip the current iteration.
+            Example - 
+           
+                for(int i=0; i<=4, i++; ){
+                    if (i==2){
+                        console.log("loop skip)
+                        continue;
+                    }
+                    console.log(i)
+                }
+
+
+###############################################################################################

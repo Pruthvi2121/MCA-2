@@ -57,6 +57,19 @@
 
 
 ##########################################################################################################
+5.   What are the characteristics of big Data? 
+      The five V of Big data are -
+         1. Volume - 
+            - Large amount of data.
+         2. Velocity
+            - Speed of data generation
+         3. Variety
+            - Diffrent types and format of data.
+         4. Veracity
+            - Data accuracy and quality.
+         5. Value.
+            - Usefullness of data.
+
 
 4.   What is hadoop ? Explain Hadoop ecosystem with diagram.
     - Hadoop 
@@ -284,6 +297,7 @@ Diagram -
 ###########################################################################################
 
 42.  Write a note Keras.
+
    1. Keras is popular and powerful framework for Neural Network.
    2. It is free and opensource
    3. It is develop by one google engineering
@@ -296,6 +310,323 @@ Diagram -
 
 ############################################################################################
 
+43.  Write a note on Pytorch.
+    1. Pytourch is popular framework for for deeplearning.
+    2. It is free and opensource framework
+    3. It is build using  python programming.
+    4. It is develop by facebook.
+    5. It is easy to use framework
+    6. It is based on torch libries.
+    7. Pytorch is completly pythonic
+    8. Easy to create neural network models
+    9. It is easy in building an extreme complex neural network.
+    10. Higly flexible , we can use it as per are requirements.
+
+#############################################################################################
+
+44.  Write a note on AutoML.
+    1. AutoML stands for Automated Machine Learning.
+    2. It is the process of automating the process of 
+       machine learning to solve real world problems.
+    3. AutoML is a technology that automates the process of building machine learning models
+    4. It allow people without expertise in machine learning to create powerful machine learning models.
+    5. It automate the manual task required for building model and 
+       save time.
+    6. This are some automML platforms
+        1. Google Cloud AutoML.
+        2. Microsoft Auzure AutoML 
+        3. AWS AutoML., etc.
+
+##############################################################################################
+
+58.  Write a note on Colab and Kaggle.
+   Coalb -
+     1. Google Colab is free and opensource online tool.
+     2. It is use to run and write python code.
+     3. Provide free access to GPU.
+     4. No need to setup, everything is ready to use.
+     5. Supprot Python libries like TensorFlow, Pytorch, etc.
+     6. Can able to share via link.
+
+   Kaggle -
+     1. Kaggel is also free and opensource online tool
+     2. It also provide free access to GPU.
+     3. Run in browser,
+     4. We are able to share our code via link
+     5. Write and run code online. 
+     6. Best for datastes 
+
+#################################################################################################
+48.  Write a note on Artificial Neural Network. ANN
+49.  Write a note on Convolutional Neural Network. CNN
+
+   1. Artificial Neural Network -
+      1. It does not allow paramter sharing.
+      2. Work with tabular data and text data.
+      3. Required fixed input
+      4. ANN can experience vanishing.
+      5. Does not Capture spatial relationships
+      6. Less powerfull compare to CNN.
+
+      Application - 
+         Eg- . Used in face recognation, computer vision.
+
+   2. Convolutional Neural Network
+      1. It allow paramter sharing.
+      2. Work with image data.
+      3. Required fixed input in forms of image.
+      4. CNN can experience vanishing.
+      5. Capture spatial relationships.
+      6. More powerfull compare to ANN.
+
+      Application -
+         Eg - Image recognation, Computer vision.
+
+################################################################################################
+37.  Write a note on machine learning lifecycle.
+
+      1. Collect Data: 
+         -  Collect necessary data.
+      2. Clean Data:
+         -  Clean and format data.
+      3. Select Model: 
+         - Choose an algorithm.
+      4. Train Model: 
+         - Train the model on the data.
+      5. Evaluate Model: 
+         - Check the model's performance.
+      6. Tune Model: 
+         - Optimize settings to improve accuracy.
+      7. Deploy Model
+         - Put the model into use.
+      8. Monitor Model:
+         - Monitor the model to keep it up to date.
+
+################################################################################################
+19.  Write a note on Anaconda and Jupyter Notebook and pip.
+   1. Anaconda -
+      1. Anaconda is free and opensoure distribution for python and R programming.
+      2. It is design for data-science, machine learning etc.
+      3. It has package manager conda  
+      4. Conda is used for installing and uninstalling package.
+      5. Comes with pre-installed libries  like pandas, numpy, matplotlib, etc.
+      6. It is cross platform - it is work on Windows, MacOS, Linux.
+
+   2. Jupyter Notebook
+      1. Jupyter is free and opensource webapplication.
+      2. Work similarly like python shell.
+      3. It allow us to write python code.
+      4. It allow us to create and share document.
+      5. Runs on browser
+      6. Support inline visulaization with librires like Matplotlib and Seaborn.
+
+   3. pip
+      1. Pip is python default package manager.
+      2. It comes with python install.
+      3. It allow you to install, upgrade and manage python packages. 
+      4. Use command pip install <package name> to install package
+      5. Use command pip uninstall <package name> to unistall package
+      6. Allow you install project dependency using pip install requirements.txt  
+
+################################################################################################
+
+9.   During analysis, how do you treat the missing values?
+     1. Remove missing data
+        - Drop rows or column with too many missing value.
+     2. Inputs missing data
+        - fill missing values N/A or mean, mediam , mode based on condition
+        - write seperate script for that and execute carefully.
+     3. Flag
+        - Create new column which flag=True when there is missing values
+        - this help you to identify missing value in data.
+     4. Leave
+        - some models handles missing values so you can leave as well based on your environment.
+
+###############################################################################################
+13.  How to drop rows that contain a missing value from a numpy array?
+
+            import numpy as np
+            array = np.array(
+               [1,2,3],
+               [4, np.nan, 6]
+            )
+
+            cleaned_array = array[~np.isnan(array).any(axis=1)]
+
+            print(cleaned_array)
+
+################################################################################################
+50.  What is Neural Network?  Explain  Forward and backward propagation in neural network.
+     Neural Network -
+         -  Neural network is the model inspired by human brain, consist of inter-connected 
+            neuron, used to learn pattern and make prediction from data.
+     1. Forward propagation 
+         1. It is the process of passing input data to network to get an output.
+         2. It is used for generic prediction.
+         3. It main goal to obtain final prediction from input data.
+         4. The data flow is in Forward direction. 
+         5. Start with input layer
+         6. End with output layer with prediction
+         7. It does not have loss funstion
+         8. Use in prediction
+
+     2. Backward propagation 
+         1. It is the process of adjusting weights based on errors to minimize loss.
+         2. It is used for learning or weight adjustment.
+         3. It is main goal to optimize the model by reducing error while
+            prediction.
+         4. Data flow is in backward direction
+         5. Start with output layer.
+         6. End with input layer with updated weight.
+         7. It has loss funtion.
+         8. Use in model training.
+
+
+###########################################################################################
+40.  Explain Neural Network Fundamentals.
+     Neural Network -
+         -  Neural network is the model inspired by human brain, consist of inter-connected 
+            neuron, used to learn pattern and make prediction from data.
+      
+      Process -
+         1. Input layer -
+            - REceives raw data.
+         2. Hidden Layer -
+            - Process data using weights, biases, and activation funtion to detect pattern.
+         3. Output Layer -
+            - Produce the final results.
+
+      Components -
+         1. Weight -Parameter that control data-flow between neurons.
+         2. Activation Funtion - Help network to learn complex patterns.
+         3. Loss function - Measures error in predictions.
+
+      Training -
+         1 Forward propagation
+         2. Backward Propation.
+
+      
+
+##########################################################################################
+
+35.  Write a note on Hbase.
+     1. It is opensource, distributed database
+     2. It is build on top of hadoop
+     3. It is design for realtime, large-scale data
+     4. It is insipired by GOOGLE Bigtable
+     5. It is highly scalable.
+     6. The data is stored in column wise not in row wise.
+
+##########################################################################################
+36.  Explain Data Wrangling with one example.
+   -  Data Wrangling - It is process of cleaning and transforming data into sutable format for
+      analysis or machine learning.
+
+      Step in Wrangling 
+        1. handle missing values
+        2. Format data
+        3. Remove Duplicate
+        4. Transform data.
+
+    Eg -
+         -------------------------------
+          Date       + Product + Amount  
+         ------------+---------+--------
+          11-10-2023 +    A    +   100    
+          11-12-2023 +    B    +   nan    
+          11-12-2023 +    A    +   100 
+         -------------------------------
+
+         Data after Wrangling
+         
+               .
+         -------------------------------
+          Date       + Product + Amount  
+         ------------+---------+--------
+          2023-11-10 +    A    +   100    
+          2023-11-12 +    B    +   100    
+         -------------------------------
+
+
+       Key changes -
+         1. change the date format
+         2. Remove duplicate records
+         3. Fill missing out values
+         
+##################################################################################################
+39.  Write a note on SciKit-Learn.
+     1. Scikit Learn is the most powerful roboust machine learning library in python.
+     2. It is free and open-source.
+     3. It is build upon Numpy, Scipy and matplotlib.
+     4. It is also known as sklearn.
+     5. It support data-modeling and data-visulaization as well.
+     6. It provide both supervised and unsupervised algorithims.
+     7. It is biginner friendly.
+     8. Also can be used for data-anaylisis.
+
+#############################################################################################
+         
+ 47.  Explain Recommender Systems with example.
+      -  Recommeder system suggest items (like product, movies, music) based on user preference
+         and behaviours.
+      -  It is divided into three types
+            1. Collaborative Filtering
+            2. Content based Filtering
+            3. Hybrid Filtering.
+      - 1. Collaborative Filtering 
+            -  It further divided into
+                  1. User based
+                  2. Item based
+            1. User based - 
+               - Recommends items based on others user likes or most users likes
+            2. Item based -
+               - REcommends items based on user likes
+      - 2. Content based Filtering 
+            - Recommends items based on featere similarly to the user like before.
+            eg - spotify suggest music based on genere.
+
+      - 3. Hybrid 
+           - It is combonation of both Collaborative filtering and Content based filtering.
+ 
+      - 4. Example 
+           Amazon - Recommends products based on purchase history.
+           Netfilx - Suggest movies based on watched history.
+           Spotify - Suggest music based on listining history.
+
+###############################################################################################
+57.  Explain Time Series with one example.
+     - A time series is a sequence of data points measured at successive time intervals.
+     - It helps analyze patterns over time, like trends, seasonality etc.
+
+     For example - Monthly Sales Data.
+
+                     +------------+------------+
+                     | Month      | Sales ($)  |
+                     +------------+------------+
+                     | January    | 2000       |
+                     | February   | 2200       |
+                     | March      | 2500       |
+                     | April      | 2800       |
+                     | May        | 3000       |
+                     | June       | 3500       |
+                     | July       | 3800       |
+                     | August     | 4200       |
+                     | September  | 4300       |
+                     | October    | 5000       |
+                     | November   | 5500       |
+                     | December   | 6000       |
+                     +------------+------------+
+        
+        In this example 
+         - Trend - sales are increase over time.
+         - seasonality - Sales tend to increse toward end of the year
+                       due to holidays seasons.
+      Key component -
+         Trend - Overall direction increase , decrease, sutable
+         seasonality - Pattern that repeat after interval of time (eg, yearly, monthly)
+         Noise - Random fluctuation or errors in data.
+
+################################################################################################
 1. What is the difference between data analytics and data science?
 
 Data science                            Data analytics
@@ -380,5 +711,259 @@ Data science                            Data analytics
 
 ###############################################################################################
 
-
 41.  What is deep learning? What is the difference between deep learning and machine learning?
+    Deep Learning                          Machine Learning
+    1. It is subset of                  1. It is super-set of deep learning.
+       Machine Learning
+    2. Deep Learning is evolution       2. Machine Learning is evloution of AI
+       of Machine learning
+    3. It uses Neural Network           3. It uses Structured Data.
+    4. Has millions of data-points      4. Has thousand of data-points.
+    5. GPU is required for training     5. CPU is required for training.
+    6. Huge amount of time required     6. Less amount of time required.
+    7. Required more computational       7. Required less computaional power
+       power
+     8. Result not easy to explain      8. Result easy to explain.
+
+#################################################################################################
+6.   Create a two 2-D array using numpy and  Plot it using matplotlib,
+
+        import numpy as np  
+        import matplotlib.pyplot as plt 
+        
+        array1 = np.random.rand(4,4)
+        array2 = np.random.rand(4,4)
+
+        plt.imshow(array1)
+        plt.title("Array 1")
+        plt.show()
+
+        plt.imshow(array2)
+        plt.title("Array 2")
+        plt.show()
+
+###########################################################################################
+7.   How would you convert a Pandas DataFrame into a NumPy array?
+    Method - 1
+        - using .to_numpy() method we can convert the pandas dataframe into numpy.
+    Method - 2
+        - Using .values 
+
+    Eg -
+            import pandas as pd 
+            df = df.dataframe({
+                [1,2,3]
+                [4,5,6]
+            })
+                
+            df.to_numpy()
+            df.values
+
+            print(df.to_numpy())
+            print(df.values)
+
+#############################################################################
+14.  Demonstrate with code  to add a column to a pandas existing DataFrame? 
+
+            import pandas as pd
+
+            df = pd.Dataframe({
+                "A":[ 1, 2, 3, 4],
+            })
+
+            # Add column B
+            df["B"] = [ 1, 2, 3, 4]
+
+            print(df)
+
+#####################################################################################
+15.  Write a Pandas program to read a csv file from a specified source and print the first 5 rows.
+
+            import pandas as pd
+
+            file = "your csv file path"
+
+            df = df.read_csv(file)
+
+            print(df.head())
+
+###################################################################################
+16.  What is a Data Frame in pandas? What are the different ways in which a DataFrame can be created in Pandas?
+
+    Data-Frame
+     -  Dataframe is the 2 dimentional data-structure , 
+        like two dimentional array , or table which contain 
+        rows and column.
+    Follwing are the ways by which we can create pandas dataframe.
+        1. From pyton dictionary
+        2. from list of dictionary
+        3. from list of list
+        4. from Series
+        5. from numpy array
+        6. from csv.
+-------------------------------------------------------------
+    1. From pyton dictionary
+        import pandas as pd
+
+        data = {
+            "Name": "Nickson",
+            "city":"kolhapur",
+            "age":"44"
+        }
+        df = pd.Dataframe(data)
+----------------------------------------------------------------
+    2. from list of dictionary
+
+        import pandas as pd
+
+        data = [
+            {"name":"Mike"},
+            {"name":"Json"},
+            {"name":"Juli},
+            ]
+        df = pd.Dataframe(data)
+ ----------------------------------------------------------------   
+    3. from list of list
+
+        import pandas as pd
+        data = [
+            ["json","mike"],
+            [2,4],
+        ]
+        df = pd.Dataframe(data, column=['name','rating'])
+---------------------------------------------------------------------
+    4. From series
+        import pandas as pd
+        data = pd.series(1,2,3,4)
+        df = pd.Dataframe(data, columns=['number'])
+  ----------------------------------------------------------------- 
+    5. from numpy array
+        import pandas as pd
+        import numpy as np
+        data = np.array(
+            [1,2]
+            ["mike", "json],
+           
+        )
+        df = pd.Dataframe(data, columns=['id', 'name'])
+  ------------------------------------------------------------  
+    6. from existing csv
+
+       import pandas as pd
+       file = 'your/csv/path/file.csv'
+       df = pd.read_csv(file)
+       print(df.head())
+
+###########################################################################################
+18.  What is Data frame . Write a code to convert data frame into csv file.
+
+    Data-Frame
+     -  Dataframe is the 2 dimentional data-structure , 
+        like two dimentional array , or table which contain 
+        rows and column.
+        
+        import pandas as pd
+
+        data = {
+            'Name': ['Alice', 'Bob', 'Charlie'],
+            'Age': [25, 30, 35],
+            'City': ['New York', 'Los Angeles', 'Chicago']
+        }
+
+        df = pd.Dataframe(data)
+
+        df.to_csv('output.csv')
+
+#########################################################################################
+
+17.  What is python Pandas? Explain different data structures of Pandas with example.
+   Pandas -
+      - Pandas is python libries for data manupulation and analysis.
+      - It is free and opensource
+    Following are the diffrent pandas data-structures
+      1. Series - It is one dimentional array with labeled index 
+                  it is similar to list but with index.
+            
+      2. Dataframe -  It is two dimentional data-structure , 
+                      like two dimentional array , or table which contain 
+                      rows and column.
+
+      3. Pannel - It is three diementional datastructure
+                - less commonly used 
+                - it is replace by dataframe by multi-index feauture
+
+################################################################################################
+
+52.  Explain Pandas functions for Data Analysis and manipulation.
+    1. read_csv() - read data from csv file.
+       eg - 
+            df = pd.read_csv('file.csv')
+ 
+    2. to_csv()  Save dataframe to a csv file.
+        eg -
+            df.to_csv('output.csv')
+    3. read_excel() - read data from excel.
+        eg -
+            df = pd.read_excel('file.xlsx')
+
+    4. to_excel() - save data frame into excel
+        eg - 
+            df.to_excel('output.xlsx', index=False)
+
+    5. head() - give first five record of dataframe
+        eg - 
+           - df.head()
+    6. head() - give last five record of dataframe
+        eg - 
+           - df.tail()
+    7. merge() - Merge two dataframe into one
+        eg -
+           - result = pd.merge(df1, df2)
+    8. rename()
+        eg -
+           - df.rename(columns={'Name':'full name'}, inplace=True)
+
+######################################################################################################
+
+    import pandas as pd
+    
+    data = {
+        "name:["Sam", "Jonny", "Max"],
+        "age":[18, 24, 22]
+    }
+
+    df = pd.Dataframe(data)
+
+    # 1. How can you sort the Dataframe
+    sorted_age = df.sort_values(by="age", asending=False)
+
+    # 2. Get Min and Max values rows
+    max_age = df.loc[ df['age'].idxmax() ]
+    min_age = df.loc[ df['age'].idxmin() ]
+
+    # 3. Get list of column basd on datatypes
+    int_column = df.select_dtype(include="int64").coloum.tolist()
+
+    # 4. Slice dataset
+    slice_data = df.iloc[:2, :2]
+
+
+#######################################################################################################
+20.  What is Matplotlib, pyplot and plotting types. Demonstrate one type with example.
+    1. Matplotlib -
+        1. Matplotlib is powerful data-visulization package.
+        2. It is free and open-source
+        3. It used in data-visulization task.
+    2. pyplot -
+       It is sub-module of matplotlib which provide simple interface to create plots.
+
+    For example -
+       import matplotlib.pyplot as plt
+
+       x = [1,2,3,4]
+       y = [1,2,3,4]
+
+       plt.plot(x,y)
+       plt.title("Line Plot Example")
+       plt.show()
+###########################################################################################################
