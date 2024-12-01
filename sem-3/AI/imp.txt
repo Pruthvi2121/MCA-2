@@ -1,0 +1,39 @@
+
+5) Differentiate between informed and uninformed search algorithms in AI. 
+
+    6. Explain Informed search algorithm ?
+    7. What is informed search, and how does it differ from uninformed search?
+    8. Explain Heuristic Search in detail.
+    9.  Describe Heuristic search with suitable example. .
+
+1. Informed search (Heuristic Search)
+Defination - Infomed search algorithm explore the search space with having extra information
+             called (Heuristics) to reach the goal. they protise the option based on there extra knowlodge.
+             
+  - 1. It is also know as Heuristic Search
+  - 2. It use knowlodge for searching process
+  - 3. It find solution more quicky
+  - 4. It may or may not be complte
+  - 5. It is cost efficient
+  - 6. It takes less time because of quick searching
+  - 7. It is less complex for implementation
+  - 8. It required less computational requirement
+
+
+
+2. Uninformed Search (Blind Search)
+
+ Defination - Uninfomed search algorithm explore the search space without having any extra information
+              about how to reach the goal. they treat all options equally and do not use any clues and strategies
+              to reach goal.
+              
+  - 1. It is also know as Blind Search
+  - 2. It not use knowlodge for searching process
+  - 3. It find solution slowly
+  - 4. It is always complete.
+  - 5. It is costly
+  - 6. It takes moderate time because of slow searching
+  - 7. It is more complex for implementation
+  - 8. It required high computational requirement than informed search
+  
+ ###############################################################################################################

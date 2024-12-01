@@ -156,29 +156,31 @@ a.	What is semantic net .Explain disadvantages of semantic net
 -------------------------------------------------------------------------------------------------------------
 #########################################################################################################
 
-1.	What is Artificial Neural Network? Explain appropriate problem for Neural Network Learning with its characteristics. 
+1.	What is Artificial Neural Network? Explain appropriate problem for Neural Network Learning with its characteristics. #
 2.	Explain mathematical Model for a Neuron. 
-1.	What is an Artificial Neural Network ?
-2.	Explain the Architecture of ANN.
-3.	What are some common Applications of ANN ?
-4.	Explain Basic Concepts of ANN.
-5.	What are the Types of Artificial Neural Network ?
-6.	Differentiate between Artificial Neurons and Biological Neurons.
+1.	What is an Artificial Neural Network ?#
+2.	Explain the Architecture of ANN.#
+3.	What are some common Applications of ANN ? #
+4.	Explain Basic Concepts of ANN.#
+5.	What are the Types of Artificial Neural Network ? #
+6.	Differentiate between Artificial Neurons and Biological Neurons. #
 7.	How are Neurons Organized in an Artificial Neural Network ?
-8.	Give the Advantages and Disadvantages of ANN for Modeling Data ?
-9.	What is an Activation Function ?
+8.	Give the Advantages and Disadvantages of ANN for Modeling Data ? #
+9.	What is an Activation Function ? #
 10.	Explain Need of Activation Function in ANN ?
-11.	Explain Linear and Non-Linear Activation Functions.
-12.	What is an Activation Function ? Explain its Need . Give types of  Activation Functions.
-13.	Explain the Concept of Feed Forward Network.
-14.	What are the Types of Feed Forward Network ?
-15.	What are the limitations of Feed Forward Network ?
+11.	Explain Linear and Non-Linear Activation Functions.#
+12.	What is an Activation Function ? Explain its Need . Give types of  Activation Functions. #
+13.	Explain the Concept of Feed Forward Network. #
+14.	What are the Types of Feed Forward Network ? #
+15.	What are the limitations of Feed Forward Network ? #
 16.	What is Recurrent Neural Network ?
 17.	How RNN differs from Feed Forward Network ?
-18.	Explain the Working Architecture of RNN.
+18.	Explain the Working Architecture of RNN. #
 19.	How does the Back-Propagation through Time work in RNN?
-20.	Explain Deep Neural Network with its Types.
-21.	What is a Deep Learning Framework ?
+20.	Explain Deep Neural Network with its Types.   #
+21.	What is a Deep Learning Framework ? #
+
+
 22.	Explain Fuzzy Set Theory in Detail.
 23.	What are the Different Operations used on Fuzzy Sets ?
 24.	What is the Fuzzy Membership Function ?
@@ -244,3 +246,10 @@ C.	Fuzzy Small.
 45.	Define and Explain the Expert System in Artificial intelligence?
 46.	Definition and Explain Benefits of Expert System?
 47.	Explain Component of Expert System?
+
+
+1
+2
+5
+11.12.13,14,17,19,20,26,27,28,35,39,40,41,43,45,
+47

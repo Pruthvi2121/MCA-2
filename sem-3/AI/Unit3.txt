@@ -1,0 +1,271 @@
+40.   Artificial Neural Network .
+
+     Neural Network -
+         -  Neural network is the model inspired by human brain, consist of inter-connected 
+            neuron, used to learn pattern and make prediction from data.
+      
+      Process -
+         1. Input layer -
+            - REceives raw data.
+         2. Hidden Layer -
+            - Process data using weights, biases, and activation funtion to detect pattern.
+         3. Output Layer -
+            - Produce the final results.
+
+      Components -
+         1. Weight -Parameter that control data-flow between neurons.
+         2. Activation Funtion - Help network to learn complex patterns.
+         3. Loss function - Measures error in predictions.
+
+      Training -
+         1 Forward propagation
+         2. Backward Propation.
+
+What are the Types of Artificial Neural Network ?
+    1. FeedForward Neural Network (FNN)
+       - Simple network where data flow from input to output without loop.
+    2. Convolutional Neural Network (CNN) 
+       - Used for Image and video processing.
+    3. Recurrent Neural Network (RNN)
+       - Handle sequence and time series.
+    4. Long Short Term Memory (LSTM) 
+       - It is type of RNN that handle long term dependency.
+    5. Generative Adversarial Network ( GAN ).
+       - It consist of generator and discriminator  used for generating realistic data.
+    6. Autoencoders - 
+       - Used for unsupervised task like data compression and anomaly detection.
+
+Advantage
+ 1. Powerful Learning Ablity.
+    - Can learn complex pattern from data. even throught  
+Disadvantage
+
+
+Application -
+
+    1. Image Recognation-
+    - Used facial recogniation system, like unlocking your phone with your face.
+    2. Voice Assistant 
+        - Powerful voice assistant like alexa and google assistant.
+    3. Self Driven Car -
+        - Helping car to detect object , traffic signal to drive safely.
+    4. Span Detection - 
+        - Identify Spam email in your inbox.
+    5. Fraud Detection - 
+        - Bank uses ANN to detect unusal transation to prevent fraud.
+    6. Online Recommendation 
+        - Recommend Movies, music or product based on watched history, serach.
+    7. Mediacal Diagnosis - 
+        - Used in Detecting Diseases via X-ray, Microsoft
+    8. Stock Market Prediction
+        - Used in prediction of stock price and trend to help investers.
+        
+################################################################################################
+
+Diffrence between Artificial Neurons and Biological Neurons
+       Artificial Neurons                      Biological Neurons
+1. It is Mathematical model                 1. It is 
+2. It is very fast                          2. It is slower than Artifical Neurons
+3  Power source is  electricity and         3. Get energy from food
+   computer hardware
+4. Learn though training algorithms         4. Leran through experience
+5. It is small in size                      5. It is large in size.
+6. It does not provide feedback             6. It provide feedback.
+7. There is no fault tolerance              7. It has fault tolerance.
+8. It is vulnerable                         8. It is robust.
+9. Its processing is sequential             9. Its processing is parellel and distributed.
+   and centeralized 
+###################################################################################################
+
+Explain Linear and Non-Linear Activation Functions.
+- . Activation function -
+      Activation funtion in neural network is mathematical funtion applied to neuron to 
+      indentify its activation level.
+
+-1. Linear Activation Funtion -
+     1. Linear activation funtion is one whose output is directly proprortional to input.
+     2. Its output range is bounded
+     3. Limitation in modeling linear relationship.
+     4. It cannot handle complex, non-linear relationships.
+     5. It cannot improve performance in deep networks
+     6. It is a linear transformation of the input.
+  
+- 2. Non-Linear Activation Funtion 
+     1.  A non-linear activation function is a function introduces non-linearity to a neural network, 
+       allowing it to learn and model complex patterns.
+     2. Its output range in unbounded.
+     3. Not Limited in modeling non linear relationship.
+     4. It can handle complex, non-linear relationships,
+     5. It can improve performance in deep networks
+     6. It is a non linear transformation of the input.
+
+
+#######################################################################################################
+
+40.   Artificial Neural Network .
+
+     Feed Forwarding Neural Network (FFNN) -
+         1.   Feed Forwarding Neural Netwrok is one of the simplest type of artifical neural network
+         2.   where the data is flow in one directional from input layer to output layer .
+         3.   There are no cycles and loop invole in the process.
+      
+      Process -
+         1. Input layer -
+            - Receives raw data.
+         2. Hidden Layer -
+            - Process data using weights, biases, and activation funtion to detect pattern.
+         3. Output Layer -
+            - Produce the final results.
+
+      Types -
+         1. Single Layer Feed Forwarding Network
+            1. - It is simplest type of feedforwarding Network.
+            2. - It has only one layer of neuron between input and output layer
+            3. - It does not have hidden layer.
+
+         2. Multipal Layer Feed Forwarding Network
+            1. it is more complex type of Feed Forwarding Network
+            2. It has many hidden layer between input and output layer
+            3. which can help in solving complex patterns.
+
+      Limitation - 
+           1. Limited Memory -
+              - FFN cannot rememeber past inputs.
+           2. No Temporal Learning -
+              - Struggle with task like speech or  lanaguage processing.
+           3. Expensive -
+              - it is cost inefficient .
+           4.  Difficulty with complex pattern -
+              - It may be struggle with non-linear complex patterns.
+
+########################################################################################################
+
+- RNN 
+  1. RNN stand for Recurrent Neural Network 
+  2. RNN is neural network designed for sequential data.
+  3. Unlike the traditional network RNN has loops in his architecture.
+  4. It has feedback loop that allow it to maintain memory of privous input and output.
+  5. Make it sutable for task like speech recogniation, Natural lanaguage process, etc.
+  6. Working 
+
+         1. Input layer -
+            - Receives raw data.
+         2. Hidden Layer -
+            - Process data using weights, biases, and activation funtion to detect pattern.
+         3. Output Layer -
+            - Produce the final results.
+
+####################################################################################
+
+- DNN 
+   1. It is type of artificial neural network which consist of multipal hidden layers 
+       between the input and output layer
+   2. They also called Deep, because they have many layer that allow them to learn complex 
+      pattern.
+   3. Working 
+
+         1. Input layer -
+            - Receives raw data.
+         2. Hidden Layer -
+            - Process data using weights, biases, and activation funtion to detect pattern.
+         3. Output Layer -
+            - Produce the final results.
+
+   4. Types 
+       1. Feed Forward Neural Network FFNN -
+            1.   Feed Forwarding Neural Netwrok is one of the simplest type of artifical neural network
+            2.   where the data is flow in one directional from input layer to output layer .
+
+       2. RNN Recurrent Neural Networks RNN-
+            1. RNN is neural network designed for sequential data.
+
+##########################################################################################################
+
+22.	Explain Fuzzy Set Theory in Detail.
+23.	What are the Different Operations used on Fuzzy Sets ?
+24.	What is the Fuzzy Membership Function ?
+25.	Enlist some Features of Membership Function.
+26.	Write a Short Note on :
+      A.	Fuzzy Gaussian.
+      B.	Fuzzy Large.
+      C.	Fuzzy Small.
+27.	Explain the Concept of Fuzzy Logic System.
+28.	Explain the Architecture of Fuzzy Logic System.
+29.	Describe  Components of Fuzzy Logic System?
+30.	Explain Pros and Cons of Fuzzy Logic System.
+31.	Enlist some Application Areas of Fuzzy Logic System.
+
+Fuzzy Set Theory -
+  1. Fuzzy set theory is a mathematical framework used to deal with uncertainty , vagueness, impression in data.
+  2. Fuzzy set theory is more flexible than traditional set theory.
+  3. It has Membership function 
+  4. Membership Funtion -
+      - It is the funtion which allign a value between 0 to 1 to each element in fuzzy sets.
+        called membership Function
+  5. it further divided into 
+      1. Fuzzy gaussian -
+         - It is membership function which shape like bell.
+         - It is ofter used in fuzzy sets where values decreases from center points
+         - Example  Temperature, age , size etc.
+      2. Fuzzy Large -
+         - It is a large membership funtion.
+         - It represent large values.
+         - It typically trianglular shape.
+         - Useful where large values need to modeled
+      3. Fuzzy small -
+         - It is small membership funtion 
+         - It represent small values in fuzzy sets.
+         - Like fuzzy large it also in trianglular shape.
+         - Useful where small values need to modeled.
+
+   Architecture/ Component -
+      1.  Fuzzification (Fuzzifier)-
+         - Convert the crisp values into fuzzy sets.
+      2. Knowlodge Base -
+         - It contain the fuzzy rules
+      3. Inference System (Inference Engine) -
+         - Applies the rules to fuzzy sets
+      4. Defuzzification (Defuzzifier)- 
+         - Convert fuzzy sets back to crips values.
+
+   Advantage 
+      1. Handling Uncertainity -
+         - Fuzzy logic are excillent in handling uncertainty in data.
+      2. Flexiblity -
+         - Fuzzy logic are highly flexible.
+      3. Human like reasoning -
+         - It can do human like resoning my processing approximate infomration.
+      4. Simple Rule based -
+        - It is easy to implement and understood.
+
+   Disadvantage -
+      1. Complex -
+         - As number of rules and fuzzy sets increase it become complex to manage.
+      2. Cost infficinet -
+         - As number of rules and fuzzy sets increase , computational expense increases.
+      3. Difuzzilization -
+         - sometime converting  fuzzy sets into crips values can decrease the quality.
+      4. Empirical Tunning -
+         - It required Empirical tunning.
+          
+Application -
+   1. Control System -
+     -  It is used in control system of washing machinge, refrigirators etc
+   2. Recognation - 
+     - It is used in speech Recognation
+   3. Image processing -
+     -  It is used in image processing.
+   4. Descision makeing -
+     - It is used in decission making in uncertain environments
+   5. Artifical intelligence -
+     - It is used in Artifical intelligence, Machine learning, etc.
+   6. Vehical -
+     - Used in vehical for navigation, obsatcle detection etc.
+
+####################################################################################################################################
+   
+         
+     
+
+
+  
