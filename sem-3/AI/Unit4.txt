@@ -1,0 +1,218 @@
+NLP (Natural Lanaguage Processing)
+1. NLP - It is branch of Artifical Intelligence which allows computer to understand and Process
+   Human Lanaguage.
+
+Working -
+   1. Input - 
+     -  Machine recive text or speech as a input.
+   2. Tokenization -
+     - Split text into smaller unit called tokens.
+   3. Analysis -
+     - Machine extract key information like name, email, address and resolve ambiguties.
+   4. Output -
+    - Machine respond or perform a task such as translation, text to speech etc.
+
+
+Components -
+
+    1. Tokenization -
+        - Split the text into smaller unit called token.
+    2. Morphological Anaysis - 
+        - Indetifify root form of the words.
+          eg running as run
+    3. Syntax Analysis -
+        -  It is also know as parsing.
+        -  Here grammer checking take place.
+    4. Semantic Analysis -
+        - It focus on understandi the meaning of word or sentence.
+    5. Named Entity Recognation -
+        - Identify the key entities like name, email, address.
+    6. Sentiment Analysis -
+       - Identify sentiment, emotion, expression in the sentence.
+       eg - (positive, negative, neutral).
+    7. Lanaguage Generation -
+       - Creating meaningful text.
+    8. Machine translation -
+       - Translate the language into diffrent language.
+    
+
+Advantage -
+    1. Automates task -
+        - It is used to automate task like summarization, tranlation etc.
+    2. Customer Service -
+        - Enhance Customer service throguh chatbots.
+    3. Provide Insights -
+        - Provide ingishts for social media and reviews.
+    4. Sentiment Analysis -
+        - Help in feedback anylisis from customer
+    5. Time Efficent -
+        - It is very time efficent.
+    6. Cost Efficent -
+        - It is very cost efficent.
+    7. Communication -
+        - NLP helps computer to comunicate with humans with there language.
+    8. Content Generation -
+       - new and orignal content generation can be possible using nlp.
+
+Disadvantages -
+    1. Language Ambiguties 
+        - One words can have multipal meanings.
+    2. Require large data -
+        - It require large data for training.
+    3. Complexity -
+        - Human lanagugae is complex to understand
+        - it is hard to indetify sentiments.
+    
+    4. Required High computational Power
+        - It requried high computational Power
+
+Tokenization -
+  - Tokenization is about spliting the text into smaller unit called token.
+  Types of tokenization -
+     1. Word Tokenization 
+     2. Sentence Tokenization
+     3. Character Tokenization
+
+    1. Word tokenization 
+      - Split the text into words
+    2. Sentence Tokenization
+      - Split the text into sentences
+    3. Character Tokenization.
+      - Split the text into individual charaters.
+
+    For Example -
+      1. Consider sentence 
+         "I love programming"
+      2. Tokenization -
+         ["I", "love", "programming"]
+
+Bag of WOrds (BoW) Example -
+   - It is model which represent the text by counting frequency of each words.
+     igoring words order and grammer.
+
+     For example 
+       1. "I like apples"
+       2. "I like mango"
+
+    step - 1 tokenization
+        1. ["I", "like", "apples"]
+        2. ["I", "like", "mango"]
+        
+    step - 2 Create vocabulary.
+        1. Vocabulary : ["I", "like", "apples", "mango"]
+    
+    step - 3  Count frequenies
+        Sentence 1: ["I" = 1, "like" = 1, "apples" = 1, "oranges" = 0]
+        Sentence 2: ["I" = 1, "like" = 1, "apples" = 0, "oranges" = 1]
+
+    step - 4 BoW Respresentation
+
+       Sentence 1 - [1, 1, 1, 0]
+       Sentence 2 - [1, 1, 0, 1]
+        
+
+    
+################################################################################################################
+Stemming - 
+    Defination - Reduce the words to there root form by chopping prefix or suffix 
+    Example -
+       running --> run
+    Advantage -
+      1. Fast -
+         - It is faster than lemmatization
+      2. Best for Data Retrival -
+         - Userful for data retrival task like serach engine , keyword matching.
+      3. Simplicity -
+         - It is easy to implements.
+     
+    Disadvantages -
+      1. Non-Standard words -
+         - Sometimes it give non-standards words 
+         - eg Happily --> Happi indtead of happy.
+
+      2. Over-stemming -
+        - Sometime it remove incorrect part of the words
+        - eg better --> bet
+       
+
+Lemmatization -
+   Definition - Reduce the words to there base form by considering words meaning 
+                and context.
+    Advantage -
+        1. Accurate Result -
+          - Provide valid and meaningful words, which make it more accurate than stemming.
+        2. Context-aware -
+          - It is consider words part of speech and meaning.
+        3. Always Accurate words -
+           - Provide Always accurate words from dictionary.
+
+    Disadvantages 
+      1. Slow -
+         - It is very slow, it takes lot of time to process.
+      2. Required High computational Power 
+         - It require large computational power compare to stemming.
+      3. Complex -
+         - It is complex to implements.
+       
+##################################################################################################
+
+3.	Explain Stop words and there advantages and disadvantages?
+    Advantage -
+       1. Reduce Noise -
+         - Removing stop words reduces unnecessary words in the dataset,
+       2. Save Computational Resources 
+         - It save computational resourses.
+       3. boost perfromance 
+         - It increases the performance of the model.
+    
+    Disadvantage -
+        1. Loss of context 
+            - sometime it remove the importance context .
+        2. Lanaguage Specific -
+            - Stop-wards are lanaugage dependant
+        3. False Relevane -
+            - Remove meaningful function words.
+
+###########################################################################################################
+Genetic Algorithm
+  - Defination -
+    - A genetic algorithm is a techniques for optimization and search engine inspired by the process of
+      natural selection.
+    - It uses the principl of evolution, selection, crossover, and mutation to find solution to the problem.
+
+    Componets -
+      1. Population - 
+         - It is set of candidate solutions. eg (chromosomes x, y)
+      2. Selection -
+         - choose the best solution based on fitness.
+      3. Crossover -
+         - combining parts of two soltuion to create new solution.
+      4. Mutation -
+         - Randomly change to the solution to introduce variety and better solution.
+      5. Fitness funtion -
+         - Fitness funtion measure of how good a solution is.
+
+    Working -
+      1. Generate Initial population
+         - Create set of random solutions.
+      2. Evaluates Fitness 
+         - 
+      3. Selection -
+         - choose the best solution based on fitness.
+         - highter fitness is the parent for next generation
+      4. Crossover -
+         - combining parts of two soltuion to create new solution.
+
+      5. Mutation -
+         - Randomly change to the solution to introduce variety and better solution.
+      
+      6. Repeat the process 
+         - Repeat the process until satified and optimal solution found.
+
+#########################################################################################################
+    
+
+
+
+
+    

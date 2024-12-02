@@ -181,39 +181,39 @@ a.	What is semantic net .Explain disadvantages of semantic net
 21.	What is a Deep Learning Framework ? #
 
 
-22.	Explain Fuzzy Set Theory in Detail.
-23.	What are the Different Operations used on Fuzzy Sets ?
-24.	What is the Fuzzy Membership Function ?
-25.	Enlist some Features of Membership Function.
-26.	Write a Short Note on :
+22.	Explain Fuzzy Set Theory in Detail. #
+23.	What are the Different Operations used on Fuzzy Sets ? #
+24.	What is the Fuzzy Membership Function ? #
+25.	Enlist some Features of Membership Function.#
+26.	Write a Short Note on : #
 A.	Fuzzy Gaussian.
 B.	Fuzzy Large.
 C.	Fuzzy Small.
-27.	Explain the Concept of Fuzzy Logic System.
-28.	Explain the Architecture of Fuzzy Logic System.
-29.	Describe  Components of Fuzzy Logic System?
-30.	Explain Pros and Cons of Fuzzy Logic System.
-31.	Enlist some Application Areas of Fuzzy Logic System.
+27.	Explain the Concept of Fuzzy Logic System. #
+28.	Explain the Architecture of Fuzzy Logic System.#
+29.	Describe  Components of Fuzzy Logic System?#
+30.	Explain Pros and Cons of Fuzzy Logic System.#
+31.	Enlist some Application Areas of Fuzzy Logic System.#
 
 -------------------------------------------------------------------------------------------------------
 #########################################################################################################
 
 
-1.	What is NLP and Explain components of NLP?
+1.	What is NLP and Explain components of NLP? #
 2.	Explain tokenization and bag of words with example?
-3.	Write note on stemming and lemmatization?
+3.	Write note on stemming and lemmatization? #
 4.	Short note on stop words?
-5.	Discuss advantages and disadvantages of NLP?
-6.	Explain NLP(Natural Language Processing ) and Phases of NLP.
-7.	What are the phases of NLP . Explain Syntactic Analysis and Semantic Analysis.
-8.	Explain the Tokenization in detail?
-9.	Explain the Bag of word in detail?
-10.	Define and explain the types of Tokenization?
-11.	Explain Stemming and Lemmatization in detail?
+5.	Discuss advantages and disadvantages of NLP? $ #
+6.	Explain NLP(Natural Language Processing ) and Phases of NLP. #
+7.	What are the phases of NLP . Explain Syntactic Analysis and Semantic Analysis. #
+8.	Explain the Tokenization in detail? #
+9.	Explain the Bag of word in detail? #
+10.	Define and explain the types of Tokenization? #
+11.	Explain Stemming and Lemmatization in detail? #
 2.	Explain Part of speech tagging and POS tagging techniques?
-13.	Explain Stop words and there advantages and disadvantages?
-14.	Explain the advantages of NLP.
-15.	Explain the disadvantages of NLP.
+13.	Explain Stop words and there advantages and disadvantages? #
+14.	Explain the advantages of NLP. #
+15.	Explain the disadvantages of NLP.  #
 16.	Write a Short note on genetic algorithm ?
 17.	Explain the basic technologies in genetic algorithm ?  
 18.	Explain in detail about various operators of genetic Algorithm?
