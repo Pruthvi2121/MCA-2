@@ -64,7 +64,7 @@ Application -
 
 Diffrence between Artificial Neurons and Biological Neurons
        Artificial Neurons                      Biological Neurons
-1. It is Mathematical model                 1. It is 
+1. It is Mathematical model                 1. It is biological cell found in neurous system.
 2. It is very fast                          2. It is slower than Artifical Neurons
 3  Power source is  electricity and         3. Get energy from food
    computer hardware
