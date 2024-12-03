@@ -1,5 +1,33 @@
 
-5) Differentiate between informed and uninformed search algorithms in AI. 
+---------------------------------------------------------------------------------
+10. Differentiate between A* and AO* algorithm.
+12. Explain the A* algorithm in detail
+13. Explain AO* Algorithm with example.
+
+-  A* Algorithm
+1. A* Algorithm find the shortest path
+2. It is path finding Algorithm.
+3. It uses simple graph
+4. It consider one path at a time
+5. It is less complex to implement
+6. It uses in GPS navigation, Maze solving, Game charater moving, etc
+7. It is always optmial to with good heuristic.
+8. It uses more memory  for large graph
+
+-  AO* Algorithm
+1. AO* Algorithm find the best strategy 
+2. It is decision-making Algorithm.
+3. It uses AND-OR graphs
+4. It consider multipal path and combinations
+5. It is more complex to implement
+6. It uses in Resources allocation, project planning etc.
+7. It is not always optmial
+8. It uses less memory due to shared states
+
+
+#################################################################################
+
+5. Differentiate between informed and uninformed search algorithms in AI. 
 
     6. Explain Informed search algorithm ?
     7. What is informed search, and how does it differ from uninformed search?
@@ -37,3 +65,241 @@ Defination - Infomed search algorithm explore the search space with having extra
   - 8. It required high computational requirement than informed search
   
  ###############################################################################################################
+
+10.	Explain forward chaining?
+11.	Explain backward chaining?
+14.	Different between forward chaining and backward chaining?
+15.	 Explain forward and backward chaining algorithms with example.
+
+1. Forward chainging -
+   1. Forward chaning start from know facts (given information) and look forwords to find
+      out solution and conclusion.
+   2. It is also know as data driven technique 
+   3. It is bottom-up approaches
+   4. It is slow compare to Backward chainging
+   5. It goal to get the solution 
+   6. It works forward from initial state to final state
+   7. It uses Breadth-Firest Search
+   8. Used in planning, monitoring 
+   
+  Algorithm :
+     step 1 - Start
+     step 2 - Apply rule to generate new facts
+     step 3 - Repeat Until reach the goal
+
+     For example - 
+        Facts - Its raining
+        Rule -  If its, rain, I can carry umbrella.
+        Check - is it raining ? Yes.
+        Conclusion - I should carry umbrella.
+
+    
+
+2. Backward chainging
+   1. Backward chaining start from goal or solution that need to achive and look backwords to find out 
+      what facts are needed to achive that solution or goal
+   2. It is also know as goal-driven technique.
+   3. It is top-down approach.
+   4. It is Fast compare to Forward chainging
+   5. Its goal to find out facts need to get the solution
+   6. It works backward from final state to initial state
+   7. It uses Depth First Search
+   8. Used in automated inference engine, therom proofs
+
+  Algorithm :
+      step 1  - start with goal
+      step 2. - find out the fact that support the goal
+      step 3. - Repeat until facts are found.
+
+      For example -
+        Facts- It's raining.
+        Rule - If its, rain, I can carry umbrella.
+        Conclusion - I should carry umbrella.
+
+##########################################################################
+40.   Artificial Neural Network (ANN) .
+
+     Neural Network -
+         -  Neural network is the model inspired by human brain, consist of inter-connected 
+            neuron, used to learn pattern and make prediction from data.
+      
+      Process -
+         1. Input layer -
+            - REceives raw data.
+         2. Hidden Layer -
+            - Process data using weights, biases, and activation funtion to detect pattern.
+         3. Output Layer -
+            - Produce the final results.
+
+      Components -
+         1. Weight -Parameter that control data-flow between neurons.
+         2. Activation Funtion - Help network to learn complex patterns.
+         3. Loss function - Measures error in predictions.
+
+      Training -
+         1 Forward propagation
+         2. Backward Propation.
+
+
+###################################################################################################
+
+Explain Linear and Non-Linear Activation Functions.
+- . Activation function -
+      Activation funtion in neural network is mathematical funtion applied to neuron to 
+      indentify its activation level.
+
+-1. Linear Activation Funtion -
+     1. Linear activation funtion is one whose output is directly proprortional to input.
+     2. Its output range is bounded
+     3. Limitation in modeling linear relationship.
+     4. It cannot handle complex, non-linear relationships.
+     5. It cannot improve performance in deep networks
+     6. It is a linear transformation of the input.
+  
+- 2. Non-Linear Activation Funtion 
+     1.  A non-linear activation function is a function introduces non-linearity to a neural network, 
+       allowing it to learn and model complex patterns.
+     2. Its output range in unbounded.
+     3. Not Limited in modeling non linear relationship.
+     4. It can handle complex, non-linear relationships,
+     5. It can improve performance in deep networks
+     6. It is a non linear transformation of the input.
+
+
+####################################################################################
+
+- DNN 
+   1. It is type of artificial neural network which consist of multipal hidden layers 
+       between the input and output layer
+   2. They also called Deep, because they have many layer that allow them to learn complex 
+      pattern.
+   3. Working 
+
+         1. Input layer -
+            - Receives raw data.
+         2. Hidden Layer -
+            - Process data using weights, biases, and activation funtion to detect pattern.
+         3. Output Layer -
+            - Produce the final results.
+
+   4. Types 
+       1. Feed Forward Neural Network FFNN -
+            1.   Feed Forwarding Neural Netwrok is one of the simplest type of artifical neural network
+            2.   where the data is flow in one directional from input layer to output layer .
+
+       2. RNN Recurrent Neural Networks RNN-
+            1. RNN is neural network designed for sequential data.
+
+###############################################################################################
+
+Fuzzy Set Theory -
+  1. Fuzzy set theory is a mathematical framework used to deal with uncertainty , vagueness, impression in data.
+  2. Fuzzy set theory is more flexible than traditional set theory.
+  3. It has Membership function 
+  4. Membership Funtion -
+      - It is the funtion which allign a value between 0 to 1 to each element in fuzzy sets.
+        called membership Function
+  5. it further divided into 
+      1. Fuzzy gaussian -
+         - It is membership function which shape like bell.
+         - It is ofter used in fuzzy sets where values decreases from center points
+         - Example  Temperature, age , size etc.
+      2. Fuzzy Large -
+         - It is a large membership funtion.
+         - It represent large values.
+         - It typically trianglular shape.
+         - Useful where large values need to modeled
+      3. Fuzzy small -
+         - It is small membership funtion 
+         - It represent small values in fuzzy sets.
+         - Like fuzzy large it also in trianglular shape.
+         - Useful where small values need to modeled.
+
+   Architecture/ Component -
+      1.  Fuzzification (Fuzzifier)-
+         - Convert the crisp values into fuzzy sets.
+      2. Knowlodge Base -
+         - It contain the fuzzy rules
+      3. Inference System (Inference Engine) -
+         - Applies the rules to fuzzy sets
+      4. Defuzzification (Defuzzifier)- 
+         - Convert fuzzy sets back to crips values.
+
+
+#######################################################################################
+NLP (Natural Lanaguage Processing)
+1. NLP - It is branch of Artifical Intelligence which allows computer to understand and Process
+   Human Lanaguage.
+
+Working -
+   1. Input - 
+     -  Machine recive text or speech as a input.
+   2. Tokenization -
+     - Split text into smaller unit called tokens.
+   3. Analysis -
+     - Machine extract key information like name, email, address and resolve ambiguties.
+   4. Output -
+    - Machine respond or perform a task such as translation, text to speech etc.
+
+Components -
+
+    1. Tokenization -
+        - Split the text into smaller unit called token.
+    2. Morphological Anaysis - 
+        - Indetifify root form of the words.
+          eg running as run
+    3. Syntax Analysis -
+        -  It is also know as parsing.
+        -  Here grammer checking take place.
+    4. Semantic Analysis -
+        - It focus on understandi the meaning of word or sentence.
+    5. Named Entity Recognation -
+        - Identify the key entities like name, email, address.
+    6. Sentiment Analysis -
+       - Identify sentiment, emotion, expression in the sentence.
+       eg - (positive, negative, neutral).
+    7. Lanaguage Generation -
+       - Creating meaningful text.
+    8. Machine translation -
+       - Translate the language into diffrent language.
+
+
+###########################################################################################################
+
+Genetic Algorithm
+  - Defination -
+    - A genetic algorithm is a techniques for optimization and search engine inspired by the process of
+      natural selection.
+    - It uses the principl of evolution, selection, crossover, and mutation to find solution to the problem.
+
+    Componets -
+      1. Population - 
+         - It is set of candidate solutions. eg (chromosomes x, y)
+      2. Selection -
+         - choose the best solution based on fitness.
+      3. Crossover -
+         - combining parts of two soltuion to create new solution.
+      4. Mutation -
+         - Randomly change to the solution to introduce variety and better solution.
+      5. Fitness funtion -
+         - Fitness funtion measure of how good a solution is.
+
+    Working -
+      1. Generate Initial population
+         - Create set of random solutions.
+      2. Evaluates Fitness 
+         - 
+      3. Selection -
+         - choose the best solution based on fitness.
+         - highter fitness is the parent for next generation
+      4. Crossover -
+         - combining parts of two soltuion to create new solution.
+
+      5. Mutation -
+         - Randomly change to the solution to introduce variety and better solution.
+      
+      6. Repeat the process 
+         - Repeat the process until satified and optimal solution found.
+
+#########################################################################################################
+    
