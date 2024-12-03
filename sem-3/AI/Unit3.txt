@@ -4,7 +4,12 @@
          -  Neural network is the model inspired by human brain, consist of inter-connected 
             neuron, used to learn pattern and make prediction from data.
       
-      Process -
+      Working / Process -
+         Consist of 3 layers
+            input layer
+            hidden layer 
+            output layer
+
          1. Input layer -
             - REceives raw data.
          2. Hidden Layer -
@@ -13,7 +18,7 @@
             - Produce the final results.
 
       Components -
-         1. Weight -Parameter that control data-flow between neurons.
+         1. Weight -Parameter that used to    control data-flow between neurons.
          2. Activation Funtion - Help network to learn complex patterns.
          3. Loss function - Measures error in predictions.
 
@@ -21,24 +26,6 @@
          1 Forward propagation
          2. Backward Propation.
 
-What are the Types of Artificial Neural Network ?
-    1. FeedForward Neural Network (FNN)
-       - Simple network where data flow from input to output without loop.
-    2. Convolutional Neural Network (CNN) 
-       - Used for Image and video processing.
-    3. Recurrent Neural Network (RNN)
-       - Handle sequence and time series.
-    4. Long Short Term Memory (LSTM) 
-       - It is type of RNN that handle long term dependency.
-    5. Generative Adversarial Network ( GAN ).
-       - It consist of generator and discriminator  used for generating realistic data.
-    6. Autoencoders - 
-       - Used for unsupervised task like data compression and anomaly detection.
-
-Advantage
- 1. Powerful Learning Ablity.
-    - Can learn complex pattern from data. even throught  
-Disadvantage
 
 
 Application -
@@ -56,9 +43,24 @@ Application -
     6. Online Recommendation 
         - Recommend Movies, music or product based on watched history, serach.
     7. Mediacal Diagnosis - 
-        - Used in Detecting Diseases via X-ray, Microsoft
+        -Used for analysi  of Mediacal images eg X-ray to detect cause
     8. Stock Market Prediction
-        - Used in prediction of stock price and trend to help investers.
+        - Used in prediction of stock price and trend to help investers..
+
+What are the Types of Artificial Neural Network ?
+    1. FeedForward Neural Network (FNN)
+       - Simple network where data flow from input to output without loop.
+    2. Convolutional Neural Network (CNN) 
+       - Used for Image and video processing.
+    3. Recurrent Neural Network (RNN)
+       - Handle sequence and time series.
+    4. Long Short Term Memory (LSTM) 
+       - It is type of RNN that handle long term dependency.
+    5. Generative Adversarial Network ( GAN ).
+       - It consist of generator and discriminator  used for generating realistic data.
+    6. Autoencoders - 
+       - Used for unsupervised task like data compression and anomaly detection.
+
         
 ################################################################################################
 
@@ -82,22 +84,25 @@ Explain Linear and Non-Linear Activation Functions.
       Activation funtion in neural network is mathematical funtion applied to neuron to 
       indentify its activation level.
 
--1. Linear Activation Funtion -
-     1. Linear activation funtion is one whose output is directly proprortional to input.
-     2. Its output range is bounded
-     3. Limitation in modeling linear relationship.
-     4. It cannot handle complex, non-linear relationships.
-     5. It cannot improve performance in deep networks
-     6. It is a linear transformation of the input.
-  
-- 2. Non-Linear Activation Funtion 
-     1.  A non-linear activation function is a function introduces non-linearity to a neural network, 
-       allowing it to learn and model complex patterns.
-     2. Its output range in unbounded.
-     3. Not Limited in modeling non linear relationship.
-     4. It can handle complex, non-linear relationships,
-     5. It can improve performance in deep networks
-     6. It is a non linear transformation of the input.
+    Activation funtion are divided into two types 
+         -1. Linear Activation Funtion -
+            1. Linear activation funtion is one whose output is directly proprortional to input.
+            2. Its output range is bounded
+            3. Limitation in modeling linear relationship.
+            4. It cannot handle complex relationships.  
+            4. It cannot handle non-linear relationships.
+            5. It cannot improve performance in deep networks
+            6. It is a linear transformation of the input.
+         
+         - 2. Non-Linear Activation Funtion 
+            1.  A non-linear activation function is a function introduces non-linearity to a neural network, 
+               allowing it to learn and model complex patterns.
+            2. Its output range in unbounded.
+            3. Not Limited in modeling non linear relationship.
+            4. It can handle complex relationships,
+            4. It can handle both linear and non-linear relationships,
+            5. It can improve performance in deep networks
+            6. It is a non linear transformation of the input.
 
 
 #######################################################################################################
@@ -144,8 +149,9 @@ Explain Linear and Non-Linear Activation Functions.
   1. RNN stand for Recurrent Neural Network 
   2. RNN is neural network designed for sequential data.
   3. Unlike the traditional network RNN has loops in his architecture.
-  4. It has feedback loop that allow it to maintain memory of privous input and output.
+  4. It has feedback loop that allow network to maintain memory of privous input and output.
   5. Make it sutable for task like speech recogniation, Natural lanaguage process, etc.
+
   6. Working 
 
          1. Input layer -
@@ -154,6 +160,9 @@ Explain Linear and Non-Linear Activation Functions.
             - Process data using weights, biases, and activation funtion to detect pattern.
          3. Output Layer -
             - Produce the final results.
+         4. Feedback loop.
+            - maintain memory of previous input and output.
+         
 
 ####################################################################################
 
@@ -202,10 +211,14 @@ Fuzzy Set Theory -
   4. Membership Funtion -
       - It is the funtion which allign a value between 0 to 1 to each element in fuzzy sets.
         called membership Function
-  5. it further divided into 
+  5. it further divided into
+      1. Fuzzy Gaussian
+      2. Fuzzy Large
+      3. Fuzzy Small
+
       1. Fuzzy gaussian -
          - It is membership function which shape like bell.
-         - It is ofter used in fuzzy sets where values decreases from center points
+         - It is often used in fuzzy sets where values decreases from center points
          - Example  Temperature, age , size etc.
       2. Fuzzy Large -
          - It is a large membership funtion.

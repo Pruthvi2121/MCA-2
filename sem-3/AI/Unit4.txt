@@ -2,7 +2,6 @@ NLP (Natural Lanaguage Processing)
 1. NLP - It is branch of Artifical Intelligence which allows computer to understand and Process
    Human Lanaguage.
 
-Working -
    1. Input - 
      -  Machine recive text or speech as a input.
    2. Tokenization -
@@ -11,7 +10,6 @@ Working -
      - Machine extract key information like name, email, address and resolve ambiguties.
    4. Output -
     - Machine respond or perform a task such as translation, text to speech etc.
-
 
 Components -
 
@@ -24,15 +22,17 @@ Components -
         -  It is also know as parsing.
         -  Here grammer checking take place.
     4. Semantic Analysis -
-        - It focus on understandi the meaning of word or sentence.
-    5. Named Entity Recognation -
-        - Identify the key entities like name, email, address.
+        - It focus on understanding e meaning of word or sentence.
+  
     6. Sentiment Analysis -
        - Identify sentiment, emotion, expression in the sentence.
        eg - (positive, negative, neutral).
+
+   5. Named Entity Recognation -
+        - Identify the key entities like name, email, address.
     7. Lanaguage Generation -
        - Creating meaningful text.
-    8. Machine translation -
+    8. Translation -
        - Translate the language into diffrent language.
     
 
@@ -188,15 +188,15 @@ Genetic Algorithm
       3. Crossover -
          - combining parts of two soltuion to create new solution.
       4. Mutation -
-         - Randomly change to the solution to introduce variety and better solution.
+         - Random change to the solution to introduce variety and better solution.
       5. Fitness funtion -
          - Fitness funtion measure of how good a solution is.
 
     Working -
-      1. Generate Initial population
+      1. Generate Initial Population
          - Create set of random solutions.
-      2. Evaluates Fitness 
-         - 
+      2. Fitness Evolution
+         - Evaluate fitness of solution using fitness funtion
       3. Selection -
          - choose the best solution based on fitness.
          - highter fitness is the parent for next generation

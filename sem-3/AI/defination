@@ -1,0 +1,30 @@
+1. NLP - It is branch of Artifical Intelligence which allows computer to understand and Process
+   Human Lanaguage.
+
+2. Genetic Algorithm
+  - Defination -
+    - A genetic algorithm is a techniques for optimization and search engine inspired by the process of
+      natural selection.
+
+1. Informed search (Heuristic Search)
+  Defination - Infomed search algorithm explore the search space with having extra information
+              called (Heuristics) to reach the goal. they protise the option based on there extra knowlodge.
+              
+2. Uninfomed search (Blind Search)          
+Defination - Uninfomed search algorithm explore the search space without having any extra information
+                  about how to reach the goal. they treat all options equally and do not use any clues and strategies
+                  to reach goal.
+                  
+ Neural Network -
+         -  Neural network is the model inspired by human brain, consist of inter-connected 
+            neuron, used to learn pattern and make prediction from data.
+
+- . Activation function -
+      Activation funtion in neural network is mathematical funtion applied to neuron to 
+      indentify its activation level.
+
+   2. RNN is neural network designed for sequential data.
+
+  - DNN 
+   1. It is type of artificial neural network which consist of multipal hidden layers 
+       between the input and output layer

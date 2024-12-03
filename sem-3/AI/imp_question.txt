@@ -1,0 +1,16 @@
+1. A* algorithm, AO* algorithm  #
+2. state space search  #
+3.  Informed and uninformed search #
+4. Explain Constraint satisfaction problem 
+5.  knowledge representation & its types
+6. predicate logic #
+7. Prepositional logic #
+8. Difference between forward and backword chaining #
+9. Types of inference rules
+10. Architecture of Artificial Neural Network #
+11. Explain Activation functions  #
+12. Explain Deep Neural Networks with types #
+13. Explain Architecture of Recurrent Neural Network #
+14. Explain fuzzy set theory with its architecture. #
+15. Explain the Natural language processing with its Components.#
+16. Explain Genetic algorithm #

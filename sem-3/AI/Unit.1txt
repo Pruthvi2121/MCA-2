@@ -21,7 +21,7 @@
 
     6. Application of AI
         1. Diagnosis - 
-           - Analysis Mediacal images eg X-ray to detect cause
+           - AI used for analysi  of Mediacal images eg X-ray to detect cause
         2. Personialised Medicine -
            - Treatment based on  individual patient history
         3. Virtual Health Assistent 
@@ -35,14 +35,14 @@
         7. Recommendation system -
            - suggest product based on user behavior.
         8. AI in Cinamitography -
-           - Creating or editing video based on AI
+           - Creating or editing video using AI
 
------------------------------------------------------------------------------------------------------
+##########################################################################################
 
  2. What are the limitations of AI ?
     1. Traing AI -
-       AI require larage ammount of high quality data to train 
-    2. Data Privacy -
+       Training AI require larage ammount of high quality data to train.
+    2. Data Privacy Issue -
        collecting and using personal data can cause privacy issue.
     3. Lack of generation
        Most AI application are trained for specific task so 
@@ -101,7 +101,8 @@
            - (4, 3)
            
       step -8 Now you have exactly 4 liters in Jug A which is desired solution.
---------------------------------------------------------------------------------------------
+
+#######################################################################################################
         
 6. Explain Informed search algorithm ?
 7. What is informed search, and how does it differ from uninformed search?
@@ -110,7 +111,7 @@
 
 1. Informed search (Heuristic Search)
 Defination - Infomed search algorithm explore the search space with having extra information
-             called (Heuristics) to reach the goal. they protise the option based on there extra knowlodge.
+             called (Heuristics) to reach the goal. they priotise the option based on there extra knowlodge.
              
   - 1. It is also know as Heuristic Search
   - 2. It use knowlodge for searching process
@@ -126,7 +127,7 @@ Defination - Infomed search algorithm explore the search space with having extra
 2. Uninformed Search (Blind Search)
 
  Defination - Uninfomed search algorithm explore the search space without having any extra information
-              about how to reach the goal. they treat all options equally and do not use any clues and strategies
+             to reach the goal. they treat all options equally and do not use any clues and strategies
               to reach goal.
               
   - 1. It is also know as Blind Search
@@ -137,7 +138,8 @@ Defination - Infomed search algorithm explore the search space with having extra
   - 6. It takes moderate time because of slow searching
   - 7. It is more complex for implementation
   - 8. It required high computational requirement than informed search
-  -----------------------------------------------------------------------------------------------------------
+
+##############################################################################################
 
   9. Explain Hill Climbing algorithm in detail.
   24. What is Hill climbing algorithm in AI? Explain main features of Hill Climbing 
@@ -171,7 +173,8 @@ Defination - Infomed search algorithm explore the search space with having extra
       6. It uses Heuristic information to guide the 
          search process.
 
----------------------------------------------------------------------------------
+#########################################################################################################
+
 10. Differentiate between A* and AO* algorithm.
 12. Explain the A* algorithm in detail
 13. Explain AO* Algorithm with example.
@@ -182,8 +185,8 @@ Defination - Infomed search algorithm explore the search space with having extra
 3. It uses simple graph
 4. It consider one path at a time
 5. It is less complex to implement
-6. It uses in GPS navigation, Maze solving, Game charater moving, etc
-7. It is always optmial to with good heuristic.
+6. It uses in GPS navigation, Game charater moving, etc
+7. It is always optmial 
 8. It uses more memory  for large graph
 
 -  AO* Algorithm
@@ -194,9 +197,10 @@ Defination - Infomed search algorithm explore the search space with having extra
 5. It is more complex to implement
 6. It uses in Resources allocation, project planning etc.
 7. It is not always optmial
-8. It uses less memory due to shared states
+8. It uses less memory for large graph.   
 
-----------------------------------------------------------------------
+######################################################################################################
+
 15. What is Min-Max algorithm in AI? Explain its working.
     1. Min-Max algorithm is dession making algorithm commonly used in artifical intelligence
        particularly in two-player games, 
@@ -215,7 +219,8 @@ Defination - Infomed search algorithm explore the search space with having extra
         4. Choose the Best move
 
 
-------------------------------------------------------------------------
+###################################################################################################
+
 15. What is Min-Max algorithm in AI? Explain its working.
 
    1. Min max is the backtracking algorithm which is used in decision making and game theory
@@ -250,8 +255,7 @@ Defination - Infomed search algorithm explore the search space with having extra
       4. Best move -
          Algorithm choose the move with the best score at the root node.
 
-
---------------------------------------------------------------------------------------
+#####################################################################################
 
 14. What is alpha-beta pruning? What is condition required for Alpha-beta
      pruning?
@@ -284,7 +288,7 @@ Defination - Infomed search algorithm explore the search space with having extra
       6.  Value -
          - alfa should >= beta (greater than equeal to)
       
------------------------------------------------------------------------------------
+################################################################################################################
 
 17. What is Game Playing in AI? Explain its types and characteristics.
 18. What are the advantages and disadvantages of Game Playing in AI?
@@ -331,5 +335,5 @@ Defination - Infomed search algorithm explore the search space with having extra
          4. Cheating in Games 
             - Ai can also can be used in cheating in games like vice-city
 
-------------------------------------------------------------------------------------------------------
+#################################################################################################
          

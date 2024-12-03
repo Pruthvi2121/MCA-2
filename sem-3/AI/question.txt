@@ -72,15 +72,15 @@ Unit 2
 32.	 Explain Connectives, Tautology and Contradiction in Propositional logic with one example each.	
 33.	 Explain resolution in predicate logic.
 34.	 Represent the following statements in predicate logic:
-                i) Marcus tried to assassinate Caesar.
+                i. Marcus tried to assassinate Caesar.
                 tryassassinate(Marcus, Caesar)
-                ii) All Pompeian’s were Roman.
+                ii. All Pompeian’s were Roman.
                 x: Pompeian(x)  Roman(x)
-                iii) All Romans were either loyal to Caesar or hated him.
+                iii. All Romans were either loyal to Caesar or hated him.
                 Ɐx:Romans(x)àloyal(x,caesar) V hated(x,ceasar) 
-                iv) Everyone is loyal to someone.
+                iv. Everyone is loyal to someone.
                 Ɐx ⱻy: loyal(x,y)
-                v) People only try to assassinate rulers they are not loyal to.
+                v. People only try to assassinate rulers they are not loyal to.
                 Ɐx Ɐy :Person(x)ꓥruler(y)ꓥ tryassasinate(x,y) à ¬ loyal(x,y) 
 
 35.	  Represent the following statements in predicate logic:
