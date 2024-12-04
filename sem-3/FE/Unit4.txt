@@ -1,0 +1,116 @@
+1. What is NPM, and how does it work?
+    1. NPM stands for node package manager
+    2. It is package manager for javascript primarly used with node js
+
+    NPM Working and Features
+    1. Package Installation -
+        It used to install packages form node registery.
+    2. Dependency Management -
+       - It is used to manage dependency of the projects
+       - commpand  - npm i 
+       - install all the dependancy present for that projects
+    3. Version control -
+       - control the version of dependency.
+    4. Running script -
+       - It is also used for running script
+       eg running react server -
+          - npm run dev 
+          - npm scripts
+
+    5. Package Publication -
+       - Developer can publish there self created package in node registery.
+
+    6. Project building -
+       - It is also used in some prject building eg in react 
+         npm run build to build the project for production
+
+
+    
+
+
+
+
+##########################################################################################
+Explain the difference between synchronous and asynchronous programming in the
+     context of Node.js. Provide examples for each. 
+
+
+     Synchronous                                     Asynchoronous
+
+1. It is fast compare to Asynchoronus        1. It is slow compare to Synchornous 
+2. cannot run multipal task parallel         2. It can run multipal task parallel
+3. It can be block                           3. It is non-blocking
+4. It is simple to implement                 4. It is complex to implement
+5. Cannot handle mulitpal task               5.  Can handle mulitipal task a time.
+   at a time
+6. Code execute line by line                 6. Code execute without waiting for other code to execute
+7. It require more memory                    7. It is memory efficent.
+8. Not ideal for web-server                  8. Ideal for webserver.
+9. can reduce the performace                 9. Imporve the performance.
+10. Less scalable                            10. Highly scalable
+11. Less flexible                            11. Highly flexible
+ 
+
+Synchornous example =                         Asynchornous example -                
+
+    function greet(name){                     function greet(name, callback){  
+        console.log("Hello " + name)               console.log("Hello " + name)  
+    }                                              settimeout(callback, 3000);
+                                               }
+    greet("Puti")                           
+                                                function byby(){
+                                                    console.log("by by")
+                                                }
+
+                                                greet("Puti", byby);
+
+                                                        
+##############################################################################################
+
+What is RESTful API, and how to create it using Node.js? 
+ 1. REST stand for Representational State Transerfer API.
+ 2. API stand for Applicaiton Programming Interface.
+ 3. Rest API are the webserver which uses http mehtods 
+ 4. There are diffrent http mehtods 
+      1.  Get
+      2.  Retrive
+      3.  Put
+      4. delete etc
+ 5. Rest api give http response with status code.
+ 6. It uses half duplex protocal.
+ 7. It has status code which can help to identify the status of the response or api 
+    some of the status code are 
+    404
+    500
+    200
+    201
+    400
+    406
+
+
+Lets create API in node js
+
+
+
+            const http = required("http")
+
+            const server = http.createServer((req, res)=>{
+                const mehtod = req.mehtod
+                const parseldurl = parse(req.url)
+                const url = parseldurl.pathname
+
+
+                if(method=='GET' && url=== "/login"){
+                    res.end(JSON.stringify({"msg":"GET api called successfully"}))
+                }
+                else if(method=='PUT' && url=== "/login"){
+                    res.end(JSON.stringify({"msg":"PUT api called successfully"}))
+                }
+            })
+
+            const port = 3000
+
+            server.listen(3000)
+
+
+######################################################################################################

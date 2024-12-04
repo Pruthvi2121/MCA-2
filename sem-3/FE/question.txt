@@ -39,11 +39,11 @@ Assignment 4
 2.   Explain the process of binding functions to events and listening for events triggered
      during file operations.
 3.   Explain the difference between synchronous and asynchronous programming in the
-     context of Node.js. Provide examples for each. -
-4.   Discuss the importance and advantages of using Promises in Node.js. How do Promises
-     help in handling asynchronous operations efficiently? -
-5.   What is NPM, and how does it work? - 
-6.   What is RESTful API, and how to create it using Node.js?
-7.   How do you implement authentication and authorization in Node.js? -
+     context of Node.js. Provide examples for each. - #
+4.   Discuss the importance and advantages of using Promises in Node.js. How do Promises #
+     help in handling asynchronous operations efficiently? #
+5.   What is NPM, and how does it work? - #
+6.   What is RESTful API, and how to create it using Node.js?  #
+7.   How do you implement authentication and authorization in Node.js? - $
 8.   When will you use Event Emitters? Write a process of Binding Functions to Events
-9.   What is Module? Explain types of Modules in Node.JS  - 
+9.   What is Module? Explain types of Modules in Node.JS # -  $

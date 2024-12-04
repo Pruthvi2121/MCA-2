@@ -1,7 +1,7 @@
 1. What is Node.js?
    1. NodeJs is the runtime for the JavaScript
    2. NOde.js is free and opensource.
-   3. Node js is cross platform, it is work on different operating system 
+   3. Node js is (Platform independant)    cross platform, it is work on different operating system 
       like linux, unix, mac.
    4. Node.js runtime environment to execute javascript code on server-side.
    5. IT is build on v8 javascipt engine.
@@ -29,8 +29,9 @@
         - It has large community support.
 
      Disadvantage -
-       1. Not sutable for CPU intensive Task
+       1. Heavy Task
           - Since it run on single thread it is not ideal for heavy task.
+          - It is not sutable for CPU intensive Task
        2. Callback hell -
           - Asynchornous code can lead to callback hell, 
        3. Single Thread -
@@ -65,7 +66,7 @@
 
         eg - const http = required('http')
          
-         http = required('http')
+      
 
          http.createServer((req, res)=>{
             res.write("Hell world");
@@ -102,7 +103,7 @@
 
       1. Bottom Layer -
          - In bottom layer unit test are performed.
-         - test specific funtion and code.
+         - IT test specific funtion and code.
          - It is fast, isolated.
 
       2. Middle Layer 
