@@ -191,7 +191,7 @@ Genetic Algorithm
          - Random change to the solution to introduce variety and better solution.
       5. Fitness funtion -
          - Fitness funtion measure of how good a solution is.
-
+ 
     Working -
       1. Generate Initial Population
          - Create set of random solutions.

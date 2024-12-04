@@ -178,17 +178,9 @@
          2. The funtion which takes parameter (attribute) are called parameterized funtion
          3. The funtion which does not takes parameter (attribute) are called non parameterized funtion.
 
-     1. Parameterised funtion
-        1. this funtion does not take any inputs
-        2. You can simple define the funtion and call it.
 
-        Exmaple -
-            
-            function greet(){
-                console.log("Hello World");
-            }
 
-     2. Non Parmaterised funtion
+     1. Parmaterised funtion
         1. this funtion allow us to pass values to the funtions.
         2. we can also give default parameter to the funtion
            which will be us when that paramter not present.
@@ -197,6 +189,16 @@
 
             function greet(name){
                 console.log(`Hello ${name}`)
+            }
+
+     2. Non Parameterised funtion
+        1. this funtion does not take any inputs
+        2. You can simple define the funtion and call it.
+
+        Exmaple -
+            
+            function greet(){
+                console.log("Hello World");
             }
         
 ###################################################################################################

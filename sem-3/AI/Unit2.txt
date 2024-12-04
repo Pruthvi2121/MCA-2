@@ -70,7 +70,7 @@
 11.	Explain backward chaining?
 14.	Different between forward chaining and backward chaining?
 15.	 Explain forward and backward chaining algorithms with example.
-
+  
 1. Forward chainging -
    1. Forward chaning start from know facts (given information) and look forwords to find
       out solution and conclusion.
