@@ -1,5 +1,6 @@
 1. What is JavaScript? List some features of JavaScript
-   1. javascirpt is light weighted object oriented programming language.
+   1. javascirpt bject oriented programming language.
+   2. It is light weighted  programming lanaguage.
    2. It is high level language.
    3. It is dynmic and interpreted programming language.
    4. It is commonly used in webdevelopment for creating interactive and dynamic websites.
@@ -12,7 +13,7 @@
     3. Object-Oriented
        - Javascript is object oriented programming lanaguage, it support all oops concept
     4. Event Driven -
-       -Javascript commonly used to handle events such as mouse click, mouse hover, keyboard input etc.
+       -Javascript event driven lanuage , It    commonly used to handle events such as mouse click, mouse hover, keyboard input etc.
     5. Asynchronous programming 
        - Javascript support asynchornous programming through callbacks, promises, and async/await
     6. Platform Independant -
@@ -104,3 +105,98 @@
 
 
 ###############################################################################################
+4.   What are Classes and Objects in JavaScript?
+        Class -
+            1. The class is the group of object which has common properties.
+            2. Class is a template or blueprint for creating objects in javascript.
+            3. Class contain
+                1. Fields
+                2. Methods
+                3. Constructors
+            4. the function which created inside the class are called methods.
+            5. the varable which created inside the class but outside the method are called instance varable.
+            
+        Object -
+            1. An object in javascript is a instance of the class or standalone structure 
+                that hold key-value pair.
+            2. object contain actual data and behavior.
+            3. object are created using new keywords
+            
+        For Example -
+
+                class Hello {
+                    constructor(name){
+                        this.name = name
+                    }
+                    greet(){
+                        console.log(`Hello ${this.name}`)
+                    }
+                }
+                
+                let obj = new Hello("Puti");
+                obj.greet()
+
+################################################################################################################
+5.   Explain Dialog boxes used in JavaScript along with their examples.
+      In JavaScript there are mainly three dialog boxes.
+            1. alert()
+            2. confirm()
+            3. prompt()
+    
+    1. alert()
+      - the alert method display message to the user in popup.
+      - Example 
+        alert("Hello World")
+    
+    2. confirm()
+      - confirm mehtod ask for confirmation (Yes or No)
+      - Example 
+
+            let result = confirm("Do you want to continue?");
+
+            if (result) {
+                 alert("You clicked OK!");
+            } else {
+                alert("You clicked Cancel!");
+            }
+    3. prompt()
+       - Asks the user to input some text or data. 
+       - Example 
+
+            let name = prompt("What is your name?");
+
+            if (name) {
+                alert("Hello, " + name + "!");
+            } else {
+                alert("You didn't enter a name.");
+            }
+
+########################################################################################
+6.   How will you use functions in JavaScript? Explain functions with and without parameter
+     Funtion -
+         1. It is block of piece of code which perform specific task.
+         2. The funtion which takes parameter (attribute) are called parameterized funtion
+         3. The funtion which does not takes parameter (attribute) are called non parameterized funtion.
+
+     1. Parameterised funtion
+        1. this funtion does not take any inputs
+        2. You can simple define the funtion and call it.
+
+        Exmaple -
+            
+            function greet(){
+                console.log("Hello World");
+            }
+
+     2. Non Parmaterised funtion
+        1. this funtion allow us to pass values to the funtions.
+        2. we can also give default parameter to the funtion
+           which will be us when that paramter not present.
+
+        Example -
+
+            function greet(name){
+                console.log(`Hello ${name}`)
+            }
+        
+###################################################################################################

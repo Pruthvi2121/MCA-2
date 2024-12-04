@@ -1,0 +1,209 @@
+1. What is Node.js?
+   1. NodeJs is the runtime for the JavaScript
+   2. NOde.js is free and opensource.
+   3. Node js is cross platform, it is work on different operating system 
+      like linux, unix, mac.
+   4. Node.js runtime environment to execute javascript code on server-side.
+   5. IT is build on v8 javascipt engine.
+   6. It support Asynchornous programming.
+   7. It has package manager called npm 
+   8. npm stand for node package manager.
+   9. It is light weight and scalable.
+   10. Ideal for real-time application.
+   11. It is used for REST-API, micro-services, web-server, etc.
+
+###############################################################################
+3. What are the pros and cons of Node.js?
+   Advantages
+     1. Fast and Efficiently 
+        - Build on v8 Javascript engine
+     2. Scalablity -
+        - It is hightly scalable.
+     3. Real-Time Capablities.
+        - Perfect for real-time application like chat-box, online gameing, etc.
+     4. Single Lanauge
+        - Now we can use javascipt for both on frontend and in backend
+     5. Cross platform -
+        - run on diffrent platform operating system (linux, windows, mac)
+     6. Large Community -
+        - It has large community support.
+
+     Disadvantage -
+       1. Not sutable for CPU intensive Task
+          - Since it run on single thread it is not ideal for heavy task.
+       2. Callback hell -
+          - Asynchornous code can lead to callback hell, 
+       3. Single Thread -
+          - It is single threaded and which lack in performance.
+       4. Error handling -
+          - Error handling can be challenging in asynchronous programming.
+        
+##############################################################################################
+4. What is a module in Node.js? Explain some modules available
+    Module -
+      - A module in node.js is reusable piece of code, typicallhy stored in seperate file.
+        that can be imported and used in other part of application.
+
+    Type of modules
+        1. Core Module.
+           - It is build in module provided by node-js.
+        2. Local Module.
+           - It is custom module created by developer.
+        3. Third Party Module.
+           - this is the third parth module install via npm 
+
+        Module Example -
+          1. http -
+             - Used to create webserver and handle http request.
+          2. fs -
+             - It is used for file management 
+             - reading, writing, etc.
+          3. os -
+               - it give system related information
+
+        - Module are imported using required() funtion.
+
+        eg - const http = required('http')
+         
+         http = required('http')
+
+         http.createServer((req, res)=>{
+            res.write("Hell world");
+            res.end();
+         }).listen(3000);
+
+##############################################################################################
+5. What is the difference between fork() and spawn() methods in Node.js?
+
+          fork()                        spawn()
+1. Used to create new Node.js       1. Used to run external command or program.
+   process
+2. Has IPC for communication        2. Uses stdin and stdout for communication
+3. Good for runing Node.js          3. Good for running system commands.
+   script  in parallel
+4. Return childprocess              4. Return childprocess without having 
+   with message support                build in message support.
+5. exmaple -                        5. example -
+   const child = fork("script.js")      const child = spawn('ls', ['-lh'])
+6. Error Handling through           6. Error Handling through stderr.
+   message 
+7. send data through send()         7. send data through stdin and stdout.
+   method
+8. Primarly work with node-js code  8. Can work with platform -specific execuitons 
+
+##############################################################################################
+6. What is a test pyramid in Node.js?
+   1. Test pyramid is framework that can help both developer and QA engineer to create high 
+      quiality software.
+   2. There are three layers of test pyramid
+      1. bottom layer
+      2. middle layer 
+      3. top layer 
+
+      1. Bottom Layer -
+         - In bottom layer unit test are performed.
+         - test specific funtion and code.
+         - It is fast, isolated.
+
+      2. Middle Layer 
+         - In this layer integration test are performed
+         - This test diffrent parts of system work together. 
+         - It is slower than unit test.
+
+      3. Top Layer
+         - In this layer end to end test (E2E Test) are performed.
+         - This test are slowest 
+         - This test are most expensive to run.
+         - This E2E test entire application and transaction through application.
+    
+##################################################################################################
+7. What is a Promise in Node.js?
+   - Promises in Node.js provide a powerful way to handle asynchronous operations. 
+   - They provide cleaner way to work with asynchronous code compare to traditional callbacks.
+   - In simple word Promise give you the Promise that they will give you data, till data ready you have to wait
+     so once the data is ready it will be serve.
+     if the data is not ready it give you pending.
+     if it is error then the error is thrown and can be catch and handle in .catch method
+   - Promise is of three states -
+        1. Pending -
+        2. Fulfilled 
+        3. Rejected 
+
+      1. Pending - It is inital state neither fulfilled nor rejected.
+      2. Fulfilled -The operation successfully completed.
+      3. Rejected - The operation failed. 
+
+
+For example -
+
+               let promise = Promise((resolve, reject)=>{
+                  let success = true;
+
+                  if (success){
+                     resolve("Operation completed");
+                  }
+                  else{
+                     reject("Something went wrong.")
+                  }
+               });
+
+
+               promise.then(result=>{
+                  console.log("result :", result);
+               })
+               .catch((error)=>{
+                  conosle.log("error: ", error);
+               })
+
+
+##############################################################################
+
+8. What is a callback in Node.js? Can you provide an example?  
+   - Callback is the funtion passed as a argument to the another funtion and it is executed after the
+     completion of an asynchornous operations.
+   - They allow us to handle result of asynchornous operations
+
+   - For example -
+
+
+         // A function that accepts a callback
+
+         function greet(name, callback) {
+         console.log('Hello, ' + name);
+         callback();          // Call the callback function after greeting
+         }
+
+         // Callback function to be passed
+
+         function sayGoodbye() {
+         console.log('Goodbye!');
+         }
+
+         // Using the greet function and passing sayGoodbye as the callback
+
+         greet('Alice', sayGoodbye);
+
+############################################################################################
+9. What is an event loop in Node.js?
+   - The Event Loop in Node.js is a mechanism that allows Node.js to perform non-blocking I/O operations.
+   - Even though JavaScript is single-threaded. 
+   - It continuously checks if there are any tasks to be executed 
+    
+    For example -
+    
+         console.log("Start");
+
+         setTimeout(() => {
+
+            console.log("This is from setTimeout");
+
+         }, 0);  // A task with 0 ms delay
+
+         console.log("End");
+
+         Output - 
+            Start
+            End
+            This is from setTimeout
+
+##############################################################################################

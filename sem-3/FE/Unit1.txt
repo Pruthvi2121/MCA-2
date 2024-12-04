@@ -12,15 +12,18 @@
 
     Properties 
       1. Markup Language -
-         - Describe webpages structure using tags.
+         - It uses markup lanaguage
+         - It describe webpages structure using tags.
       2. Tag based -
-         - Html element enclosed in opening and closing tags eg <p></p>
+         - Html  are tag based.
+         - It  enclosed in opening and closing tags eg <p></p>
       3. Attribute -
          - HTMl element has attribute which define the behaviours of element.
          - it is always applied to the opening tag.
       4. Case Insensitive  -
          - HTML tags are case insensitive eg - <h1>=<H1>
       5. Multi-Media Support -
+         - HTMl has multi-media support.
          - Support images , audio, video to display on webpages.
       6.  HyperLink -
          - Provide linking feature to diffrent pages.
@@ -77,16 +80,18 @@
            3. Description List
 
     1. Ordered List -
-       - In order list all the list items are marked with number by default.
        - It is also known as numbered list.
+       - In order list all the list items are marked with number by default.
+    
        Example -
             <ol>
-                    <li>Mango</li>
+                    <li>Mango</li>  
                     <li>Apple</li>
             </ol>
     2. Unorder List -
-        - In unorder list all the list items are marked with bullets by defaults.
         - It is also known as bullets list.
+        - In unorder list all the list items are marked with bullets by defaults.
+        
         Example 
            <ul>
                 <li>Mango</li>
@@ -94,9 +99,10 @@
            </ul>
     
     3. Description List -
+        - It is also known as defination list.
         - IT is name value list
         - It contain term and defination
-        - It is also known as defination list.
+        
 
         Example -
           <dl>
@@ -224,7 +230,7 @@
           <link rel="stylesheet" href="style.css">
     
     3. Inline CSS -
-       - Inline CSS is applied directly to an html tags using stype attribute.
+       - Inline CSS is applied directly to an html tags using style attribute.
        example -
           <p style="color:oragne;"> Mango</p>
 
@@ -234,16 +240,17 @@
          1. Flow
          2. Flex
          3. Grid
-      1. Flow Layout - Flow layout or normal layout
-        1. By default CSS uses flow layouts.
-        2. Here element are arranged in natural flow.
+      1. Flow Layout - Flow layout 
+        1. It is also known as normal layout.
+        2. By default CSS uses flow layouts.
+        3. Here element are arranged in natural flow.
 
       2. Flex layout
         1. It is one dimenstion layout
         2. It align items in row or column
         3. Generally faster for simple layouts.
         4. flexible for responsive design
-        5. Contol over one axies 
+        5. Iy has Contol over one axies 
         6. Example -
            .container{
                display:flex;
