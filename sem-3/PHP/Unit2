@@ -107,6 +107,18 @@ Ques 1. Explain different php form validation with examples
        2. shopping carts
        3. and storing user preferences.
 
+----------------------------------------------------------------------------------------------------------------
+
+              Session                         Cookes
+1. Data store in server                   1. Data store in client browser
+2. More secure                            2. less secure
+3. can handle large ammount of data       3. can handle limited ammount of data.
+4. exist till session expire              4. exist till expiration time.
+5. store more sensitive data              5. store less sensitive data.
+6. data only accessalbe on server         6. data accesable on both client and server
+7. used in authentication                 7. less used in authentication
+8. used in authorization                  8. less used in authorization
+
 ######################################################################################################
 
 4. What is mysql and dataTypes in mysql.
