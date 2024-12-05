@@ -485,4 +485,28 @@ Ques 1. What is php and explain varables in php ?
 9.  Idel for retriving                              9. Idel for posting data to the server
     data from server
 
-    ########################################################################################################################
+########################################################################################################################
+
+static method 
+
+1. The static mehtod are the method which belong to the class.
+2. We can call the static method without creating instance of the class.
+3. static method are called using class name.
+4. static keyword are used to create static mehtod in class
+5. you cannot use this inside the static method.
+6. static mehtod only access static properties and other staic methods.
+
+
+    For example 
+
+            class Maths{
+                public static add($a, $b){
+                    return $a + $b
+                }
+            }
+
+            $res = Maths::add(2,2);
+
+            echo $res
+
+######################################################################################################################

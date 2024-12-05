@@ -9,11 +9,11 @@
 
 
 1. Explain different php form validation with examples #
-2. Explain cookies in PHP #
-3. What is session? #
+2. Explain cookies in PHP # *
+3. What is session? # *
 4. What is mysql and dataTypes in mysql. #
-5. Write a note on autocommit and rollback #
-6. PHP mysql connection
+5. Write a note on autocommit and rollback # *
+6. PHP mysql connection *
 
 1. What is inheritance Explain with example #
 2. what is constructor and destructor in php explain with example #
