@@ -41,18 +41,19 @@ Ques 1. Explain different php form validation with examples
                  }
 
         - 6. Checkbox validation
-             1 is_set() is a php function to check varable is set or not.
+             1 isset() is a php function to check varable is set or not.
              2. e.g 
                 if (!isset($_POST["terms"])) {
                     $error = "You must accept the terms";
                 }
 
--------------------------------------------------------------------------------------------------
+####################################################################################################
+
 2. Explain cookies in PHP
-  1. Cookies in php is a small pieces of data stored on client side (user browser)
-  2. Which is maily used to store user related information accross diffrent sessions.
-  3. They often used for tracking user sessions, preferences, and other data to presist beyond
-     single page view.
+  1. Cookies in php is a small pieces of data stored on client side
+  1. It is piece of data stored in  user browser.
+  2. Cookes is maily used to store user related information accross diffrent sessions.
+  3. They often used for tracking user sessions, preferences, 
   1. Set a Cookies -
       1. You can set cookies in php by setcookies() function
       2. This function has four parameter 
@@ -60,7 +61,7 @@ Ques 1. Explain different php form validation with examples
           2. value
           3. expiration
           4. path
-      3. name - the name of the cookies eg- "username"
+      3. name - the name of the cookies eg- "username"  
       4. value - value of the cookies - eg - "Milka Singh"
       5. expiration - parameter to set expiration time
       6. path - path on the server where cookies are availabe ("/" make it available for entire site.)
@@ -77,14 +78,15 @@ Ques 1. Explain different php form validation with examples
      1. cookies can only set limited amount of data
      2. They are sent with every HTTP request, which increase the size of the request.
 
-----------------------------------------------------------------------------------------------------------
+#############################################################################################################
 
 3. What is a Session in PHP ?
     1. A session in PHP is a way to store data accross multipal pages of web application
     2. Unlike the cookies the session data is stored on the server.
     3. It providing a more secure way to handle user data
     4. Identification -
-       Each session is identified by a unique session Id, usually passed through cookies or URL parameter
+       Each session is identified by a unique session Id, 
+       usually passed through cookies or URL parameter
     5. LifeCycle -
          1. Start
          2. Store data
@@ -104,7 +106,9 @@ Ques 1. Explain different php form validation with examples
        1. User Authentication
        2. shopping carts
        3. and storing user preferences.
--------------------------------------------------------------------------------------------------------------
+
+######################################################################################################
+
 4. What is mysql and dataTypes in mysql.
 
   MYSQL -
@@ -119,11 +123,10 @@ Ques 1. Explain different php form validation with examples
         3. Date and Time data types
 
         1. Numeric Data types -
-           1. INT - s tore a whole number (not decimal)
+           1. INT - Store a whole number (not decimal)
            2. FLOAT - Stores decimal numbers 
            3. DOUBLE - Stores decimal numbers with double precision
-           4. DECIMAL - Stores fixed-point number with specific digit before and after the decimal.
-
+           
         2. String Data types -
            1. CHAR - Stores fixed-length strings
            2. VARCAR - Stores varable length string, more flexible than CHAR
@@ -135,7 +138,8 @@ Ques 1. Explain different php form validation with examples
            3. DATETIME - Store both date and time in YYYY-MM-DD HH:MM format
            4. YEAR - Store Year in format YYYY
 
----------------------------------------------------------------------------------------------------------
+#######################################################################################
+
 5. Write a note on autocommit and rollback
    1. Autocommit - 
       1.  Autocommit automatically commit each SQL statement

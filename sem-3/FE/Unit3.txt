@@ -193,7 +193,7 @@ For example -
     For example -
     
          console.log("Start");
-
+   
          setTimeout(() => {
 
             console.log("This is from setTimeout");

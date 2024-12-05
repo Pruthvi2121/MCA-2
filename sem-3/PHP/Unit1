@@ -457,6 +457,17 @@ Ques 1. What is php and explain varables in php ?
          }
 
          $car = new Car();
---------------------------------------------------------------------------------------------------
-         
-    
+#########################################################################################################
+         Constructor                               Distructor 
+
+1. It called when object is created              1. It is called when object id destroyed
+2. It initilized the object                      2. It perfrom cleanup
+3. Its syntax is _construct()                    3. Its syntax is _destruct()
+4. It call automatically when                    4. Called automatically when object
+   object is initialized                            object no longer to use
+5. Can accept paramters                          5. Does not accept parameters
+6. Commonly used                                 6. Less frequently used
+7. Executed at the start of lifecycle            7. Executed at the end of lifecyle
+8. Can be called explicity using new             8. cannot be called explicity 
+
+################################################################################################################
