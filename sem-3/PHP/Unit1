@@ -471,3 +471,18 @@ Ques 1. What is php and explain varables in php ?
 8. Can be called explicity using new             8. cannot be called explicity 
 
 ################################################################################################################
+
+             GET                                             POST
+1.  Used to get data from server                    1. Used to send data to the server 
+2.  Data is send via url                            2. data is send via payload.
+3.  limmited data can be send                       3. large ammount of data can be send
+4.  less secure                                     4. Highly secure
+5.  not sutable for sensitive data                  5. sutable for sensitive data like       
+    like password                                      password 
+6.  It can be catched                               6. It cannot be catched.
+7.  can be bookbark                                 7. cannot be bookmark
+8.  faster than post                                8. slightly slower than get_browser
+9.  Idel for retriving                              9. Idel for posting data to the server
+    data from server
+
+    ########################################################################################################################
