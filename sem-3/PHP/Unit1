@@ -1,7 +1,9 @@
 Ques 1. What is php and explain varables in php ?
 
-1. PHP is stands for hypertext preprocessor is server-side  scripting language mainly used for web-development
+1. PHP is stands for hypertext preprocessor
+2. It is server-side  scripting language mainly used for web-development
 2. It can be embedded in HTML to create dynamic web pages
+3. the .php is the file extention for the php file
 3. Varables are the container for storing data values in PHP.
 4. A varables start with $ sign followed by the name of the varables.
 5. Syntax -
@@ -83,10 +85,11 @@ Ques 1. What is php and explain varables in php ?
       2. Assignment Operators
       3. Logical Operators
       4. Comparison Operator
-      5. Increament/Decrement Operator
-      6. Ternary Operator
-      7. String Operator 
-      8. Null Coalescing Operator (??)
+      5. Increament Operator
+      6. Decrement Operator
+      7. Ternary Operator
+      8. String Operator 
+      9. Null Coalescing Operator (??)
 
 1. Arithmetic Operators
    - Arithmetic operators perform arithmatic operations on operends
@@ -103,11 +106,12 @@ Ques 1. What is php and explain varables in php ?
 
 3. Comparison Operators
    - Compare two values and return True or False
-     1. Equeal ==        eg 4 == 4;  //true
+     1. Equal ==        eg 4 == 4;  //true
      2. Not Equeal !=    eg 4 != 2   // true
      3. Greater Than (>) eg 4 > 2   // true
      4. Less Than (<)    eg 4 < 2   // false
      5. Identical (===)  eg 4==='4'  // false (compare both values and there types)
+
 4. Logical Operators 
     - Logical operators compare multipal conditions
     followoing are the logical operators
@@ -162,8 +166,9 @@ Ques 1. What is php and explain varables in php ?
         if ($age >= 18) {
             echo "You are an drive.";
         } else {
-            echo "You are not an drive.";
+            echo "You cannot an drive.";
         }
+
 3. else-if statement
    - Allows you to test multiple conditions, executing different blocks of code depending on which condition is true.
    eg -
@@ -193,17 +198,18 @@ Ques 1. What is php and explain varables in php ?
           default:
               echo "Not a valid day";
       }
-----------------------------------------------------------------------------
+####################################################################################################
+
 5. Explain different types of loops in php ?
    following are the diffrent type of loop in php.
-   1. forloop
-   2. while loop
-   3. do..while loop
-   4. foreach loop
+        1. forloop
+        2. while loop
+        3. do..while loop
+        4. foreach loop
 
    1. forloop -
-      for loop continue to execute till given condition is true
       It is used when you know the iteration count
+      for loop continue to execute till given condition is true
       for example - displaing number from 0 to 10
 
           for($i=0, $i<=10, $i++){
@@ -233,16 +239,19 @@ Ques 1. What is php and explain varables in php ?
               $count++;
               
            }while($count<4)
-
+<!--  -->
     4. foreach loop -
        foreach loop is specially designed for iterating over arrays.
        for example -
-         $fruits = ["apple", "mango", "banana", "orange"]
+          
+        $fruits = ["apple", "mango", "banana", "orange"]
 
          foreach ($fruits as $fruit){
             echo $fruit
          }
---------------------------------------------------------------------------------------------------------------------
+####################################################################################################
+
+
 6. What is funtion? Explain recursive funtion in php ?
   1. Function is reusable block of code designed to perform certain task
   2. function may have parameteres
@@ -265,10 +274,10 @@ Ques 1. What is php and explain varables in php ?
       One common example of a recursive function is calculating the factorial of a number.
 
       the formula for factorial is 
-      n! = n * (n- 1)
+      n! = n * (n - 1)
 
       function factorial($n){
-         if ($n == 0 | $n ==1 ){
+         if ($n == 0  || $n ==1 ){
             return 1;
          }
 

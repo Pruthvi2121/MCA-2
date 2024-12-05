@@ -1,0 +1,43 @@
+1. List with example the data types used in PHP. 
+2. List the important characteristics of PHP. 
+3. What are the steps to write PHP script? Write a simple PHP Script. 
+4. How do you include comments in PHP? 
+5. What is array? How do you declare and initialize an array in PHP with example? 
+6. List and explain with example the PHP standard Flow-controls statements 
+7. What is cookie? Give example in PHP 
+8. What is session? Give example in PHP 
+9. Explain static method in PHP with example. 
+10. Explain recursive function in PHP. 
+11. Explain about the control statements in PHP with example. 
+12. Explain the looping statements in PHP. Write any PHP code to explain the looping  statement. 
+13. What is the operator? Explain with example different operators in PHP. 
+14. What is an array in PHP? Write any two ways to define an array in PHP with example. 
+15. What is a user-defined function? Write different types of user-defined functions and write  PHP code to explain any one function 
+16. What is variable in PHP? Explain with example 
+17. Explain with an example how PHP is embedded inside HTML 
+18. Explain with example String Functions in PHP 
+19. Explain with example File Handling in PHP 
+20. What is a constructor and destructor in PHP? Explain with example 
+21. What is array? Explain its types in PHP. 
+22. Explain with example how does the PHP execute SQL statements? 
+23. What are the various conditional statements available in PHP? Explain with examples. 
+24. Explain about the connectivity of PHP & MySQL using an example 
+25. What is user defined function in PHP? Explain with an example 
+26. Explain the process of uploading Files in PHP. 
+27. How to validate a form in PHP? Explain it with an example. 
+28. Explain Indexed and Associative arrays with suitable example. 
+29. Differentiate between Session and Cookies. 
+30. What is inheritance? Explain single inheritance with example in PHP 
+31. Explain Abstract class in PHP with example. 
+32. Explain how to read text from file in PHP with example. 
+33. Explain how to read and write into file in PHP with example. 
+34. What is variable? How to declare variables in PHP? 
+35. What is array? Explain 1D and 2D arrays with examples? 
+36. Explain concept of Object Oriented Programming in PHP? 
+37. How to deal multi-valued fields in forms 
+38. How to store PHP variables in forms 
+39. How to upload and submit a form ? Explain with example? 
+40. Discuss with example steps to create class and an object in PHP. 
+41. Explain with example PHP CRUD with MYSQL. 
+42. List and explain Features of PHP Framework 
+43. Differences between GET and POST methods?

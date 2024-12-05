@@ -450,7 +450,7 @@ Ques 1. What is php and explain varables in php ?
          $car = new Car();
 --------------------------------------------------------------------------------------------------
          
-    Ques 1. Explain different php form validation with examples
+  Ques 1. Explain different php form validation with examples
    1. PHP form validation ensures user data is correct and secure.
       Following are diffrent form validation 
 
@@ -626,3 +626,4 @@ Ques 1. What is php and explain varables in php ?
 --------------------------------------------------------------------------------------------------
 
 
+  
