@@ -84,17 +84,46 @@ Application of data-science -
 
 ##########################################################################################################
 5.   What are the facet / characteristics of big Data? 
-      The five V of Big data are -
-         1. Volume - 
-            - Large amount of data.
-         2. Velocity
-            - Speed of data generation
-         3. Variety
-            - Diffrent types and format of data.
-         4. Veracity
-            - Data accuracy and quality.
-         5. Value.
-            - Usefullness of data.
+        Defination - Big data refer to the large , complex set of data that are difficult to process using
+                 traditional data management tool
+       
+    - facet / characteristics of big Data
+
+        The five V of Big data are -
+            1. Volume - 
+                - Large amount of data.
+            2. Velocity
+                - Speed of data generation
+            3. Variety
+                - Diffrent types and format of data.
+            4. Veracity
+                - Data accuracy and quality.
+            5. Value.
+                - Usefullness of data.
+
+    Application -
+       1. Stock market analysis
+       2. Medical history analysis
+       3. Trend analysis
+       4. Finance Analysis
+###############################################################################################
+Spark 
+   1. Apache Spark is data processing engine.
+   2. It is free and opensource
+   3. It support in-memory processing
+   4. It is faster than hadoop processing.
+   5. It is easy to use, has api support
+   6. It is used for processing big data.
+
+   Appliaiton -
+     1. Used in real-time data analysing
+     2. Used in machince learning
+     3. Used in data processing.
+
+    Advantage-
+      - Faster due to in-memory processing
+      - Support mulitipal programming lanaguage.
+      - Has API support
 
 ##################################################################################################################
 4.   What is hadoop ? Explain Hadoop ecosystem with diagram.
@@ -535,3 +564,31 @@ The sampling is divided into two types.
    6. Not ideal for hypothesis testing
 
 ###############################################################################################################
+
+2. List with example Terminologies of statistics 
+
+    1. mean 
+      -  It is the sum of all values divided by the number of values.=/
+         eg - 1+2+3+4/4 = 10/4 = 5/2
+    2. median
+        - It is the middle value of dataset.
+        eg  1,2,3,4,5   median = 3
+    3. mode
+        - mode is the most frequent value in dataset.
+        eg 1,2,4,4,4,  mode = 4
+    4. Population 
+        - it is set of individual
+    5. sample -
+       - subset of population selected for study.
+    6. Varable -
+        value that can be varies
+        eg height, size etc
+    7. Range -
+       differnce between hightest and lowest value 
+       eg  1,2,3,4   = 4-1 =  3 is range
+    8. Probablity 
+        chance of event occuring
+        eg probablity of coin = head, tail  50/50 probablity
+    
+####################################################################################################################
+

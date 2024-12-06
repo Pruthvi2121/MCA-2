@@ -5,16 +5,16 @@
     a. Applications of Data Science
     b. Facets of Data  
 c. Difference between NoSQL and SQL  #
-4. List with example Python Libraries (Numpy, Pandas, MatplotLib, Scikit-learn) 
+4. List with example Python Libraries (Numpy, Pandas, MatplotLib, Scikit-learn) #
 5. Explain Hadoop Ecosystem in detail or Explain Big Data Technologies in detail #
 
 
 
 1. What is Data? Explain Categories of Data 
-2. List with example Terminologies of statistics 
-3. Short note on: 
-a. Sampling techniques 
-b. Descriptive Statistics (mean, mode, median)
+2. List with example Terminologies of statistics #
+3. Short note on:  #
+    a. Sampling techniques 
+    b. Descriptive Statistics (mean, mode, median) 
 
 
 1. What is Data Analysis? Explain Types of Data Analysis  #
@@ -26,7 +26,7 @@ b. Descriptive Statistics (mean, mode, median)
     d. Feature Engineering 
     e. Label encoding 
 4. Explain with example Data Wrangling or Data Pre-processing in Python (Dealing 
-with Missing Values, Data Formatting, Data Normalization, Label encoding) 
+with Missing Values, Data Formatting, Data Normalization, Label encoding) #
 5. Explain EDA in detail #
 
 
