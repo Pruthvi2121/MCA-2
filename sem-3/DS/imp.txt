@@ -1,41 +1,351 @@
-1. What is Data Science? Explain its importance/benefits/advantages  #
-1. Explain the role of data scientist  #
-2. List and explain different tools used in Data Science  #
-3. Short note on  #
-    a. Applications of Data Science
-    b. Facets of Data  
-c. Difference between NoSQL and SQL  #
-4. List with example Python Libraries (Numpy, Pandas, MatplotLib, Scikit-learn) 
-5. Explain Hadoop Ecosystem in detail or Explain Big Data Technologies in detail
+
+
+###########################################################################################################
+
+2. What is data science ? Explain the role of Data Scienctist. 
+
+  - Data Science 
+      - Data Science is the study of data 
+        to find pattern, make prediction, and help in taking better
+        desicions, It uses like Statistic, Algorithm, programming to convert data into usesful
+        insights.
+
+   - Role of Data  Scienctist.
+        1. Data Collection
+        2. Data Cleaning 
+        3. Analyzes Data 
+        4. Build Models 
+        5. Data Visulization 
+        6. Solve Business problem 
+
+        1. Data Collection
+           - Gather data from various sources include (database, API's, etc)
+        2. Data Cleaning 
+           - Clean data by fixing errors, finding missing values, organize it for analysis
+        3. Analyzes Data -
+           - Analyzes the data to find patterns and trends using statistics .
+        4. Build Models -
+           - Create Predictive models using machine learning.
+        5. Visulization -
+           - Visulize finding using ploting graphs, charts, etc 
+             to help non-technical teams understand the results.
+        6. Solve Business problem 
+           - Collaborate with Business teams and provide insights and recommandation based on Research
+             to make better desicions.
+
+
+Application of data-science -
+1. Recommdation system
+   - suggest movies or product based on user preference.
+2. Customer Services -
+   - Analyse social media 
+        1. Dignolisis
+            - Help doctor to monitor and dignolis
+        2. Personialised Medicine -
+           - Treatment based on  individual patient history
+        3. Virtual Health Assistent 
+           - Chatbot provide health advice and remiders
+        3. Stock market -
+           - Analyzes market data to make trading decisions
+        4. Customer Service -
+           - Chatbot handling customer inquires.
+        5. Recommendation system -
+           - suggest product based on user behavior.
+        6. Weather Forecasting 
+           - Predicts the weather based on past data.
+        8. Fraud Detection  
+            - Identifies suspicious activate in banking.
+       
+   
+
+3. Describe any four  tools of data science.
+    1. Python
+    2. Pandas 
+    3. Numpy
+    4. Matplotlib
+    5. Tableau
+    6. SQL
+ 
+ 
+    1. Python-
+       - Popular programming lanaguage used for data-analysis and machine-learning
+    2. Pandas -
+       - Python libries to manage and anaylise data in tables (Dataframe)
+    3. Numpy -
+       - Python librires to perform numerical operation over datasets.
+    4. Matplotlib -
+       - Python libries for data Visulization using diffrent charts, dashborads, graphs, etc
+    5. Tableau 
+       - tool used to organize data 
+    6. SQL -
+        language for querying and managing data in relational databases
+ 
+
+
+##########################################################################################################
+5.   What are the facet / characteristics of big Data? 
+      The five V of Big data are -
+         1. Volume - 
+            - Large amount of data.
+         2. Velocity
+            - Speed of data generation
+         3. Variety
+            - Diffrent types and format of data.
+         4. Veracity
+            - Data accuracy and quality.
+         5. Value.
+            - Usefullness of data.
+
+##################################################################################################################
+4.   What is hadoop ? Explain Hadoop ecosystem with diagram.
+    - Hadoop 
+      1. Hadoop is an open-souce framework 
+      2. It is build on java.
+      3. It is used to store and process larage amount of data across diffent
+         distributed computer environment.
+    
+    - components of Hadoop
+                1. HDFS
+                2. MapReduce
+                3. YARN
+                4. Hive
+                5. Pig
+                6. Mahout
+                7. Zookeeper
+                8. Oozie
+         
+        1. HDFS 
+            -  HDFS stand for Hadoop Distributed File System.
+            -  It is used for storing data accross multipal computer sytems.
+        2. MapReduce
+            - MapReduce is used for processing data parallel accross multipal computer Systems
+        3. YARN 
+            - YARN stands for Yet Another Resources Negotiator
+            - It is a Resources management layer of hadoop for managing and scheduling jobs.
+        4. Hive
+           - It is SQL for Hadoop 
+           - Allow you to querry data using sql-like lanaguage
+             make it easier to interact with hadoop
+  
+        5. Mahout 
+           - Mahout provide machine learning algorithim to process data in hadoop.
+
+        6.  Zookeeper 
+
+           - provide task synchronization over system.
+
+    
+         
+
+Diagram -
+
+                    +-----------------------+
+                    |       Clients         |   --> (Applications or Users)
+                    +-----------------------+
+                            |
+                            v
+                    +-----------------------+
+                    |     Data Ingestion    |   
+                    +-----------------------+
+                            |
+                            v
+                    +-----------------------+
+                    |    Data Storage       |   --> (HDFS)
+                    +-----------------------+
+                            |
+                            v
+                    +-----------------------+
+                    |    Data Processing    |   --> (MapReduce, Hive, Pig)
+                    +-----------------------+
+                            |
+                            v
+                    +-----------------------+
+                    |   Resource Management |   --> (YARN)
+                    +-----------------------+
+                            |
+                            v
+                    +-----------------------+
+                    |   Machine Learning    |   --> (Mahout)
+                    +-----------------------+
+                            |
+                            v
+                    +-----------------------+
+                    |    Workflow & Jobs    |   --> (Oozie, Zookeeper)
+                    +-----------------------+
+
+
+Architecture -
+    - Hadoop architecutre has three layers
+      1. Storage Layer
+      2. Proccesiing Layer
+      3. Resource Management Layer
+
+    1. Storage Layer
+       - It is handle by HDFS
+       - In this layer HDFS (Hadoop Distributed File System) split the data into blocks 
+         and distribute accross diffrent computer system (nodes)
+
+    2. Processing Layer
+       - It is mostly handle by MapReduce 
+       - In this layer parallel data processing accross diffrent distributed computer system (nodes) take place.
+
+    3. Resource Management Layer
+       - Handle by YARN
+       - In this layer task managaing and scheduling job take places
+
+
+######################################################################################################
+
+1. What is the difference between data analytics and data science?
+
+      Data science                            Data analytics
+ 
+1. In-depth knowlodge of               1. Basic knowlodge of programming is required
+   programming is required                   
+   
+2. Uses Machine learning Algorithm     2. Not uses Machine learning Algorithm
+
+3. Scope of data-sciene is large       3. Scope of data-analytics is micro (small)
+
+4. Uses raw, unclean and unstructured  4. Uses ready, clean, and  structured data.
+   data
+
+5. Statistic skills are required       5. Statistic skills are minimal in data-analytics.
+   in data-science
+6. Focus on exploration and            6. Focus on solving specific and defined problems
+   new innovations
+
+7. Required strong mathematics skills  7. Does not required strong mathematics skills
+
+8. Use in Automation, Health care,     8. Use in Finance, Marketing.
+   Research
+9. It focus on prediction              9. Focus on analytises  
 
 
 
-1. What is Data? Explain Categories of Data 
-2. List with example Terminologies of statistics 
-3. Short note on: 
-a. Sampling techniques 
-b. Descriptive Statistics (mean, mode, medi
+#################################################################################################
+
+28.  What is NoSQL ? Describe difference between SQL vs NoSQL.
+             SQL                     NoSQL
 
 
+            SQL                         NSQL
+  1. best for Structure data      1. Best for Unstructured, semi-stuctured data
+  2. It is relational             2. It is non-relational
+  2. It has Fixed schema          2. It has Flexible shemas
 
-1. What is Data Analysis? Explain Types of Data Analysis 
-2. Explain Process of Data Analysis 
-3. Short note on: 
-a. Applications of Data Analysis 
-b. Scipy 
-c. Data Visualization (Matplotlib and Seaborn) 
-d. Feature Engineering 
-e. Label encoding 
-4. Explain with example Data Wrangling or Data Pre-processing in Python (Dealing 
-with Missing Values, Data Formatting, Data Normalization, Label encoding) 
-5. Explain EDA in detail 
+  3. uses Sql for quering and    3. Use's various querry languages
+     manupulating data
+  4. Desgin for vertical         4. Design for horizontal scalablity.
+     scalablity
+  5. It has strong ACID          6. It has BASE Properties.
+     property
+  6. Less Flexible               6. Highly Flexible
+  7. Cost unefficent             7. Cost Efficent
+  8. Run on server               8. Run on clouds
+  9. less performace             9. High performace
+  10. not object orented          10. object orented database
+      database
+  11. less optimize storage      11. Optimize storage
+  
+  13. For example -              13. Mangodb, Redis,
+      Mysql, Postgress,             
+      Oracle, SQL server
+      SQlite
 
 
+      
+#########################################################################################################
 
-2. What is AutoML? Explain its importance/benefits/advantages 
-3. What is AutoEDA? Explain with example (AutoViz, Pandas Profiling, Sweetviz etc) 
-4. Short note on: 
-a. Deep learning 
-b. Big Data Technologies (5 Vs of Big data and Hadoop ecosystem) 
-c. Future trends in Data Science 
-d. Data Ethics and Privacy
+11.  Write a note on SciPy 
+     1. Scipy stands for Scientifc Python
+     2. It is free and opensource Framework
+     3. It is based on python programming lanaguage.
+     4. It is scientific computational libries of python uses numpy underneath.
+     5. It is used for solving complex scientific and mathematical problems.
+     6. It provide various functions for data optmizations, integrations, analysis.
+
+     Feature -       
+       1. Easy to use 
+       2. Wide Application
+       3. Large Community support
+       4. Build over Numpy
+
+       1. Easy to use 
+         - SciPy is biginner friendly framework.
+
+       2. Wide Application
+         - It has wide range of applications in fields of data-science, biology, physics etc
+           for solving mathematical and computational problems.
+
+       3. Large Community support
+         - It has large Community
+
+       4. Build over Numpy
+         - It is build over Numpy and extend the power of numpy.
+
+
+########################################################################################################
+
+12.  What is Numpy ? Explain its features.
+    1. Numpy stand for numerical python
+    2. Numpy is free and open source python libries
+    3. Numpy is genral purpose python package to handle arrays
+    4. Numpy support multi-dimenstion array.
+    5. Numpy array is 50x faster than traditional python list
+    6. Numpy written in python , c and c++ which increase its performance
+
+  Feature -
+            1. Performance
+            2. Easy to Use
+            3. Memory Efficent
+            4. Multi-Dimention Array
+            5. Open-source
+            6. Mathematical function
+            
+    1. Performance -
+       - Numpy is faster that Python List.
+    2. Easy to Use -
+       - Numpy syntax is easy to use and user friendly
+    3. Memory Efficent 
+       - Numpy uses Less memory compare to python build in data-structure.
+    4. Multi-Dimention Array
+       - Numpy support Multi-dimenstion array.
+    5. Open-source 
+       - Numpy is free and open source python package.
+    6. Mathematical function
+       - Provide wide range of mathematical funtion such as trignometric function,
+         logarithmic function, exponatinal, sqare-root etc.
+     
+#################################################################################################
+
+####################################################################################################################
+
+27.  Write a note on Seabon.
+     1. Seaborn is powerful data-visulization package
+     2. It is free and open-source
+     3. Seaborn is based on Matplotlib
+     4. It support all the feature of Matplotlib
+     5. It is easy and bigineer friendly package
+     6. It provide set of default theme and color which 
+        make it attractive .
+     7. It work seamlessly with pandas dataframe.
+     8. Simplify complex process of data-visulization into 
+        few lines of code.
+
+
+###########################################################################################
+53.  Write a note on matplotlib.
+     1. Matplotlib is powerful data-visulization package.
+     2. It is free and open-source
+     3. It used in data-visulization task.
+     4. It support varous plotting include
+        - line plots.
+        - scatter plots
+        - graphs
+        - charts,
+        - histogram , etc
+     5. It is easy and bigineer friendly package
+     6. Simplify complex process of data-visulization into 
+        few lines of code.
+      

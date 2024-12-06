@@ -675,3 +675,37 @@ Architecture -
          Noise - Random fluctuation or errors in data.
 
 ################################################################################################
+
+Data Analysis -
+   - Data Analysis is the process of extracting useful and valuable information 
+     using statistic and logical technique.
+   - which help in decison makings
+
+Type of data analysis -
+    There are four types of Data Analysis 
+       1. Predictive Analysis
+       2. Descriptive Analysis
+       3. Prescriptive Analysis
+       4. Dignolistic Analysis
+
+   1. Predictive Analysis -
+      - make prediction based on past history of data.
+      - check for trend , pattern in past data.
+      - For example - Weather Forcasting
+
+   2. Descriptive Analysis -
+      - check for past historical data for the similarity of events
+      - check for trend, pattern, same events in past data
+      - For example 
+      - Stock marketing Trend
+
+   3. Prescriptive Analysis -
+      - recommend action and suggestion based on past history
+      - Uses AI and machine learning alogrithm
+      - For example -
+        - Recommdation system - suggest product based on user preference.
+   
+   4. Dignolistic ANalysis -
+      - Used to understnad the cause of events
+      - For example -
+        Indentify why sales drop

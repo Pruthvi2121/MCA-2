@@ -1,6 +1,6 @@
 1. What is the difference between data analytics and data science?
 
-Data science                            Data analytics
+      Data science                            Data analytics
  
 1. In-depth knowlodge of               1. Basic knowlodge of programming is required
    programming is required                   
@@ -21,8 +21,7 @@ Data science                            Data analytics
 
 8. Use in Automation, Health care,     8. Use in Finance, Marketing.
    Research
-9. It focus on prediction              9. Focus on analytises  "what happen" & "Why"
-   "what will happen in future"
+9. It focus on prediction              9. Focus on analytises  
 
 #################################################################################################
 
