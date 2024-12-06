@@ -431,4 +431,77 @@ Auto EDA
     6. It automatically highlight oulier.
     7. It automatically generate heatmaps to show correlation between varables.
 
+
+##########################################################################################
+
+36.  Explain Data Wrangling with one example.
+   -  Data Wrangling - It is process of cleaning and transforming data into sutable format for
+      analysis or machine learning.
+
+      Step in Wrangling 
+        1. handle missing values
+        2. Format data
+        3. Remove Duplicate
+        4. Transform data.
+
+    Eg -
+         -------------------------------
+          Date       + Product + Amount  
+         ------------+---------+--------
+          11-10-2023 +    A    +   100    
+          11-12-2023 +    B    +   nan    
+          11-12-2023 +    A    +   100 
+         -------------------------------
+
+         Data after Wrangling
+         
+               .
+         -------------------------------
+          Date       + Product + Amount  
+         ------------+---------+--------
+          2023-11-10 +    A    +   100    
+          2023-11-12 +    B    +   100    
+         -------------------------------
+
+
+       Key changes -
+         1. change the date format
+         2. Remove duplicate records
+         3. Fill missing out values
+         
+
 #######################################################################################################################
+
+Type of statistic
+  1. There are two types of statistics
+      1. Descriptive 
+      2. Inferential
+
+  1 Descriptive 
+        1. Descriptive statistic describe the main feature of data Sets
+        2. Measure Central tendancy
+            - It is used to measure centeral tendancy which include 
+            - mean 
+            - median
+            - mode
+        3. Measure Dispersion
+            It is used to measure Dispersion which include
+            - Range 
+            - Variance
+            - Standard Division
+
+        4. Graphical representation
+            - It is used to for graphical representation which include
+            - bar graphs
+            - Pie charts
+            - Histogram , etc.
+
+
+    2 Inferential Statistics
+        1. Inferential statistics used to make predictions or test hypotheses.
+        2. It is used for regressional analysis
+        3. It is used for anaylizing correlation between varables.
+        4. used in probablity therory.
+
+##############################################################################################################
+          

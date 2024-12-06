@@ -17,7 +17,6 @@ a. Sampling techniques
 b. Descriptive Statistics (mean, mode, medi
 
 
-
 1. What is Data Analysis? Explain Types of Data Analysis  #
 2. Explain Process of Data Analysis #
 3. Short note on:  #
@@ -28,12 +27,12 @@ b. Descriptive Statistics (mean, mode, medi
     e. Label encoding 
 4. Explain with example Data Wrangling or Data Pre-processing in Python (Dealing 
 with Missing Values, Data Formatting, Data Normalization, Label encoding) 
-5. Explain EDA in detail 
+5. Explain EDA in detail #
 
 
 
 2. What is AutoML? Explain its importance/benefits/advantages  #
-3. What is AutoEDA? Explain with example (AutoViz, Pandas Profiling, Sweetviz etc) 
+3. What is AutoEDA? Explain with example (AutoViz, Pandas Profiling, Sweetviz etc)  #
 4. Short note on:  #
     a. Deep learning 
     b. Big Data Technologies (5 Vs of Big data and Hadoop ecosystem) 
