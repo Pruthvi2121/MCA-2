@@ -385,4 +385,50 @@ Type of data analysis -
       - For example -
         Indentify why sales drop
 
+
+#############################################################################################
+
+44.  Write a note on AutoML.
+    1. AutoML stands for Automated Machine Learning.
+    2. It is the process of automating the process of 
+       machine learning to solve real world problems.
+    3. AutoML is a technology that automates the process of building machine learning models
+    4. It allow people without expertise in machine learning to create powerful machine learning models.
+    5. It automate the manual task required for building model and 
+       save time.
+    6. This are some automML platforms
+        1. Google Cloud AutoML.
+        2. Microsoft Auzure AutoML 
+        3. AWS AutoML., etc.
+
+    Advantage -
+    1. Save Time - 
+       - reduce the mannual task required for building ml Model
+    2. Not Required expertise
+       - Not required expertise in machine learning.
+    3. Reduce Mannual Effort
+       - Reduce mannual effort of buiding and training ml model
+
+
 ##############################################################################################################################
+EDA -
+    1. EDA stands for Exploretory Data Analysis
+    2. It is an essential step in data anaysis process
+    3. It is the anaylis perform before actual analysis.
+    4. It understand and summerize the data before anaylisis
+    5. It help in removeing embiguites present in the data.
+    6. Identifies the missing values
+    7. highlight the outlier 
+    8. generates heatmaps to show correlation between varables.
+
+
+Auto EDA 
+    1. Auto EDA stand for automated Exploratory Data Analysis
+    2. It EDA is an essential step in data anayaliss.
+    3. It is automated analysis perform before the actual anaysis.
+    4. It Automatically detect embuguites in data and resolve it.
+    5. It Automatically identify missing values.
+    6. It automatically highlight oulier.
+    7. It automatically generate heatmaps to show correlation between varables.
+
+#######################################################################################################################

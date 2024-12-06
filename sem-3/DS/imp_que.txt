@@ -18,9 +18,9 @@ b. Descriptive Statistics (mean, mode, medi
 
 
 
-1. What is Data Analysis? Explain Types of Data Analysis 
-2. Explain Process of Data Analysis 
-3. Short note on: 
+1. What is Data Analysis? Explain Types of Data Analysis  #
+2. Explain Process of Data Analysis #
+3. Short note on:  #
     a. Applications of Data Analysis  
     b. Scipy  
     c. Data Visualization (Matplotlib and Seaborn) 
@@ -32,10 +32,10 @@ with Missing Values, Data Formatting, Data Normalization, Label encoding)
 
 
 
-2. What is AutoML? Explain its importance/benefits/advantages 
+2. What is AutoML? Explain its importance/benefits/advantages  #
 3. What is AutoEDA? Explain with example (AutoViz, Pandas Profiling, Sweetviz etc) 
-4. Short note on: 
-a. Deep learning 
-b. Big Data Technologies (5 Vs of Big data and Hadoop ecosystem) 
-c. Future trends in Data Science 
-d. Data Ethics and Privacy
+4. Short note on:  #
+    a. Deep learning 
+    b. Big Data Technologies (5 Vs of Big data and Hadoop ecosystem) 
+    c. Future trends in Data Science 
+    d. Data Ethics and Privacy
