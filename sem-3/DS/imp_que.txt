@@ -14,7 +14,7 @@ c. Difference between NoSQL and SQL  #
 2. List with example Terminologies of statistics 
 3. Short note on: 
 a. Sampling techniques 
-b. Descriptive Statistics (mean, mode, medi
+b. Descriptive Statistics (mean, mode, median)
 
 
 1. What is Data Analysis? Explain Types of Data Analysis  #

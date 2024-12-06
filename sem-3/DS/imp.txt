@@ -482,8 +482,12 @@ Type of statistic
         2. Measure Central tendancy
             - It is used to measure centeral tendancy which include 
             - mean 
+                -  It is the sum of all values divided by the number of values.
             - median
+                - It is the middle value of dataset.
             - mode
+               - mode is the most frequent value in dataset.
+               
         3. Measure Dispersion
             It is used to measure Dispersion which include
             - Range 
