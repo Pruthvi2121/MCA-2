@@ -5,8 +5,9 @@
 2. What is data science ? Explain the role of Data Scienctist. 
 
   - Data Science 
-      - Data Science is the study of data to find pattern, make prediction, and help in taking better
-        desicions, It uses lools like Statistic, Algorithm, programming to convert data into usesful
+      - Data Science is the study of data 
+        to find pattern, make prediction, and help in taking better
+        desicions, It uses like Statistic, Algorithm, programming to convert data into usesful
         insights.
 
    - Role of Data  Scienctist.
@@ -25,12 +26,37 @@
            - Analyzes the data to find patterns and trends using statistics .
         4. Build Models -
            - Create Predictive models using machine learning.
-        5. Data Visulization -
+        5. Visulization -
            - Visulize finding using ploting graphs, charts, etc 
              to help non-technical teams understand the results.
         6. Solve Business problem 
            - Collaborate with Business teams and provide insights and recommandation based on Research
              to make better desicions.
+
+
+Application of data-science -
+1. Recommdation system
+   - suggest movies or product based on user preference.
+2. Customer Services -
+   - Analyse social media 
+        1. Dignolisis
+            - Help doctor to monitor and dignolis
+        2. Personialised Medicine -
+           - Treatment based on  individual patient history
+        3. Virtual Health Assistent 
+           - Chatbot provide health advice and remiders
+        3. Stock market -
+           - Analyzes market data to make trading decisions
+        4. Customer Service -
+           - Chatbot handling customer inquires.
+        5. Recommendation system -
+           - suggest product based on user behavior.
+        6. Weather Forecasting 
+           - Predicts the weather based on past data.
+        8. Fraud Detection  
+            - Identifies suspicious activate in banking.
+       
+   
 
 3. Describe any four  tools of data science.
     1. Python
@@ -57,7 +83,7 @@
 
 
 ##########################################################################################################
-5.   What are the characteristics of big Data? 
+5.   What are the facet / characteristics of big Data? 
       The five V of Big data are -
          1. Volume - 
             - Large amount of data.
@@ -70,11 +96,12 @@
          5. Value.
             - Usefullness of data.
 
-
+##################################################################################################################
 4.   What is hadoop ? Explain Hadoop ecosystem with diagram.
     - Hadoop 
       1. Hadoop is an open-souce framework 
-      2. It is used to store and process larage amount of data across diffent
+      2. It is build on java.
+      3. It is used to store and process larage amount of data across diffent
          distributed computer environment.
     
     - components of Hadoop
@@ -110,7 +137,7 @@
            - provide task synchronization over system.
 
         8.  Oozie -
-           - It perform task of scheduling jobs               
+           - It perform task of scheduling jobs    
 
          
 
@@ -149,6 +176,23 @@ Diagram -
                     +-----------------------+
                     |    Workflow & Jobs    |   --> (Oozie, Zookeeper)
                     +-----------------------+
+
+
+Architecture -
+                
+    1. Storage Layer
+       - It is handle by HDFS
+       - HDFS (Hadoop Distributed File System) split the data into blocks 
+         and distribute accross diffrent computer system (nodes)
+
+    2. Processing Layer
+       - It is mostly handle by MapReduce 
+       - Provide parallel data processing accross diffrent distributed computer system (nodes)
+
+    3. Resource Management Layer
+       - Handle by YARN
+       - In this layer managaing and scheduling job take places
+
 
 ######################################################################################################
 

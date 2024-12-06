@@ -6,7 +6,7 @@
 
   - Data Science 
       - Data Science is the study of data to find pattern, make prediction, and help in taking better
-        desicions, It uses lools like Statistic, Algorithm, programming to convert data into usesful
+        desicions, It uses   Statistic, Algorithm, programming to convert data into usesful
         insights.
 
    - Role of Data  Scienctist.
@@ -627,6 +627,7 @@ Diagram -
          Noise - Random fluctuation or errors in data.
 
 ################################################################################################
+
 1. What is the difference between data analytics and data science?
 
 Data science                            Data analytics
@@ -726,6 +727,7 @@ Data science                            Data analytics
      8. Result not easy to explain      8. Result easy to explain.
 
 #################################################################################################
+
 6.   Create a two 2-D array using numpy and  Plot it using matplotlib,
 
         import numpy as np  

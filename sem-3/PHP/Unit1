@@ -138,7 +138,7 @@ Ques 1. What is php and explain varables in php ?
 
 8. Null coalscing Operator (??)
   - Return the first value if exist , otherwise the second
-  for example 
+  for example   
       $name = $_GET['name'] ?? 'Guest';
       // If 'name' is not set, 'Guest' will be assigned
           

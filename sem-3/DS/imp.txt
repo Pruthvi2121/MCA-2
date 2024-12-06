@@ -1,0 +1,41 @@
+1. What is Data Science? Explain its importance/benefits/advantages  #
+1. Explain the role of data scientist  #
+2. List and explain different tools used in Data Science  #
+3. Short note on  #
+    a. Applications of Data Science
+    b. Facets of Data  
+c. Difference between NoSQL and SQL  #
+4. List with example Python Libraries (Numpy, Pandas, MatplotLib, Scikit-learn) 
+5. Explain Hadoop Ecosystem in detail or Explain Big Data Technologies in detail
+
+
+
+1. What is Data? Explain Categories of Data 
+2. List with example Terminologies of statistics 
+3. Short note on: 
+a. Sampling techniques 
+b. Descriptive Statistics (mean, mode, medi
+
+
+
+1. What is Data Analysis? Explain Types of Data Analysis 
+2. Explain Process of Data Analysis 
+3. Short note on: 
+a. Applications of Data Analysis 
+b. Scipy 
+c. Data Visualization (Matplotlib and Seaborn) 
+d. Feature Engineering 
+e. Label encoding 
+4. Explain with example Data Wrangling or Data Pre-processing in Python (Dealing 
+with Missing Values, Data Formatting, Data Normalization, Label encoding) 
+5. Explain EDA in detail 
+
+
+
+2. What is AutoML? Explain its importance/benefits/advantages 
+3. What is AutoEDA? Explain with example (AutoViz, Pandas Profiling, Sweetviz etc) 
+4. Short note on: 
+a. Deep learning 
+b. Big Data Technologies (5 Vs of Big data and Hadoop ecosystem) 
+c. Future trends in Data Science 
+d. Data Ethics and Privacy
