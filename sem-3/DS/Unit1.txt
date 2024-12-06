@@ -179,19 +179,23 @@ Diagram -
 
 
 Architecture -
-                
+    - Hadoop architecutre has three layers
+      1. Storage Layer
+      2. Proccesiing Layer
+      3. Resource Management Layer
+
     1. Storage Layer
        - It is handle by HDFS
-       - HDFS (Hadoop Distributed File System) split the data into blocks 
+       - In this layer HDFS (Hadoop Distributed File System) split the data into blocks 
          and distribute accross diffrent computer system (nodes)
 
     2. Processing Layer
        - It is mostly handle by MapReduce 
-       - Provide parallel data processing accross diffrent distributed computer system (nodes)
+       - In this layer parallel data processing accross diffrent distributed computer system (nodes) take place.
 
     3. Resource Management Layer
        - Handle by YARN
-       - In this layer managaing and scheduling job take places
+       - In this layer task managaing and scheduling job take places
 
 
 ######################################################################################################
