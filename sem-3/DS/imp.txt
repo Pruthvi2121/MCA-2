@@ -487,7 +487,7 @@ Type of statistic
                 - It is the middle value of dataset.
             - mode
                - mode is the most frequent value in dataset.
-               
+
         3. Measure Dispersion
             It is used to measure Dispersion which include
             - Range 
@@ -509,3 +509,29 @@ Type of statistic
 
 ##############################################################################################################
           
+Sampling -
+  - Sampling is the process of selecting the small populiation from the large population to study about 
+    entire population
+
+The sampling is divided into two types.
+  1. Probablity sampling
+  2. Non Probablity sampling
+
+1. Probablity sampling
+   1. It is based on random Selection
+   2. Each member has equal chance of selection
+   3. uses random sampling techique 
+   4. It required more time.
+   5. It is costly
+   6. Ideal for hypothesis testing
+
+2. Non Probablbity sampling
+   1. Based on non random Selection
+   2. Each member has unequal chance of selection.
+   3. uses non random sampling techique 
+   4. It require less time.
+   
+   5. It is cost efficent
+   6. Not ideal for hypothesis testing
+
+###############################################################################################################
