@@ -1,0 +1,31 @@
+
+1. What is MVC? Discuss in brief
+2. Enlist the advantages of MVC?
+3. What are the features of MVC?
+4. How routing is done in the MVC? Explain with suitable example
+5. How does ASP.NET MVC work? Explain in detail?
+6. What are the types of results in MVC?
+7. What is the difference between Web Forms and MVC?
+8. Mention what is the difference between Temp data, View, and View Bag?
+9. What is TempData in MVC? Explain with suitable example
+10. What are the Filters in MVC?
+11. Discuss Partial View in MVC in detail?
+12. What is Razor view Engine? Explain the syntax of Razor View?
+13. What is strongly type view? Explain with help of example
+14. How to pass data from controller to view? Explain with suitable example
+15. Explain the process of accessing model data in razor views?
+16. What are HTML helpers in MVC?
+17. What is Entity Framework?
+18. Explain the advantages of the Entity Framework.
+19. Describe some of the disadvantages of the Entity Framework.
+20. What are the features of the Entity Framework?
+21. Explain different parts of the entity data model.
+22. What is the use of MongoDB?
+23. Differentiate between NoSQL and RDBMS
+24. What are the benefits of NoSQL
+25. Explain JSON with its structure
+26. Explain Aggregation in MongoDB
+27. Explain storage classes with suitable example
+28. Elaborate Performance Using Indexes
+29. Explain Express.js and its role in web application development
+30. What is the use of pipeline

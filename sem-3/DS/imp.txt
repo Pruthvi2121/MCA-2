@@ -39,24 +39,24 @@ Application of data-science -
    - suggest movies or product based on user preference.
 2. Customer Services -
    - Analyse social media 
-        1. Dignolisis
-            - Help doctor to monitor and dignolis
-        2. Personialised Medicine -
-           - Treatment based on  individual patient history
-        3. Virtual Health Assistent 
-           - Chatbot provide health advice and remiders
-        3. Stock market -
-           - Analyzes market data to make trading decisions
-        4. Customer Service -
-           - Chatbot handling customer inquires.
-        5. Recommendation system -
-           - suggest product based on user behavior.
-        6. Weather Forecasting 
-           - Predicts the weather based on past data.
-        8. Fraud Detection  
-            - Identifies suspicious activate in banking.
-       
+   1. Dignolisis
+      - Help doctor to monitor and dignolis
+   2. Personialised Medicine -
+      - Treatment based on  individual patient history
+   3. Virtual Health Assistent 
+      - Chatbot provide health advice and remiders
+   3. Stock market -
+      - Analyzes market data to make trading decisions
+   4. Customer Service -
+      - Chatbot handling customer inquires.
+   5. Recommendation system -
+      - suggest product based on user behavior.
+   6. Weather Forecasting 
+      - Predicts the weather based on past data.
+   8. Fraud Detection  
+      - Identifies suspicious activate in banking.
    
+
 
 3. Describe any four  tools of data science.
     1. Python
@@ -113,7 +113,7 @@ Spark
    3. It support in-memory processing
    4. It is faster than hadoop processing.
    5. It is easy to use, has api support
-   6. It is used for processing big data.
+   6. It is used for processing big data.  
 
    Appliaiton -
      1. Used in real-time data analysing
@@ -346,7 +346,17 @@ Architecture -
        - Provide wide range of mathematical funtion such as trignometric function,
          logarithmic function, exponatinal, sqare-root etc.
      
-#################################################################################################
+##################################################################################################
+39.  Write a note on SciKit-Learn.
+     1. Scikit Learn is the most powerful roboust machine learning library in python.
+     2. It is free and open-source.
+     3. It is build upon Numpy, Scipy and matplotlib.
+     4. It is also known as sklearn.
+     5. It support data-modeling and data-visulaization as well.
+     6. It provide both supervised and unsupervised algorithims.
+     7. It is biginner friendly.
+     8. Also can be used for data-anaylisis.
+
 
 ####################################################################################################################
 
@@ -431,12 +441,12 @@ Type of data analysis -
         3. AWS AutoML., etc.
 
     Advantage -
-    1. Save Time - 
-       - reduce the mannual task required for building ml Model
-    2. Not Required expertise
-       - Not required expertise in machine learning.
-    3. Reduce Mannual Effort
-       - Reduce mannual effort of buiding and training ml model
+         1. Save Time - 
+            - reduce the mannual task required for building ml Model
+         2. Not Required expertise
+            - Not required expertise in machine learning.
+         3. Reduce Mannual Effort
+            - Reduce mannual effort of buiding and training ml model
 
 
 ##############################################################################################################################
