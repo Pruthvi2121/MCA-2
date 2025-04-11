@@ -1,0 +1,82 @@
+
+1. What is MVC? Discuss in brief
+    1. MVC stands for Model View Controller
+    2. It is way to organise code especially in web and destop applications
+       to make it clear and easier to manage.
+    Component of MVC
+        1. Model
+        2. View
+        3. Controller
+
+    1. Model
+      - Model manage data, logic and rule of applications
+
+    2. View 
+      - View handle user inteface and presenation
+      - It display data from the model to the user
+      - It send user input to the controller.
+      - eg- HTML, CSS template that show blogs post on page.
+
+    3. Controller -
+       - It act as a middle man between Model and View
+       - It process input from the user call the sepecific model and return reponse to the view.
+
+#################################################################################################
+    
+2. Enlist the advantages and Feature of MVC?
+
+    1. Sepeartion of UI, data and logic
+    2. Reusablity
+    3. Testablity
+    4. Support Parallel Development
+    5. Fast Development
+
+    1. Seperation of UI and logic
+       - Keeps things organised
+         - Model : handle data
+         - View : handle user interface
+         - Controller:  handle User Action
+
+    2. Reusablity 
+       - You can reuse model, view and controller in diffrent part of application
+    3. Testablity 
+       - Easier to test each part seperatly.
+    4. Support Parallel Development 
+       - Different people can work on Model, View, and Controller at same time.
+    5. Fast Development
+       - Due to better structure and team work development is faster
+
+#################################################################################################
+
+23. Differentiate between NoSQL and RDBMS
+             RDBMS                     NoSQL
+
+
+            SQL                         NSQL
+  1. Structure table with        1. Unstructured, semi-stuctured
+     predefined shemas              sturctured.
+  2. Fixed schema                2. Varable schema can be changed 
+                                    or adopt according to need.
+  3. uses Sql for quering and    3. Use's various querry languages
+     manupulating data
+  4. Desgin for vertical         4. Design for horizontal scalablity.
+     scalablity
+  5. Invole Atomacity,           5. Basically available in softstate
+     Consistency,                   consistent
+     Isolation, 
+     Durablity 
+  6. Less Flexible               6. Highly Flexible
+  7. Cost unefficent             7. Cost Efficent
+  8. Run on server               8. Run on clouds
+  9. less performace             9. High performace
+  10. no object orented          10. object orented database
+      database
+  11. less optimize storage      11. Optimize storage
+  12. Data is stored in          12. Data is stored in 
+      form of queryset               form of object
+  13. For example -              13. Mangodb, Redis,
+      Mysql, Postgress,             
+      Oracle, SQL server
+      SQlite
+
+##############################################################################################
