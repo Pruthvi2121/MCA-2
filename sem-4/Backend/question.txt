@@ -2,12 +2,12 @@
 # 1. What is MVC? Discuss in brief
 # 2. Enlist the advantages of MVC?
 # 3. What are the features of MVC?
-4. How routing is done in the MVC? Explain with suitable example
-5. How does ASP.NET MVC work? Explain in detail?
-6. What are the types of results in MVC?
-7. What is the difference between Web Forms and MVC?
-8. Mention what is the difference between Temp data, View, and View Bag?
-9. What is TempData in MVC? Explain with suitable example
+# 4. How routing is done in the MVC? Explain with suitable example
+# 5. How does ASP.NET MVC work? Explain in detail?
+# 6. What are the types of results in MVC?
+# 7. What is the difference between Web Forms and MVC?
+# 8. Mention what is the difference between Temp data, View, and View Bag?
+# 9. What is TempData in MVC? Explain with suitable example
 10. What are the Filters in MVC?
 11. Discuss Partial View in MVC in detail?
 12. What is Razor view Engine? Explain the syntax of Razor View?

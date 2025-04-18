@@ -1,5 +1,7 @@
 
 1. What is MVC? Discuss in brief
+# 5. How does ASP.NET MVC work? Explain in detail?
+
     1. MVC stands for Model View Controller
     2. It is way to organise code especially in web and destop applications
        to make it clear and easier to manage.
@@ -52,7 +54,7 @@
              RDBMS                     NoSQL
 
 
-            SQL                         NSQL
+            RDBMS                          NSQL
   1. Structure table with        1. Unstructured, semi-stuctured
      predefined shemas              sturctured.
   2. Fixed schema                2. Varable schema can be changed 
@@ -79,4 +81,132 @@
       Oracle, SQL server
       SQlite
 
+##############################################################################################
+
+4. How routing is done in the MVC? Explain with suitable example
+    1. Model
+      - Model represents the data and bussiness logic of the application
+      - It handle data, (retriviing, sorting etc) from database
+
+    2. View 
+      - View handle user inteface and presenation
+      - It represents the UI
+      - It display data from the model to the user via controller
+      - It send user input to the controller.
+      - eg- HTML, CSS template that show blogs post on page.
+
+    3. Controller -
+       - It act as a middle man between Model and View
+       - It process input from the user call the sepecific model and return reponse to the view.
+
+    Routing -
+     - When user request the url eg - /Home
+     - then router look for which Controller and Action to use or call.
+     - Home is the controller like helper for a specific task.
+     - Index is the action like special task within that controller.
+
+     Example -
+      - URL- Home/Index
+      - System says Go to HomeController and run the Index method.
+
+      public ActionResult Index()
+      {
+         return View(); // Shows the page to the user.
+      }
+
+#####################################################################################################
+
+6. What are the types of results in MVC?  
+  Following are the different types of results in MVC
+    1. ViewResult 
+    2. RedirectResult
+    3. JsonResult
+    4. ContentResult
+    5. FileResult
+    6. EmptyResult
+
+   1. ViewResult
+      - It is used to display a view (html page)
+   2. RedirectResult
+      - It is used to redirect or navigate the user to another page
+   3. JsonResult 
+      - It return the data in JSON format (Javascript object Notation)
+   4. ContentResult 
+      - It is used to send plain text or raw ContentResult
+   5. FileResult 
+      - It is used to send file to the user for download.
+   6. EmptyResult 
+      - This result return no content (eg after deleting a record)
+
+######################################################################################################
+
+
+7. What is the difference between Web Forms and MVC?
+       Web Forms                                MVC
+
+1. It has a complex lifecycle.                 1. It has a simpler lifecycle.
+2. It doesn’t give full control over HTML.     2. It gives full control over HTML.
+3. Here UI and logic are tightly linked.       3. It separates UI, logic, and data clearly.
+4. It’s hard to test.                          4. It’s easy to test.
+5. Uses ViewState,                             5. It not uses Viewset
+6. Routing is limited.                         6. Routing is not limited.
+7. Easier to learn for beginners.              7. Harder to learn, requires more knowledge.
+8. Can be slower due to ViewStat               8. Faster as it not use Viewset
+9. It is less Flexible                         9. It is more Flexible
+10. It is less scaleable                       10. It is more scaleable
+11. has limiation to ui custimization          11. Has full control over ui custimization
+
+
+#####################################################################################
+
+8. Mention what is the difference between Temp data, View, and View Bag?
+  1. Temp data
+     - Data presist for current requst only but can be passed to another request.
+     - Used for passing data between reqeusts
+     - store data of any type
+     - Accessing using TempData["key"]
+     - it is slow comare to other
+     
+  2. ViewData
+     - Data presist for current request only.
+     - Used for passing data to view within same request.
+     - store data in key - value pair
+     - Accessing using ViewData["key"]
+     - It is faster 
+
+  3. ViewBag
+     - Data presist for current request only.
+     - Used for passing data to view within same request.
+     - store data dyanmically as properties.
+     - Accessing using ViewBag.key
+     - It is similar to ViewData but has easy syntax.
+
+################################################################################################
+
+
+  1. Temp data
+     - Data presist for current requst only but can be passed to another request.
+     - Used for passing data between reqeusts
+     - store data of any type
+     - Accessing using TempData["key"]
+     - it is slow comare to other
+     
+   Example -
+
+    public ActionResult SubmitForm()
+    {
+      TempData["Msg"] = "Thank you";
+      return RedirectToAction("Confermation");
+    }
+
+    public ActionResult confermation()
+    {
+      ViewBag.Msg = TempData["Msg"];
+      return View();
+    }
+
+    Confermation.cshtml
+
+    <h1>@ViewBag.Msg</h1>
+   
 ##############################################################################################
