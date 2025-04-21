@@ -8,8 +8,8 @@
 # 7. What is the difference between Web Forms and MVC?
 # 8. Mention what is the difference between Temp data, View, and View Bag?
 # 9. What is TempData in MVC? Explain with suitable example
-10. What are the Filters in MVC?
-11. Discuss Partial View in MVC in detail?
+# 10. What are the Filters in MVC?
+# 11. Discuss Partial View in MVC in detail?
 12. What is Razor view Engine? Explain the syntax of Razor View?
 13. What is strongly type view? Explain with help of example
 14. How to pass data from controller to view? Explain with suitable example

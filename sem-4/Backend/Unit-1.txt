@@ -182,7 +182,7 @@
      - It is similar to ViewData but has easy syntax.
 
 ################################################################################################
-
+What is TempData in MVC? Explain with suitable example
 
   1. Temp data
      - Data presist for current requst only but can be passed to another request.
@@ -210,3 +210,53 @@
     <h1>@ViewBag.Msg</h1>
    
 ##############################################################################################
+
+10. What are the Filters in MVC?
+   1.  Authorization Filters
+   2.  Action Filters
+   3.  Result Filters
+   4. Exception Filters
+
+   Tyes of Filter in MVC
+    1. Authorization Filters
+      - execute before anything else.
+      - Used for security, to check if the user is authorized.
+
+    2. Action Filters
+      - execute before and after an action method is called.
+      - Used for logging, validation or modifiy result
+
+    3. Result Filters
+      - execute before and after the result is executed
+
+    4. Exception Filters
+      - execute when exception occurs
+      - used for error handling
+      
+#############################################################################################
+
+11. Discuss Partial View in MVC in detail?
+      1. Partial view in MVC is reusable piece of code.
+      2. It contain the HTML + Razor code that can be reusable in mulitpal views.
+      3. It act like resuable component.
+      4. It obey DRY principal, to avoid repeating code.
+      5. It allow us to split the code into smaller, managable pieces.
+      6. It is used to create common ui part like header, footer, navbar, or forms over webpage.
+      7. to create partial view, create file start with undersocre inside the View folder.
+      8. Example
+        _NavbarPartial.cshtml
+
+        <nav>
+            <li> Home </li>
+            <li> About </li>
+            <li> Contact</li>
+        </nav>
+
+      9. Accessing
+         You can access the partial view in your view using @Html.Partil("your_Partil_view_name")
+         Example
+         example.cshtml
+
+         @Html.Partial("_NavbarPartial")
+
+#######################################################################################################
