@@ -260,3 +260,7 @@ What is TempData in MVC? Explain with suitable example
          @Html.Partial("_NavbarPartial")
 
 #######################################################################################################
+
+12. What is Razor view Engine? Explain the syntax of Razor View?
+    1. Razor is a view engine used in ASP.NET MVC to generate dyanmic web pages.
+    2. It allow us to embeded mix HTML and C# code in same file.
