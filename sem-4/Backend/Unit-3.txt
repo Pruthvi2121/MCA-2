@@ -1,0 +1,55 @@
+ What is the use of MongoDB?
+    1. Flexible
+       - It is highly flexible , store anykind of data without fixed structure.
+    2. Scalable
+       - It is highly scalble , can handle million of users
+    3. Best for Real time Application
+       - Best for the Real time application where to handle data quickly
+    4. Best for WEb and mobile Application
+       - It is used in modern apps like social media, ecommerce etc.
+    5. Powerfull Querries
+       - support advance filtering, searching and indexing.
+    6. Store data in JSON-Like Document
+       - Store data in BSON (Binary JSON) format.
+    7. High Performance
+       - Fast read / Write for larage amount of data
+
+###################################################################################
+24. What are the benefits of NoSQL
+   1. High Performance
+      - It has great performance can read, write for large amount of data.
+   2. Scaleable
+       - It is highly scalble , can handle million of users
+   3. Flexible
+       - It is highly flexible , store anykind of data without fixed structure.
+   4. Best for Real time Application
+      - Best for the Real time application where to handle data quickly
+   5. Support Unstructured Data.
+      - Suport and work with Image, video , document etcs
+   6. Handle high traffic
+      - Nosql database like mongodb can handle million of users
+
+#######################################################################################
+25. Explain JSON with its structure
+   1. JSON stands for Javascript Object Notation.
+   2. It is lightweight
+   3. It has easy-to-read format.
+   4. It especially used to store and share data among server and web applications via API
+   5. JSON is often used in API's, webserver, and Nosql database like mongodb
+   
+
+   Structure of JSON
+   Exmpale 
+     {
+      "name":"Mike",
+      "age":30,
+      "is_student":true
+     }
+
+   6. Data store in JSON is with a key-value pair
+   7. Json start and end with {}
+   8. the key of json is always string eg "name",
+   9. Value of key can be string, int, boolean, object, array etc
+   10. support nexted object
+
+#################################################################################################

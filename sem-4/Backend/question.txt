@@ -15,15 +15,15 @@
 # 14. How to pass data from controller to view? Explain with suitable example
 # 15. Explain the process of accessing model data in razor views?
 # 16. What are HTML helpers in MVC?
-17. What is Entity Framework?
-18. Explain the advantages of the Entity Framework.
-19. Describe some of the disadvantages of the Entity Framework.
-20. What are the features of the Entity Framework?
-21. Explain different parts of the entity data model.
-22. What is the use of MongoDB?
+# 17. What is Entity Framework?
+# 18. Explain the advantages of the Entity Framework.
+# 19. Describe some of the disadvantages of the Entity Framework.
+# 20. What are the features of the Entity Framework?
+# 21. Explain different parts of the entity data model.
+# 22. What is the use of MongoDB?
 # 23. Differentiate between NoSQL and RDBMS
-24. What are the benefits of NoSQL
-25. Explain JSON with its structure
+# 24. What are the benefits of NoSQL
+# 25. Explain JSON with its structure
 26. Explain Aggregation in MongoDB
 27. Explain storage classes with suitable example
 28. Elaborate Performance Using Indexes

@@ -1,0 +1,84 @@
+ 17. What is Entity Framework?
+ 18. Advantages of Entity Framework
+
+
+ 1. Entity Framework is also known as EF 
+ 2. It is free and opensource
+ 3. It is Object Relation Mapping (ORM) developed by Microsofit for .Net application
+ 4. It allow developer to interact or communicate with the database using .Net object
+ 5. Rather than writing raw sql queries we can use Entity Framwebork to create, update, Retrive , and delete operation
+ 6. It make it easier to work with diffrent type of database, like sqlite, postgress, mysql etc
+ 7. It improve maintaince and readablity.
+ 8. Easier to read and write
+ 9. Database communication easier using EF ORM.
+ 10. Automatically tracks changes to objects and update accordingly in database.
+
+ Advantages -
+   1. Less code
+      - Instead of raw sql, we can use C# 
+   2. Faster Development
+      - faster development by feature like code-first and Migrations
+   3. LINQ Support
+      - Querries the database using LINQ (C# style queries)
+   4. Automatic Change Tracking
+      - Automatically Track changes and update accordingly in database.
+   5. Cross Database Support
+      - Works with different databases like SQL Server, MySQL, PostgreSQL.
+   6. Strong Typeing
+      - Catches error at compile time, not runtime
+   7. Easy to Maintain
+      - Easy to maintain as code is clean and readable.
+   8. Cache Support -
+      - Store data in memory to avoid repeative hits
+   9. Lazy loading -
+     - Load the data only when needs.
+  10. Migration Support 
+     - Update the database without loosing data.
+    
+Disadvantages
+    1. Performance Issues
+       - Slower than raw sql, for complex queries
+    2. Less Control 
+       - It has less control over optmization of complex queries
+    3. Leaning Curve -
+       - It can be confusing for beginners
+    4. Debugging Issue -
+       - Hard to debug exceptions
+    5. Not Idel for all projects
+       - For small and high performance app, raw sql is better than EV ORM.
+      
+
+
+ ####################################################################################
+ 21. Explain different parts of the entity data model.
+    The Entity Data Model (EDM) is divided into three parts
+    1. Conceptual Model (C# class)
+    2. Storage Model (Database)
+    3. Mapping ORM
+
+    1. Conceptual Model 
+      - It is c# class where we define fields of database
+       Example 
+
+       public class Student
+       {
+            public int id {get; set;}
+            public string name {get; set;}
+       }
+     2. Storage Model
+       - It describe the actual database
+       - This is how the data is stored phycicall in actual sql server
+       Example -
+       CREATE TABLE STUDENT( ID INT PRIMARY KEY, NAME VARCHAR(100));
+
+    3. Mapping 
+      - It is ORM Object Relation Mapping
+      - It is used to communicate the database via C# objects
+      - It is kind of another language to communcicate with database over sql.
+      Example -
+
+      user = context.Users.Find(1);  // find the user with id = 1
+
+    ##################################################################################################
+
+
