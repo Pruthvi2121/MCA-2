@@ -10,11 +10,11 @@
 # 9. What is TempData in MVC? Explain with suitable example
 # 10. What are the Filters in MVC?
 # 11. Discuss Partial View in MVC in detail?
-12. What is Razor view Engine? Explain the syntax of Razor View?
-13. What is strongly type view? Explain with help of example
-14. How to pass data from controller to view? Explain with suitable example
-15. Explain the process of accessing model data in razor views?
-16. What are HTML helpers in MVC?
+# 12. What is Razor view Engine? Explain the syntax of Razor View?
+# 13. What is strongly type view? Explain with help of example
+# 14. How to pass data from controller to view? Explain with suitable example
+# 15. Explain the process of accessing model data in razor views?
+# 16. What are HTML helpers in MVC?
 17. What is Entity Framework?
 18. Explain the advantages of the Entity Framework.
 19. Describe some of the disadvantages of the Entity Framework.

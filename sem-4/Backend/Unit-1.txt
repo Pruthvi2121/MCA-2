@@ -263,4 +263,196 @@ What is TempData in MVC? Explain with suitable example
 
 12. What is Razor view Engine? Explain the syntax of Razor View?
     1. Razor is a view engine used in ASP.NET MVC to generate dyanmic web pages.
-    2. It allow us to embeded mix HTML and C# code in same file.
+    2. It allow us to embeded  HTML and C# code in same file.
+    3. The file extention of razor file for C# is cshtml
+    4. The file extenction of razor file for VB.Net is vbhtml
+    5. It has easy and clean syntax
+    6. It is easy to read and write
+    7. Auto complete is support in VS studio
+    8. It helps in seperating UI and logic
+
+
+    Syntax -
+    1. @ is used to embeded C# code in html
+      Example -
+         
+         @Datetime
+         <h1>current date-time @Datetime.Now</h1>
+
+    2. Declare Varable
+       Example 
+       @{
+         var name = "Mike";
+       }
+       <p>Hello, @name</p>
+
+    3. if else statement
+      Example
+      @{
+         int age = 20
+      } 
+
+      @if(age==20){
+         <p>you can drive</p>
+      }
+      else
+      {
+         <p>you cannot drive</p>
+      }
+   
+   4. Loop
+     @for(i=0; i<10; i++;){
+         <p>Counter: @i</p>
+     }
+
+#####################################################################################
+13. What is strongly type view? Explain with help of example
+ 1. A strong typed view is a view that bound to a speific model class
+ 2. It allow us to use model properties directly in view.
+ 3. Helps us to create dynamic forms and pages more easily.
+ 4. It catches error at compile time not runtime.
+ 5. Easy to maintain code.
+
+ For Example -
+ -------------------------------------------------------
+  Models/Student.cs
+
+  namespace Myapp.Models
+  {
+    public class Student
+    {
+      public int Id {get; set;}
+      public string name {get; set;}
+      public int age {get; set;}
+    }
+  }
+
+
+-------------------------------------------------------
+  Controller/StudentController.cs
+  using Myapp.Models
+
+  public class StudentController : Controller
+  {
+      public ActionResult Details(){
+         Student student = new Student()
+         {
+            Id = 1,
+            Name = "Mike",
+            age = 20
+         }
+
+         return View(student);
+      }
+  }
+
+-------------------------------------------------------
+Details.cshtml
+
+@model Myapp.Models.Student
+
+<h1>Student Detail</h1>
+
+<p>@Model.Id</p>
+<p>@Model.name</p>
+<p>@Model.age</p>
+
+###############################################################################
+
+14. How to pass data from controller to view? Explain with suitable example
+  Follwoing are the diffrent ways by which we can pass data 
+  from controller to view.
+  1. Using ViewBag
+  2. Using ViewData
+  3. Using Model (Strong typed view)
+
+  1. Using ViewBag -
+     It is dynamic object not required to difine type
+     Example -
+     controller -
+
+     public ActionResult Student()
+     {
+         ViewBag.Message = "Hello World";
+         return View()
+     }
+
+     View
+     <h1>@ViewBag.Message</h1>
+
+------------------------------------------------------------------------------
+2. Using ViewData
+   1. ViewData is similar to ViewBag
+   2. It store data in key-value pair
+
+   Example 
+   controller 
+
+   public ActionResult Student(){
+      ViewData["Message"]="Hello World";
+
+      return View()
+   }
+
+   View
+   <h1>@ViewBag["Message"]</h1>
+
+-----------------------------------------------------------------------------
+3. Using Model
+   1. It is best practice
+   2. It is more secure way to pass the data to view
+   3. It is also know as storng typed view
+
+   For example 
+   - Model
+
+         public class Student{
+            public int id {get; set;}
+            public string name{get; set;}
+         }
+
+   - Controller
+
+         Myapp.Models.Student
+         public ActionResult Student(){
+            Student student = new Student()
+            {
+               id = 1,
+               name = "Rohit",
+            }
+
+            return View(student);
+         }
+
+   - View
+         Myapp.Models.Student
+
+         <p>@Model.id</p>
+         <p>@Model.name</p>
+-------------------------------------------------------------------
+
+16. What are HTML helpers in MVC?
+   1. Makes your HTML dynamic.
+   2. Reduces Mannul HTML typing.
+   3. Support direct model binding
+   4. Support Validation Feature.
+
+   Following are the different HTML helpers
+   1. TextBox
+      - Example - @Html.TextBoxFor(model => model.Name)  
+      - Used to get text input from the user
+
+   2.  Password
+       Example-  @Html.Password("password")
+      - Used to get password  input from the user 
+      - Hide the input text with dots or astricks
+   3. Checkbox -
+      Example @Html.CheckBox("i_agree")
+      - Used to get  True/False Yes or No input from the user
+
+   4.TextArea 
+     Example @Html.TextArea("message")
+     - Used to input large text from the user
+
+####################################################################################
+   
