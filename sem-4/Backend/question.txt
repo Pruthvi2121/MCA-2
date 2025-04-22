@@ -24,8 +24,8 @@
 # 23. Differentiate between NoSQL and RDBMS
 # 24. What are the benefits of NoSQL
 # 25. Explain JSON with its structure
-26. Explain Aggregation in MongoDB
+# 26. Explain Aggregation in MongoDB
 27. Explain storage classes with suitable example
 28. Elaborate Performance Using Indexes
-29. Explain Express.js and its role in web application development
+# 29. Explain Express.js and its role in web application development
 30. What is the use of pipeline

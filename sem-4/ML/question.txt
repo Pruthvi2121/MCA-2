@@ -1,0 +1,188 @@
+# Q1. What is Machine Learning? Define & it’s Types.
+# Q2. What is the meaning of human learning and its type.
+Q3. Explain Supervised Learning, Classification, Problems & types
+# Q4. Difference between supervised and Unsupervised Learning.
+# Q5. Write Note on Reinforcement Learning(RL).
+# Q6. Which is the challenges face in machine larning?
+# Q7. What is the role of Assumption in machine leaning.
+# Q8. Steps of Machine Leaning life cycle.
+# Q9. Machine Learning Modeling with its diagram / Model.
+# Q10. Libraray of Machine Learning? With brief explanation.
+
+
+Q1. What is data? What are the basic types of data in machine learning? 
+Q2. What is data preprocessing? Explain steps of data preprocessing in detail
+Q3. Explain Data Quality Assessment and explain missing values and outliers 
+Q4. What is meant by Duplicate values and give example of duplicate values
+Q5. Write short note on Feature Aggregation with example
+Q6. Write note on Feature Discretization
+Q7. Explain Feature Sampling in detail with its types
+Q8. What is Feature Encoding and explain term Nominal and Ordinals ?
+Q9. What is the interval and ratio in feature encoding
+Q10. Explain One Hot Encoding with example
+Q11. Explain Standardization in brief with example 
+Q12. Explain Normalization in detail with proper example
+
+
+
+Q1. Explain the concept of descriptive analytics and how it is used in machine  
+Learning
+Q2. What are the key differences between descriptive, predictive, and 
+prescriptive analytics in the context of machine learning?
+
+Q3. Describe the role of statistical measures (mean, median, mode, variance, 
+and standard deviation) in summarizing a dataset for descriptive analytics.
+
+Q4. How does exploratory data analysis (EDA) help in understanding and 
+visualizing data before applying machine learning models? Discuss the steps involved in EDA.
+
+Q5. Explain how outliers can affect descriptive analytics and how they can be
+detected and handled in a dataset.
+
+Q6. Describe how pivot tables can be used in descriptive analytics to summarize 
+data and identify patterns across different categories or groups.
+
+Q7. What are the challenges associated with descriptive analytics when dealing 
+with large datasets, and how can they be overcome?.
+
+Q8 Explain the concept of descriptive analytics and how it is used in machine      
+learning.
+
+Q9 What are the key differences between descriptive, predictive, and 
+prescriptive analytics in the context of machine learning?
+
+Q10 Describe the role of statistical measures (mean, median, mode, variance,
+and standard deviation) in summarizing a dataset for descriptive analytics
+
+Q11 How does exploratory data analysis (EDA) help in understanding and 
+visualizing data before applying machine learning models? Discuss the steps involved in EDA..
+
+Q12 Explain how outliers can affect descriptive analytics and how they can be 
+detected and handled in a dataset.
+Q13  What is an outlier?
+Q14  Outlier Detection Methods in Machine Learning
+Q15  Techniques for Handling Outliers in Machine Learning
+Q16 Importance of outlier detection in machine learning
+Q17 Why is outlier detection important in machine learning, and how can it 
+affect model performance?
+
+Q18 .Describe the concept of a Receiver Operating Characteristics (ROC) curve
+and its significance in evaluating the performance of a classification model.
+
+Q19 Explain the differences between a ROC curve and a precision-recall curve.
+When would you use each?
+
+Q20 Explain the significance of AUC in evaluating the performance of a
+classification model. How does it differ from other evaluation metrics like accuracy and precision?
+
+Q21 Describe the different types of regression models. Provide examples of
+each type of model.
+
+Q22 Explain the differences between parametric and non-parametric regression
+models. Provide examples of each type of model.
+
+Q23 Describe the concept of simple linear regression and its assumptions. What
+is the equation for simple linear regression?
+
+Q24 Explain the concept of coefficient of determination (R-squared) in simple
+linear regression. What does it represent?
+
+Q25 Write and explain the equation of simple linear regression.
+Q26 List and explain the assumptions of linear regression.
+Q27 Explain the concept of best-fit line in regression.
+Q28 What does the equation Y = B0 + B1X represent in simple linear
+regression?
+
+ Q29 What are the parameters of the model in simple linear regression?
+Q30 Explain the significance of the predictor and response variables in regression.
+Q31Give a real-world example where simple linear regression can be applied.
+
+
+Q1. Which variables should we include in a regression model? 
+Q2. Explain VIF (Variance Inflation Factor).
+Q3. What are the impacts on regression model?
+Q4. What is the stratification technique and explain with example.
+Q5. What is the p value and how using the p value in linear regression.
+Q6. Explain the methods of building the model.
+Q7.Explain the Akaike information criterion (AIC)
+Q8. What is polynomial linear regression.
+Q9. What is the physical significance of coefficients.
+Q10.What is the polynomial regression is non – local
+
+
+Q1 Write a note on SLR.
+Q2 Write a note on MLR.
+Q3 What is a PLR ? Explain it with an example.
+Q4 How to implement PLR using python ?
+Q5 Write a note on :
+  a. Decision Tree
+  b. KNN
+Q6 How decision tree is used for regression?
+Q7 What are the pros and cons of decision tree model?
+Q8 How KNN is used for regression problem?
+Q9 What is the difference between instance based learning and model based 
+learning?
+Q10 Why KNN is called as lazy algorithm?
+Q11 How KNN is work?
+Q12 What is the limitations of 1-nearest neighbour?
+Q13 What is the regularization ?why it is need ?
+Q14 How we do regularization ?
+Q15 What are the types of regularization ? Explain it in detail.
+Q16 Explain which methods is used to evaluate regression model performance ?
+Q17 What is R square ? Explain it in detail.
+Q18 Explain ridge regularization ?
+Q19 How many ways that we can used to minimize the overfiting ?
+Q20 How to implement ridge regularization using python ?
+Q21 What is bias and variance ?
+Q22 How to minimize the variance without substantial increase in bias ?
+Q23 Write a short note on :
+    a.	Ridge Regression
+    b.	Lasso Regression
+    c.	Elastic Net
+Q24 How to implement lasso regression using python ?
+Q25 What is the difference between in ridge and lasso regression ?
+Q26 How to implement elastic net regression using python ?
+Q27 What are the use of lasso and elastic net regression ?
+
+
+Q1 Python Implementation Steps for Decision Trees
+Q2 Role of Label Encoding in the Python Implementation
+Q3 Specifying Criterion (Entropy or Gini) in `DecisionTreeClassifie
+Q4 Training and Prediction using scikit-learn Methods
+Q5Evaluating Model Accuracy with `score()`
+Q6 Addressing Overfitting using Cross-Validation
+Q7 Python Libraries and Classes for Decision Trees
+Q8 Limitations and Further Steps
+Q9 Handling Continuous Attributes in Decision Trees
+Q10 Threshold Selection for Continuous Attributes
+Q11 Kai Square Attribute Selection Measure
+Q12 Calculating and Interpreting Kai Square Values
+Q13 Pre-Pruning vs. Post-Pruning in Decision Trees
+Q14 Cost Complexity Pruning and Reduced Error Pruning
+Q15 Advantages of Decision Trees
+Q16 Disadvantages and Limitations of Decision Trees
+Q17 Information Gain - Definition and Purpose
+Q18 Calculating Information Gain - Formula and Components
+Q19 Entropy Reduction and Information Gain
+Q20 Algorithm ID3 and Information Gain
+Q21 Gini Index/Gini Impurity - Definition and Calculation
+Q22 Gini Impurity vs. Purity - Interpretation and Range
+Q23 CART Algorithm and Gini Index
+Q24 Comparing Information Gain and Gini Index
+Q25 Attribute Selection Measures - The Need and Purpose
+Q26 Homogeneity and Purity in Decision Tree Nodes
+Q27 Reduction in Variance - For Continuous Target Variables
+Q28 Weighted Average of Variance in Split Evaluation
+Q29 Entropy as a Measure of Impurity
+Q30 Shannon Entropy Formula and Interpretation
+Q31 Comparing Attribute Splits using Reduction in Variance
+Q32 Decision Tree Splitting and Node Variance
+Q33 Limitations of R-squared
+Q34 Adjusted R-squared
+Q35 Regression vs. Classification01
+Q36 Decision Tree for Classification - Core Concepts
+Q37 Data Splitting and Purity in Decision Trees
+Q38 Splitting Rules and Testing in Decision Trees
+Q39 Continuous vs. Categorical Features in Decision Trees
+Q40 Decision Trees and Sum of Products
+

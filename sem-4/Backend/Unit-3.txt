@@ -53,3 +53,38 @@
    10. support nexted object
 
 #################################################################################################
+26. Explain Aggregation in MongoDB
+   1. Aggregation in MongoDb is poweful framework used to process data records and return computed results.
+   2. It is similar to SQL Group_By clause.
+   3. It allows operation like grouping, filtering, sorting over database.
+   4. It Handles complex queries in fewer steps.
+   5. It allow efficient and optimized for performance.
+
+   Follwoing stage of some Aggregation
+
+   $match - Filters documents like where clause.
+   $group - Group doucment by field and perform sum, avg etc operations
+   $sort - Sort document
+   $limit - limit number of doucment
+   $skip - skip the specified number of document
+
+#################################################################################################
+
+29. Explain Express.js and its role in web application development
+    1. Express.js is minimal and flexible node.js web application framework.
+    2. Node js is runtime for the javascript that allow us to run javascript in server side.
+    3. Express js is the framework which build on the top of Node.Json
+    4. It simplifies routing, middleware handling, and server management.
+    Feature 
+      1. lightweight
+         - It is lightweight and fast in development
+      2. Easy routing 
+         - It has easy and simple routing system.
+      3. middleware Support
+         - It has middleware support which allow us to handle requests 
+      4. Full control
+         - It has full control over application and flexible
+      5. Big Community
+         - It has Big active community.
+
+##################################################################################################

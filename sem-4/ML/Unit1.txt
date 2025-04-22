@@ -1,0 +1,171 @@
+Q1. What is Machine Learning? Define & it’s Types.
+    1. Machine Learning is subset of Artifical Intelligence
+    2. Machine learning is a way for computer to learn from data and imporve over time.
+    3. It help computer to make descions or prediction based on patterns in data.
+
+    type of Machine Learning
+        1. Supervised learning
+        2. Unsupervised Learning
+        3. Reinforcement Learning.
+
+        1. Supervised Learning 
+            - Here Algorithm trained from Labeled Data.
+            - System learned the relationship between input and output to make prediction.
+
+        2. Unsupervised Learning
+            - Here Algorithm trained from unlabed data.
+            - It find the pattern in unlabed data
+         
+        3. Reinforcement Learning
+           - Learn from Trail and error
+           - The system learns from its mistake and eventually train and become better over time.
+           - It treis to maximize the rewards
+           - Application
+             1. Robotic - Used to train robots 
+             2. Gaming - Used in advance gameing 
+             3. Autonoumous Vechical - Used in Self driving car, traffic navigation 
+             4. Recommendation System - Used in Suggestion sytem based on user behavior
+
+######################################################################################################
+Q2. What is the meaning of human learning and its type.
+    - Human learning is how we acquire knowlodge, skill, 
+      or behavior through experience or study.
+    
+    Type of Human Leaning.
+        1. Classical Conditioning
+            - Learn by connecting things.
+            Example -Imagine A dog hears a bell every time when food is given.
+                      Bell = Food (connection made)
+                      Eventually the dog understand that bell mean food.
+
+        2. Operant Conditioning
+            - Lean by Rewards or Punishment
+            Example - Suppose if child do his homework he will get Rewards
+                      if child not do the homework he will Punishment
+                      So child understand that he has to do homework for rewards which he wants.
+
+        3. Observational learning
+            - Learn by observing other
+            Example - child learn to talk by observing other
+        
+        4. Cognitive Learning 
+            - Learn by thinging and understanding
+            Example - Solving puzzle by undestanding how the pices fit 
+
+###########################################################################################################
+Q4. Difference between supervised and Unsupervised Learning.
+
+     Supervised Learning                            Unsupervised Learning
+
+1. Work with Labeled data                      1. Work with Unlabeled data.
+2. It predit the output                        2. It not predict the output
+3. It has predifined goal                      3. It does not have predefined goal
+4. It does not cluster data.                   4. data is cluster
+5. It uses target label                        5. It does not use target label.
+6. Require supervision                         6. Not require supervision
+7. Provide accurate prediction                 7. May or may not be accurate
+8. Overfit when too much data                  8. Not Overfit when too much data                      
+
+##########################################################################################
+Q6. Which is the challenges face in machine larning?
+    1. Insufficient or Poor Data
+       - ML models need good, complete, accurate data
+       - poor data can led poor performance.
+    
+    2. Overfitting
+       - Model is too complex and learn unnessary detail.
+
+    3. Underfitting 
+       - Model is too simple and miss complex pattern
+
+    4. High Computational Cost 
+       - Training Large model required lot of Computational Power.
+    
+    5. Data Security And Privacy
+       - Protecting Sensitive data while training is challanging.
+    
+    6. Scalablity
+       - Less scalable as data grow
+    7. Alogorithm selection -
+       - Algorithm selection is challanging.
+    8. Transering Model -
+       - Model swithing or transfering is challanging
+
+########################################################################################
+Q7. What is the role of Assumption in machine leaning.
+    - In Machine Learning Assumption simplifies the learning process.
+
+      1. Model Complexity -
+         - Assumption affect model complexity and Peformance
+      2. Generalization -
+         - Assumption helps model to work on new data.
+      3. Bias -
+         - Incorrect model can lead bias model.
+      4. Feature Importance 
+         - Assumption priotise feature importance.
+      5. Trainging Efficency 
+         - Assumption can make training process faster and more efficient
+      6. Simplification of problem 
+         - Assumption reduce the complexity of problem
+      7. Data Distribution 
+         - Assumption about how is data is distibuted.
+
+########################################################################################
+Q8. Steps of Machine Leaning life cycle.
+Q9. Machine Learning Modeling with its diagram / Model.
+
+    1.  Define Goal
+      - Undestand the task and define goal
+    2. Data collection 
+      - Collect data from diffrenct source.
+    3. Data preparation
+      - normalize and clean data for training, (handle missing value, etc)
+    4. Split data 
+      - split data into training, validation and test sets
+    5. Model Selection
+      - Select the right ML model (for defined task)
+    6. Model Training
+      - Train the model with training data.
+    7. Model Evaluation
+      - Evaluate model performance 
+    8. Model tunning
+      - Tune the model for better performance.
+    9. Deployement
+      - Deploy the model to production for real world use.
+    10. Monitor and Mantainance
+      - continouse monitoring and update model as needed.
+
+########################################################################################
+Q10. Libraray of Machine Learning? With brief explanation.
+
+   1. Scikit-learn
+     -  Scikit Learn is the most powerful machine learning library in python.
+     -  It is free and open-source.
+     -  It is also known as sklearn.
+
+   2. TensorFlow
+         -  TensorFlow is popular framework for deep-learning and Machine learning.
+         -  It is free and opensource framework
+         -  It is develop by google brain teams
+   
+   3. Pytorch
+      - It is free and opensource framework
+      - It is develop by facebook.
+      - It is based on torch libries.
+      - Pytorch is completly pythonic
+   
+   4. Pandas
+      - It is free and opensource
+      - Pandas is used for data manupulation and analysis
+   
+   5. Numpy 
+      - Numpy stand for numerical python
+      - Numpy is free and open source
+      - Numpy is genral purpose python package to handle arrays
+      - Numpy support multi-dimenstion array.
+      - Numpy array is 50x faster than traditional python list
+      - Numpy written in python , c and c++ which increase its performance
+
+       
+       
+        
