@@ -165,6 +165,16 @@ Q10. Libraray of Machine Learning? With brief explanation.
       - Numpy support multi-dimenstion array.
       - Numpy array is 50x faster than traditional python list
       - Numpy written in python , c and c++ which increase its performance
+   
+   6. SciPy
+      - It is library for scientific computaional
+      - It is free and opensource
+      - build on the top of numpy
+   7. matplotlib
+      - It is data visulaization library
+      - free and opensource
+      
+#################################################################
 
        
        

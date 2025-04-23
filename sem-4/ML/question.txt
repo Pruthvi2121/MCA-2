@@ -10,18 +10,18 @@ Q3. Explain Supervised Learning, Classification, Problems & types
 # Q10. Libraray of Machine Learning? With brief explanation.
 
 
-Q1. What is data? What are the basic types of data in machine learning? 
-Q2. What is data preprocessing? Explain steps of data preprocessing in detail
-Q3. Explain Data Quality Assessment and explain missing values and outliers 
-Q4. What is meant by Duplicate values and give example of duplicate values
-Q5. Write short note on Feature Aggregation with example
-Q6. Write note on Feature Discretization
-Q7. Explain Feature Sampling in detail with its types
-Q8. What is Feature Encoding and explain term Nominal and Ordinals ?
-Q9. What is the interval and ratio in feature encoding
-Q10. Explain One Hot Encoding with example
-Q11. Explain Standardization in brief with example 
-Q12. Explain Normalization in detail with proper example
+# Q1. What is data? What are the basic types of data in machine learning? 
+# Q2. What is data preprocessing? Explain steps of data preprocessing in detail
+# Q3. Explain Data Quality Assessment and explain missing values and outliers 
+# Q4. What is meant by Duplicate values and give example of duplicate values
+# Q5. Write short note on Feature Aggregation with example
+# Q6. Write note on Feature Discretization
+# Q7. Explain Feature Sampling in detail with its types
+# Q8. What is Feature Encoding and explain term Nominal and Ordinals ?
+# Q9. What is the interval and ratio in feature encoding
+# Q10. Explain One Hot Encoding with example
+# Q11. Explain Standardization in brief with example 
+# Q12. Explain Normalization in detail with proper example
 
 
 

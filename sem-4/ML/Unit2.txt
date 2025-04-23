@@ -1,0 +1,255 @@
+Q1. What is data? What are the basic types of data in machine learning? 
+    1. Structured data
+        - Organized in rows or column eg spreedsheet
+    2. Unstructured data
+       - No fixed format eg text, image , audio etc
+    3. Numerical data
+       - Measureable data eg age, salary
+    4. Categorical Data
+       - Labeled or categories
+    5. Time series data
+       - Data over time (eg- stock prices)
+    6. Text, Image, video 
+       - Used in NLP and computer vision
+
+#############################################################################
+Q2. What is data preprocessing? Explain steps of data preprocessing in detail
+    1. Data collection 
+       - collect data from varous source.
+    2. Data Cleaning 
+       - Fix missing values, remove duplicate etc
+    3. Data integrations
+       - Combine data of diffrent source.
+    4. Data Transformation 
+       - Normalize the data, eg change words into numbers eg "Yes" = 1, "No" = 0
+    5. Data Reduction
+       - keep only most useful data.
+    6. Data Splitting
+       - Divide the data into training and testing sets (e.g., 80% train, 20% test).
+
+#########################################################################################
+Q3. Explain Data Quality Assessment and explain missing values and outliers 
+   Data Quality Assessment
+      1. Data Quality Assessment is the process of checking if data is correct, complete, and useful.
+      2. The Key checks include
+            1. Is the data accureate ?
+            2. Is anything missing ?
+            3. Are there any duplicates or error ?
+
+   Missing Values -
+       1. These are empty or blank entries in data.
+       2. Reason of occurance
+          1. Skiped questions in survey
+          2. Error while collecting data or entering data.
+       3. Handle Missing Values
+          1. Remove them if they are flew
+          2. Fill out with average, most common value
+
+   Outliers 
+     1.  Outliers are values that are very different from others.
+     2. Reason of occurance
+        1. Mistake in data entry 
+        2. Rare events
+     3. Handle Outlier
+        1. Check and correct if its is mistake.
+        2. Fix or remove if needed
+        3. Use tool like box plot to spot them.
+
+###########################################################################################
+Q4. What is meant by Duplicate values and give example of duplicate values
+    Duplicate values 
+      1. Duplicate values are the rows in the dataset which are the exact copy of another rows
+         or the values are repeated with same informations
+
+      2. Response of occurance
+         - Data being enter twice
+         - System Error while collecting or migrating data.
+      3. Duplicate data can cause error in analysis.
+
+      4. Table -
+            +----+---------+-----+
+            | ID | Name    | Age |
+            +----+---------+-----+
+            | 1  | Alice   | 25  |
+            | 2  | Bob     | 30  |
+            | 3  | Alice   | 25  |
+            | 4  | Charlie | 22  |
+            +----+---------+-----+
+      5. In this table, rows 1 and 3 have the same Name and Age, so they are duplicate values.
+
+####################################################################################################
+ Q5. Write short note on Feature Aggregation with example
+     Feature Aggregation
+       1. Feature Aggregation is the process of combining two or more features (columns) into a single new feature
+          to simplify data and to create more meaningful information
+       2. It help in reducing complexity
+       3. It improve model performance.
+       4. Make it easier to see patterns
+
+      Example -
+         
+         +------------+------------+
+         | Math       | Science    |
+         +------------+------------+
+         |     80     |     80     |
+         |     70     |     70     |
+         +------------+------------+
+
+         You can Aggregate them into new feature new column
+         +------------+------------+-------------+
+         | Math       | Science    |  Avg        |
+         +------------+------------+-------------+
+         |     80     |     80     |     80      |
+         |     70     |     70     |     70      |
+         +------------+------------+-------------+
+
+####################################################################################################
+Q6. Write note on Feature Discretization
+    Discretization
+       1. Feature Discretization is the process of converting continuous numerical data
+          into discrete categories or bins.
+       2. It help in reducing complexity
+       3. It improve model performance.
+       4. Make it easier to see patterns
+
+       Example -
+          For a continuous Age feature:   
+          Age: 15, 25, 35, 50
+
+          Discretization in categories
+          Age: Young, Adult, Adult, Senior
+
+################################################################################################
+Q7. Explain Feature Sampling in detail with its types
+      Feature Sampling
+       - Feature Sampling is the process of selecting a smaller set of features 
+         from a larger dataset to make a model faster, simpler, and more accurate.
+      Types 
+         1. Random Sampling
+            - Pick feature randomly.
+         2. Subset Selection
+            - Choose important feature
+         3. Stratified Sampling
+            - Choose balanced feature 
+         4. RFE
+            - Remove less important feature.
+            - Stand for Recursive Feature Elimination
+
+##################################################################################################
+Q8. What is Feature Encoding and explain term Nominal and Ordinals ?
+Q10. Explain One Hot Encoding with example
+
+   Feature Encoding 
+      1. Feature Encoding is the process of converting categorial 
+         data into numbers so that machine learning models can understand and work with it.
+
+   Nominal
+    1. Nominal means no order between categories
+    2. Example Color (Red, Yellow, Green)
+    3. Encoding Eg
+       Red = [1, 0, 0]
+
+        Red | Blue | Green
+        ----|------|------
+         1  |  0   |  0
+         0  |  1   |  0
+         0  |  0   |  1
+         
+-------------------------------------------------------------------
+    Ordinal 
+    1. Has Order between categories
+    2. Example Rating (Low, Medium, High)
+    3. Encoding Eg 
+       Low = 0, Medium = 1, High = 2
+
+##################################################################################################
+Q9. What is the interval and ratio in feature encoding
+   1. Interval Data
+      1. Number which have meaningful difference between them but not a True Zero.
+      2. Example -
+         Temperature in Celsius ( 0°C doesn’t mean "no temperature")
+      3. It usually used as-is relationship
+      4. can be normalized
+      5. can be standardized 
+
+   2. Ratio
+      1. Number which have meaningful difference between them and are True Zero
+      2. Example:
+         Height, weight, age, income (0 means absence of value)
+      3. It also used as-is relationship
+      4. can be normalized
+      5. can be standardized 
+
+###################################################################################################
+Q11. Explain Standardization in brief with example 
+    Standardization
+      1. Standardization is the process of transforming numberical data so that it has Mean and Standard Division
+      2. This helps machine learning model to work better
+      3. It improve model performance.
+
+      Standardized Value=    (x−μ)/ σ
+
+      Where:
+         𝑥  = original value   
+         μ = mean     
+         σ = standard deviation
+
+      Example 
+      original height value  = 5, 10, 15
+      Mean = 10
+      standart deviation = 2
+
+      eg 5 = (5-10)/2 = -2.5
+         10 = (10-10)/2 = 0
+         15 = (15-10)/2 = 2.5
+      
+      Therefore Standarised Value = -2.5, 0, 2.5
+
+###########################################################
+Q12. Explain Normalization in detail with proper example
+   Normalization 
+      1. Normalization is the process of scaling data values to a common range, usually between 0 and 1,
+         so that all features contribute equally to the model.
+      2. It improve the performance
+      3. It enhance the training speed.
+      4. It is KNN, SVM, Neural Networks.
+   
+      5. Example 
+         - You have these 3 numbers:
+         - 20, 40, 60
+         Normalize them between 0 and 1.
+      
+         step - 1 Find Min and Max
+            Min = 20
+            Max = 60
+         step - 2 Apply Formula
+          
+              x = (x - min) / (max - min)
+         
+         step - 3. Normalize Each Value
+            
+            For 20,
+                 = 20 - 20/ 60 - 20 
+                 = 0
+            
+            For 40,
+                = 40-20 / 60-20
+                = 20 / 40
+                = 1/2
+                = 0.5
+
+            For 60
+                = 60 - 20 / 60-20
+                = 40/40
+                = 1
+         
+         Original        normalize values 
+            20                 0
+            40                 0.5
+            60                 1
+
+###################################################################################
+           
+
+      
+
