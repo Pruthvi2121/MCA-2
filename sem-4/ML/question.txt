@@ -98,16 +98,16 @@ Q30 Explain the significance of the predictor and response variables in regressi
 Q31Give a real-world example where simple linear regression can be applied.
 
 
-Q1. Which variables should we include in a regression model? 
-Q2. Explain VIF (Variance Inflation Factor).
-Q3. What are the impacts on regression model?
-Q4. What is the stratification technique and explain with example.
+# Q1. Which variables should we include in a regression model? 
+# Q2. Explain VIF (Variance Inflation Factor).
+# Q3. What are the impacts on regression model?
+# Q4. What is the stratification technique and explain with example.
 Q5. What is the p value and how using the p value in linear regression.
-Q6. Explain the methods of building the model.
-Q7.Explain the Akaike information criterion (AIC)
-Q8. What is polynomial linear regression.
-Q9. What is the physical significance of coefficients.
-Q10.What is the polynomial regression is non – local
+# Q6. Explain the methods of building the model.
+# Q7.Explain the Akaike information criterion (AIC)
+# Q8. What is polynomial linear regression.
+# Q9. What is the physical significance of coefficients.
+# Q10.What is the polynomial regression is non – local
 
 
 Q1 Write a note on SLR.

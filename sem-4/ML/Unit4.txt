@@ -1,0 +1,110 @@
+Q1. Which variables should we include in a regression model? 
+    1. Dependent variable (Y):
+       - The outcome you want to predict.
+    2. Independant variable (X)
+       - The predictors or features that influence (affect) the dependent variable.
+    3. Control variable 
+       - Account for other influencing factors
+    4. Dummy variables -
+       - To represent categorical data.   
+    5. Interaction terms
+       - Joint effects of variables.
+
+###########################################################################################
+Q2. Explain VIF (Variance Inflation Factor).
+    1. VIF - Stand fro Variance INflation Factor
+    2. Defincation - Varience Inflation Fator (VIF) measure how much predictor varience increased with corelation with other predictor.
+
+    VIF Conditions
+        1. VIF = 1
+          - when VIF = 1 , NO correlation with other variables.
+        2. VIF > 1
+          - When VIF is greater than one , Correlation with other variables.
+        3. VIF > 5 or 10
+          - when VIF greater than 5 or 10, Indicate problematic multicollinearity,
+            which may require action like removing or combining variables.
+
+#################################################################################################
+Q3. What are the impacts on regression model?
+    1. High standard Errors    
+       - Hard to find important predictors
+    2. Unstable coefficient
+       - Unstable coefficient can lead inconsistent result.
+    3. Hard to Understand 
+       - Hard to understand each predictor effects
+    4. Overfitting
+       - Model may overfit while working with new data.
+    5. Wrong conclusion
+       - Mislead result and insight.
+
+#####################################################################################################
+Q7.Explain the Akaike information criterion (AIC)
+  1. AIC stand for Akaike information criterison
+  2. Akaike information criterison is a measeure to compare diffrent models
+  3. It help to balance model fit and complexity
+  4. AIC goal is to find the model which fit the data well and which is less complex.
+
+  Formula -
+          AIC =  2k − 2ln (L)
+
+  Conditions 
+    1. Lower AIC - Indicate A better model, with less complex 
+    2. Higher AIC - Indicate more complex model and can overfit data.
+
+################################################################################################
+Q8. What is polynomial linear regression.
+Q10.What is the polynomial regression is non – local
+
+    1. Defination - Polynominal Linear Regression fit curve to data by adding powers of predictors like ( x3, x4 )
+    2. For Example -
+
+       Linear Y = B0 + B1X    # down power
+       Polynomial Y = B0 + B1X + B2X2 + B2X3 ....  
+
+    3. Polynomial Regression is non-local beacuse they uses higher degree terms 
+       eg - x3 , x4
+       Due to this model allow to find out global trends not just local trends
+
+##############################################################################################################
+Q9. What is the physical significance of coefficients.
+   1. Scaling Factor -
+      show how one thing affect another
+      example F = ma  //  here m shows how much force is needed for a given acceleration.
+
+    2. Physical Properties
+       - Represent characterstic of material
+       example  F = kx   // here k is spring stiffness
+
+    3. Rate/constant-
+       - Tell how fast something happen
+       example:  d = v x t   // distance = velocity * time
+       here d show rate of change of distnce with time.
+
+    4. Unit converter
+       - Keep equeation correct in Unit
+        Example - KE = 1/2 mv2    here 1/2 adjust the units
+
+####################################################################################################
+Q4. What is the stratification technique and explain with example.
+   1. Stratification is a quality control tool used to separate data into different groups 
+      to understand patterns or problems more clearly. 
+   2. It help you to find the real cause of problem.
+   3. Stratification = Sorting data into groups to find hidden problems.
+
+   Examle -
+      A company find defect in his Products, to find cause of it, 
+      - Its stratifies defect data by shift
+
+            Shift                     Defect Found
+     -----------------------------------------------------       
+            Morning          |            2
+            Afternoon        |            3
+            Night            |            12
+     -----------------------------------------------------
+
+      Analysis - 
+          Most Defect happen in Night shift.
+         
+      Now, the company knows where to investigate further.
+
+#########################################################################################################
