@@ -1,0 +1,248 @@
+# Q2. What are the key differences between descriptive, predictive, and 
+prescriptive analytics in the context of machine learning?
+
+Descriptive analysis
+    1. Its main goal is to understand what happen
+    2. focus on past event and trends
+    3. Look backward
+    4. It uses historical data for analysis
+    5. It has low automation level
+    6. It is rarely used in real time
+    7. it has low complexity
+
+
+Predictive Anaylysis
+    1. Its main goal is to what will happen.
+    2. focus on futher outcomes
+    3. Looks forward
+    4. It uses historicial data for forcaseting
+    5. It has medium automation level
+    6. It sometime used in real time
+    7. It has medium complexity
+
+Prescriptive Anaylysis 
+    1. Its main goal is to suggest what to do
+    2. focus on best action/ decision
+    3. Looks forward + action
+    4. It uses data + models for suggestion
+    5. it has high automation level
+    6. It often used in real time
+    7. It has high complexity
+
+###############################################################################################
+Q3. Describe the role of statistical measures (mean, median, mode, variance, 
+and standard deviation) in summarizing a dataset for descriptive analytics.
+
+   1 Mean -
+      1. It add all values and divide by number of values
+      2. Role in descriptive analysis 
+         - Show the central tendancy of the data.
+    
+    2. Median
+      1. It is middle value when the data is sorted
+      2. Role in descriptive analysis
+         - Gives true center of the data.
+
+    3. Mode 
+       1. It is the value which occure frequently in data.
+       2. Role in descriptive analysis 
+          - Give most common value in data.
+    4. Varience 
+       1. Measure how spread out of values from the mean
+       2. Role in descriptive analysis 
+          - help in understanding varablilty or consistancy in data 
+    
+    5. Standard Devision
+       1. Square root of Varience 
+       2. Role in descriptive analysis
+          - shows how the data is tightly packed around mean.
+
+###############################################################################################
+Q7. What are the challenges associated with descriptive analytics when dealing 
+with large datasets, and how can they be overcome?.
+    1. Data Volume
+       - Require to process large volume quickly
+    2. Data Quality 
+       - Increase in dataset can increase in missing values, duplicates etc
+       - and its hard to fix them
+    3. Slow performance
+       - Diffrenct analytics tool work slowly on large datasets
+    4. Data integrations
+       - hard to combine data from diffrenct source
+    5. Data Visualization
+       - Hard to visulize with so much data.
+
+############################################################################################
+
+Q4. How does exploratory data analysis (EDA) help in understanding and 
+visualizing data before applying machine learning models? Discuss the steps involved in EDA.
+   1. Understand the Data
+      - Get familer with the data.
+   2. Check for Missing Values
+       - check out missing or blank values in data.
+   3. Check data types
+      - Make sure numbers are stored as numbers and text as store as text etc.
+   4. Statistical Measure
+      - Look for mean, medium, mode, min , max etc to understand data spread.
+   5. Data Visualization 
+      - Visualize the data using chart, graphs etc
+   6. Check for Ouliers
+      - Find out the value that are too high or too low compare to other
+   7. Find relationship
+      - Find the relationship between points
+    
+
+#####################################################################################################
+
+Outlier -
+ 1. An outlier is a data point that is very different from other values in the dataset. 
+ 2. They are too high or too low compare to other data values in dataset
+
+
+How Outlier affect the descriptive analysis
+
+    1. Inaccurate Result
+        - Outlier gives inaccuare or anaylysis Results
+    2. Effect on Mean
+        - Outler can make average mean much higher or lower
+    3. Increase Standard Devision
+        - Outller can increase the stardard deviation
+    4. Affect Visualization
+        - Give wrong Visualization
+    5. Misleading 
+        - Oulier can cause misleading due to wrong analysis
+
+---------------------------------------------------------------------------------------
+
+ Q15: Techniques for Handling Outliers
+     1. Remove
+        - Remove outlier if they are Error
+     2. Cap/Clip 
+        - Cap or Clip outlier to the max/min limit 
+     3. Transform data
+        - take outlier log or squreroot
+     4. Use Robust model
+        - Use model like Random Forest which are less sensitive to Outliers
+
+-----------------------------------------------------------------------------------------
+
+ Q16: Importance of Outlier Detection in Machine Learning
+
+    1. Imporve Model Accuracy
+       - Improve model accuracy and give better Result
+    2. Clean Data
+       - Remove noise and error in data
+    3. Detect Rare events
+       - Detects unusual data points.
+    4. Prevent Overfitting
+       - Outlier prevent  model from overfitting
+
+
+######################################################################################
+
+Q19 Explain the differences between a ROC curve and a precision-recall curve.
+When would you use each?
+
+
+1. ROC Curve  
+    ROC Curve stand for Receiver Operating Characteristic
+   1. It is best for balanced dataset
+   2. It focus on both classes positive and negative
+   3. Curve close to top left
+   4. the area under curve is AUC-ROC
+   5. Sensitive to both false positive and false negative 
+   6. Used when both classes are important
+
+2. Precision-Recall Curve
+   1. It is best for unbalanced datasets
+   2. It focus on positive classes
+   3. Curve close to top right
+   4. The Area Under Curve is AUC-PR
+   5. Sensitive to False Positive 
+   6. Used when positive class is important
+
+######################################################################
+
+Q22 Explain the differences between parametric and non-parametric regression
+models. Provide examples of each type of model.
+
+            Paretric                                   Non Parametric 
+1. Fixed number of paramters               1. Infinite number of parameters
+2. Strong assuption about underlaying      2. No Assumption about  underlaying
+   data for distribution                      data for distribution
+3. Need less data                          3. Need large amount of data
+4. Easy to interpret                       4. Hard to interpret
+5. Less flexible                           5. More flexible
+6. Require less computational power        6. Require more computational power
+7. it is less expensive                    7. more expensive
+8. Lower overfitting risk                  8. Higher overfitting risk
+9. Model Example -                         9. Model Example 
+   - Linear Regression,                        - KNN
+   - Polynomial Regression                     - Decision Tree
+10. Example -                              10 Example
+   - Prediction of house price                - Prediction of stock prices
+
+#############################################################################################
+
+Q21 Describe the different types of regression models. Provide examples of
+each type of model.
+
+   1. Linear Regression
+      - Predict numbers
+      - example - Prediction of house price on size 
+
+   2. Mulitple Linear Regression
+      - Uses Multipal feature for Prediction
+      - Example - Salary based on Expierence 
+
+   3. Ridge Regressions
+      - Linear Regression with pentatiy to avoid overfitting
+      - Example: House price prediction with many features.
+
+   4. Lasso Regreesions
+      - Similar to Ridge Regressions but remove unnessary feature 
+      - Example: Predicting sell of company
+
+   5. Elastic Net Regressions
+      - Combination of Ridge and Lasso Regressions
+      - Example: Employee performance prediction
+
+   6. Stepwise Prediction
+      - Automatically pick best feature for Prediction
+      - Example - Insurance clam prediction
+   
+####################################################################################
+
+Q23 Describe the concept of simple linear regression and its assumptions. What
+is the equation for simple linear regression?
+Q28 What does the equation Y = B0 + B1X represent in simple linear
+regression?
+
+   
+  Concept -
+   1. Simple Linear regression is used to predict dependant varable (Y) from the independant
+      varable (X)
+   2. It assume stright line relationship between X and Yellow
+   3. B0 and B1 are the two main paramter of simpe linear regression
+
+   Equation 
+       Y = B0 + B1X 
+
+       Where,
+         Y = Dependant Varable    (what you are goint to predict)
+         X = Independant Varable  (Input or feature)
+         B0 = Intercept           (Value of Y when x = 0)
+         B1 = Slope               (change in Y when change in X)
+
+
+
+  Assumptions of Simple Linear Regressions
+
+     1. Linearity
+        - The relationship between X and Y is Linear
+     2. Independance 
+        - Data points are independant of each other.
+     3. Homoscedasticity
+       - Spread of error should be constant accross all values of x
+     4. Normality of Errors 
+       - Errors should normally distributed

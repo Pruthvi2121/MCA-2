@@ -25,75 +25,75 @@ Q3. Explain Supervised Learning, Classification, Problems & types
 
 
 
-Q1. Explain the concept of descriptive analytics and how it is used in machine  
+# Q1. Explain the concept of descriptive analytics and how it is used in machine  
 Learning
-Q2. What are the key differences between descriptive, predictive, and 
+# Q2. What are the key differences between descriptive, predictive, and 
 prescriptive analytics in the context of machine learning?
 
-Q3. Describe the role of statistical measures (mean, median, mode, variance, 
+# Q3. Describe the role of statistical measures (mean, median, mode, variance, 
 and standard deviation) in summarizing a dataset for descriptive analytics.
 
-Q4. How does exploratory data analysis (EDA) help in understanding and 
+# Q4. How does exploratory data analysis (EDA) help in understanding and 
 visualizing data before applying machine learning models? Discuss the steps involved in EDA.
 
-Q5. Explain how outliers can affect descriptive analytics and how they can be
+# Q5. Explain how outliers can affect descriptive analytics and how they can be
 detected and handled in a dataset.
 
 Q6. Describe how pivot tables can be used in descriptive analytics to summarize 
 data and identify patterns across different categories or groups.
 
-Q7. What are the challenges associated with descriptive analytics when dealing 
+# Q7. What are the challenges associated with descriptive analytics when dealing 
 with large datasets, and how can they be overcome?.
 
-Q8 Explain the concept of descriptive analytics and how it is used in machine      
+# Q8 Explain the concept of descriptive analytics and how it is used in machine      
 learning.
 
-Q9 What are the key differences between descriptive, predictive, and 
+# Q9 What are the key differences between descriptive, predictive, and 
 prescriptive analytics in the context of machine learning?
 
-Q10 Describe the role of statistical measures (mean, median, mode, variance,
+# Q10 Describe the role of statistical measures (mean, median, mode, variance,
 and standard deviation) in summarizing a dataset for descriptive analytics
 
-Q11 How does exploratory data analysis (EDA) help in understanding and 
+# Q11 How does exploratory data analysis (EDA) help in understanding and 
 visualizing data before applying machine learning models? Discuss the steps involved in EDA..
 
-Q12 Explain how outliers can affect descriptive analytics and how they can be 
+# Q12 Explain how outliers can affect descriptive analytics and how they can be 
 detected and handled in a dataset.
-Q13  What is an outlier?
-Q14  Outlier Detection Methods in Machine Learning
-Q15  Techniques for Handling Outliers in Machine Learning
-Q16 Importance of outlier detection in machine learning
-Q17 Why is outlier detection important in machine learning, and how can it 
+# Q13  What is an outlier?
+# Q14  Outlier Detection Methods in Machine Learning
+# Q15  Techniques for Handling Outliers in Machine Learning
+# Q16 Importance of outlier detection in machine learning
+# Q17 Why is outlier detection important in machine learning, and how can it 
 affect model performance?
 
 Q18 .Describe the concept of a Receiver Operating Characteristics (ROC) curve
 and its significance in evaluating the performance of a classification model.
 
-Q19 Explain the differences between a ROC curve and a precision-recall curve.
+# Q19 Explain the differences between a ROC curve and a precision-recall curve.
 When would you use each?
 
 Q20 Explain the significance of AUC in evaluating the performance of a
 classification model. How does it differ from other evaluation metrics like accuracy and precision?
 
-Q21 Describe the different types of regression models. Provide examples of
+# Q21 Describe the different types of regression models. Provide examples of
 each type of model.
 
-Q22 Explain the differences between parametric and non-parametric regression
+# Q22 Explain the differences between parametric and non-parametric regression
 models. Provide examples of each type of model.
 
-Q23 Describe the concept of simple linear regression and its assumptions. What
+# Q23 Describe the concept of simple linear regression and its assumptions. What
 is the equation for simple linear regression?
 
 Q24 Explain the concept of coefficient of determination (R-squared) in simple
 linear regression. What does it represent?
 
-Q25 Write and explain the equation of simple linear regression.
-Q26 List and explain the assumptions of linear regression.
+# Q25 Write and explain the equation of simple linear regression.
+# Q26 List and explain the assumptions of linear regression.
 Q27 Explain the concept of best-fit line in regression.
-Q28 What does the equation Y = B0 + B1X represent in simple linear
+# Q28 What does the equation Y = B0 + B1X represent in simple linear
 regression?
 
- Q29 What are the parameters of the model in simple linear regression?
+# Q29 What are the parameters of the model in simple linear regression?
 Q30 Explain the significance of the predictor and response variables in regression.
 Q31Give a real-world example where simple linear regression can be applied.
 
