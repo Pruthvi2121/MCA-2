@@ -110,20 +110,20 @@ Q5. What is the p value and how using the p value in linear regression.
 # Q10.What is the polynomial regression is non – local
 
 
-Q1 Write a note on SLR.
-Q2 Write a note on MLR.
-Q3 What is a PLR ? Explain it with an example.
-Q4 How to implement PLR using python ?
-Q5 Write a note on :
+# Q1 Write a note on SLR.
+# Q2 Write a note on MLR.
+# Q3 What is a PLR ? Explain it with an example.
+# Q4 How to implement PLR using python ?
+# Q5 Write a note on :
   a. Decision Tree
   b. KNN
-Q6 How decision tree is used for regression?
-Q7 What are the pros and cons of decision tree model?
-Q8 How KNN is used for regression problem?
-Q9 What is the difference between instance based learning and model based 
+# Q6 How decision tree is used for regression?
+# Q7 What are the pros and cons of decision tree model?
+# Q8 How KNN is used for regression problem?
+# Q9 What is the difference between instance based learning and model based 
 learning?
-Q10 Why KNN is called as lazy algorithm?
-Q11 How KNN is work?
+# Q10 Why KNN is called as lazy algorithm?
+# Q11 How KNN is work?
 Q12 What is the limitations of 1-nearest neighbour?
 Q13 What is the regularization ?why it is need ?
 Q14 How we do regularization ?

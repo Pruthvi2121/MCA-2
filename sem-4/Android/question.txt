@@ -1,0 +1,168 @@
+1.  Explain the key features of the Android platform. Discuss its architecture and how it
+supports app development. (8 marks)
+2.  What is Android Studio? Describe its main components and how it simplifies Android
+app development. (8 marks)
+3.  Compare Android Studio with other IDEs for Android development. What advantages
+does Android Studio offer? (8 marks)
+4.  Discuss the role of Android Studio as the official Integrated Development Environment
+(IDE) for Android app development, highlighting its essential tools and functionalities.
+5.  Explain the steps to set up the Android development environment on a Windows system.
+Include details about installing Android Studio, SDK, and configuring the necessary
+tools. (8 marks)
+6.  What is the purpose of the Android SDK Manager? How does it help in managing SDK
+versions and tools? (8 marks)
+7.  Describe the role of the Gradle build system in Android development. How does it help
+in managing dependencies and building apps? (8 marks)
+8.  Describe the Android architecture with a neat diagram.
+9.  Explain the role of each layer (Linux Kernel, Libraries, Android Runtime, Application
+Framework, and Applications) in the functioning of an Android operating system and
+how they interact with each other.
+10.  Explain the steps to create a new Android project in Android Studio using Kotlin. Include
+details about selecting templates, configuring project settings, and understanding the
+project structure. (8 marks)
+11.  What is the purpose of the MainActivity.kt file in an Android project? Write a simple
+Kotlin program to display "Hello, Android!" on the screen. (8 marks)
+12.  Discuss the importance of the activity_main.xml file in an Android project. How does it
+interact with the Kotlin code? (8 marks)
+13.  Explain the steps to deploy an Android application on a real device. Include details about
+enabling USB debugging and configuring the device for development. (8 marks)
+14.  What is an Android Virtual Device (AVD)? How do you create and configure an AVD in
+Android Studio? (8 marks)
+15.  Compare the advantages and disadvantages of testing apps on real devices versus
+emulators. (8 marks)
+16.  Explain the process of creating a new Android project in Android Studio using Kotlin as
+the programming language. Provide a detailed walkthrough, including selecting a project
+template, configuring the activity, and setting up the build.gradle file. Mention the
+significance of Kotlin in modern Android development.
+17.  What is the purpose of the AndroidManifest.xml file in an Android project? Explain its
+structure and key elements. (8 marks)
+18.  Describe the role of the R.java file in Android development. How does it help in accessing
+resources? (8 marks)
+19.  Explain the concept of resources in Android. How are resources organized, and how can
+they be accessed in Kotlin code? (8 marks)
+20.  Explain the Android Activity lifecycle. Describe the key lifecycle methods and their
+purposes. (8 marks)
+21.  Explain kotlin classes and methods for the Activity lifecycle. What is the significance of
+the onSaveInstanceState() method in the Activity lifecycle? (8 marks)
+22.  Explain the Android Activity Lifecycle in detail with a labeled diagram. Describe each
+lifecycle method (onCreate(), onStart(), onResume(), onPause(), onStop(), onDestroy(),
+and onRestart()) and its purpose. (8 marks)
+23.  Explain the role of Activities in Android development. How do they interact with the
+user interface? (8 marks)
+24.  What are Services in Android? Describe their types and use cases. Provide an example of
+a background service. (8 marks)
+25.  Discuss the purpose of Broadcast Receivers in Android. How do they respond to
+system-wide events? Provide an example. (8 marks)
+26.  What are Content Providers in Android? Explain how they enable data sharing between
+applications. (8 marks)
+27.  Explain their roles and use cases in Android app development with examples. Briefly
+describe how they interact within the Activity Lifecycle.
+28.  Create a simple Android application using Kotlin that displays "Hello, Android!" in
+the center of the screen. Explain the role of the activity_main.xml file
+and MainActivity.kt in your application. (8 marks)
+29.  What are Views in Android? Explain the purpose of
+the TextView and EditText components. Provide an example of how to use them in
+an Android app. (8 marks)
+30.  How do you display a Toast message in Android? Write a Kotlin program to
+demonstrate the use of Toast in an Android app. (8 marks)
+31.  What are Notifications in Android? Explain how to create and display a simple
+notification in an Android app. (8 marks)
+32.  Discuss the importance of notifications in mobile applications. How can
+notifications improve user engagement? Provide an example of a notification
+implementation. (8 marks)
+33.  What are Intents and Intent Filters in Android? Explain their roles in facilitating
+communication between components. Differentiate between explicit and implicit intents
+with examples. Describe how Intent Filters are declared in the AndroidManifest.xml file
+to handle specific actions.
+34.  What are Intents in Android? Explain the difference between Explicit
+Intents and Implicit Intents. Provide an example of each. (8 marks)
+35.  Write a Kotlin program to demonstrate the use of an Explicit Intent to navigate
+from one Activity to another. (8 marks)
+36.  What are Intent Filters? How do they work in Android? Provide an example of an
+Intent Filter for opening a URL in a browser. (8 marks)
+37.  Explain the purpose of the Button component in Android. Write a Kotlin program
+to demonstrate how to handle button clicks and display a message. (8 marks)
+38.  What is a Custom Toast in Android? How do you create and display a custom
+Toast message? Provide an example. (8 marks)
+39.  Compare the use of TextView and EditText in Android. Write a Kotlin program
+to demonstrate how to retrieve user input from an EditText and display it in
+a TextView. (8 marks)
+40.  What is a Toast in Android, and how is it used to provide feedback to users?
+41.  Explain the process of creating a simple Toast message in Kotlin, including its syntax and
+parameters (context, message, duration). Provide a code example and discuss its practical
+use case in an application.
+42.  What is the role of the Bundle class in Android? How is it used to pass data
+between activities using Intents? Provide an example. (8 marks)
+43.  Explain the concept of Implicit Intents in Android. How do they enable
+communication between different apps? Provide an example of opening a web
+page using an Implicit Intent. (8 marks)
+44.  How do you handle multiple button clicks in a single Activity? Write a Kotlin
+program to demonstrate handling clicks for two buttons with different actions. (8
+marks)
+a. Differentiate between Explicit Intent and Implicit Intent in Android with
+examples.
+45.  Explain how to create a Custom Toast in Android using Kotlin. Discuss the steps to
+design a custom layout (e.g., with an ImageView and TextView), inflate it, and display it
+as a Toast.
+46.  Provide a sample code snippet and highlight the advantages of a custom Toast over a
+default one.
+47.  What are the best practices for managing the Activity lifecycle in Android? How
+can you avoid memory leaks and ensure smooth app performance? (8 marks)
+48.  How do you debug issues related to Intents and Activity navigation in Android?
+Describe the tools and techniques you would use. (8 marks)
+49.  Discuss the importance of responsive UI design in Android. How can you ensure
+your app works well on different screen sizes and orientations? (8 marks)
+51.  Compare ListView and RecyclerView. What advantages does RecyclerView offer over ListView?
+(8 marks)
+52.  Demonstrate the use of different classes for a RecyclerView to display a list of items. Include
+details about the Adapter and ViewHolder. (8 marks)
+53.  What is the Room Persistence Library in Android? Explain its components (Entity, DAO, and
+Database) and how it simplifies SQLite usage. (8 marks)
+54.  Demonstrate how to use the Room library to store and retrieve data in an Android app. (8
+marks)
+55.  How do you handle large datasets in Android? Discuss the use of pagination with RecyclerView
+and Room. (8 marks)
+56.  What are the best practices for using SQLite in Android? Discuss performance optimization and
+error handling. (8 marks)
+57.  Demonstrate CRUD operations (Create, Read, Update, Delete) using SQLite in an Android app.
+Include details about the database schema and queries. (8 marks)
+58.  How do you handle database upgrades in SQLite? Explain the role of the onUpgrade method in
+SQLiteOpenHelper. (8 marks)
+59.  What is the purpose of transactions in SQLite? Provide an example of how to use transactions in
+an Android app. (8 marks)
+60.  What is the significance of the Android App Bundle (AAB) format? How does it differ from the
+traditional APK format? (8 marks)
+61.  Discuss the importance of versioning and signing an Android app before publishing. How do you
+configure these in Android Studio? (8 marks)
+62.  Introduce the SQLite database and explain its key features (e.g., lightweight, serverless) and
+how it supports data persistence.
+63.  Explain the various options for storing data in an Android app (e.g., Internal Storage, External
+Storage, SQLite, SharedPreferences).
+64.  Provide a sample scenario of storing a text file in internal storage using Kotlin.
+65.  What are the disadvantages of Flutter? Discuss its limitations and scenarios where it might not
+be the best choice. (8 marks)
+66.  What are advanced layout widgets in Flutter? Explain the use of GridView, Stack, and Expanded
+with examples. (8 marks)
+67.  Explain the importance of gestures in mobile app development. How do they enhance user
+experience? (8 marks)
+68.  Discuss the importance of state management in Flutter. Compare different state management
+approaches like Provider, Bloc, and Riverpod. (8 marks)
+69.  What is the role of the Flutter engine in rendering UI components? How does it interact with
+the platform-specific code? (8 marks)
+70.  Explain the concept of widget tree and element tree in Flutter. How do they help in rendering
+the UI efficiently? (8 marks)
+71.  Discuss the importance of hot reload and hot restart in Flutter. How do they improve the
+development process? (8 marks)
+72.  Explain the key features of Flutter as a UI toolkit for cross-platform development. Discuss the
+advantages of using Flutter (e.g., hot reload, single codebase) and its disadvantages (e.g., larger
+app size, limited native functionality). Provide a scenario where Flutter would be an ideal choice
+over native development.
+73.  Describe the layered architecture of Flutter (e.g., Framework, Engine, Embedder) and how it
+contributes to performance. Provide an introduction to Dart programming, focusing on its role
+in Flutter. Explain variables and data types in Dart with examples (e.g., int, String, dynamic).
+74.  Discuss Object-Oriented Programming (OOP) concepts in Dart (e.g., classes, objects,
+inheritance) with a simple class example. Introduce Widgets in Flutter and explain the build()
+method’s role in rendering UI. Describe how Flutter visualizes the widget tree during app
+execution.
+75.  Explain the types of layout widgets in Flutter, focusing on Single Child Widgets (e.g., Container,
+Center) and Multiple Child Widgets (e.g., Row, Column, ListView).

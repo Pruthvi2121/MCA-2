@@ -108,3 +108,147 @@ Q4. What is the stratification technique and explain with example.
       Now, the company knows where to investigate further.
 
 #########################################################################################################
+# Q1 Write a note on SLR.
+
+  Concept -
+   1. Multiple Linear Regression is used to predict a dependent variable (Y) from two or more independent variables 
+     (X₁, X₂, ..., Xn).
+     
+
+   2. It assumes a linear relationship between the dependent variable and all independent variables.
+   3. B₀, B₁, B₂, ..., Bn are the main parameters of multiple linear regression.
+
+   Equation 
+       Y = B₀ + B₁X₁ + B₂X₂ + ... + BnXn
+
+       Where,
+         Y = Dependant Varable    (what you are goint to predict)
+         X₁, X₂, ..., Xn    =    Independent Variables  (Input or feature)
+         B₀                 =    Intercept         (Value of Y when all x = 0)
+         B₁, B₂, ..., Bn    =    Coefficients/Slope           
+
+#########################################################################################################
+Q3 What is a PLR ? Explain it with an example.
+   1. Polynomial Linear Regression is used to model a non-linear relationship 
+      between the dependent variable (Y) and the independent variable (X).
+   2. It transforms the input features into higher-degree polynomial terms (like X², X³, etc.) 
+   3. Althought the relastionship is non-linear but still the PLR are considered as type of Linear Model
+       because it is linear in the coefficients (B₀, B₁, B₂, ...).
+
+
+   Equation -
+    Y = B₀ + B₁X + B₂X² + B₃X³ + ... + BnXⁿ
+
+   Where:
+      Y = Dependent Variable  (what you are going to predict)
+
+      X = Independent Variable  (input or feature)
+
+      X², X³, ..., Xⁿ = Polynomial terms of X
+
+      B₀ = Intercept  (value of Y when X = 0)
+
+      B₁, B₂, ..., Bn = Coefficients for each power of X (control shape of the curve)
+
+
+
+
+      Python Example
+      --------------------------------------------------------------
+
+      from sklearn.linear_model import LinearRegression
+      from sklearn.preprocessing import PolynomialFeatures
+      import numpy as np
+
+      X = [[1], [2], [3]]
+      y = [1, 4, 9]
+
+      X_poly = PolynomialFeatures(degree=2).fit_transform(X)
+      model = LinearRegression().fit(X_poly, y)
+      print(model.predict(X_poly))
+
+
+#############################################################################################################
+Q7 What are the pros and cons of decision tree model?
+Q6 How decision tree is used for regression?
+
+    Defination 
+       - A decision tree is a model used to make decisions by splitting data based on features, forming a tree structure
+   
+    Advantage -
+      1. Easy to understand
+      2. Data scalling not required
+      3. handle both numerical and categorical data.
+      4. Can model both linear and non-linear relastionship.
+      5. Useful for feature importance analysis
+
+
+    Disadvantages
+      1. Overfitting with complex Trees
+      2. Sensitive to small change in data
+      3. Can be bias toward dominant classes.
+
+
+      Working -
+        Split the data 
+              |
+        Nodes test the feature 
+              |
+        Prediction
+
+###############################################################################################################
+Q8 How KNN is used for regression problem?
+Q10 Why KNN is called as lazy algorithm?
+Q11 How KNN is work?
+
+   1. KNN stands for Kth nearest Neighbors KNN
+   2. KNN is simple instance based learning algorithm 
+   3. It is used for regression and classifications
+
+   Working -
+     1. Find the kth nearest neighbours
+        - Given new points , KNN calculate distance from given points to each points
+     2. Select K closest point
+        - Algorithm find the closest kth point which is nearest to the given point
+     3. Make Prediction 
+        - Classification - Majority class which are near to k neighbour are predicted class
+        - Regressions - The average (mean) of the K neighbors' values is the predicted value.
+
+
+    KNN called lazy
+    4.  It is also know as lazy algorithm
+        1. It not have learning phase or steps
+        2. It doest build model during Training
+           Instead it memoris the entire dataset
+        3. Computes Prediction at Runtime
+
+        4. In short KNN does all work while prediction, making it lazy compare to other algorithms.
+
+##########################################################################################################
+
+Q9 What is the difference between instance based learning and model based 
+learning?
+
+ Instance based Learning  
+
+1.  No training phase                      
+2.  Used entire dataset for prediction      
+3.  Example - KNN                           
+4.  Adapt new data quickly                 
+5.  Cannot handle large dataset efficently   
+6.  Not memory efficient 
+7.  computational expense increase as dataset increase
+8.  It is sensitive to noisy data.
+
+Model Based learning
+
+  1. It has training phase
+  2. Use model for prediction
+  3. Example - SLR, MLR, Decision Tree
+  4. Cannot Adapt new data quickly
+  5. It can handle large datasets more efficiently.
+  6. It is memory efficent save memory
+  7. computational expense remain constant.
+  8. It is less sensitive to noisy data.
+
+####################################################################################################
