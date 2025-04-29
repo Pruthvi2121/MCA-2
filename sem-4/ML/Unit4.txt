@@ -224,6 +224,18 @@ Q11 How KNN is work?
 
         4. In short KNN does all work while prediction, making it lazy compare to other algorithms.
 
+#########################################################################################################
+Q12 What is the limitations of 1-nearest neighbour?
+   1. Sensitive to Noisy data 
+      - One wrong point can give wrong prediction
+   2. Overfitting
+      - 1-NN can easily overfit the data, 
+        especially in cases with noisy or complex datasets.
+   3. Computational Expensive
+      - 1-NN is compuatinal expensive as it checks each points for prediction
+   4. Slow for large dataset
+      - 1-NN is slow as it checks each points for prediction
+   
 ##########################################################################################################
 
 Q9 What is the difference between instance based learning and model based 
@@ -252,3 +264,77 @@ Model Based learning
   8. It is less sensitive to noisy data.
 
 ####################################################################################################
+Q13 What is the regularization ?why it is need ?
+Q14 How we do regularization ?
+Q15 What are the types of regularization ? Explain it in detail.
+Q19 How many ways that we can used to minimize the overfiting ?
+
+   Regularization - 
+      1. Regularization is a technique used to prevent overfitting
+        in machine learning models by penalizing complex models.
+      2. There are some unusual or unseen data present in model so it downgread the performance of model
+         this are overfitting
+      3. Regularization helps model to be simpler and more genearl so it perform well in unseen data.
+
+      Types of Regularization
+          1. L1 Regularization 
+             - L1 Regularization is also know as Lasso
+             - Adds the absolute values of weights as a penalty.
+             - Makes some weight to zero, so it help to remove unimportant feature
+             - help to reduce model complexity
+             
+          2. L2 Regularization (Ridge)
+             -  L2 Regularization is also known as Ridge
+             -  Adds the squares of weights as a penalty.
+             -  Shrink all weights but keep all features
+             - help to reduce model complexity
+
+          3. Elastic Net
+             - It is combination of both L1 and L2 Regularization
+             - Combines both benifits removes some feature and shrinks others
+
+################################################################################################################
+Q25 What is the difference between in ridge and lasso regression ?
+            Ridge                           Lasso
+1. Ridge uses L2 regularization         1.  Lasso uses L1 Regularization
+2. Not shrink weight to zero            2. Shrink weight to zero
+3. Ridge keeps all feature              3. Lasso Removes unimportant feature
+4. Rige is better when all feature      4. Lasso is better when few features 
+   matter                                  are matter
+5. Handles multicollinearity well       5. Struggle with handling multicollinearity 
+6. give non spare model                 6. give spare model
+7. cannot perform feature selection     7. Peform feature selection
+8. less interpretable                   8. more interpretable
+9. work well when p > n                 9. unstable or fail when p > n 
+
+####################################################################################################################
+
+
+Q24 How to implement lasso regression using python ?
+
+      from sklearn.linear_model import Lasso
+
+      model = Lasso(alpha=0.1)     # alpha is the regularization strength
+      model.fit(X_train, y_train)  # Train the model
+      y_pred = model.predict(X_test)  # Make predictions
+
+-------------------------------------------------------------------------------------------------------------
+Q20: Ridge Regression in Python 
+
+      from sklearn.linear_model import Ridge
+
+      model = Ridge(alpha=0.1)      # alpha controls the regularization strength
+      model.fit(X_train, y_train)   # Train the model
+      y_pred = model.predict(X_test)  # Make predictions
+
+------------------------------------------------------------------------------------------------------------------
+
+Q26 How to implement elastic net regression using python ?
+
+      from sklearn.linear_model import ElasticNet
+
+      model = ElasticNet(alpha=0.1, l1_ratio=0.5)  # l1_ratio controls mix of Lasso & Ridge
+      model.fit(X_train, y_train)                 # Train the model
+      y_pred = model.predict(X_test)    
+            
+#####################################################################################################################

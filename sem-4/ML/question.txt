@@ -124,24 +124,24 @@ Q5. What is the p value and how using the p value in linear regression.
 learning?
 # Q10 Why KNN is called as lazy algorithm?
 # Q11 How KNN is work?
-Q12 What is the limitations of 1-nearest neighbour?
-Q13 What is the regularization ?why it is need ?
-Q14 How we do regularization ?
-Q15 What are the types of regularization ? Explain it in detail.
+# Q12 What is the limitations of 1-nearest neighbour?
+# Q13 What is the regularization ?why it is need ?
+# Q14 How we do regularization ?
+# Q15 What are the types of regularization ? Explain it in detail.
 Q16 Explain which methods is used to evaluate regression model performance ?
 Q17 What is R square ? Explain it in detail.
-Q18 Explain ridge regularization ?
-Q19 How many ways that we can used to minimize the overfiting ?
-Q20 How to implement ridge regularization using python ?
+# Q18 Explain ridge regularization ?
+# Q19 How many ways that we can used to minimize the overfiting ?
+# Q20 How to implement ridge regularization using python ?
 Q21 What is bias and variance ?
 Q22 How to minimize the variance without substantial increase in bias ?
-Q23 Write a short note on :
+# Q23 Write a short note on :
     a.	Ridge Regression
     b.	Lasso Regression
     c.	Elastic Net
-Q24 How to implement lasso regression using python ?
-Q25 What is the difference between in ridge and lasso regression ?
-Q26 How to implement elastic net regression using python ?
+# Q24 How to implement lasso regression using python ?
+# Q25 What is the difference between in ridge and lasso regression ?
+# Q26 How to implement elastic net regression using python ?
 Q27 What are the use of lasso and elastic net regression ?
 
 
@@ -159,8 +159,8 @@ Q11 Kai Square Attribute Selection Measure
 Q12 Calculating and Interpreting Kai Square Values
 Q13 Pre-Pruning vs. Post-Pruning in Decision Trees
 Q14 Cost Complexity Pruning and Reduced Error Pruning
-Q15 Advantages of Decision Trees
-Q16 Disadvantages and Limitations of Decision Trees
+# Q15 Advantages of Decision Trees
+# Q16 Disadvantages and Limitations of Decision Trees
 Q17 Information Gain - Definition and Purpose
 Q18 Calculating Information Gain - Formula and Components
 Q19 Entropy Reduction and Information Gain
