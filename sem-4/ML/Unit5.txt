@@ -1,0 +1,133 @@
+Q1 Python Implementation Steps for Decision Trees
+
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+
+# Load data
+X, y = load_iris(return_X_y=True)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
+# Train Decision Tree
+clf = DecisionTreeClassifier()
+clf.fit(X_train, y_train)
+
+# Predict
+predictions = clf.predict(X_test)
+print(predictions)
+
+###########################################################################################
+Q2 Role of Label Encoding in the Python Implementation
+    1. Label Encoding changes words into numbers , so machine learning model can understand them.
+    2. Example -
+
+        from sklearn.preprocessing import LabelEncoder
+
+        le = LabelEncoder()
+        labels = ["cat", "dog", "dog", "cat"]
+        encoded = le.fit_transform(labels)
+        print(encoded)  # Output: [0 1 1 0]
+
+    3. It make categorical data machine readable.
+    4. Required for target labels or features if they’re strings.
+
+########################################################################################################
+Q4 Training and Prediction using scikit-learn Methods
+Q5 Evaluating Model Accuracy with `score()`
+
+        from sklearn.tree import DecisionTreeClassifier
+        from sklearn.datasets import load_iris
+        from sklearn.model_selection import train_test_split
+
+        # Load and split data
+        X, y = load_iris(return_X_y=True)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
+
+        # Train model
+        model = DecisionTreeClassifier()
+        model.fit(X_train, y_train)
+     
+        # Predict a sample
+        print("Prediction for first test sample:", model.predict([X_test[0]]))
+
+        # Evaluate accuracy
+        accuracy = model.score(X_test, y_test)
+        print("Accuracy:", accuracy)
+
+
+        # Cross-validation to check overfitting (5 folds)
+
+        cv_scores = cross_val_score(model, X, y, cv=5)
+        print("Cross-validation scores:", cv_scores)
+        print("Average CV accuracy:", cv_scores.mean())
+        
+
+  fit(X, y): Trains the model
+  predict(X_test): Makes predictions
+  score : show accuracy of model
+  cross_val_scor : check cross validation for overfitting
+
+##############################################################################################################
+Q7 Python Libraries and Classes for Decision Trees
+   1. Libraries 
+      1. scikit-learn 
+        - python library for decision tree
+      2. numpy
+        - python library for handling data handling
+      3. matplotlib
+        - python library for data Visualization
+
+    2. Classes
+      1.DecisionTreeClassifier
+         - class used for classification
+         eg - from sklearn.tree import DecisionTreeRegressor
+
+      2. DecisionTreeRegressor
+         - class used for Regreesions
+          eg - from sklearn.tree import DecisionTreeRegressor
+      3. plot_tree()
+         - class used to visulize Tree
+         eg - from sklearn.tree import plot_tree
+      4. export_text()
+         - for text based tree presentation
+         eg - from sklearn.tree import export_text
+
+#############################################################################################################
+Q3 Specifying Criterion (Entropy or Gini) in `DecisionTreeClassifie
+   1. In  DecisionTreeClassifier from sklearn you can specify
+      the criterion to measure the quality of a split.
+   2. There are two common criteria
+      1. Gini Impurity  # by default
+      2. Entropy    (Information gain)
+
+   3. Gini Impurity 
+      - Measure the impurity of Node
+      - A lower Gini value mean Higher Impurity
+    
+   4. Entorpy 
+      - Measures the disorder or uncertainty of a node.
+      - Goal is to maximize information gain.
+
+   Example -
+
+        from sklearn.tree import DecisionTreeClassifier
+        from sklearn.datasets import load_iris
+        from sklearn.model_selection import train_test_split
+
+        # Load data
+        X, y = load_iris(return_X_y=True)
+
+        # Split data into training and testing
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
+
+        # Using Gini Impurity (default)
+        model_gini = DecisionTreeClassifier(criterion='gini')
+        model_gini.fit(X_train, y_train)
+        print("Accuracy with Gini:", model_gini.score(X_test, y_test))
+
+        # Using Entropy
+        model_entropy = DecisionTreeClassifier(criterion='entropy')
+        model_entropy.fit(X_train, y_train)
+        print("Accuracy with Entropy:", model_entropy.score(X_test, y_test))
+
+###################################################################################################

@@ -246,3 +246,5 @@ regression?
        - Spread of error should be constant accross all values of x
      4. Normality of Errors 
        - Errors should normally distributed
+
+###################################################################################

@@ -1,0 +1,119 @@
+1.  Explain the key features of the Android platform. Discuss its architecture and how it
+supports app development.
+
+   Feature of Andorid platform
+     1. OpenSource 
+        - free and opensource
+     2. Operating system
+        - Linux kernel-Based operating system.
+     3. Multitasking -
+        - Support Multi-tasking , run more apps at once.
+     4. Google Services
+        - Support various build-in goodle services.
+     5. Customizable UI
+        - Offer flexible user interface.
+     6. App Store Access.
+        - Provide App store to publish the app for developer
+
+ Android Architecture
+    - Android architecture is organized into five main layers, 
+    1. Linux Kernal 
+       1. It is also know as Bottom layer
+       2. It act as abstraction layer between hardware and software.
+       3. It manage core function like process, memory management etc 
+    
+    2. HAL  
+       1. HAL stand for Hardware Abstraction Layer 
+       2. Provide Interface to Hardware components.
+          eg camera, microphone etc
+    
+    3. ART 
+       1. It ART stand for Android Runtime.
+       2. Run the apps with better performance 
+    
+    4. Native Libraries
+       1. Store the reusable package code like database management sqlite etc.
+    
+    5. Application 
+       1. It is also known as Top Layer
+       2. IT include the build-in apps like contants, sms, browser etc 
+          along with user intalled apps.
+    
+
+supports app development.
+    1. Andorid Studio 
+      - IDE for developing Android apps
+    2. SDK
+      - Include API's Libraries and debuging tools
+    3. Programming Languages 
+      - Java, Kotlin, C, C++ support android development 
+#########################################################################################################
+2.  What is Android Studio? Describe its main components and how it simplifies Android
+app development. (8 marks)
+
+    Main Component of Andorid Studio
+    1. Code Editor
+        - Support Java, Kotlin, XML and more programming lanaguage.
+        - Support Syntax Highlighting, code compilations etc
+    2. Layout Editor
+        - Allow you to design UI with drag and drop tool.
+    3. Android Emulator
+        - Simulates android devices for testing apps, without needing a physical device.
+    4. Project structure 
+        - Organizes files into modules eg app, libraries.
+    5. Graddle Build system
+        - Automates build processes like compiling, packaging, and testing.
+    6. Device File Explorer 
+        - Lets you browse files on connected/emulated devices.
+#############################################################################################################
+3.  Compare Android Studio with other IDEs for Android development. What advantages
+does Android Studio offer
+
+   1. Along with Android there are diffrent IDE in market 
+     1. Visual stuidio
+     2. Eclipse etc
+
+    Cut compare to other Android has this advantage and feature
+    1. Build by Google 
+       - Android stuido is build by google team.
+    2. Official IDE 
+       - Fully supporeted by google with continous updates and feature.
+
+    3. Rich Android-Specific Features:
+       -  Layout Editor : Support easy ui design
+       -  AVD Manager : Support easy testing on virtual devices.
+    
+    4. Seemless Google Service  support
+       - support google services like Android SDK, Firebase, Google Play, and other Google services.
+    
+    5. Performance Optimization 
+       -  Optimized Android app performance 
+          and debugging tools like Logcat and Profiler.
+    6. Testing Tools:
+       - Has build in testing tool like Emulator for realtime app testing.
+    7. Strong Community Support 
+       - Has active and large Community support.
+
+###################################################################################################################
+5.  Explain the steps to set up the Android development environment on a Windows system.
+Include details about installing Android Studio, SDK, and configuring the necessary
+tools. (8 marks)
+
+Steps to Setting up Android evelopment on Windows
+1. Install Android Studio.
+    - Download from official Webiste
+    - Run the installer and follow the setup instruction. 
+
+2. Indtall SDK
+    - Open Android Studio > Tools > SDK Manager 
+    - Install latest SDK and tools
+3. Setup AVD
+    -Go to tools > AVD Manager > create new virtual device, and choose system image 
+4. Install JDK
+    - Install the Java Development Kit (JDK), then set the path in File
+
+5. Test Your Setup 
+   - Create a new project and run it on the emulator 
+
+#################################################################################################################
+

@@ -1,12 +1,12 @@
-1.  Explain the key features of the Android platform. Discuss its architecture and how it
-supports app development. (8 marks)
-2.  What is Android Studio? Describe its main components and how it simplifies Android
+# 1.  Explain the key features of the Android platform. Discuss its architecture and how it
+supports app development. (8 marks)  
+# 2.  What is Android Studio? Describe its main components and how it simplifies Android
 app development. (8 marks)
-3.  Compare Android Studio with other IDEs for Android development. What advantages
+# 3.  Compare Android Studio with other IDEs for Android development. What advantages
 does Android Studio offer? (8 marks)
-4.  Discuss the role of Android Studio as the official Integrated Development Environment
+# 4.  Discuss the role of Android Studio as the official Integrated Development Environment
 (IDE) for Android app development, highlighting its essential tools and functionalities.
-5.  Explain the steps to set up the Android development environment on a Windows system.
+# 5.  Explain the steps to set up the Android development environment on a Windows system.
 Include details about installing Android Studio, SDK, and configuring the necessary
 tools. (8 marks)
 6.  What is the purpose of the Android SDK Manager? How does it help in managing SDK

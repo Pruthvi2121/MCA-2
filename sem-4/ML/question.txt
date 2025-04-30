@@ -145,13 +145,13 @@ Q22 How to minimize the variance without substantial increase in bias ?
 Q27 What are the use of lasso and elastic net regression ?
 
 
-Q1 Python Implementation Steps for Decision Trees
-Q2 Role of Label Encoding in the Python Implementation
-Q3 Specifying Criterion (Entropy or Gini) in `DecisionTreeClassifie
-Q4 Training and Prediction using scikit-learn Methods
-Q5Evaluating Model Accuracy with `score()`
-Q6 Addressing Overfitting using Cross-Validation
-Q7 Python Libraries and Classes for Decision Trees
+# Q1 Python Implementation Steps for Decision Trees
+# Q2 Role of Label Encoding in the Python Implementation
+# Q3 Specifying Criterion (Entropy or Gini) in `DecisionTreeClassifie
+# Q4 Training and Prediction using scikit-learn Methods
+# Q5 Evaluating Model Accuracy with `score()`
+# Q6 Addressing Overfitting using Cross-Validation
+# Q7 Python Libraries and Classes for Decision Trees
 Q8 Limitations and Further Steps
 Q9 Handling Continuous Attributes in Decision Trees
 Q10 Threshold Selection for Continuous Attributes
@@ -180,7 +180,7 @@ Q32 Decision Tree Splitting and Node Variance
 Q33 Limitations of R-squared
 Q34 Adjusted R-squared
 Q35 Regression vs. Classification01
-Q36 Decision Tree for Classification - Core Concepts
+# Q36 Decision Tree for Classification - Core Concepts
 Q37 Data Splitting and Purity in Decision Trees
 Q38 Splitting Rules and Testing in Decision Trees
 Q39 Continuous vs. Categorical Features in Decision Trees
