@@ -154,7 +154,6 @@ in managing dependencies and building apps? (8 marks)
       - Work Seamlessly with Andorid Studio and CICD pipeline
 
 ##############################################################################################################
-
 10.  Explain the steps to create a new Android project in Android Studio using Kotlin. Include
 details about selecting templates, configuring project settings, and understanding the
 project structure. (8 marks)
@@ -174,3 +173,121 @@ project structure. (8 marks)
     - Click Finish. Android Studio sets up your project.
 
 ###################################################################################################
+11.  What is the purpose of the MainActivity.kt file in an Android project? Write a simple
+Kotlin program to display "Hello, Android!" on the screen. (8 marks)
+
+MainActivity.kt
+   1. The MainActivity.kt file in the main screen of the Android App
+   2. It setup the UI and handle logic what happen when app start.
+   3. It handle user interaction like button click etc.
+
+
+ Kotlin program to display "Hello, Android!"
+ Example -
+
+      import android.os.Bundle
+      import android.widget.TextView
+      import androidx.appcompat.app.AppCompatActivity
+
+      class MainActivity : AppCompatActivity() {
+         override fun onCreate(savedInstanceState: Bundle?) {
+            super.onCreate(savedInstanceState)
+            setContentView(TextView(this).apply {
+                  text = "Hello, Android!"
+                  textSize = 24f
+            })
+         }
+      }
+
+
+
+#####################################################################################################
+12.  Discuss the importance of the activity_main.xml file in an Android project. How does it
+interact with the Kotlin code?
+
+1. The activity_main.xml file define the layout of the main screen in Android App.
+2. It tells the app how the user interface look like including the button, text, images etc.
+
+Interact with Kotlin
+   1. Kotlin code eg MainActivity.kt uses setcontentView to load this layout.
+   2. UI elements in the XML can be accessed and controlled in Kotlin using their IDs
+
+
+ Example -
+
+      import android.os.Bundle
+      import android.widget.TextView
+      import androidx.appcompat.app.AppCompatActivity
+
+      class MainActivity : AppCompatActivity() {
+         override fun onCreate(savedInstanceState: Bundle?) {
+            super.onCreate(savedInstanceState)
+            setContentView(TextView(this).apply {
+                  text = "Hello, Android!"
+                  textSize = 24f
+            })
+         }
+      }
+
+###########################################################################################################
+13.  Explain the steps to deploy an Android application on a real device. Include details about
+enabling USB debugging and configuring the device for development.
+ 
+ 1. Enable Developer Option 
+    - GO to settings > about phone > turn on developer options
+ 2. Enable USB Debugging
+    - Go to Settings > Developer Option > Turn on USB debugging.
+ 3. Connect Device via USB
+    - Connect the phone with your computer using USB cable.
+ 4. Select the device in Andorid Studio
+    - Open the your project on Andorid Studio
+    - click on device drop down and select your phone.
+ 5. Run App.
+    Click on Run App >
+    The app install and launch in your real device.
+
+###############################################################################################################
+14.  What is an Android Virtual Device (AVD)? How do you create and configure an AVD in
+Android Studio?
+   1. An AVD is an emulator that simulate an Andorid Device on your computer.
+   2. It let you to test apps without a physical phone.
+
+   Create and Configuration
+     1. Open Android Studio
+     2. Go to tools > Device Manager
+     3. Click on create Device 
+     4. Choose Device model 
+     5. Select system image eg Andorid 12
+     6. Configure AVD settings (name, orientation etc)
+     7. Click Finish , and AWD created.
+     8. Click on Play button to Lauch 
+
+#######################################################################################################################
+15.  Compare the advantages and disadvantages of testing apps on real devices versus
+emulators.
+
+Real Devices
+   1. It is costly
+   2. It has high Acurracy
+   3. Performance Testing is Accurate
+   4. Can test real hardware
+   5. Real world network testing eg (3G, 4G, Wifi)
+   6. Accurate Touch/Gestures testing
+   7. Device may not availabe for testing
+   8. Hard to debugging
+   9. take more time to setup
+   10 testing speed is slower 
+   11. No hardware limitations
+
+Emulators
+   1. It is free and (no need to buy physical device)
+   2. It has low Accuracy.
+   3. Performance Testing is Inaccurate.
+   4. Limited and Simulated Hardware testing
+   5. Simulated Network testing
+   6. Limited Touch/Gestures testing.
+   7. Device availabe everytime on the computer
+   8. Easy in debugging
+   9. Easy and quick setup
+   10 testing speed is higher
+   11. Hardware limitations

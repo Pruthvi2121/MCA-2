@@ -20,15 +20,15 @@ how they interact with each other.
 # 10.  Explain the steps to create a new Android project in Android Studio using Kotlin. Include
 details about selecting templates, configuring project settings, and understanding the
 project structure. (8 marks)
-11.  What is the purpose of the MainActivity.kt file in an Android project? Write a simple
+# 11.  What is the purpose of the MainActivity.kt file in an Android project? Write a simple
 Kotlin program to display "Hello, Android!" on the screen. (8 marks)
-12.  Discuss the importance of the activity_main.xml file in an Android project. How does it
+# 12.  Discuss the importance of the activity_main.xml file in an Android project. How does it
 interact with the Kotlin code? (8 marks)
-13.  Explain the steps to deploy an Android application on a real device. Include details about
+# 13.  Explain the steps to deploy an Android application on a real device. Include details about
 enabling USB debugging and configuring the device for development. (8 marks)
-14.  What is an Android Virtual Device (AVD)? How do you create and configure an AVD in
+# 14.  What is an Android Virtual Device (AVD)? How do you create and configure an AVD in
 Android Studio? (8 marks)
-15.  Compare the advantages and disadvantages of testing apps on real devices versus
+# 15.  Compare the advantages and disadvantages of testing apps on real devices versus
 emulators. (8 marks)
 16.  Explain the process of creating a new Android project in Android Studio using Kotlin as
 the programming language. Provide a detailed walkthrough, including selecting a project
