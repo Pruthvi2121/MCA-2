@@ -116,4 +116,61 @@ Steps to Setting up Android evelopment on Windows
    - Create a new project and run it on the emulator 
 
 #################################################################################################################
+6.  What is the purpose of the Android SDK Manager? How does it help in managing SDK
+versions and tools? 
+   Purpose: 
+      Manages Android SDK components needed for app development.
+   Key Funtions -
+      1. SDK Version Control
+          - Install/Manage various Android versions
+      2. Component Management 
+          - Install only necessary tools and save space.
+      3. Offline Support 
+         - Can be used without internet
+      4. Dependencies Handing 
+         - Ensure tools and SDK compatiblity.
+#################################################################################################################
+7.  Describe the role of the Gradle build system in Android development. How does it help
+in managing dependencies and building apps? (8 marks)
 
+   1. Build Automation
+      - Gradle Automate entire Build process.
+      - compile code >> packing APK >> run tests etc
+
+   2. Dependency Management 
+      - Easily adds external libraries using Maven 
+      - Automatically download and update dependencies.
+   
+   3. Build Varient 
+      - Support different build types
+   
+   4. Support Custom Build Logic
+      - Develper can write there custom build Logic
+   
+   5. Optimal Build
+      - Build only change part in the code, and boost building speed.
+
+   6. Integrations
+      - Work Seamlessly with Andorid Studio and CICD pipeline
+
+##############################################################################################################
+
+10.  Explain the steps to create a new Android project in Android Studio using Kotlin. Include
+details about selecting templates, configuring project settings, and understanding the
+project structure. (8 marks)
+
+1.  Open Android Studio
+   - Launch Android Studio and click “New Project”.
+2. Select Project template
+   - Choose project template based on your needed
+3. Configure Project setting
+   - Fill out the following
+     1. Name  - Name of your App
+     2. Package Name - Unique ID
+     3. Save Location - Project folder on your computer
+     4. Language - Select programming lanaguage  eg Kotlin 
+     5. SDK - Choose the SDK
+4. Finish and Create Project:
+    - Click Finish. Android Studio sets up your project.
+
+###################################################################################################

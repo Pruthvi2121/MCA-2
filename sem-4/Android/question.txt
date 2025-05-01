@@ -9,15 +9,15 @@ does Android Studio offer? (8 marks)
 # 5.  Explain the steps to set up the Android development environment on a Windows system.
 Include details about installing Android Studio, SDK, and configuring the necessary
 tools. (8 marks)
-6.  What is the purpose of the Android SDK Manager? How does it help in managing SDK
+# 6.  What is the purpose of the Android SDK Manager? How does it help in managing SDK
 versions and tools? (8 marks)
-7.  Describe the role of the Gradle build system in Android development. How does it help
+# 7.  Describe the role of the Gradle build system in Android development. How does it help
 in managing dependencies and building apps? (8 marks)
-8.  Describe the Android architecture with a neat diagram.
-9.  Explain the role of each layer (Linux Kernel, Libraries, Android Runtime, Application
+# 8.  Describe the Android architecture with a neat diagram.
+# 9.  Explain the role of each layer (Linux Kernel, Libraries, Android Runtime, Application
 Framework, and Applications) in the functioning of an Android operating system and
 how they interact with each other.
-10.  Explain the steps to create a new Android project in Android Studio using Kotlin. Include
+# 10.  Explain the steps to create a new Android project in Android Studio using Kotlin. Include
 details about selecting templates, configuring project settings, and understanding the
 project structure. (8 marks)
 11.  What is the purpose of the MainActivity.kt file in an Android project? Write a simple
