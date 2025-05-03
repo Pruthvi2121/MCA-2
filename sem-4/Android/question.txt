@@ -30,44 +30,44 @@ enabling USB debugging and configuring the device for development. (8 marks)
 Android Studio? (8 marks)
 # 15.  Compare the advantages and disadvantages of testing apps on real devices versus
 emulators. (8 marks)
-16.  Explain the process of creating a new Android project in Android Studio using Kotlin as
+# 16.  Explain the process of creating a new Android project in Android Studio using Kotlin as
 the programming language. Provide a detailed walkthrough, including selecting a project
 template, configuring the activity, and setting up the build.gradle file. Mention the
 significance of Kotlin in modern Android development.
-17.  What is the purpose of the AndroidManifest.xml file in an Android project? Explain its
+# 17.  What is the purpose of the AndroidManifest.xml file in an Android project? Explain its
 structure and key elements. (8 marks)
-18.  Describe the role of the R.java file in Android development. How does it help in accessing
+# 18.  Describe the role of the R.java file in Android development. How does it help in accessing
 resources? (8 marks)
-19.  Explain the concept of resources in Android. How are resources organized, and how can
+# 19.  Explain the concept of resources in Android. How are resources organized, and how can
 they be accessed in Kotlin code? (8 marks)
-20.  Explain the Android Activity lifecycle. Describe the key lifecycle methods and their
+# 20.  Explain the Android Activity lifecycle. Describe the key lifecycle methods and their
 purposes. (8 marks)
-21.  Explain kotlin classes and methods for the Activity lifecycle. What is the significance of
+# 21.  Explain kotlin classes and methods for the Activity lifecycle. What is the significance of
 the onSaveInstanceState() method in the Activity lifecycle? (8 marks)
-22.  Explain the Android Activity Lifecycle in detail with a labeled diagram. Describe each
+# 22.  Explain the Android Activity Lifecycle in detail with a labeled diagram. Describe each
 lifecycle method (onCreate(), onStart(), onResume(), onPause(), onStop(), onDestroy(),
 and onRestart()) and its purpose. (8 marks)
-23.  Explain the role of Activities in Android development. How do they interact with the
+# 23.  Explain the role of Activities in Android development. How do they interact with the
 user interface? (8 marks)
-24.  What are Services in Android? Describe their types and use cases. Provide an example of
+# 24.  What are Services in Android? Describe their types and use cases. Provide an example of
 a background service. (8 marks)
 25.  Discuss the purpose of Broadcast Receivers in Android. How do they respond to
 system-wide events? Provide an example. (8 marks)
 26.  What are Content Providers in Android? Explain how they enable data sharing between
 applications. (8 marks)
-27.  Explain their roles and use cases in Android app development with examples. Briefly
+# 27.  Explain their roles and use cases in Android app development with examples. Briefly
 describe how they interact within the Activity Lifecycle.
-28.  Create a simple Android application using Kotlin that displays "Hello, Android!" in
+# 28.  Create a simple Android application using Kotlin that displays "Hello, Android!" in
 the center of the screen. Explain the role of the activity_main.xml file
 and MainActivity.kt in your application. (8 marks)
 29.  What are Views in Android? Explain the purpose of
 the TextView and EditText components. Provide an example of how to use them in
 an Android app. (8 marks)
-30.  How do you display a Toast message in Android? Write a Kotlin program to
+# 30.  How do you display a Toast message in Android? Write a Kotlin program to
 demonstrate the use of Toast in an Android app. (8 marks)
-31.  What are Notifications in Android? Explain how to create and display a simple
+# 31.  What are Notifications in Android? Explain how to create and display a simple
 notification in an Android app. (8 marks)
-32.  Discuss the importance of notifications in mobile applications. How can
+# 32.  Discuss the importance of notifications in mobile applications. How can
 notifications improve user engagement? Provide an example of a notification
 implementation. (8 marks)
 33.  What are Intents and Intent Filters in Android? Explain their roles in facilitating
@@ -80,15 +80,15 @@ Intents and Implicit Intents. Provide an example of each. (8 marks)
 from one Activity to another. (8 marks)
 36.  What are Intent Filters? How do they work in Android? Provide an example of an
 Intent Filter for opening a URL in a browser. (8 marks)
-37.  Explain the purpose of the Button component in Android. Write a Kotlin program
+# 37.  Explain the purpose of the Button component in Android. Write a Kotlin program
 to demonstrate how to handle button clicks and display a message. (8 marks)
-38.  What is a Custom Toast in Android? How do you create and display a custom
+# 38.  What is a Custom Toast in Android? How do you create and display a custom
 Toast message? Provide an example. (8 marks)
 39.  Compare the use of TextView and EditText in Android. Write a Kotlin program
 to demonstrate how to retrieve user input from an EditText and display it in
 a TextView. (8 marks)
-40.  What is a Toast in Android, and how is it used to provide feedback to users?
-41.  Explain the process of creating a simple Toast message in Kotlin, including its syntax and
+# 40.  What is a Toast in Android, and how is it used to provide feedback to users?
+# 41.  Explain the process of creating a simple Toast message in Kotlin, including its syntax and
 parameters (context, message, duration). Provide a code example and discuss its practical
 use case in an application.
 42.  What is the role of the Bundle class in Android? How is it used to pass data
@@ -96,15 +96,15 @@ between activities using Intents? Provide an example. (8 marks)
 43.  Explain the concept of Implicit Intents in Android. How do they enable
 communication between different apps? Provide an example of opening a web
 page using an Implicit Intent. (8 marks)
-44.  How do you handle multiple button clicks in a single Activity? Write a Kotlin
+# 44.  How do you handle multiple button clicks in a single Activity? Write a Kotlin
 program to demonstrate handling clicks for two buttons with different actions. (8
 marks)
 a. Differentiate between Explicit Intent and Implicit Intent in Android with
 examples.
-45.  Explain how to create a Custom Toast in Android using Kotlin. Discuss the steps to
+# 45.  Explain how to create a Custom Toast in Android using Kotlin. Discuss the steps to
 design a custom layout (e.g., with an ImageView and TextView), inflate it, and display it
 as a Toast.
-46.  Provide a sample code snippet and highlight the advantages of a custom Toast over a
+# 46.  Provide a sample code snippet and highlight the advantages of a custom Toast over a
 default one.
 47.  What are the best practices for managing the Activity lifecycle in Android? How
 can you avoid memory leaks and ensure smooth app performance? (8 marks)
@@ -141,7 +141,7 @@ Storage, SQLite, SharedPreferences).
 64.  Provide a sample scenario of storing a text file in internal storage using Kotlin.
 65.  What are the disadvantages of Flutter? Discuss its limitations and scenarios where it might not
 be the best choice. (8 marks)
-66.  What are advanced layout widgets in Flutter? Explain the use of GridView, Stack, and Expanded
+66.  What are advanced layout  widgets in Flutter? Explain the use of GridView, Stack, and Expanded
 with examples. (8 marks)
 67.  Explain the importance of gestures in mobile app development. How do they enhance user
 experience? (8 marks)
