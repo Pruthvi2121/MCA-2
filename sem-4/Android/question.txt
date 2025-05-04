@@ -74,7 +74,7 @@ implementation. (8 marks)
 communication between components. Differentiate between explicit and implicit intents
 with examples. Describe how Intent Filters are declared in the AndroidManifest.xml file
 to handle specific actions.
-34.  What are Intents in Android? Explain the difference between Explicit
+# 34.  What are Intents in Android? Explain the difference between Explicit
 Intents and Implicit Intents. Provide an example of each. (8 marks)
 35.  Write a Kotlin program to demonstrate the use of an Explicit Intent to navigate
 from one Activity to another. (8 marks)
@@ -93,14 +93,13 @@ parameters (context, message, duration). Provide a code example and discuss its 
 use case in an application.
 42.  What is the role of the Bundle class in Android? How is it used to pass data
 between activities using Intents? Provide an example. (8 marks)
-43.  Explain the concept of Implicit Intents in Android. How do they enable
+#43.  Explain the concept of Implicit Intents in Android. How do they enable
 communication between different apps? Provide an example of opening a web
 page using an Implicit Intent. (8 marks)
 # 44.  How do you handle multiple button clicks in a single Activity? Write a Kotlin
 program to demonstrate handling clicks for two buttons with different actions. (8
 marks)
-a. Differentiate between Explicit Intent and Implicit Intent in Android with
-examples.
+
 # 45.  Explain how to create a Custom Toast in Android using Kotlin. Discuss the steps to
 design a custom layout (e.g., with an ImageView and TextView), inflate it, and display it
 as a Toast.
@@ -110,50 +109,52 @@ default one.
 can you avoid memory leaks and ensure smooth app performance? (8 marks)
 48.  How do you debug issues related to Intents and Activity navigation in Android?
 Describe the tools and techniques you would use. (8 marks)
-49.  Discuss the importance of responsive UI design in Android. How can you ensure
+# 49.  Discuss the importance of responsive UI design in Android. How can you ensure
 your app works well on different screen sizes and orientations? (8 marks)
-51.  Compare ListView and RecyclerView. What advantages does RecyclerView offer over ListView?
+# 51.  Compare ListView and RecyclerView. What advantages does RecyclerView offer over ListView?
 (8 marks)
 52.  Demonstrate the use of different classes for a RecyclerView to display a list of items. Include
 details about the Adapter and ViewHolder. (8 marks)
-53.  What is the Room Persistence Library in Android? Explain its components (Entity, DAO, and
+# 53.  What is the Room Persistence Library in Android? Explain its components (Entity, DAO, and
 Database) and how it simplifies SQLite usage. (8 marks)
 54.  Demonstrate how to use the Room library to store and retrieve data in an Android app. (8
 marks)
-55.  How do you handle large datasets in Android? Discuss the use of pagination with RecyclerView
+# 55.  How do you handle large datasets in Android? Discuss the use of pagination with RecyclerView
 and Room. (8 marks)
-56.  What are the best practices for using SQLite in Android? Discuss performance optimization and
+# 56.  What are the best practices for using SQLite in Android? Discuss performance optimization and
 error handling. (8 marks)
 57.  Demonstrate CRUD operations (Create, Read, Update, Delete) using SQLite in an Android app.
 Include details about the database schema and queries. (8 marks)
 58.  How do you handle database upgrades in SQLite? Explain the role of the onUpgrade method in
 SQLiteOpenHelper. (8 marks)
-59.  What is the purpose of transactions in SQLite? Provide an example of how to use transactions in
+# 59.  What is the purpose of transactions in SQLite? Provide an example of how to use transactions in
 an Android app. (8 marks)
 60.  What is the significance of the Android App Bundle (AAB) format? How does it differ from the
 traditional APK format? (8 marks)
 61.  Discuss the importance of versioning and signing an Android app before publishing. How do you
 configure these in Android Studio? (8 marks)
-62.  Introduce the SQLite database and explain its key features (e.g., lightweight, serverless) and
+
+# 62.  Introduce the SQLite database and explain its key features (e.g., lightweight, serverless) and
 how it supports data persistence.
-63.  Explain the various options for storing data in an Android app (e.g., Internal Storage, External
+# 63.  Explain the various options for storing data in an Android app (e.g., Internal Storage, External
 Storage, SQLite, SharedPreferences).
 64.  Provide a sample scenario of storing a text file in internal storage using Kotlin.
-65.  What are the disadvantages of Flutter? Discuss its limitations and scenarios where it might not
+
+# 65.  What are the disadvantages of Flutter? Discuss its limitations and scenarios where it might not
 be the best choice. (8 marks)
 66.  What are advanced layout  widgets in Flutter? Explain the use of GridView, Stack, and Expanded
 with examples. (8 marks)
-67.  Explain the importance of gestures in mobile app development. How do they enhance user
+# 67.  Explain the importance of gestures in mobile app development. How do they enhance user
 experience? (8 marks)
 68.  Discuss the importance of state management in Flutter. Compare different state management
 approaches like Provider, Bloc, and Riverpod. (8 marks)
-69.  What is the role of the Flutter engine in rendering UI components? How does it interact with
+# 69.  What is the role of the Flutter engine in rendering UI components? How does it interact with
 the platform-specific code? (8 marks)
 70.  Explain the concept of widget tree and element tree in Flutter. How do they help in rendering
 the UI efficiently? (8 marks)
-71.  Discuss the importance of hot reload and hot restart in Flutter. How do they improve the
+# 71.  Discuss the importance of hot reload and hot restart in Flutter. How do they improve the
 development process? (8 marks)
-72.  Explain the key features of Flutter as a UI toolkit for cross-platform development. Discuss the
+# 72.  Explain the key features of Flutter as a UI toolkit for cross-platform development. Discuss the
 advantages of using Flutter (e.g., hot reload, single codebase) and its disadvantages (e.g., larger
 app size, limited native functionality). Provide a scenario where Flutter would be an ideal choice
 over native development.

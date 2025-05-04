@@ -1,0 +1,73 @@
+Advantage and disadvantages of Flutter
+
+Advantage -
+  1. Cross-Platform
+    - Work on diffrenet operating system
+  2. Opensource 
+    - Free and opensource
+  3. Fast Development 
+    - Hot Reload speedup testing 
+  4. Single Codebase 
+    - Less code, work in different device and os
+  5. High Performance 
+    - Has more performance 
+  6. Large Community 
+    - Has active and large community.
+
+Disadvantages -
+  1. Large App Size -
+     - Flutter apps are large in size
+  2. Limited Native Feature 
+     - Limited in natave feature.
+  3. Learning Curve
+     - Dart lanaguage still new to some developers
+  4. IOS support 
+     - slightly less polised compare to Andorid.
+
+#######################################################################################################
+71. Discuss the importance of hot reload and hot restart in Flutter. How do they improve the
+development process?
+
+  1. Hot-Reload 
+    1. Inject code change directly into running code
+    2. Not requre to restart the server.
+    3. Ideal for UI update in development
+    4. Speed up testing and design tweaks.
+  
+  2. Hot-Restart 
+    1. Fully restart the app and rebuild the Ui from scratch
+    2. Clear all apps state
+
+  3. Save time,by avoiding full rebuild
+  4. Enable faster development 
+  5. Enable faster Debugging.
+
+######################################################################################################
+
+67.  Explain the importance of gestures in mobile app development. How do they enhance user
+experience?
+    1. Feel Natural 
+        - Feel like real world action
+    2. Easy to use 
+        - Make app simple and fun.
+    3. Faster Navigation
+        - Quickly Move thourght the app.
+    4. More Screen space
+        - Fewer button, more screen space.
+    5. More Interactive 
+        - Apps feel smoother and more responsive
+    6. Example -
+        1. Wipe phone two time to turn-on torch 
+        2. Anti Wipe the phone to turn on Camera 
+###########################################################################################################
+69.  What is the role of the Flutter engine in rendering UI components? How does it interact with
+the platform-specific code? 
+   1. Flutter engine handles UI rendering.
+   2. It uses Skia ,a fast graphics library. to draw widget
+   3. Converts Flutter widget into pixels on the screen
+
+   Interaction with platform specific code 
+        1. flutter is common layer over native code
+        2. It uses platform channel to talk to native code .
+        3. Native code does the job and sends the result back.
+############################################################################################################

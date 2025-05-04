@@ -487,3 +487,39 @@ to demonstrate how to handle button clicks and display a message.
             }
 
 ################################################################################################################################
+34.  What are Intents in Android? Explain the difference between Explicit
+Intents and Implicit Intents. Provide an example of each. 
+
+            Explicit Intent                                Implicit Intent
+
+         1. It has target component               1. It does not have target component.
+         2. Used to start specific                2. Used to for action like viewing webpage,
+            activity or service                      sending data etc.
+         3. Low Flexible                          3. Highly flexible.
+         4. More Efficient                        4. Less Efficient 
+         5. Target component explicitly           5. No target component delared,
+            declared                                 only action and data declared.
+         6. Internal use within the same app      6. Used for inter-app communication
+         7. Scope limited to specific app         7. Scope can envolve multiple apps.
+         8. Simple to implement                   8. Complex to implement
+         9. Example                               9. Example
+         Intent intent = new Intent(this,          Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+         SecondActivity.class)                     
+
+################################################################################################################################
+49.  Discuss the importance of responsive UI design in Android. How can you ensure
+your app works well on different screen sizes and orientations? 
+
+   Importance -
+      1. Cross Device Consistency
+          - Enusre apps works well on phone, tablet, and other devices.
+      2. Better User Experience 
+          - User get same experience in every device.
+      3. Efficiency in development 
+          - No need of sperate version for each device.
+      4. Accessible 
+         - Make the app more accessible for every device user.
+      5. Performance 
+         - Optimizes loading and resource usage.
+         
+######################################################################################################################################
