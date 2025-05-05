@@ -158,12 +158,12 @@ development process? (8 marks)
 advantages of using Flutter (e.g., hot reload, single codebase) and its disadvantages (e.g., larger
 app size, limited native functionality). Provide a scenario where Flutter would be an ideal choice
 over native development.
-73.  Describe the layered architecture of Flutter (e.g., Framework, Engine, Embedder) and how it
+# 73.  Describe the layered architecture of Flutter (e.g., Framework, Engine, Embedder) and how it
 contributes to performance. Provide an introduction to Dart programming, focusing on its role
 in Flutter. Explain variables and data types in Dart with examples (e.g., int, String, dynamic).
-74.  Discuss Object-Oriented Programming (OOP) concepts in Dart (e.g., classes, objects,
+# 74.  Discuss Object-Oriented Programming (OOP) concepts in Dart (e.g., classes, objects,
 inheritance) with a simple class example. Introduce Widgets in Flutter and explain the build()
 method’s role in rendering UI. Describe how Flutter visualizes the widget tree during app
 execution.
-75.  Explain the types of layout widgets in Flutter, focusing on Single Child Widgets (e.g., Container,
+75. Explain the types of layout widgets in Flutter, focusing on Single Child Widgets (e.g., Container,
 Center) and Multiple Child Widgets (e.g., Row, Column, ListView).

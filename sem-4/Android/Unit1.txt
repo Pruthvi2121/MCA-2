@@ -4,10 +4,10 @@ supports app development.
    Feature of Andorid platform
      1. OpenSource 
         - free and opensource
-     2. Operating system
+     2. Linux Operating system
         - Linux kernel-Based operating system.
      3. Multitasking -
-        - Support Multi-tasking , run more apps at once.
+        - Support Multi-tasking , run multiple apps at once.
      4. Google Services
         - Support various build-in goodle services.
      5. Customizable UI
