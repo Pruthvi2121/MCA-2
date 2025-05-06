@@ -1,0 +1,39 @@
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import androidx.room.Room
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+
+class MainActivity : AppCompatActivity() {
+
+    private val db by lazy { Room.databaseBuilder(applicationContext, AppDatabase::class.java, "app-db").build() }
+    private val userDao by lazy { db.userDao() }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        // Create
+        lifecycleScope.launch(Dispatchers.IO) { userDao.insert(User(name = "John Doe")) }
+
+        // Read
+        lifecycleScope.launch(Dispatchers.IO) {
+            val users = userDao.getAllUsers() // Fetch data
+            // Print to Logcat for demo
+            users.forEach { println(it.name) }
+        }
+
+        // Update
+        lifecycleScope.launch(Dispatchers.IO) { 
+            val user = userDao.getAllUsers().firstOrNull()
+            user?.let { userDao.update(it.copy(name = "Jane Doe")) }
+        }
+
+        // Delete
+        lifecycleScope.launch(Dispatchers.IO) { 
+            val user = userDao.getAllUsers().firstOrNull()
+            user?.let { userDao.delete(it) }
+        }
+    }
+}

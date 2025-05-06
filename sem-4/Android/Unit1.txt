@@ -1,17 +1,17 @@
 1.  Explain the key features of the Android platform. Discuss its architecture and how it
 supports app development.
 
-   Feature of Andorid platform
+   Feature of Andorid platform [OLMGCA]
      1. OpenSource 
         - free and opensource
      2. Linux Operating system
-        - Linux kernel-Based operating system.
+        - It has Linux kernel-Based operating system.
      3. Multitasking -
         - Support Multi-tasking , run multiple apps at once.
      4. Google Services
-        - Support various build-in goodle services.
+        - Provide various build-in google services.
      5. Customizable UI
-        - Offer flexible user interface.
+        - Provide flexiblity to for customizable UI 
      6. App Store Access.
         - Provide App store to publish the app for developer
 
@@ -433,6 +433,11 @@ a background service.
 # 30.  How do you display a Toast message in Android? Write a Kotlin program to
 demonstrate the use of Toast in an Android app. (8 marks)
 
+      1. Toast - A Toast in Android is a small message that pops up briefly on the screen to inform the user.
+      2. It will disapper automatically after a few second without interrupting the app.
+
+      3. Example 
+
       import android.os.Bundle
       import android.widget.Toast
       import androidx.appcompat.app.AppCompatActivity
@@ -456,9 +461,14 @@ notification in an Android app.
       class MainActivity : AppCompatActivity() {
          override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
-            NotificationCompat.Builder(this, "channel_id")
-                  .setContentTitle("Title").setContentText("Text").setSmallIcon(R.drawable.ic_notification)
-                  .build().also { getSystemService(NotificationManager::class.java).notify(1, it) }
+            val notification = NotificationCompat.Builder(this, "channel_id")
+                  .setContentTitle("Title")
+                  .setContentText("Text")
+                  .setSmallIcon(R.drawable.ic_notification)
+                  .build()
+
+             getSystemService(NotificationManager::class.java).notify(1, notification)
+             
          }
       }
 

@@ -1,0 +1,565 @@
+Unit-1(imp.)
+
+    # 1. Explain the key features of the Android platform?
+    # 2. What is Android Studio? Describe its main components and how it simplifies Android app development
+    # 3. Describe the Android architecture with a neat diagram and how it supports app development. (8marks)
+    # 4. What is an Android Virtual Device (AVD)? How do you create and configure an AVD in Android Studio? (8 marks)
+    # 5. Explain the Android Activity Lifecycle in detail with a labeled diagram. Describe each lifecycle
+    method (onCreate(), onStart(), onResume(), onPause(), onStop(), onDestroy(), and onRestart()) and
+    its purpose
+    # 6. What are Services in Android? Describe their types and use cases. Provide an example of a
+    background service. (8 marks)
+
+    # 7. Discuss the purpose of Broadcast Receivers in Android. How do they respond to system-wide events?
+    Provide an example. (8 marks)
+
+    8. What are Content Providers in Android? Explain how they enable data sharing between applications. (8
+    marks)
+
+
+Unit-2
+
+    # 9. What is a Toast in Android? How do you display a Toast message in Android?
+    # 10. What are Intents and Intent Filters in Android? Explain their roles in facilitating communication between components
+    # 11. Explain the difference between Explicit Intents and Implicit Intents. Provide an example of each
+    # 12. What are Notifications in Android? Explain how to create and display a simple notification. (8 marks).
+
+Unit-3
+
+    # 13. Compare ListView and RecyclerView. What advantages does RecyclerView offer over ListView? (8 marks)
+    # 14. What is the Room Persistence Library in Android? Explain its components (Entity, DAO, and Database) and how it simplifies SQLite usage. (8 marks)
+    # 15. What are the best practices for using SQLite in Android? Discuss performance optimization and  error handling.
+    16. Discuss the implementation of CRUD (Create, Read, Update, Delete) operations using SQLite in an Android application.
+    # 17. Introduce the SQLite database and explain its key features (e.g., lightweight, serverless) and how it supports data persistence
+
+Unit-4
+    # 18. Describe the layered architecture of Flutter (e.g., Framework, Engine, Embedder) and how it
+    contributes to performance. Provide an introduction to Dart programming, focusing on its role in
+    Flutter. Explain variables and data types in Dart with examples (e.g., int, String, dynamic).
+    19. Explain the types of layout widgets in Flutter, focusing on Single Child Widgets (e.g., Container,
+    Center) and Multiple Child Widgets (e.g., Row, Column, ListView). Provide examples of each type
+    and describe how they are used to create a responsive UI layout.
+    # 20. Discuss Object-Oriented Programming (OOP) concepts in Dart (e.g., classes, objects, inheritance)
+    with a simple class example.
+    # 21. Explain the importance of gestures in mobile app development. How do they enhance user experience?
+    (8 marks)
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+1.  Explain the key features of the Android platform. Discuss its architecture and how it
+supports app development.
+
+   Feature of Andorid platform [OLMGCA]
+     1. OpenSource 
+        - free and opensource
+     2. Linux Operating system
+        - It has Linux kernel-Based operating system.
+     3. Multitasking -
+        - Support Multi-tasking , run multiple apps at once.
+     4. Google Services
+        - Provide various build-in google services.
+     5. Customizable UI
+        - Provide flexiblity to for customizable UI 
+     6. App Store Access.
+        - Provide App store to publish the app for developer
+
+ Android Architecture
+    - Android architecture is organized into five main layers, 
+        1. Linux Kernal
+        2. HAL
+        3. ART
+        4. Native Libraries
+        5. Application
+
+    1. Linux Kernal 
+       1. It is also know as Bottom layer
+       2. It act as abstraction layer between hardware and software.
+       3. It manage core operations like memory management, process, etc 
+    
+    2. HAL  
+       1. HAL stand for Hardware Abstraction Layer 
+       2. Provide Interface to Hardware components.
+          eg camera, microphone etc
+    
+    3. ART 
+       1. ART stand for Android Runtime.
+       2. It Run the apps with better performance 
+    
+    4. Native Libraries
+       1. Store the reusable package code like database management, sqlite etc.
+    
+    5. Application 
+       1. It is also known as Top Layer
+       2. IT include the build-in apps like contants, sms, browser etc 
+          along with user intalled apps.
+    
+
+supports app development.
+    1. Andorid Studio 
+      - IDE for developing Android apps
+    2. SDK
+      - Include API's Libraries and debuging tools
+    3. Programming Languages 
+      - Java, Kotlin, C, C++ support android development 
+
+#######################################################################################################################
+2.  What is Android Studio? Describe its main components and how it simplifies Android
+app development. (8 marks)
+
+    Main Component of Andorid Studio
+    1. Code Editor
+        - Support Java, Kotlin, XML and more programming lanaguage.
+        - Support Syntax Highlighting,
+        - Support  code compilations etc
+    2. Layout Editor
+        - Allow you to design UI with drag and drop tool.
+    3. Android Emulator
+        - Simulates Android devices on your computer, for testing apps, without needing a physical device.
+    4. Project structure 
+        - Organizes files into modules eg app, libraries.
+    5. Graddle Build system
+        - Automates build processes like compiling, packaging, and testing.
+    6. Device File Explorer 
+        - Lets you browse files on connected/emulated devices.
+    7. Firebase Integrations
+       - Provide build-in tools for connect with firebase cloud storage, anlytics, authentication etc.
+
+    Simplifies APP developmet 
+      1. Smart Code Editing
+         - Reduces development time with suggestions and error checking.
+
+      2. Testing Tools
+         - Allows unit testing and UI testing in one environment.
+      
+      3. Efficent Emulatior -
+         - Test app instanly without phycial devices.
+     
+      4. Version Control -
+         - Integrated Version control for team collaboration
+      
+      5. Cross Platform Support
+         - Help to create apps for diffrent devices eg phone, tablet, Android-TV etc.
+
+##################################################################################################################
+14.  What is an Android Virtual Device (AVD)? How do you create and configure an AVD in
+Android Studio?
+   1. An AVD is an emulator that simulate an Andorid Device on your computer.
+   2. It let you to test apps without a physical phone.
+
+   Create and Configuration
+     1. Open Android Studio
+     2. Go to tools > Device Manager
+     3. Click on create Device 
+     4. Select Device model 
+     5. Select system image eg Andorid 12
+     6. Configure AVD settings (name, orientation etc)
+     7. Click Finish , and AVD created.
+     8. Click on Play button to Launch.
+
+#################################################################################################################
+
+22.  Explain the Android Activity Lifecycle in detail with a labeled diagram. Describe each
+lifecycle method (onCreate(), onStart(), onResume(), onPause(), onStop(), onDestroy(),
+and onRestart()) and its purpose.
+
+Android Activity Lifecycle
+ - An Activity in Andorid goes through serveral lifecycle states which include creation to destructions.
+ 
+ 1. Activity Created -
+    onCreate() method -
+      - Called once when the activity is created.
+      - Purpose: Perform initilizations like setting up UI.
+
+ 2. Activity Started 
+    onStart()
+      - Called when the activity becomes visible to the user.
+      - Purpose: perform animations, background tasks if needed.
+
+
+ 3. Activity onResume
+    onResume()
+       -  Called when the activity starts -interacting with the user.
+       -  Purpose: WE can perform operation that can perform when activity Started
+                  eg- play media etc, animation etc
+
+ 4. Activity Pause 
+    onPause() 
+      - THe activity partially pause.
+      - Purpose : pause the activity if another activity come to Foregorund.
+ 
+
+ 5. Activity Stop 
+    onStop()
+      - Called when activity no longer visible to user.
+      - Purpose: Release resources that are only used when activity is visible 
+        
+ 5. Activity Restart 
+    onRestart()
+      - Called when activity back to foreground
+      - Purpose: Reintialize the component which release during onStop()
+        
+
+ 6. Activity Destory
+    onDestroy
+      - Called before the activity is destroyed,
+      - Purpose: Perform Final cleanup before the activity is destroyed.
+      
+
+######################################################################################################
+
+24.  What are Services in Android? Describe their types and use cases. Provide an example of
+a background service.
+   1. A Service in Andorid are the task which runs in the background, 
+   2. like downloading files or playing music, without UI.
+   3. It continues working even if the user is not intreracting with the app
+
+   Type of Services -
+        1. Foreground Services
+        2. Background Services
+        3. Bound Services
+
+   1. Foregorund Services -
+      - Runs with visible notifications
+      - Example - music playing , downloads
+
+   2. Background Services -
+      - Runs in background, without ui
+      - Example - Sync data, update etc 
+   
+   3. Bound Service 
+      - Allow other comoponent to interact with Service 
+      - example fetching data from database. 
+
+#####################################################################################################################
+7. Discuss the purpose of Broadcast Receivers in Android. How do they respond to system-wide events? Provide an example.
+    Broadcast Receiver -
+       1. A Broadcast Receiver in Android listen to the app-specific or system-wide events.
+          And respond to them.
+       2. This allow the apps to react to events occuring eg - change in battery-level , wifi-network etc.
+
+       3. Key Purpose 
+          1. Listen to System Event 
+              Listen to System Event like wifi network, battery level etc.
+
+          2. React to app Event
+             - Handle event send by other app or within the same apps.
+         
+          3. Run background Task -
+             - Run background task or action when the event triggers
+
+###############################################################################################################################
+
+Unit 2 :
+
+# 30.  How do you display a Toast message in Android? Write a Kotlin program to
+demonstrate the use of Toast in an Android app. (8 marks)
+
+      1. Toast - A Toast in Android is a small message that pops up briefly on the screen to inform the user.
+      2. It will disapper automatically after a few second without interrupting the app.
+
+      3. Example 
+      
+      import android.os.Bundle
+      import android.widget.Toast
+      import androidx.appcompat.app.AppCompatActivity
+
+      class MainActivity : AppCompatActivity() {
+         override fun onCreate(savedInstanceState: Bundle?) {
+            super.onCreate(savedInstanceState)
+            Toast.makeText(this, "This is a Toast message", Toast.LENGTH_SHORT).show()
+         }
+      }
+
+################################################################################################################################
+10. What are Intents and Intent Filters in Android? Explain their roles in facilitating communication between components
+   Intents -
+      1. An Intents is an messaging object which is used to request an action from another app component.
+      2. It allow communication between Activities, Services, Broadcast Receiver etc.
+      
+      It has two main types
+         1. Explicit Intent
+         2. Implicit Intent
+
+   Intent Filter -
+      1. Intent Filter are declarations in AndroidManifest.xml file
+      2. It specific kind of Intents can componenet handle. eg - Service, Broadcast Reciver, etc.
+      
+------------------------------------------------------------------------------------------------------------------------------------
+34.  What are Intents in Android? Explain the difference between Explicit
+Intents and Implicit Intents. Provide an example of each. 
+
+            Explicit Intent                                Implicit Intent
+
+         1. It has target component               1. It does not have target component.
+         2. Used to start specific                2. Used to perform action like viewing webpage,
+            activity or service                      sending data etc.
+         3. Low Flexible                          3. Highly flexible.
+         4. More Efficient                        4. Less Efficient 
+         5. Target component explicitly           5. No target component delared,
+            declared                                 only action and data declared.
+         6. Internal use within the same app      6. Used for inter-app communication
+         7. Scope limited to specific app         7. Scope can envolve multiple apps.
+         8. Simple to implement                   8. Complex to implement
+         9. Example                               9. Example
+         Intent intent = new Intent(this,          Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+         SecondActivity.class)                     
+
+
+
+###############################################################################################################################
+Q 31. What are Notifications in Android? Explain how to create and display a simple
+notification in an Android app.
+
+      Notification - 
+         1. An Notification in android are the alerts giving to the user in his device even he is not active to the app
+         2. Notification notifiy the user about the event ocuring to the apps
+         3. Example -
+
+            import android.os.Bundle
+            import androidx.appcompat.app.AppCompatActivity
+            import androidx.core.app.NotificationCompat
+            import android.app.NotificationManager
+
+            class MainActivity : AppCompatActivity() {
+               override fun onCreate(savedInstanceState: Bundle?) {
+                  super.onCreate(savedInstanceState)
+                  val notification = NotificationCompat.Builder(this, "channel_id")
+                        .setContentTitle("Title")
+                        .setContentText("Text")
+                        .setSmallIcon(R.drawable.ic_notification)
+                        .build()
+
+                  getSystemService(NotificationManager::class.java).notify(1, notification)
+                  
+               }
+            }
+
+###############################################################################################################
+51.  Compare ListView and RecyclerView. What advantages does RecyclerView offer over ListView?
+   ListView and RecyclerView are both UI components in Android 
+   used to display a scrollable list of items.
+
+   1. ListView 
+      1. Listview introduced in older Android 1.0
+      2. used for basic list
+      3. performance is slower for big list
+      4. support only veritical list layout 
+      5. No default Animation suppport.
+      6. Code complexity is easy.
+      7. Less Flexible.
+      8. Best for small, simple lists
+
+   2. RecyclerView
+      1. introduced in newer Android 5.0 lollipop.
+      2. Used for complex and modern list
+      3. Performance is faster and smoother for big list.
+      4. Support vertical, grid, etc layouts.
+      5. Build in Animation Support.
+      6. More code needed, but cleaner
+      7. Highly Flexible.
+      8. Best for large, dynamic and complex list
+
+###########################################################################################################################
+53.  What is the Room Persistence Library in Android? Explain its components (Entity, DAO, and
+Database) and how it simplifies SQLite usage. 
+
+    1. Room
+        1. It is SQLite abstraction layer.
+        2. Provides a clean API to interact with the local database.
+        3. Integrates well with Paging Library for paginated queries
+        4. Reducing Boilerplate
+        5. Offer compile time validation for sql queries.
+    
+    Components of Room
+
+        1. Entity
+            - Represents a table in database.
+            - Each field in class represent column
+        2. DAO
+           - DAO stand for Data Access Object
+           - Interface or abstract class with method access database.
+           - Use annotation like @Insert, @Delete, @Query.
+        3. Database -
+          - THe main access point of the room database.
+
+#################################################################################################################################
+56.  What are the best practices for using SQLite in Android? Discuss performance optimization and
+error handling.
+         1. Use SqliteOpenHelper
+         2. Transactions
+         3. Bulk Insert
+         4. Bulk Update 
+         5. Indexes
+         6. Limit Pagination
+         7. Use ORM
+         8. Use Parameterized querry
+         
+    1. Use SqliteOpenHelper -
+        Manage database creation and upgrades 
+    2. Transactions
+        Group operations for better performance
+    3. Bulk Insert-
+        Insert multipal rows at once.
+    4. Buld Update -
+        Update Multipal rows at once.
+    5. Indexes 
+        - Create indexes for faster queries.
+    6. Limit Paginate 
+        - Fetch necessary data and use limit pagination.
+    7. Use ORM 
+       - Use orm for faster and easier database management 
+    8. Use Parameterized Queries:
+       - prevent sql injection using placeholders.
+###########################################################################################################
+62.  Introduce the SQLite database and explain its key features (e.g., lightweight, serverless) and
+how it supports data persistence.
+
+    1. It is free and opensource
+    2. Sqlite is lightweight, serverless relational database engine.
+    3. Design to store data locally within the app.
+
+
+    Key Feature 
+         1. Lightweight
+         2. Serverless
+         3. Zero Configuration
+         4. ACID properites
+         5. Cross Platform
+         6. Data Persistence
+
+
+        1.  Lightweight
+            - SQLite is very small in size, making it ideal for mobile applications.
+        2.  Serverless 
+            - Unlike other database SQLite not require server to operate the database.
+        3.  Zero Configuration
+            - No installation, configuration or adminstration is needed.
+        4.  ACID properites
+            - Support ACID properties.
+        5.  Cross platform
+            - SQLite is cross-platform and works on multiple operating systems, including Android, iOS, Windows, macOS, Linux, etc.
+        6.  Data Persistence
+            - SQLite supports persistent data storage,
+            meaning data is saved permanently in a file on the device.
+
+############################################################################################################
+73.  Describe the layered architecture of Flutter (e.g., Framework, Engine, Embedder) and how it
+contributes to performance. Provide an introduction to Dart programming, focusing on its role
+in Flutter. Explain variables and data types in Dart with examples (e.g., int, String, dynamic).
+
+Layered Architecture of FLutter 
+   1. Framework layer
+   2. Engine
+   3. Embeddar
+
+  1. Framework Layer 
+     - It is Top layer of Flutter Layered Architecture
+       which manages UI states.
+     -  written in Dart,
+     - supports Hot Reload.
+  2. Engine
+     - Build in C++,
+     - handle redering using Skia
+     - Runs Dart as native code.
+
+  3. Embeddar 
+    - Connects Flutter to Andorid/iOS devices,
+    - Platform channels are used to Handle device feature .
+
+----------------------------------------------------------------
+Dart Programming
+ 1. Dart is programming language used in flutter.
+ 2. Designed for high-performance UI development.
+ 3. JIT and AOT 
+    - Dart uses JIT (Just-in-Time) for development
+    - uses AOT (Ahead of Time) for optimizd production build
+4. Async Programming 
+    - Dart Support Asyncornouse Programming
+----------------------------------------------------------------------
+
+Data types 
+    1. int - for whole numbers
+    2. double - for decimal numbers
+    3. String -  for text
+    4. bool - for boolean
+    5. dynamic - flexible type which can be change 
+    6. List - collection of elements
+    7. Map - Key-value pairs
+
+#####################################################################################################
+
+74.  Discuss Object-Oriented Programming (OOP) concepts in Dart (e.g., classes, objects,
+inheritance) with a simple class example. 
+
+Dart, the programming language used in Flutter,
+supports Object-Oriented Programming (OOP) principles such as classes, objects, and inheritance. Let’s go over these concepts with simple examples
+
+1. Classes and Objects 
+    - Class A blueprint for creating objects.
+2. Object 
+    - An instance of class.
+
+Example -
+        class Car {
+        String color;
+        int year;
+
+        Car(this.color, this.year);  // Constructor
+
+        void display() {
+            print("Car color: $color, Year: $year");
+        }
+        }
+
+        void main() {
+        var car = Car('Red', 2022);
+        car.display();  // Output: Car color: Red, Year: 2022
+        }
+
+3. Inheritance 
+    - Allow one class to inherit properties and method from another class
+
+Example - 
+
+        class Animal {
+        void speak() {
+            print("Animal speaks");
+        }
+        }
+
+        class Dog extends Animal {
+        @override
+        void speak() {
+            print("Dog barks");
+        }
+        }
+
+        void main() {
+        var dog = Dog();
+        dog.speak();  // Output: Dog barks
+        }
+
+######################################################################################################
+
+67.  Explain the importance of gestures in mobile app development. How do they enhance user
+experience?
+      1. Feel Natural
+      2. Easu to Use
+      3. Faster Navigation
+      4. More Interactive 
+      5. More Screen space
+      6. Examples
+
+    1. Feel Natural 
+        - Feel like real world action
+    2. Easy to use 
+        - Make app simple and easy to use.
+    3. Faster Navigation
+        - Quickly Move thourght the diffrent screens .
+    4. More Screen space
+        - Fewer button, more screen space.
+    5. More Interactive 
+        - Apps feel smoother and more responsive
+    6. Example -
+        1. Wipe phone two time to turn-on torch 
+        2. Anti Wipe the phone to turn on Camera 
