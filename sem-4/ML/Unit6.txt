@@ -1,0 +1,48 @@
+SVM
+1. SVM stands for Support Vector Machine.
+2. It is one of the most popular supervised learning Algorigthm which is used
+   for both classification as well as Regression Problems.
+3. However it is mainly used in Classficication Problems in Machine Learning.
+4. SVM algorithm is used for 
+   Face Detection,
+   Image Clasisification,
+   Text categorization etc/.
+
+
+Here in the diagram there are two classes 
+Class A and Class b
+it is propelry classefied 
+and the middle line between them is Dicision boundry line
+this is created by SVM
+
+5. Tyes of SVM
+    1. Linear SVM
+        Here two classes are sperated by single stright line (descicion boundry line) 
+
+    2. Non Linear SVM
+        here classes are not sperated by a stright line are non Linear SVM
+
+#################################################################################################
+
+Naive Bayes Classfier Algorightm
+1. Naive Bayes Algorithm is supervised Machine Learning Alogorithm
+2. Naive Byaes Algorithm is based on Bayes Theorem.
+3. It is used for solving classification problems.
+4. This algorithm mainly used in text classfication, object classfication
+   where high dimentional training is include.
+5. It is very easy and simple
+6. It is simple to implement
+7. It has very fast algorithm.
+8  Some Examples for Navie Bayes Classfier Algorithm are
+   - SPAM filterization
+   - Text Classfication 
+   - Object Classfication
+   - Sentimental Analysis. etc
+9. It is called Navive because - there are multipal feature in datasets
+10. It is called bayes becuase - It depends on the principal of bayes Theorem
+
+  Bias Therom =    
+  
+    P(A/B)  = P(B/A) P(A)/ P(B)
+
+#############################################################################################3
