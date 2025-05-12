@@ -4,8 +4,8 @@ Q1. What is Machine Learning? Define & it’s Types.
     3. It help computer to make descions or prediction based on patterns in data.
 
     type of Machine Learning
-        1. Supervised learning
-        2. Unsupervised Learning
+        1. Supervised learning.
+        2. Unsupervised Learning.
         3. Reinforcement Learning.
 
         1. Supervised Learning 
@@ -14,12 +14,12 @@ Q1. What is Machine Learning? Define & it’s Types.
 
         2. Unsupervised Learning
             - Here Algorithm trained from unlabed data.
-            - It find the pattern in unlabed data
+            - System learn from find the pattern in unlabed data
          
         3. Reinforcement Learning
            - Learn from Trail and error
            - The system learns from its mistake and eventually train and become better over time.
-           - It treis to maximize the rewards
+           -
            - Application
              1. Robotic - Used to train robots 
              2. Gaming - Used in advance gameing 

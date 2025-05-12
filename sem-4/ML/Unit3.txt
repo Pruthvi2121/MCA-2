@@ -32,7 +32,7 @@ Prescriptive Anaylysis
 ###############################################################################################
 Q3. Describe the role of statistical measures (mean, median, mode, variance, 
 and standard deviation) in summarizing a dataset for descriptive analytics.
-
+   
    1 Mean -
       1. It add all values and divide by number of values
       2. Role in descriptive analysis 

@@ -1,6 +1,6 @@
 
 1. What is MVC? Discuss in brief
-# 5. How does ASP.NET MVC work? Explain in detail?
+5. How does ASP.NET MVC work? Explain in detail?
 
     1. MVC stands for Model View Controller
     2. It is way to organise code especially in web and destop applications
@@ -145,10 +145,10 @@
        Web Forms                                MVC
 
 1. It has a complex lifecycle.                 1. It has a simpler lifecycle.
-2. It doesn’t give full control over HTML.     2. It gives full control over HTML.
+2. It does not have full control over HTML.    2. It has full control over HTML.
 3. Here UI and logic are tightly linked.       3. It separates UI, logic, and data clearly.
 4. It’s hard to test.                          4. It’s easy to test.
-5. Uses ViewState,                             5. It not uses Viewset
+5. Uses ViewSet,                             5. It not uses Viewset
 6. Routing is limited.                         6. Routing is not limited.
 7. Easier to learn for beginners.              7. Harder to learn, requires more knowledge.
 8. Can be slower due to ViewStat               8. Faster as it not use Viewset
@@ -307,7 +307,7 @@ What is TempData in MVC? Explain with suitable example
 
 #####################################################################################
 13. What is strongly type view? Explain with help of example
- 1. A strong typed view is a view that bound to a speific model class
+ 1. A strong typed view is a view that bind to speific model class
  2. It allow us to use model properties directly in view.
  3. Helps us to create dynamic forms and pages more easily.
  4. It catches error at compile time not runtime.
